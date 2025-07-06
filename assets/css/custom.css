@@ -1,0 +1,33 @@
+/* Custom Color Scheme for Hugo Simple */
+:root {
+  --border: 1px solid #D4D4D4;
+  --color-default: #FAF9F6;
+  --color-primary: #6A9E9F;
+  --color-neutral: #F2F2EF;
+  --color-neutral-darker: #E5E5E2;
+  --color-contrast: #4F4F4F;
+}
+
+/* Simple.css overrides */
+body {
+  background-color: var(--color-default);
+  color: var(--color-contrast);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+header {
+  background-color: var(--color-neutral);
+  border-bottom: var(--border);
+}
+
+main {
+  background-color: var(--color-default);
+}
+
+code, pre {
+  background-color: var(--color-neutral);
+  border: var(--border);
+}

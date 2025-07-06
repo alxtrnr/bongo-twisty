@@ -1,0 +1,19 @@
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; {{ now.Year }} {{ .Site.Title }} | {{ T "made_with" }}
+    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a></p>
+        
+        <!-- Custom footer links -->
+        <nav class="footer-nav">
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+            <a href="/privacy/">Privacy</a>
+        </nav>
+        
+        <!-- Social links -->
+        {{ if .Site.Params.author.fediverse }}
+        <p>Find me on <a href="{{ .Site.Params.author.fediverse }}" target="_blank" rel="noopener">Mastodon</a></p>
+        {{ end }}
+    </div>
+</footer>

@@ -1,0 +1,14 @@
+<!-- Custom CSS Integration -->
+{{ $styles := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+<!-- Additional custom head content -->
+<meta name="author" content="{{ .Site.Params.author.name }}">
+<meta name="description" content="{{ .Site.Params.description }}">
+
+<!-- Custom favicon -->
+{{ with .Site.Params.favicon }}
+<link rel="icon" href="{{ . | relURL }}">
+{{ end }}
+
+
