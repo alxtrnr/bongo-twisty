@@ -69,3 +69,7 @@ pagerSize = 16
 section = ["html"]
 taxonomy = ["html"]
 term = ["html"]
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
