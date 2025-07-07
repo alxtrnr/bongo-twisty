@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://example.org/"
+baseURL = "https://alxtrnr.github.io/bongo-twisty/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
 languageCode = "en-gb"
