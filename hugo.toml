@@ -52,11 +52,14 @@ weight = 10
 name = "Blog"
 pageRef = "/blog"
 weight = 20
-[menu]
 [[menu.main]]
 name = "Gallery"
-url = "/gallery/"
+pageRef = "/photos/"
 weight = 30
+[[menu.main]]
+pageRef = "About"
+url = "/about/"
+weight = 40
 
 [services.rss]
 limit = 42
