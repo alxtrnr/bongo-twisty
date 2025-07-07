@@ -1,2 +1,2 @@
 # bongo-twisty
-Hugo blog
+Hugo Blog
