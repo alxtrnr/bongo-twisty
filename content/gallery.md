@@ -10,6 +10,6 @@ A collection of my favorite photographs from recent adventures.
 
 ## Cycling
 
-![Bivvy Spot at 300k](/images/bivvy_spot.webp)
+![A bivvy bag and bike under a Tree at 300k](/images/bivvy_spot.webp)
 
-*Early morning wake up. We've got another 700k to go*
+*It's early morning wake up. We've got another 700k to go*
