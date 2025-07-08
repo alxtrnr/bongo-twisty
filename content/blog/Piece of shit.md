@@ -1,5 +1,5 @@
 +++
-title = "Piece of shit___"
+title = "Piece of shit"
 description = ""
 date = "2007-08-20"
 draft = false
