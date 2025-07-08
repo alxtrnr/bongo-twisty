@@ -3,7 +3,7 @@ title = "DiY (Do it Yourself) Randonneur Around the Year (RRtY)"
 description = ""
 date = "2025-04-19"
 draft = false
-tags = ["and another thing blog"]
+tags = ["and another thing blog", "cycling"]
 toc = false
 +++
 

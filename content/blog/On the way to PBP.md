@@ -3,7 +3,7 @@ title = "On the way to PBP"
 description = ""
 date = "2019-05-13"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

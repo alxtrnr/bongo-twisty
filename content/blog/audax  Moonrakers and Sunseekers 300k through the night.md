@@ -3,7 +3,7 @@ title = "audax  Moonrakers and Sunseekers 300k through the night"
 description = ""
 date = "2021-11-21"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

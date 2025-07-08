@@ -3,7 +3,7 @@ title = "Knocked off my bike by a too close pass "
 description = ""
 date = "2017-11-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

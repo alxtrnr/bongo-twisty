@@ -3,7 +3,7 @@ title = "Cycle touring  The fifteen Signature Discovery Points of the Wild Atlan
 description = ""
 date = "2025-03-04"
 draft = false
-tags = ["and another thing blog"]
+tags = ["and another thing blog", "cycling"]
 toc = false
 +++
 

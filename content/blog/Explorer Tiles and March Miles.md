@@ -3,7 +3,7 @@ title = "Explorer Tiles and March Miles"
 description = ""
 date = "2018-04-06"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "The Dunwich Dynamo"
 description = ""
 date = "2016-07-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

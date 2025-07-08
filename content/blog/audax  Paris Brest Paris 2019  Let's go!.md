@@ -3,7 +3,7 @@ title = "audax  Paris Brest Paris 2019  Let's go!"
 description = ""
 date = "2019-01-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

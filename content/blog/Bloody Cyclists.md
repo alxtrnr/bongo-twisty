@@ -3,7 +3,7 @@ title = "Bloody Cyclists"
 description = ""
 date = "2016-06-11"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

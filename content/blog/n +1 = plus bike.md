@@ -3,7 +3,7 @@ title = "n +1 = plus bike"
 description = ""
 date = "2016-07-30"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

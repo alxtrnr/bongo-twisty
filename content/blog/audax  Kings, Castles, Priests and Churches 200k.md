@@ -3,7 +3,7 @@ title = "audax  Kings, Castles, Priests and Churches 200k"
 description = ""
 date = "2015-12-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

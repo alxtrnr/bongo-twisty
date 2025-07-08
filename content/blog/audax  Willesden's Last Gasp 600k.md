@@ -3,7 +3,7 @@ title = "audax  Willesden's Last Gasp 600k"
 description = ""
 date = "2019-06-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

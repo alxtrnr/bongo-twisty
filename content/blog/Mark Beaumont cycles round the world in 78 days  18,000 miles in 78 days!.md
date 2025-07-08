@@ -3,7 +3,7 @@ title = "Mark Beaumont cycles round the world in 78 days 18,000 miles in 78 days
 description = ""
 date = "2017-09-19"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

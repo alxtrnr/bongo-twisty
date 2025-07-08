@@ -3,7 +3,7 @@ title = "Nerve damage   Cyclist's Palsy"
 description = ""
 date = "2017-08-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

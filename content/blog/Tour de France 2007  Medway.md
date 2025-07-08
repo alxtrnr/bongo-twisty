@@ -3,7 +3,7 @@ title = "Tour de France 2007  Medway"
 description = ""
 date = "2007-05-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

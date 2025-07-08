@@ -3,7 +3,7 @@ title = "Driven by adventure"
 description = ""
 date = "2016-01-03"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

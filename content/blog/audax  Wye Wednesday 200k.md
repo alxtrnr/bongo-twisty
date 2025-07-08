@@ -3,7 +3,7 @@ title = "audax  Wye Wednesday 200k"
 description = ""
 date = "2019-02-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

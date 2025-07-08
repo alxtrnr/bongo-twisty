@@ -3,7 +3,7 @@ title = "Bike tyres  Feel the bounce "
 description = ""
 date = "2019-07-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Heading in the right direction"
 description = ""
 date = "2024-11-30"
 draft = false
-tags = ["and another thing blog"]
+tags = ["and another thing blog", "cycling"]
 toc = false
 +++
 

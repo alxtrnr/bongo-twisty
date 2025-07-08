@@ -3,7 +3,7 @@ title = "Boost investment in cycling"
 description = ""
 date = "2025-01-13"
 draft = false
-tags = ["and another thing blog"]
+tags = ["and another thing blog", "cycling"]
 toc = false
 +++
 

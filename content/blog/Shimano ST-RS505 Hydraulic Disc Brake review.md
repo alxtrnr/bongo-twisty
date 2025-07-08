@@ -3,7 +3,7 @@ title = "Shimano ST-RS505 Hydraulic Disc Brake review"
 description = ""
 date = "2018-03-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

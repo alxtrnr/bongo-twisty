@@ -3,7 +3,7 @@ title = "Why Do You Cycle"
 description = ""
 date = "2021-11-28"
 draft = false
-tags = ["and another thing blog"]
+tags = ["and another thing blog", "cycling"]
 toc = false
 +++
 

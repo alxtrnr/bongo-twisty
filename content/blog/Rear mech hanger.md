@@ -3,7 +3,7 @@ title = "Rear mech hanger"
 description = ""
 date = "2018-08-26"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

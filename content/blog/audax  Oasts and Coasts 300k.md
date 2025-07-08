@@ -3,7 +3,7 @@ title = "audax  Oasts and Coasts 300k"
 description = ""
 date = "2014-05-11"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

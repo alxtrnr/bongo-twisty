@@ -3,7 +3,7 @@ title = "Decaying Orbits of London  600km bike ride"
 description = ""
 date = "2021-10-30"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

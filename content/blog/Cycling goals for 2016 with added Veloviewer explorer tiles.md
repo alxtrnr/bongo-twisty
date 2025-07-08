@@ -3,7 +3,7 @@ title = "Cycling goals for 2016 with added Veloviewer explorer tiles "
 description = ""
 date = "2016-01-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

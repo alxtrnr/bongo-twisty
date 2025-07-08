@@ -3,7 +3,7 @@ title = "audax  Man of Kent 200k 2017"
 description = ""
 date = "2017-03-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

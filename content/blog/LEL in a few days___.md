@@ -3,7 +3,7 @@ title = "LEL in a few days___"
 description = ""
 date = "2017-07-27"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

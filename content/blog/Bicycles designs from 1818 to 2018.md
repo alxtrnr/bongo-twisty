@@ -3,7 +3,7 @@ title = "Bicycles designs from 1818 to 2018"
 description = ""
 date = "2018-05-12"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

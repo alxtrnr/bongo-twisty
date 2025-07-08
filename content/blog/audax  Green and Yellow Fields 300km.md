@@ -3,7 +3,7 @@ title = "audax  Green and Yellow Fields 300km"
 description = ""
 date = "2017-05-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

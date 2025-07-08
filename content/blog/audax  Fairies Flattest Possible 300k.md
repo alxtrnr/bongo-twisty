@@ -3,7 +3,7 @@ title = "audax  Fairies Flattest Possible 300k"
 description = ""
 date = "2015-06-24"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 

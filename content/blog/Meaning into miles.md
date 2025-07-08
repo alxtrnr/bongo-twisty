@@ -3,7 +3,7 @@ title = "Meaning into miles"
 description = ""
 date = "2015-10-21"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["monaxle: blog", "cycling"]
 toc = false
 +++
 
