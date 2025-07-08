@@ -1,0 +1,18 @@
++++
+title = "A bad experience in hospital "
+description = ""
+date = "2018-02-01"
+draft = false
+tags = ["monaxle: blog"]
+toc = false
++++
+
+I was on the floor yesterday morning doubled up with severe abdominal pain. I phoned [111](https://www.nhs.uk/NHSEngland/AboutNHSservices/Emergencyandurgentcareservices/Pages/NHS-111.aspx) for advice.  I answered all questions asked best I could.  The operator decided to send an ambulance. Two [SECAMB](http://www.secamb.nhs.uk/) paramedics attended after an hour or so. One of them made it clear he thought I was a time waster and that I should have gone to see my GP. Regardless of that he then insisted I needed to go with them to Medway Maritime Hospital which is my [local NHS hospital](https://www.medway.nhs.uk/). On arrival they bypassed A&E and took me to [Medway on Call Care (MedOCC)](https://www.medwaycommunityhealthcare.nhs.uk/see-a-gp/medway-on-call-care-medocc/). Staff there were rude and uncaring. No regard for my privacy or dignity. Wholly ineffective pain relief. I had to manage the considerable pain I was in in public areas and was repeatedly told to sit down and wait. Sitting down made the abdominal pain worse. The humiliation of my open and at times noisy suffering was only lessened by the fact I was in too much pain to care about what anyone may have thought of me at the time. 
+
+After a lot of to-ing and fro-ing over the next three to four hours I was admitted to a surgical assessment unit via A&E with suspected [peritonitis](https://www.nhs.uk/conditions/peritonitis/). Staff there were decent enough. I was dosed up with [intravenous morphine](https://beta.nhs.uk/medicines/morphine/) and taken for a CT scan.  The scan ruled out the need for immediate surgery. I was transferred to another ward overnight. Come morning time the usual nonsense of not being told anything useful ensued. I held the 'care' team to task on this which did not go down well. The last medic to see me told me that I could go home in the afternoon. Why the delay? To complete paperwork. Ridiculous. I did not need to be there for that to happen. I was being fobbed off again. I told them it was unreasonable to be treated this way. They seemed a bit surprised by this lack of unquestioning compliance but did concede such that I was discharged within the hour.
+
+Successive governments have been doing their best to run down the NHS for as long as I can remember. There are some who work in the NHS who take advantage of the hallowed status conferred upon them by joe public. Seems that all but two of the staff involved in my 'treatment' think patients should just be grateful for being seen and should never question the quality and efficacy of care provided.
+
+UK citizens have a right to care and treatment that is tailored to us as individuals and which meets our needs. We have a right to be treated with dignity and respect at all times we are receiving care and treatment. Neither of those [fundamental standards](http://www.cqc.org.uk/what-we-do/how-we-do-our-job/fundamental-standards) were met on this occasion. I was discharged without the reason for my pain ever being diagnosed. I am aware that cases like mine are notoriously difficult to diagnose. I was asked by just about everyone I saw if I was constipated. Thankfully I am quite regular in that department. Seems that the majority of those who were involved with me on this occasion were the ones who could not give a shit. 
+***
+<img style="display:block;margin:auto" src="https://i.ibb.co/dJfkMtyz/home-remedies-constipation-800x534.jpg">
