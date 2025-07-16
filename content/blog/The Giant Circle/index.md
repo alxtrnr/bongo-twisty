@@ -9,6 +9,8 @@ toc = false
 
 I rode a 300k loop of the M25 in January. That was my RRtY [^1] ride for the month. I put a few posts up on Mastodon on the way round, and a map overlay of the route on completion.  Someone replied saying they were reminded of [The Giant Circle](https://jkbsbikeride.com/2025/01/03/the-giant-circle-a-practical-guide/). The route appealed to me straight away. The biggest circle you can ride in the UK. A big beautiful circle. What's not to love about that? Pretty much there and then I resolved to ride it. 
 
+{{< img src="giantcircle.jpg" alt="Map showing a large red circular cycling route of 1,001 km around central and southern England, passing cities like Birmingham, Nottingham, Cambridge, and Bath, starting and ending near Southend-on-Sea. Below the map are statistics: 1,001 km distance, 7,506 m elevation gain, and 11.0% maximum grade, with an orange elevation profile graph illustrating the terrain of the route." >}}
+
 I extended the route to start and finish from home via the Greenwich Meridian. This turned the ride into a giant balloon rather than a circle but hey, needs must. The 1000k DIY [^2] audax [^3] was planned.  I  shared the plan with my friend Dave when we met after a meeting I had in Fulham. He was enthused and asked to come along. Of course you can. It's gonna' be great I say. He say's he's not done many miles this year. Don't worry I tell him. You're strong, you've the mindset, you'll be fine. 
 
 **Day 1**
