@@ -1,0 +1,11 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $page := .Page -}}
+{{- $image := $page.Resources.GetMatch $src -}}
+
+{{- if $image -}}
+  {{- $resized := $image.Resize "1200x" -}}
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}">
+{{- else -}}
+  {{- errorf "Image '%s' not found in page bundle for %s" $src $page.File.Path -}}
+{{- end -}}

@@ -1,0 +1,20 @@
+{{/*
+    Custom image shortcode that wraps an image in a <figure>
+    and optionally adds a <figcaption>.
+
+    Parameters:
+    - src (required): Path to the image.
+    - alt (required): Alternative text for accessibility.
+    - caption (optional): Visible caption displayed below the image.
+    - title (optional): Hover text for the image.
+*/}}
+<figure>
+    <img src="{{ .Get "src" }}"
+         alt="{{ .Get "alt" }}"
+         {{ with .Get "title" }}title="{{ . }}"{{ end }}
+         loading="lazy">
+
+    {{ with .Get "caption" }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end }}
+</figure>

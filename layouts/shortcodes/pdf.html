@@ -1,0 +1,6 @@
+{{- $src := .Get "src" -}}
+{{- $height := .Get "height" | default "600px" -}}
+{{- $width := .Get "width" | default "100%" -}}
+<object data="{{ $src | relURL }}" type="application/pdf" width="{{ $width }}" height="{{ $height }}">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ $src | relURL }}">Download PDF</a>.</p>
+</object>
