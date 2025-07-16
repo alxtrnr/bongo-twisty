@@ -1,5 +1,14 @@
 <footer>
-    <div class="footer-content">
-        <p>&copy; {{ now.Year }} {{ .Site.Title }} | {{ T "made_with" }}
-    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a></p>
+  <div class="footer-content">
+    <p>
+      &copy; 2016 - {{ now.Year }} {{ .Site.Title }}. All rights reserved | {{ T "made_with" }}
+      <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+    </p>
+    <div class="social-links">
+      {{- $total := len .Site.Params.social -}}
+      {{- range $i, $v := .Site.Params.social -}}
+        <a href="{{ $v.url }}"{{ with $v.rel }} rel="{{ . }}"{{ end }} title="{{ $v.title }}">{{ $v.name }}</a>{{ if lt (add $i 1) $total }}&nbsp;{{ end }}
+      {{- end -}}
+    </div>
+  </div>
 </footer>
