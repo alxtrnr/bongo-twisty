@@ -97,16 +97,16 @@ Over the following week I came down with a chesty cough and what I describe as g
 
 
 
-[^1]: Randonneur Round the Year, awarded to those riding a Randonneur event (=> 200k) in each of any consecutive 12 months.
+[^1]: *Randonneur Round the Year, awarded to those riding a Randonneur event (=> 200k) in each of any consecutive 12 months.*
 
-[^2]: DIY events allow riders to plan and schedule their own events and still have them validated by Audax UK.
+[^2]: *DIY events allow riders to plan and schedule their own events and still have them validated by Audax UK.*
 
-[^3]: An Audax ride - known internationally as a Randonnée - is a cycle ride that has to be completed within a set time limit, including any stops to eat or rest. In most cases, riders have to maintain a minimum speed of 15km/h (some particularly long or hilly rides have a slightly lower minimum speed) and importantly a maximum speed of 30km/h. That's a little under 10mph and 20mph in Imperial measures. 
+[^3]: *An Audax ride - known internationally as a Randonnée - is a cycle ride that has to be completed within a set time limit, including any stops to eat or rest. In most cases, riders have to maintain a minimum speed of 15km/h (some particularly long or hilly rides have a slightly lower minimum speed) and importantly a maximum speed of 30km/h. That's a little under 10mph and 20mph in Imperial measures. 
 It's not a race and individual riders' times are not published; if you finish within the time limit, you've succeeded. 
 Riders are expected to be self-sufficient. That doesn't mean that you have to ride alone or that you can't call on the services of a village blacksmith to help weld your frame back together, should the worst happen, but you navigate for yourself and if you do have any mechanical problems along the way, it's down to you to sort them or get yourself home. 
 Some rides offer food along the way; more often, you'll be finding your own sources of fuel, from cafes and pubs to village shops and service stations. 
-Throw in the hills, the British weather and distances ranging from 50km to 1400km and what might have sounded like a simple bike ride becomes more of a challenge - one that is appealing to increasing numbers of cyclists year on year. *[New to Audax](https://www.audax.uk/about-audax/new-to-audax/)*
+Throw in the hills, the British weather and distances ranging from 50km to 1400km and what might have sounded like a simple bike ride becomes more of a challenge - one that is appealing to increasing numbers of cyclists year on year. [New to Audax](https://www.audax.uk/about-audax/new-to-audax/)*
 
-[^4]: Those with an eye for detail will notice that this is three hours more than I included in the planned schedule. At the time of planning I thought it sensible to work with a 72hr time limit to help make sure I'd finish within 75hrs. I think it did help but that it also added to my muddled mental arithmetics along the way and perhaps in this post when working out times and distances. 
+[^4]: *Those with an eye for detail will notice that this is three hours more than I included in the planned schedule. At the time of planning I thought it sensible to work with a 72hr time limit to help make sure I'd finish within 75hrs. I think it did help but that it also added to my muddled mental arithmetics along the way and perhaps in this post when working out times and distances.* 
 
-[^5]:This means you must follow a planned GPS route, and your completed ride is validated by comparing your recorded GPS track to ensure you used only the specified roads. Any deviations require justification and a return to the route ASAP.
+[^5]:*This means you must follow a planned GPS route, and your completed ride is validated by comparing your recorded GPS track to ensure you used only the specified roads. Any deviations require justification and a return to the route ASAP.*
