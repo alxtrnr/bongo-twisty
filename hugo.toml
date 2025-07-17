@@ -60,6 +60,10 @@ weight = 30
 pageRef = "About"
 url = "/about/"
 weight = 40
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 50
 
 [services.rss]
 limit = 42
