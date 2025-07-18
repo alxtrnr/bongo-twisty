@@ -3,7 +3,7 @@ title = "Quintessential Self-Regulatory Failure "
 description = ""
 date = "2007-01-14"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

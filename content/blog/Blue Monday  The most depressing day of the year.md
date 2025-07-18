@@ -3,7 +3,7 @@ title = "Blue Monday  The most depressing day of the year "
 description = ""
 date = "2007-01-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

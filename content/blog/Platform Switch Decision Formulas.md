@@ -3,7 +3,7 @@ title = "Platform Switch Decision Formulas"
 description = ""
 date = "2025-02-17"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

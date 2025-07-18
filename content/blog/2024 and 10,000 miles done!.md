@@ -3,7 +3,7 @@ title = "2024 and 10,000 miles done!"
 description = ""
 date = "2025-01-02"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -3,13 +3,12 @@ title = "Stretch  A Nightmare with Graphics Cards "
 description = ""
 date = "2007-12-01"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
 <figure style="text-align: center">
-  <img style="display:block;margin:auto" src="https://i.ibb.co/mVyyLBbw/stretch.jpg">
-  <figcaption>Heel Stretch</figcaption>
+  <img style="display:block;margin:auto" <img src="https://i.ibb.co/0yyXmF7H/stretch.jpg" alt="stretch" border="0"<figcaption>Heel Stretch</figcaption>
 </figure>
 
 [Heel Stretch](http://www.flickr.com/photos/odie1049/1809691087/), originally uploaded by [odie1049](http://www.flickr.com/people/odie1049/).

@@ -3,7 +3,7 @@ title = "Geocache Log  Earls Seat"
 description = ""
 date = "2015-12-24"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

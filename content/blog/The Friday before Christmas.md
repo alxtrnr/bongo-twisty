@@ -3,7 +3,7 @@ title = "The Friday before Christmas"
 description = ""
 date = "2006-12-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

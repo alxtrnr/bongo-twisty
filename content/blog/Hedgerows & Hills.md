@@ -3,7 +3,7 @@ title = "Hedgerows & Hills"
 description = ""
 date = "2024-11-24"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

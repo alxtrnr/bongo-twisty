@@ -1,9 +1,9 @@
 +++
-title = "Person of the week  YoungStar "
+title = "Person of the week - YoungStar "
 description = ""
 date = "2007-10-19"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

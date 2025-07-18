@@ -1,9 +1,9 @@
 +++
-title = "Driven by adventure"
+title = "Fred Whitton Challenge"
 description = ""
 date = "2016-01-03"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 
@@ -15,9 +15,7 @@ Feelings of self-doubt, loneliness, fear, and wishing I'd never started just som
 
 Long tough bike rides (you knew this was a cycling post right?) give all of this in spades. Back in 2014 a work assignment presented me with the chance to do the Fred Whitton Challenge and to tie it in with a stretch of the North Sea Cycle Route I'd been doing in chunks with a friend. If you have any familiarity with either route you'll know that they're on the opposite sides of the country. The box was ticked for taking on more than I than I knew I could do.
 
-***
 <iframe src="https://ridewithgps.com/embeds?type=trip&id=21153568&metricUnits=true&sampleGraph=true&distanceMarkers=true&showPhotos=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
-***
 
 It was over three days in November I completed the miles with the Fred Whitton done on the third. It was pretty hard going at times especially on the second day crossing the country. I did not enjoy every minute of those three days it but as often is the case satisfaction comes as much and often more after the experience as it does during it. You don't have to be having fun all the time to enjoy yourself and make the effort worthwhile!
 
@@ -25,7 +23,5 @@ Today I came across this video Alistair made of his experience in completing the
 
 > *...know the triumph of doing something difficult, rewarding and satisfying, in an understated and quiet way... humble but also hardcore.*
 
-***
-<div style="display: flex; justify-content: center;">
-    <iframe src="https://player.vimeo.com/video/134119254?badge=0&amp;autopause=0&amp;player id=0&amp;app id=58479" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="The Fred Whitton Challenge - Cumbria, UK"></iframe>
-</div>
+
+{{< youtube ZRKVLfXbT6o >}}

@@ -3,7 +3,7 @@ title = "Cycling goals to fit with the day to day "
 description = ""
 date = "2016-01-31"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

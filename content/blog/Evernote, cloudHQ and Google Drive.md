@@ -3,7 +3,7 @@ title = "Evernote, cloudHQ and Google Drive "
 description = ""
 date = "2016-01-14"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

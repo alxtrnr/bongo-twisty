@@ -3,7 +3,7 @@ title = "Higher education, bureaucracy and expenses "
 description = ""
 date = "2007-09-24"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Piece of shit"
 description = ""
 date = "2007-08-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

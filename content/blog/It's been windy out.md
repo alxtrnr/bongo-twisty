@@ -3,7 +3,7 @@ title = "It's been windy out"
 description = ""
 date = "2024-12-08"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

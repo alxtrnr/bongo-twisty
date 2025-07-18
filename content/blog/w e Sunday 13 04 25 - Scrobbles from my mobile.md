@@ -3,7 +3,7 @@ title = "w/e Sunday 13/04/25 - Scrobbles from my mobile"
 description = ""
 date = "2025-04-04"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "The value of managerial supervision AKA a lesson in how to communicate 
 description = ""
 date = "2007-09-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

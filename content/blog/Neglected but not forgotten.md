@@ -3,7 +3,7 @@ title = "Neglected but not forgotten"
 description = ""
 date = "2008-01-29"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

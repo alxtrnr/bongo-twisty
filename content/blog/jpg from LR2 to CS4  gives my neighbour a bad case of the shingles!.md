@@ -3,7 +3,7 @@ title = "jpg from LR2 to CS4  gives my neighbour a bad case of the shingles!"
 description = ""
 date = "2008-11-08"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Well he was asking for it wasn't he "
 description = ""
 date = "2014-10-01"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

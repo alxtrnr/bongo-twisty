@@ -3,7 +3,7 @@ title = "The 1957 SEEBOARD tragedy"
 description = ""
 date = "2025-03-10"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

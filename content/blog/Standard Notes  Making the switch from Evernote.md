@@ -3,7 +3,7 @@ title = "Standard Notes  Making the switch from Evernote "
 description = ""
 date = "2018-12-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

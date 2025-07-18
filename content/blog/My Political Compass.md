@@ -3,7 +3,7 @@ title = "My Political Compass"
 description = ""
 date = "2021-04-30"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

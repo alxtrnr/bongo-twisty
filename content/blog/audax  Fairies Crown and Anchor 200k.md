@@ -1,9 +1,9 @@
 +++
-title = "audax  Fairies Crown and Anchor 200k"
+title = "audax: Fairies Crown and Anchor 200k"
 description = ""
 date = "2019-10-07"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

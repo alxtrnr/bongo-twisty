@@ -3,7 +3,7 @@ title = "Moving slowly"
 description = ""
 date = "2007-03-02"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

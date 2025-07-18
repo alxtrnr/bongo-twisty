@@ -1,9 +1,9 @@
 +++
-title = "House building in Medway  Medway Magna; why don't you take a hike "
+title = "House building in Medway:  Medway Magna; why don't you take a hike "
 description = ""
 date = "2007-05-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Cycling about in January"
 description = ""
 date = "2019-01-31"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "The 380kV Thames Crossing"
 description = ""
 date = "2009-08-26"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

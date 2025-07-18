@@ -1,4 +1,11 @@
-
++++
+title = "The Mosquito Alarm is repellent"
+description = ""
+date = "2008-02-14"
+draft = false
+tags = []
+toc = false
++++
 
 > *Let’s face it: nobody wants the attention of unwanted behaviour from youths outside their home. Not only can they indulge in anti-social behaviour and be overly loud, but they can also make you feel uncomfortable in your own home. By using the ultra-sonic youth deterrent known as Mosquito, these issues can be removed from the equation permanently.*
 > 

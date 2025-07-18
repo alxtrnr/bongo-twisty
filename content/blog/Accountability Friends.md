@@ -3,7 +3,7 @@ title = "Accountability Friends"
 description = ""
 date = "2025-03-27"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

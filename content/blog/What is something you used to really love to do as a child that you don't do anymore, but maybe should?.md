@@ -3,7 +3,7 @@ title = "A Question for You"
 description = ""
 date = "2021-12-05"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
@@ -15,7 +15,7 @@ Until recently I'd not given much thought to the questions posed in each of thes
 
 Spent some time last night thinking about the following question which was included in the One Helpful Idea newsletter from 01/10/2021.  
 
-> *What is something you used to really love to do as a child that you don't do anymore, but maybe should?*
+> What is something you used to really love to do as a child that you don't do anymore, but maybe should?
 
 Doing so invoked a pleasing experience of nostalgia. It made me feel good. I felt connected with the experiences of my past and to the people in it. I recalled much that I really loved to do that I don't anymore.  
 ___

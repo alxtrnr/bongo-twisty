@@ -3,7 +3,7 @@ title = "Why don't you turn of the computer and go and do something less boring 
 description = ""
 date = "2007-09-21"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

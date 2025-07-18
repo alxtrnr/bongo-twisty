@@ -3,7 +3,7 @@ title = "Nerve damage   Cyclist's Palsy"
 description = ""
 date = "2017-08-20"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 
@@ -29,4 +29,4 @@ I am not too reassured by the medical model approach. Normal pain killers and NS
 
 A choice range of supplements will hopefully speed things along a bit - vitamin B6 and vitamin B12 (nerve healing and regeneration); Bromelain extract and Tumeric (anti inflammatory); magnesium (blood vessel and muscle relaxant); and Ginkgo biloba (enhances circulation).
 
-A bit of home based physio - tractioning out the wrist and use of wrist splints at night.  A chiropractor may also be able to manipulate the wrist bones to ease off the pressure. I may well give that a go too.
+A bit of home based physio - traction out the wrist and use of wrist splints at night.  A chiropractor may also be able to manipulate the wrist bones to ease off the pressure. I may well give that a go too.

@@ -1,9 +1,9 @@
 +++
-title = "Decaying Orbits of London  600km bike ride"
+title = "audax: Decaying Orbits of London  600km DIY"
 description = ""
 date = "2021-10-30"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "audax  London Orbit (all the home counties) 300k DiY"
+title = "audax: London Orbit (all the home counties) 300k DiY"
 description = ""
 date = "2025-02-09"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

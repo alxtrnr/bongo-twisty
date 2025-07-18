@@ -1,9 +1,9 @@
 +++
-title = "The switch from Windows to Ubuntu  18 months on___"
+title = "The switch from Windows to Ubuntu 18 months on"
 description = ""
 date = "2017-06-09"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

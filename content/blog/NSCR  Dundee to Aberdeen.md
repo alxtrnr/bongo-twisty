@@ -3,7 +3,7 @@ title = "NSCR  Dundee to Aberdeen"
 description = ""
 date = "2016-02-13"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Unfortunate Names "
 description = ""
 date = "2009-02-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

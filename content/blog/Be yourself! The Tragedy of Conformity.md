@@ -3,7 +3,7 @@ title = "Be yourself! The Tragedy of Conformity "
 description = ""
 date = "2016-11-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

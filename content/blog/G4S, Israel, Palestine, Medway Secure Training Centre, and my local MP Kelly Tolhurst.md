@@ -3,7 +3,7 @@ title = "G4S, Israel, Palestine, Medway Secure Training Centre, and my local MP 
 description = ""
 date = "2016-01-12"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "A bad experience in hospital "
 description = ""
 date = "2018-02-01"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

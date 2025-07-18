@@ -3,7 +3,7 @@ title = "Tight Fisted Oil Barons"
 description = ""
 date = "2007-01-02"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

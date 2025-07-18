@@ -3,7 +3,7 @@ title = "Post Office Wall Boxes"
 description = ""
 date = "2024-11-23"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

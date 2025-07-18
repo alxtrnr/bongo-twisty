@@ -3,7 +3,7 @@ title = "Bike miles in 2016"
 description = ""
 date = "2017-01-04"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

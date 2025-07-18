@@ -3,7 +3,7 @@ title = "Idyl Jack (Of all Trades)"
 description = ""
 date = "2008-11-08"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Balancing Act"
 description = ""
 date = "2007-09-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

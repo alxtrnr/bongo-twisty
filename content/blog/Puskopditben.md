@@ -3,7 +3,7 @@ title = "Puskopditben"
 description = ""
 date = "2008-02-03"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "eshu's 1000 paper cranes "
 description = ""
 date = "2007-04-30"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

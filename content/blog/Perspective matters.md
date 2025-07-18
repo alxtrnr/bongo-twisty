@@ -3,7 +3,7 @@ title = "Perspective matters"
 description = ""
 date = "2020-03-18"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

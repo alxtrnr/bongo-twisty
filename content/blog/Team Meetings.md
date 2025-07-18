@@ -3,7 +3,7 @@ title = "Team Meetings"
 description = ""
 date = "2007-11-14"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

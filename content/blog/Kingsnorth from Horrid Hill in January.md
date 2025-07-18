@@ -1,9 +1,9 @@
 +++
 title = "Kingsnorth from Horrid Hill in January"
 description = ""
-date = "2006-01-06"
+date = "2007-01-06"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

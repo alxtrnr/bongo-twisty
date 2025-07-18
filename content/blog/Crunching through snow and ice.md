@@ -3,7 +3,7 @@ title = "Crunching through snow and ice"
 description = ""
 date = "2017-01-13"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

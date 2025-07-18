@@ -3,7 +3,7 @@ title = "to unGoogle (verb)"
 description = ""
 date = "2018-11-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

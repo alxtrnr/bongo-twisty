@@ -3,7 +3,7 @@ title = "From Zero to Deployed: My Automated Hugo Workflow on Two Machines"
 description = "A detailed account of my journey choosing Hugo, installing it for the first time, and building a fully automated, multi-machine deployment pipeline with Git and GitHub Actions."
 date = 2025-07-07T10:00:00+01:00
 draft = false
-tags = ["Hugo", "Git", "GitHub Actions", "CI/CD", "Static Site", "Beginner", "LLM Generated Content"]
+tags = []
 toc = false
 +++
 

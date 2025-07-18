@@ -3,7 +3,7 @@ title = "Chunky ties and climate change"
 description = ""
 date = "2007-04-10"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

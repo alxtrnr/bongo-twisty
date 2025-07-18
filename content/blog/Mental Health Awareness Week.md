@@ -3,7 +3,7 @@ title = "Mental Health Awareness Week"
 description = ""
 date = "2021-05-13"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

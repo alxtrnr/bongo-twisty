@@ -3,7 +3,7 @@ title = "Seek and you shall find (or something)"
 description = ""
 date = "2007-10-05"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

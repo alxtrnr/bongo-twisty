@@ -3,7 +3,7 @@ title = "Objectives, goals, and outcomes "
 description = ""
 date = "2009-05-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

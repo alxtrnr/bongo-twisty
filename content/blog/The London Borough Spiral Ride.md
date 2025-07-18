@@ -3,7 +3,7 @@ title = "The London Borough Spiral Ride"
 description = ""
 date = "2014-01-04"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

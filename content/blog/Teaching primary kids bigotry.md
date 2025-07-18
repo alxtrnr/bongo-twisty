@@ -3,7 +3,7 @@ title = "Teaching primary kids bigotry"
 description = ""
 date = "2007-09-27"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

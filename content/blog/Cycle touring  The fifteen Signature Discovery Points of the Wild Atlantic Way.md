@@ -1,9 +1,9 @@
 +++
-title = "Cycle touring  The fifteen Signature Discovery Points of the Wild Atlantic Way"
+title = "Cycle touring: The fifteen Signature Discovery Points of the Wild Atlantic Way"
 description = ""
 date = "2025-03-04"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

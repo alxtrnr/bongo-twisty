@@ -3,7 +3,7 @@ title = "Discord  What's in a name"
 description = ""
 date = "2021-05-04"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

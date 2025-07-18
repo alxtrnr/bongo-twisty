@@ -3,7 +3,7 @@ title = "Gooners"
 description = ""
 date = "2007-01-18"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

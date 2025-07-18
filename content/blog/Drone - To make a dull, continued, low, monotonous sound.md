@@ -3,7 +3,7 @@ title = "Drone  To make a dull, continued, low, monotonous sound "
 description = ""
 date = "2018-12-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

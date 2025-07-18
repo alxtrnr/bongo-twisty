@@ -3,7 +3,7 @@ title = "It's good to journal"
 description = ""
 date = "2021-05-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

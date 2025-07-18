@@ -3,7 +3,7 @@ title = "My Sick Book"
 description = ""
 date = "2008-03-05"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

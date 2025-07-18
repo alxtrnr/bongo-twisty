@@ -3,7 +3,7 @@ title = "Cycling research  High intensity interval training "
 description = ""
 date = "2019-01-19"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

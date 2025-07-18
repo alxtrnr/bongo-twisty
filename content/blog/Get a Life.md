@@ -3,7 +3,7 @@ title = "Get a Life"
 description = ""
 date = "2007-02-02"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

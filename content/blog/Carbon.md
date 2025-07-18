@@ -3,11 +3,11 @@ title = "Carbon"
 description = ""
 date = "2007-02-05"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
-<img style="display:block;margin:auto" src="https://i.ibb.co/kgn7fdmK/carbon.jpg">
+<img style="display:block;margin:auto" img src="https://i.ibb.co/8GJ62Cw/carbon.jpg" alt="carbon" border="0">
 
 ***
 

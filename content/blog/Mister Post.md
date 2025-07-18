@@ -3,7 +3,7 @@ title = "Mister Post"
 description = ""
 date = "2008-06-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
@@ -26,6 +26,6 @@ Phil still lives around here. I pass by the alleyway every time I walk to the lo
 ---
 
 <figure style="text-align: center">
-  <img style="display:block;margin:auto" src="https://i.ibb.co/gZrbYthw/missed-a-post-web-1-800x800.jpg">
+  <img style="display:block;margin:auto" <img src="https://i.ibb.co/mrK0J1FK/mister-post.jpg" alt="mister-post" border="0">
   <figcaption>Say hello to Mr. Post.</figcaption>
 </figure>

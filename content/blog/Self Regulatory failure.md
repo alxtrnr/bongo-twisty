@@ -3,7 +3,7 @@ title = "Self Regulatory failure"
 description = ""
 date = "2007-02-09"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

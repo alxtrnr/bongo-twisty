@@ -3,7 +3,7 @@ title = "Give 'em all an untaxed car"
 description = ""
 date = "2007-01-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

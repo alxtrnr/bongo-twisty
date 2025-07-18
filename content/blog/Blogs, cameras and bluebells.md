@@ -3,7 +3,7 @@ title = "Blogs, cameras and bluebells"
 description = ""
 date = "2007-04-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

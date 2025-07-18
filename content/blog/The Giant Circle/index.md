@@ -1,5 +1,5 @@
 +++
-title = "Audax: The Giant Circle 1000k DiY"
+title = "audax: The Giant Circle 1000k DiY"
 description = ""
 date = "2025-07-16"
 draft = false

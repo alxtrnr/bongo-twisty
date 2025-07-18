@@ -3,7 +3,7 @@ title = "Christmas Trees"
 description = ""
 date = "2006-12-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

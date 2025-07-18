@@ -3,7 +3,7 @@ title = "Podcasts I enjoy and benefit from listening to"
 description = ""
 date = "2021-11-28"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

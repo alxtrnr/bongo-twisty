@@ -3,7 +3,7 @@ title = "Morphine on Monday"
 description = ""
 date = "2008-09-17"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

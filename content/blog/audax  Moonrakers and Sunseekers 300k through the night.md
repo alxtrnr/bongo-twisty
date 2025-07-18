@@ -1,9 +1,9 @@
 +++
-title = "audax  Moonrakers and Sunseekers 300k through the night"
+title = "audax: Moonrakers and Sunseekers 300k through the night"
 description = ""
 date = "2021-11-21"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

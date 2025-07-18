@@ -1,9 +1,9 @@
 +++
-title = "audax  Green and Yellow Fields 300km"
+title = "audax: Green and Yellow Fields 300km"
 description = ""
 date = "2017-05-07"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

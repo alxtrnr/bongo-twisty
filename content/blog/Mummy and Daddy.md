@@ -3,7 +3,7 @@ title = "Mummy and Daddy"
 description = ""
 date = "2007-02-17"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

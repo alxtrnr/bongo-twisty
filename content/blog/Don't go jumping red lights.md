@@ -3,7 +3,7 @@ title = "Don't go jumping red lights"
 description = ""
 date = "2017-09-30"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

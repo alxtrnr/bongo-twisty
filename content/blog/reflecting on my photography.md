@@ -3,7 +3,7 @@ title = "reflecting on my photography"
 description = ""
 date = "2008-11-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

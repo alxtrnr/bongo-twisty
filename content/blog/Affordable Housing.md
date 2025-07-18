@@ -3,7 +3,7 @@ title = "Affordable Housing"
 description = ""
 date = "2007-02-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "audax  Hartlepool 200km DIY DNF"
+title = "audax: Hartlepool 200km DIY DNF"
 description = ""
 date = "2017-09-17"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

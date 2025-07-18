@@ -3,7 +3,7 @@ title = "30 interesting pictures in Flickrs explore"
 description = ""
 date = "2007-07-29"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

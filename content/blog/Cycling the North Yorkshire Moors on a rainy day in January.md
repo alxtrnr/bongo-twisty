@@ -3,7 +3,7 @@ title = "Cycling the North Yorkshire Moors on a rainy day in January "
 description = ""
 date = "2016-01-14"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

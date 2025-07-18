@@ -3,7 +3,7 @@ title = "Start again and stick with it"
 description = ""
 date = "2018-01-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

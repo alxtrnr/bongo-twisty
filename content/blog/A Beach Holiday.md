@@ -3,7 +3,7 @@ title = "A Beach Holiday"
 description = ""
 date = "2008-06-04"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

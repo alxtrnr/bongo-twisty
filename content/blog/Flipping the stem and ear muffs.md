@@ -3,7 +3,7 @@ title = "Flipping the stem and ear muffs"
 description = ""
 date = "2019-06-20"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

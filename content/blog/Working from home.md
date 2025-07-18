@@ -3,7 +3,7 @@ title = "Working from home"
 description = ""
 date = "2007-07-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

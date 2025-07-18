@@ -3,7 +3,7 @@ title = "Looking at  Checking in"
 description = ""
 date = "2025-01-24"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Empathy for the mundane"
 description = ""
 date = "2009-03-02"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

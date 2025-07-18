@@ -3,7 +3,7 @@ title = "Down the Hatch"
 description = ""
 date = "2017-07-27"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

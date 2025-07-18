@@ -3,7 +3,7 @@ title = "Because deep down there is a little geek in me that needs some air "
 description = ""
 date = "2007-09-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

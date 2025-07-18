@@ -3,7 +3,7 @@ title = "New beginnings"
 description = ""
 date = "2018-12-29"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

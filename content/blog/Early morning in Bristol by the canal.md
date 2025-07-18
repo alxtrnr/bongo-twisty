@@ -3,7 +3,7 @@ title = "Early morning in Bristol by the canal"
 description = ""
 date = "2007-03-15"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

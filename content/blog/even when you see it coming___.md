@@ -3,7 +3,7 @@ title = "even when you see it coming___"
 description = ""
 date = "2008-03-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

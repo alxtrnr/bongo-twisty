@@ -3,7 +3,7 @@ title = "Handlebars for long distance rides"
 description = ""
 date = "2017-09-23"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "audax  Asparagus And Strawberries 400k"
+title = "audax: Asparagus And Strawberries 400k"
 description = ""
 date = "2021-07-19"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

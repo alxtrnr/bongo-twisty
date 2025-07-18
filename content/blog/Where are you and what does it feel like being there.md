@@ -3,7 +3,7 @@ title = "Where are you and what does it feel like being there "
 description = ""
 date = "2009-01-10"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

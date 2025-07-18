@@ -3,7 +3,7 @@ title = "it's more than my jobs worth___"
 description = ""
 date = "2009-02-15"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

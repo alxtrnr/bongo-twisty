@@ -3,7 +3,7 @@ title = "Avast me hearties "
 description = ""
 date = "2007-09-19"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

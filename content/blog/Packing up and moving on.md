@@ -3,7 +3,7 @@ title = "Packing up and moving on "
 description = ""
 date = "2007-05-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

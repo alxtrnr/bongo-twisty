@@ -3,7 +3,7 @@ title = "A shameful legacy"
 description = ""
 date = "2018-05-06"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

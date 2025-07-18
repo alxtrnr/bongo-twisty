@@ -3,7 +3,7 @@ title = "Some parents ehh  How do the kids manage "
 description = ""
 date = "2007-09-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

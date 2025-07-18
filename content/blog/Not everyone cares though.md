@@ -3,11 +3,11 @@ title = "Not everyone cares though"
 description = ""
 date = "2009-03-28"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
-<img style="display:block;margin:auto" src="https://i.ibb.co/1JKGTbjz/safety-1-800x600.jpg">
+<img style="display:block;margin:auto" img src="https://i.ibb.co/6RKFj04r/not-everyone-cares-though-do-they-3392604841-o.jpg" alt="not-everyone-cares-though-do-they-3392604841-o" border="0">****
 
 ---
 

@@ -3,7 +3,7 @@ title = "365 days of cycling"
 description = ""
 date = "2015-12-31"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["cycling"]
 toc = false
 +++
 

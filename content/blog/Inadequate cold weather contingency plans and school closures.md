@@ -3,7 +3,7 @@ title = "Inadequate cold weather contingency plans and school closures "
 description = ""
 date = "2018-03-02"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

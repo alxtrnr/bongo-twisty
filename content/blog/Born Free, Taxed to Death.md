@@ -3,7 +3,7 @@ title = "Born Free, Taxed to Death"
 description = ""
 date = "2007-07-03"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

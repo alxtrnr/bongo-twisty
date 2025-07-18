@@ -3,7 +3,7 @@ title = "Status Update"
 description = ""
 date = "2025-01-07"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

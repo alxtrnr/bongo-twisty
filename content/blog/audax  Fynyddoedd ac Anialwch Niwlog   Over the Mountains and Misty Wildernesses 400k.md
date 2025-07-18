@@ -1,9 +1,9 @@
 +++
-title = "audax  Fynyddoedd ac Anialwch Niwlog   Over the Mountains and Misty Wildernesses 400k"
+title = "audax: Fynyddoedd ac Anialwch Niwlog aka Over the Mountains and Misty Wildernesses 400k"
 description = ""
 date = "2016-05-26"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

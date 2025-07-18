@@ -3,7 +3,7 @@ title = "A letter to myself from ten years ahead"
 description = ""
 date = "2019-10-01"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Have you had your early day motion "
 description = ""
 date = "2008-06-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

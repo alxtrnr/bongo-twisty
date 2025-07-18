@@ -3,7 +3,7 @@ title = "The defensible default"
 description = ""
 date = "2018-11-12"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

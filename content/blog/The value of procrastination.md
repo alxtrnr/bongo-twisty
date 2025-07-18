@@ -3,7 +3,7 @@ title = "The value of procrastination "
 description = ""
 date = "2007-01-11"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

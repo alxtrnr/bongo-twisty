@@ -3,7 +3,7 @@ title = "Is there a long and hilly way round"
 description = ""
 date = "2025-01-17"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "A Kodak Moment"
 description = ""
 date = "2020-03-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

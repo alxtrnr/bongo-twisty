@@ -3,7 +3,7 @@ title = "An adventure with graphics drivers"
 description = ""
 date = "2007-12-09"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "audax  Hills and Mills 100k"
+title = "audax: Hills and Mills 100k"
 description = ""
 date = "2017-02-03"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

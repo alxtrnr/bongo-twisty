@@ -3,11 +3,11 @@ title = "Santa got stuck up the chimney"
 description = ""
 date = "2007-12-12"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
-<img style="display:block;margin:auto" src="https://i.ibb.co/QjhPBDMY/santa-got-stuck-up-the-chimney-5401201596-o.png">
+<img style="display:block;margin:auto" <img src="https://i.ibb.co/fdmmSVkL/Santa-got-stuck-up-the-chimney.jpg" alt="Santa-got-stuck-up-the-chimney" border="0">
 
 ---
 

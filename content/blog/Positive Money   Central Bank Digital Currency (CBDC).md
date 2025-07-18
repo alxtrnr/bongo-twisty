@@ -1,9 +1,9 @@
 +++
-title = "Positive Money   Central Bank Digital Currency (CBDC)"
+title = "Positive Money Central Bank Digital Currency (CBDC)"
 description = ""
 date = "2018-03-31"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

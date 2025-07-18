@@ -3,7 +3,7 @@ title = "What are you optimistic about "
 description = ""
 date = "2007-01-21"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

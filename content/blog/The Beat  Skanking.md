@@ -3,7 +3,7 @@ title = "The Beat  Skanking"
 description = ""
 date = "2009-05-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

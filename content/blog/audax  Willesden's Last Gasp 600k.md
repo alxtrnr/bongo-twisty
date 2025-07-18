@@ -1,9 +1,9 @@
 +++
-title = "audax  Willesden's Last Gasp 600k"
+title = "audax: Willesden's Last Gasp 600k"
 description = ""
 date = "2019-06-25"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

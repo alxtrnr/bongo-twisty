@@ -3,7 +3,7 @@ title = "For the record"
 description = ""
 date = "2007-08-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

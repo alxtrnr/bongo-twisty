@@ -3,7 +3,7 @@ title = "Turn off the lights!"
 description = ""
 date = "2007-01-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

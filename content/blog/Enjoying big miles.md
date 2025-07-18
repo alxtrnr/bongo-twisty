@@ -3,7 +3,7 @@ title = "Enjoying big miles"
 description = ""
 date = "2015-09-21"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

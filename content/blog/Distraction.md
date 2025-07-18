@@ -3,7 +3,7 @@ title = "Distraction"
 description = ""
 date = "2025-01-06"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

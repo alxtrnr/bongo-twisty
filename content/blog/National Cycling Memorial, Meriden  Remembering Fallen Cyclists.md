@@ -3,7 +3,7 @@ title = "National Cycling Memorial, Meriden  Remembering Fallen Cyclists"
 description = ""
 date = "2015-04-21"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

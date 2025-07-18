@@ -3,7 +3,7 @@ title = "Using up the internet"
 description = ""
 date = "2007-12-14"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

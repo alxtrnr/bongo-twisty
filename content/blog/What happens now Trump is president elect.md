@@ -3,7 +3,7 @@ title = "What happens now Trump is president elect "
 description = ""
 date = "2016-11-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

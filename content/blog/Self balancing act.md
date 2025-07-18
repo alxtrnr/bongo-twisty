@@ -3,7 +3,7 @@ title = "Self balancing act"
 description = ""
 date = "2024-11-29"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

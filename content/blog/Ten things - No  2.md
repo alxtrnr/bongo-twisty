@@ -3,7 +3,7 @@ title = "Ten things - No  2"
 description = ""
 date = "2025-04-28"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

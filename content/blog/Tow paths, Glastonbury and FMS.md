@@ -3,7 +3,7 @@ title = "Tow paths, Glastonbury and FMS"
 description = ""
 date = "2019-07-28"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

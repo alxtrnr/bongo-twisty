@@ -3,7 +3,7 @@ title = "Learning to code"
 description = ""
 date = "2020-11-02"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

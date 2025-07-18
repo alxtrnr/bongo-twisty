@@ -3,7 +3,7 @@ title = 'Gallery'
 description = "A collection of favorite photographs"
 date = 2025-07-06T19:54:05+01:00
 draft = false
-tags = ["photography"]
+tags = []
 toc = false
 +++
 

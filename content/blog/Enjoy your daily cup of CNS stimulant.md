@@ -3,7 +3,7 @@ title = "Enjoy your daily cup of CNS stimulant"
 description = ""
 date = "2016-07-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

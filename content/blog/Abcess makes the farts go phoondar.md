@@ -3,7 +3,7 @@ title = "Abcess makes the farts go phoondar "
 description = ""
 date = "2007-10-06"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

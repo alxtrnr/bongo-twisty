@@ -3,7 +3,7 @@ title = "People I Like  People I Don't Like"
 description = ""
 date = "2009-05-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

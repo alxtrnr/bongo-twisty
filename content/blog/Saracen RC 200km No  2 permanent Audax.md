@@ -1,9 +1,9 @@
 +++
-title = "Saracen RC 200km No  2 permanent Audax"
+title = "audax: Saracen RC 200km No  2 permanent Audax"
 description = ""
 date = "2017-04-07"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Outsourcing"
 description = ""
 date = "2008-11-19"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

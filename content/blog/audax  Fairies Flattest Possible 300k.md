@@ -1,9 +1,9 @@
 +++
-title = "audax  Fairies Flattest Possible 300k"
+title = "audax: Fairies Flattest Possible 300k"
 description = ""
 date = "2015-06-24"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Put up or shut up"
 description = ""
 date = "2015-12-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

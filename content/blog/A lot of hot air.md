@@ -3,7 +3,7 @@ title = "A lot of hot air "
 description = ""
 date = "2007-02-06"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

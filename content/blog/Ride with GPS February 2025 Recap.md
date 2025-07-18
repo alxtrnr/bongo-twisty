@@ -3,7 +3,7 @@ title = "Ride with GPS February 2025 Recap"
 description = ""
 date = "2025-03-02"
 draft = false
-tags = ["and another thing blog", "cycling"]
+tags = ["cycling"]
 toc = false
 +++
 

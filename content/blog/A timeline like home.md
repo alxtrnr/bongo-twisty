@@ -3,7 +3,7 @@ title = "A timeline like home"
 description = ""
 date = "2025-01-13"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

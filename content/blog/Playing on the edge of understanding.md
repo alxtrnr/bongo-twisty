@@ -3,7 +3,7 @@ title = "Playing on the edge of understanding"
 description = ""
 date = "2025-04-08"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Cloudy Statistics"
 description = ""
 date = "2007-02-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

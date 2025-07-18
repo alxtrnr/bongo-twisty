@@ -3,7 +3,7 @@ title = "There's a formula for the  beer goggles  effect "
 description = ""
 date = "2007-02-12"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

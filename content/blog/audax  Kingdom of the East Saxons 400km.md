@@ -1,9 +1,9 @@
 +++
-title = "audax  Kingdom of the East Saxons 400km"
+title = "audax: Kingdom of the East Saxons 400km"
 description = ""
 date = "2017-07-12"
 draft = false
-tags = ["monaxle: blog", "cycling"]
+tags = ["audax", "cycling"]
 toc = false
 +++
 

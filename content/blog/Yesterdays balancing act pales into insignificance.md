@@ -3,7 +3,7 @@ title = "Yesterdays balancing act pales into insignificance "
 description = ""
 date = "2007-09-23"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "On the crest of a wave "
 description = ""
 date = "2007-02-03"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

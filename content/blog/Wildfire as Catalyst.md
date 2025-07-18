@@ -3,7 +3,7 @@ title = "Wildfire as Catalyst"
 description = ""
 date = "2025-01-11"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

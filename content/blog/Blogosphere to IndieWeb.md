@@ -3,7 +3,7 @@ title = "Blogosphere to IndieWeb"
 description = ""
 date = "2025-02-19"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

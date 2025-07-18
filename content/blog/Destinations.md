@@ -3,7 +3,7 @@ title = "Destinations"
 description = ""
 date = "2007-01-31"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Broken down boiler"
 description = ""
 date = "2007-12-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

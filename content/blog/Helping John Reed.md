@@ -3,7 +3,7 @@ title = "Helping John Reed"
 description = ""
 date = "2007-01-24"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Like the butterfly that caused a hurricane"
 description = ""
 date = "2007-12-10"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

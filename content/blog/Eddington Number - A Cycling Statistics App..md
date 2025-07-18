@@ -3,7 +3,7 @@ title = "Eddington Number. A Cycling Statistics App"
 description = "An application that calculates your cycling Eddington number and provides detailed riding statistics using the Ride with GPS API."
 date = 2025-02-21T14:52:00
 draft = false
-tags = ["Cycling", "Python"]
+tags = ["Cycling"]
 toc = false
 +++
 

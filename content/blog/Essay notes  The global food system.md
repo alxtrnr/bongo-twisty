@@ -3,7 +3,7 @@ title = "Essay notes  The global food system"
 description = ""
 date = "2007-03-08"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

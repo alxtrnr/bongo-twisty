@@ -3,7 +3,7 @@ title = "Five preoccupations"
 description = ""
 date = "2007-03-07"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

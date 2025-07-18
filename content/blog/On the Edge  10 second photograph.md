@@ -3,7 +3,7 @@ title = "On the Edge  10 second photograph"
 description = ""
 date = "2007-05-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

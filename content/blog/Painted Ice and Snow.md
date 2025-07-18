@@ -3,7 +3,7 @@ title = "Painted Ice and Snow"
 description = ""
 date = "2007-02-15"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

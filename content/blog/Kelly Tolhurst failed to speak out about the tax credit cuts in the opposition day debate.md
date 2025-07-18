@@ -3,7 +3,7 @@ title = "Kelly Tolhurst failed to speak out about the tax credit cuts in the opp
 description = ""
 date = "2015-10-22"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "Digital Anachronisms"
 description = ""
 date = "2024-12-03"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

@@ -3,7 +3,7 @@ title = "An aside"
 description = ""
 date = "2019-05-10"
 draft = false
-tags = ["monaxle: blog"]
+tags = ["cycling"]
 toc = false
 +++
 

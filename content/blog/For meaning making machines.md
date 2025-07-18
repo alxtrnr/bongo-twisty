@@ -3,7 +3,7 @@ title = "For meaning making machines"
 description = ""
 date = "2018-11-04"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

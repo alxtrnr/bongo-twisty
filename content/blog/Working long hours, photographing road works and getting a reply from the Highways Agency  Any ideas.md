@@ -3,7 +3,7 @@ title = "Working long hours, photographing road works and getting a reply from t
 description = ""
 date = "2007-09-26"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

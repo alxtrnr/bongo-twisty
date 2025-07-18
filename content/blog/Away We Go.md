@@ -3,7 +3,7 @@ title = "Away We Go"
 description = ""
 date = "2011-06-17"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

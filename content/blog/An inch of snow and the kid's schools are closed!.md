@@ -3,7 +3,7 @@ title = "An inch of snow and the kid's schools are closed!"
 description = ""
 date = "2018-02-27"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

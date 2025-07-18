@@ -3,7 +3,7 @@ title = "Tesco brushed off our complaint and denied responsibility for damage ca
 description = ""
 date = "2012-01-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

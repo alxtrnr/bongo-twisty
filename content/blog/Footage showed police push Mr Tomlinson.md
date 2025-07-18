@@ -3,7 +3,7 @@ title = "Footage showed police push Mr Tomlinson"
 description = ""
 date = "2009-04-08"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

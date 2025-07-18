@@ -3,7 +3,7 @@ title = "The good host"
 description = ""
 date = "2025-03-21"
 draft = false
-tags = ["and another thing blog"]
+tags = []
 toc = false
 +++
 

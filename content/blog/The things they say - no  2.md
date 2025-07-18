@@ -3,7 +3,7 @@ title = "The things they say - no  2"
 description = ""
 date = "2007-07-16"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

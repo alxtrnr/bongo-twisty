@@ -3,7 +3,7 @@ title = "Smashing Windows"
 description = ""
 date = "2015-12-27"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

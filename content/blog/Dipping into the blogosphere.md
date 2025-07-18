@@ -3,7 +3,7 @@ title = "Dipping into the blogosphere"
 description = ""
 date = "2007-02-25"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 

@@ -1,9 +1,9 @@
 +++
-title = "Random jottings  Not so serious notes from a not so old wrinkly old git "
+title = "Random jottings - Not so serious notes from a not so old wrinkly old git "
 description = ""
 date = "2007-02-20"
 draft = false
-tags = ["monaxle: blog"]
+tags = []
 toc = false
 +++
 
