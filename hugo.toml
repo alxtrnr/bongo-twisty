@@ -33,7 +33,7 @@ style = "catppuccin-mocha"
 
 [params]
 title = "BongoTwisty"
-description = "The ramblings of a Hugo beginner"
+description = "A Personal Blog"
 favicon = "images/favicon.png"
 dateFormat = "2006-01-02"
 hideMadeWithLine = false

@@ -1,20 +1,20 @@
 +++
 title = 'About'
-description = 'Learn more about me and this site'
+description = 'A little about me and this site.'
 date = 2025-07-06T15:02:29+01:00
 draft = false
 author = "Alexander"
 +++
 
-There is no consistent theme to this one sided conversation. A mixed bag of family stuff, cycling, fleeting interests, photos, poorly thought out opinions, reflective pondering, reactionary rants and righteous posturing. 
+A mixed bag of family stuff, cycling, fleeting interests, learning, photos, poorly thought out opinions, reflective pondering, reactionary rants and righteous posturing. 
 
-My blogging has gone through a few iterations in terms of name and platform since my first go at it in 2000. BongoTwisty [^1] [^2] on [Hugo](https://gohugo.io) is the latest. Previous incarnations under different names have been hosted on Standard Notes Listed, Wordpress, Blogger and way back when, Homestead. Posts have been migrated from one to the other over the years.
+My online space has gone through a few changes of name and platform since I first put stuff on the internet back in 2000. BongoTwisty [^1] [^2] on [Hugo](https://gohugo.io) is the latest. Previous incarnations under different names have been hosted on Standard Notes Listed, Wordpress, Blogger and way back when, Homestead. Where it's not fallen to the wayside or has otherwise been lost, content has migrated from one to the other over the years.
 
-I don't write to perform; I write as a by-product of my own curiosity. The posts here are simply part of a personal journey, capturing thoughts and experiences as they unfold rather than polished tales of daring-do or any supposed wisdom.
+Everything here is a by-product of my own curiosity, interests and propensity for distraction. It's all part of a personal journey, sounding out thoughts and experiences as the whim takes me. A slowly evolving work in progress. 
 
 My life is, for the most part, reassuringly mundane, and there is a contentment in that. It’s a foundation from which to explore the occasional quiet challenge, found in reflection, self directed learning, and the hills and hedgerows of winding country lanes.
 
-Keeping a blog is a means for self-expression. Quality just happens to be incidental. It's a scrap book. A record of moments and thoughts I sometimes look back on, and which I have chosen to share. It's a point of connection despite the poor signal. I can't fathom why but it can feel quite rewarding. 
+Keeping a space like this is a means for self-expression. Any quality happens to be incidental and is not the primary aim. It's a bit like a scrap book to me. A record I sometimes look back on and which I have chosen to share. It's a point of connection despite the poor signal. I can't fathom why but it can feel quite rewarding. 
 
 Thank you for visiting. I'm pleased you did. 
 
