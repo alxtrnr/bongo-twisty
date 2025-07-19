@@ -38,10 +38,11 @@ favicon = "images/favicon.png"
 dateFormat = "2006-01-02"
 hideMadeWithLine = false
 hideRSSLink = false
+images = ["/images/default-og.png"]
 
 [params.author]
-name = "Your Name"
-email = "your.email@example.com"
+name = "Alexander Turner"
+email = "bongotwisty@pm.me"
 fediverse = "@alxtrnr@cupoftea.social"
 
 [[menu.main]]
