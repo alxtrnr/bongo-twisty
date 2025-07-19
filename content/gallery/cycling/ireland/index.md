@@ -1,9 +1,9 @@
 +++
-title = "Ireland West Coast Bicycle Tour"
+title = "Between Points and Places"
 year = 2025
-description = "Photos from a journey along the Wild Atlantic Way."
+description = "Photos from my bike ride between the Signature Discovery Points of Ireland’s Wild Atlantic Way. I didn’t always stay on the official route, instead, I often just followed the shortest, most scenic and bike friendly roads between them. The gallery includes a mix of places - a few well-known spots, alongside quieter corners and views I found along the way."
 resources = [
-  { src = "Barley Cove.jpg", title = "Barley Cove, County Cork" },
+  { src = "Barley Cove.jpg",title = "Barley Cove, County Cork" },
   { src = "Beara Peninsula.jpg", title = "Along the Coastal R575 on the Beara Peninsula, County Kerry" },
   { src = "Malin Head.jpg", title = "At Malin Head, County Donegal" }, 
   { src = "Downpatrick Head.jpg", title = "Downpatrick Head, County Sligo" },
