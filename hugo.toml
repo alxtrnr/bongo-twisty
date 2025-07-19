@@ -57,12 +57,12 @@ name = "Gallery"
 pageRef = "/gallery/"
 weight = 30
 [[menu.main]]
-pageRef = "About"
-url = "/about/"
+name = "About"
+pageRef = "/about/"
 weight = 40
 [[menu.main]]
 name = "Contact"
-url = "/contact/"
+pageRef = "/contact/"
 weight = 50
 
 [services.rss]

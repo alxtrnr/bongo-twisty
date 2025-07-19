@@ -1,3 +1,24 @@
-<!-- A partial to be overwritten by the user.
-  Simply place a custom_head.html into
-  your local /layouts/partials-directory -->
+<!-- DEBUG: using custom_head.html -->
+
+<!-- Custom CSS (via Hugo asset pipeline) -->
+{{ $custom := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}">
+
+<!-- GLightbox CSS (static) -->
+<link rel="stylesheet" href="/css/glightbox.min.css">
+
+<!-- Author Meta -->
+{{ with .Site.Params.author.name }}
+  <meta name="author" content="{{ . }}">
+{{ end }}
+
+<!-- Description -->
+{{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+{{ end }}
+
+<!-- Optional favicon (already handled by favicon.html, but safe to keep) -->
+{{ with .Site.Params.favicon }}
+  <link rel="icon" href="{{ . | relURL }}">
+{{ end }}
+

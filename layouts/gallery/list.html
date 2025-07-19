@@ -1,0 +1,21 @@
+{{ define "main" }}
+  
+  
+  {{ .Content }}
+  
+  {{ $paginator := .Paginate .RegularPagesRecursive }}
+  <ul class="gallery-list">
+    {{ range $paginator.Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.year }} <span>({{ . }})</span>{{ end }}
+        {{ with .Params.event }} <em>{{ . }}</em>{{ end }}
+        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+      </li>
+    {{ else }}
+      <li>No galleries found.</li>
+    {{ end }}
+  </ul>
+  
+  {{ partial "pagination.html" . }}
+{{ end }}

@@ -1,10 +1,10 @@
-{{ $currentPage := . -}}
+{{- $currentPage := . -}}
 {{ range .Site.Menus.main.ByWeight }}
   <a
     href="{{ .URL }}"
-    {{ if eq $currentPage .Page }}class="current"{{ end }}
-    >{{ .Name }}</a
-  >
+    {{/* This 'or' condition checks for both the direct page and its parent section */}}
+    {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}class="nav-current"{{ end }}
+  >{{ .Name }}</a>
 {{ end }}
 {{ if not .Site.Params.hideRSSLink }}
   <a href="{{ relURL "index.xml" }}">

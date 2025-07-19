@@ -31,3 +31,20 @@ code, pre {
   background-color: var(--color-neutral);
   border: var(--border);
 }
+
+/* Navigation active button styling */
+nav a {
+  /* Default navigation link appearance */
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+nav a.nav-current {
+  /* Active navigation button with bounded box */
+  background-color: white;;
+  border: 1px solid var(--color-contrast);
+  color: white; 
+}
