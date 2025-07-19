@@ -12,7 +12,7 @@ resources = [
   { src = "Mannix Point.jpg", title ="Mannix Point, County Kerry" },
   { src = "Near Malin Head.jpg", title ="Near Malin Head, County Donegal" },
   { src = "Benbulbin.jpg", title ="Benbulbin, County Sligo" },
-  { src = "Crockuna.jpg", title ="Crockuna, County Mayo" },
+  { src = "Crockuna.jpg", title ="Near Crockuna, County Donegal" },
   { src = "Downpatrick Head.jpg", title ="Downpatrick Head, County Mayo" },
   { src = "Fanad Head Lighthouse.jpg", title ="Fanad Head Lighhouse, County Donegal" },
   { src = "Central Donegal.jpg", title ="Central Donegal" },

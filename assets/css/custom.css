@@ -48,3 +48,14 @@ nav a.nav-current {
   border: 1px solid var(--color-contrast);
   color: white; 
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.gallery-image {
+    display: block; 
+    margin: 0.5rem;
+}
