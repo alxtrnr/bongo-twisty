@@ -22,5 +22,6 @@ resources = [
   { src = "Dawros.jpg", title ="From the Connemara Loop nr Dawross More, County Galway" },
   { src = "Beara Bowl.jpg", title ="Beara Bowl, County Mayo" },
 ]
+images = ["/gallery/cycling/ireland/Crockuna.jpg"]
 +++
 

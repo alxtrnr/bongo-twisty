@@ -1,5 +1,5 @@
 +++
-title = "The page has turned. A new chapter begins."
+title = "Reality Bites"
 description = ""
 date = "2025-07-20"
 draft = false
