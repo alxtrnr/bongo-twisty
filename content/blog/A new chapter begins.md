@@ -17,4 +17,4 @@ It was quite late when we arrived. About 10.20 pm. Mum was in bed sleeping. Dad 
 
 I got a Signal message from her this morning -"Bloody disgusting". This was with reference to the carry on involved with the arrangements for dads medication being prepared by the hospital and not being available to collect until after 8.00 pm. She sounded okay to me. 
 
-The page has turned. A new chapter has begun. For both of them, my siblings and me. Reality bites. I hope it goes easy on them.   
+The page has turned. A new chapter has begun. For both of them, my siblings and me. Reality bites. I hope it goes easy on us all.   
