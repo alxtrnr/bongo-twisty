@@ -19,7 +19,7 @@ resources = [
   { src = "Malin Head Tower.jpg", title ="Malin Head Tower, County Donegal" },
   { src = "Lough Tait.jpg", title ="Lough Tait, County Sligo" },
   { src = "Ballagsheen Pass.jpg", title ="Ballagsheen Pass, County Kerry" },
-  { src = "Dawros.jpg", title ="Dawross, County Kerry" },
+  { src = "Dawros.jpg", title ="From the Connemara Loop nr Dawross More, County Galway" },
   { src = "Beara Bowl.jpg", title ="Beara Bowl, County Mayo" },
 ]
 +++
