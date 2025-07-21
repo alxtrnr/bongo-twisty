@@ -5,7 +5,7 @@ date = "2025-07-16"
 draft = false
 tags = ["cycling","audax"]
 toc = false
-images = ["/blog/The Giant Circle/giantcircle.jpg"]
+images = ["giantcircle.jpg"]
 +++
 
 I rode a 300k loop of the M25 in January. That was my RRtY [^1] ride for the month. I put a few posts up on Mastodon on the way round, and a map overlay of the route on completion.  Someone replied saying they were reminded of [The Giant Circle](https://jkbsbikeride.com/2025/01/03/the-giant-circle-a-practical-guide/). The route appealed to me straight away. The biggest circle you can ride in the UK. A big beautiful circle. What's not to love about that? Pretty much there and then I resolved to ride it. 

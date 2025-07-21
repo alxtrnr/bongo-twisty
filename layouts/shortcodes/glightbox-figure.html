@@ -1,0 +1,12 @@
+{{/* This will work only in a page bundle! */}}
+{{ $img := .Page.Resources.GetMatch (.Get "src") }}
+{{ with $img }}
+  <a href="{{ .RelPermalink }}" class="glightbox" data-title="{{ $.Get "title" | safeHTML }}">
+    <img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}">
+  </a>
+  <figcaption>{{ $.Get "title" }}</figcaption>
+{{ else }}
+  <!-- Image not found: {{ .Get "src" }} -->
+  <div style="color: red;">Image not found: {{ .Get "src" }}</div>
+{{ end }}
+
