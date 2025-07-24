@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "From Zero to Deployment.md",
+                "file": "Concorde2/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "From Zero to Deployment"
+              "title": "index"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "8ea6930e5a3bf88a",
   "lastOpenFiles": [
+    "From Zero to Deployment.md",
     "Git & Hugo Blog Workflow Aide-Mémoire.md",
     "Swings & Roundabouts.md",
     "Summer Holidays.md",
@@ -194,7 +195,6 @@
     "An inch of snow and the kid's schools are closed!.md",
     "Chatham's traffic, Sir John Hawkins, environmental lip service and the local elections.md",
     "House building in Medway  Medway Magna; why don't you take a hike.md",
-    "Eddington Number - A Cycling Statistics App..md",
-    "From Zero to Deployment.md"
+    "Eddington Number - A Cycling Statistics App..md"
   ]
 }
