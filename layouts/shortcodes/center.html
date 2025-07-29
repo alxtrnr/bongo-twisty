@@ -1,3 +1,29 @@
+{{- /*
+  center
+  ================================================================================
+  Purpose:
+  This shortcode centers any content passed to it. It is useful for centering
+  text, images, or any other content that supports Markdown formatting.
+
+  The `.Inner` variable captures any content placed between the opening and
+  closing shortcode tags. The `markdownify` function then processes this
+  content, converting any Markdown syntax into HTML. The result is wrapped
+  in a `div` with centered alignment.
+
+  How to call:
+  To use this shortcode, wrap your Markdown content with the opening and closing
+  tags in your content file (e.g., `my-post.md`).
+
+  Example:
+  {{< center >}}
+  ### A Centered Heading
+  This is a centered paragraph with **bold** and *italic* text.
+  ![An image](image.jpg)
+  {{< /center >}}
+================================================================================
+*/ -}}
+
 <div style="text-align: center;">
   {{ .Inner | markdownify }}
 </div>
+

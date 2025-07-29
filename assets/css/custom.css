@@ -66,5 +66,5 @@ nav a.nav-current {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   color: #ccc; /* Optional: light gray color */
-  font-size: 1.5em; /* Optional: make shapes larger */
+  font-size: 1.0em; /* Optional: make shapes larger */
 }
