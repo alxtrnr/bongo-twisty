@@ -12,11 +12,7 @@ We travelled down to Brighton on Sunday to listen to a couple of sounds at the C
 
 Roots Garden from Brighton and Mission Sound System from Edinburgh were in session. Each had their own powerful and well tuned speaker boxes in full effect. Ear plugs were available free at the bar. You could dampen the volume but do nothing to tame the ground shaking frequencies punching through the air. It was an afternoon / evening event from 2.00 - 9.00 pm. There was a good size livly crowd of all ages. 
 
-{{< glightbox-figure 
-   src="flyer.jpg" 
-   title="Roots Garden Summer Sessions 2025"
-   alt="A vintage-style event poster for Roots Garden Summer Sessions 2025 featuring illustrated images of stacked reggae sound system speakers and a singer at a microphone. The flyer advertises a reggae event on Sunday, July 20th, at the Brighton Beachfront, highlighting performances from Roots Garden Sound System featuring MC Dee & special guests and Messenger Sound System featuring MC Afrikan Simba. The event details include timings, location at The Concorde 2 venue, ticket prices, and mention of plant-based Caribbean food." 
->}}
+{{< img src="flyer.jpg" alt="A vintage-style event poster for Roots Garden Summer Sessions 2025 featuring illustrated images of stacked reggae sound system speakers and a singer at a microphone. The flyer advertises a reggae event on Sunday, July 20th, at the Brighton Beachfront, highlighting performances from Roots Garden Sound System featuring MC Dee & special guests and Messenger Sound System featuring MC Afrikan Simba. The event details include timings, location at The Concorde 2 venue, ticket prices, and mention of plant-based Caribbean food." >}}
 
 >Everybody moving in a different style, 
 >
@@ -40,7 +36,7 @@ I got some practice using my new camera. I recently bought a second hand Fuji Fi
 
 {{< glightbox-figure 
    src="messenger.jpg" 
-   title="Messenger in Session. Original Roots & Culture Experience. Dubwize & Otherwise Vibes. Nice Every Time."
+   title="Messenger in Session. Original Roots & Culture Experience."
    alt="Three people gather closely around DJ equipment and a turntable. One person appears to be selecting or placing a record, while another holds a microphone, and a third stands beside them. All are in a warmly lit room decorated with colorful fabrics."
 >}}
 
@@ -49,3 +45,5 @@ I got some practice using my new camera. I recently bought a second hand Fuji Fi
    title="Jon Jones & MC Trooper. Roots Garden. Strictly Roots & Culture."
    alt="Two people are standing at a DJ booth, one wearing a New Balance T-shirt and the other in a dark jacket and hat with a rasta-colored band, appearing to select or play vinyl records on turntables and mixing equipment in a dimly lit club setting. A third person is visible in the background."
 >}}
+
+

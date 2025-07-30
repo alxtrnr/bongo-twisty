@@ -1,4 +1,5 @@
-/* Custom Color Scheme for Hugo Simple */
+/* Custom Color Scheme for Hugo Simple 
+   Define theme colors and borders using CSS variables for easy customization. */
 :root {
   --border: 1px solid #D4D4D4;
   --color-default: #FAF9F6;
@@ -8,33 +9,37 @@
   --color-contrast: #4F4F4F;
 }
 
-/* Simple.css overrides */
+/* Set base body colors using the custom palette */
 body {
   background-color: var(--color-default);
   color: var(--color-contrast);
 }
 
+/* Make all links use the primary color */
 a {
   color: var(--color-primary);
 }
 
+/* Style header with neutral color and subtle border */
 header {
   background-color: var(--color-neutral);
   border-bottom: var(--border);
 }
 
+/* Use the default background inside <main> */
 main {
   background-color: var(--color-default);
 }
 
+/* Style code blocks for readability and separation */
 code, pre {
   background-color: var(--color-neutral);
   border: var(--border);
 }
 
-/* Navigation active button styling */
+/* Navigation: basic link styling for all nav links */
 nav a {
-  /* Default navigation link appearance */
+  /* Appearance for default navigation links */
   padding: 6px 12px;
   border: 1px solid transparent;
   text-decoration: none;
@@ -42,29 +47,59 @@ nav a {
   margin: 2px;
 }
 
+/* Navigation: highlight the current/active page link */
 nav a.nav-current {
-  /* Active navigation button with bounded box */
-  background-color: white;;
+  background-color: white;
   border: 1px solid var(--color-contrast);
   color: white; 
 }
 
+/* Gallery layout - flexbox for horizontal/vertical alignment 
+   Used if you present a group of images in a grid/gallery page. */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem; /* space between images */
 }
+
+/* Individual gallery images spacing (if .gallery-image used) */
 .gallery-image {
-    display: block; 
+    display: block;
     margin: 0.5rem;
 }
 
-/* Section break in post */
+/* Section break element inside posts (e.g. horizontal rule alternative) */
 .custom-divider {
   text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  color: #ccc; /* Optional: light gray color */
-  font-size: 1.0em; /* Optional: make shapes larger */
+  color: #ccc;          /* divider color */
+  font-size: 1.0em;     /* divider size */
+}
+
+/* Center all inline content (including images and captions) 
+   within <figure> blocks—used for both standard and Hugo shortcode images */
+figure {
+  text-align: center;
+}
+
+/* Robust centering of images inside <figure> 
+   Always centers block-level images, regardless of parent alignment */
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Keep the lightbox anchor tightly wrapping its child image 
+   Ensures centering logic in <figure> works and avoids full-width anchors */
+figure a.glightbox {
+  display: inline-block;
+}
+
+/* Custom Styling for Warnings */
+.image-warning {
+  color: #b00;
+  font-weight: bold;
+  font-size: 0.95em;
 }

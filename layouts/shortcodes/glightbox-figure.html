@@ -1,12 +1,26 @@
-{{/* This will work only in a page bundle! */}}
-{{ $img := .Page.Resources.GetMatch (.Get "src") }}
-{{ with $img }}
-  <a href="{{ .RelPermalink }}" class="glightbox" data-title="{{ $.Get "title" | safeHTML }}">
-    <img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}">
-  </a>
-  <figcaption>{{ $.Get "title" }}</figcaption>
-{{ else }}
-  <!-- Image not found: {{ .Get "src" }} -->
-  <div style="color: red;">Image not found: {{ .Get "src" }}</div>
-{{ end }}
+{{/* layouts/shortcodes/glightbox-figure.html */}}
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" }}
+{{ $alt := .Get "alt" | default $title }}
 
+{{ with .Page.Resources.GetMatch $src }}
+  {{ $thumb := .Resize "600x" }} <!-- 600px width, height auto -->
+  <figure>
+    <a href="{{ .RelPermalink }}" class="glightbox" data-gallery="gallery" data-title="{{ $title }}">
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}">
+    </a>
+    {{ if $title }}
+      <figcaption>{{ $title }}</figcaption>
+    {{ end }}
+  </figure>
+
+{{ else }}
+  <figure>
+    <!-- Fallback placeholder and warning if the image was not found -->
+    <img src="{{ "images/placeholder.png" | relURL }}" alt="Missing image: {{ $alt }}">
+    <figcaption class="image-warning">
+      ⚠️ Image not found: <code>{{ $src }}</code>{{ with $title }} – {{ . }}{{ end }}
+    </figcaption>
+  </figure>
+
+{{ end }}

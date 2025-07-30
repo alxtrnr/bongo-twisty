@@ -14,6 +14,5 @@ Otis received a proposal dictate for marriage.
 
 <img style="display:block;margin:auto" src="https://i.ibb.co/YT0Ls7yF/luvletter2.jpg">
 
-{{< divider >}}
 
 The wedding didn't happen. He never loved her. They broke up.
