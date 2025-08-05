@@ -1,7 +1,7 @@
 +++
 title = 'Looking After Your Future Self'
 description = 'Caring for your future self can help you make good choices today'
-date = 2025-08-04T18:35:13+01:00
+date = 2025-08-05T09:37:13+01:00
 draft = false
 author = "Alexander"
 +++
