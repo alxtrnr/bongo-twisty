@@ -35,7 +35,7 @@ style = "catppuccin-mocha"
 title = "BongoTwisty"
 description = "A Personal Blog"
 favicon = "images/favicon.png?v=2"
-dateFormat = "2006-01-02"
+dateFormat = "02 Jan 2006"
 hideMadeWithLine = false
 hideRSSLink = false
 images = ["/images/default-og.png"]
