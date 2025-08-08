@@ -6,7 +6,7 @@ draft = false
 author = "Alexander"
 +++
 
-Some weeks go better than others. This has been one of them. Had a ton of paid work to get through. Very good progress on that front. Got round to doing some bike maintenance jobs. Cycled a fair few miles. Written a new post four days running.  Eh! What gives?
+Some weeks go better than others. This has been one of them. Had a ton of paid work to get through. Very good progress on that front. Got round to doing some bike maintenance jobs. Cycled a fair few miles. Published a new post four days running.  Eh! What gives?
 
 Ever heard the saying that if it wasn't for the last minute nothing would get done? I think that's whats behind getting on with the work stuff.  The deadline crunch was not of my making. That makes no difference. Projects needed to progress. It was the right amount of pressure in this instance. It got me in the flow. That state where you do not notice the passage of time. Where the demands of the task take you close to but not over the limit of your capabilities. Where there is some intellectual challenge to the job in hand. Having others interested in and contributing to the work I was doing, a welcome bonus. It feels good. 
 
