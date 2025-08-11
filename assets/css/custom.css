@@ -1,106 +1,202 @@
-/* Custom Color Scheme for Hugo Simple 
-   Define theme colors and borders using CSS variables for easy customization. */
+/*
+ * Hugo Simple Theme – Your Custom CSS
+ * Deeply integrated with theme variables, supports OS-driven light/dark switch.
+ * Place this file in /assets/css/custom.css and load it after the theme CSS.
+ */
+
+/* Override the theme’s palette variables for YOUR brand */
 :root {
-  --border: 1px solid #D4D4D4;
-  --color-default: #FAF9F6;
-  --color-primary: #6A9E9F;
-  --color-neutral: #F2F2EF;
-  --color-neutral-darker: #E5E5E2;
-  --color-contrast: #4F4F4F;
+  /* Light theme – these override the theme’s defaults in simple.css */
+  --accent: #6A9E9F;                /* Primary accent */
+  --accent-bg: #F2F2EF;             /* Very subtle neutral bg – not pure white */
+  --text: #4F4F4F;                  /* Main readable text (not pure black) */
+  --text-light: #ABABAB;            /* Lighter/deemphasized text & captions */
+  --border: #D4D4D4;                /* Borders, rules, divider lines */
+  --bg: #FAF9F6;                    /* Page background – a warm off-white */
+  --disabled: #EFEFEF;              /* Disabled controls look, per theme */
+  --code: #D81B60;                  /* Inline code color */
+  --preformatted: #444;             /* Code block text color */
+  --marked: #FFDD33;                /* Highlight/mark yellow */
 }
 
-/* Set base body colors using the custom palette */
+/* Override theme’s dark mode variables for YOUR palette */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #6A9E9F;              /* Keep your accent – nice teal stands out */
+    --accent-bg: #2b2b2b;           /* Dark accent bg */
+    --text: #e0e0e0;                /* Light text for readability */
+    --text-light: #999;             /* Muted, less important */
+    --border: #444;                 /* Subtle, non-glaring border in dark */
+    --bg: #121212;                  /* Full dark for dark UIs */
+    --disabled: #111;               /* Barely visible disabled elements */
+    --code: #f06292;                /* Bright pink/magenta for code */
+    --preformatted: #ccc;           /* Light code block text */
+    --marked: #ffe033;              /* Highlight yellow for dark mode */
+  }
+  /* Slightly dim images in dark for comfort */
+  img, video {
+    opacity: 0.9;
+  }
+}
+
+/* Base page – ensures your palette is applied everywhere */
 body {
-  background-color: var(--color-default);
-  color: var(--color-contrast);
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--sans-font);
 }
 
-/* Make all links use the primary color */
-a {
-  color: var(--color-primary);
+/* Links use your accent for clarity */
+a, a:visited {
+  color: var(--accent);
+}
+a:hover {
+  text-decoration: none;
 }
 
-/* Style header with neutral color and subtle border */
-header {
-  background-color: var(--color-neutral);
-  border-bottom: var(--border);
+/* Make buttons/nav elements use your accent */
+button,
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+button:hover:enabled,
+.button:hover:enabled,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:enabled:hover,
+input[type="button"]:enabled:hover {
+  background-color: #5A8E8F; /* Slightly darker accent on hover */
+  border-color: #5A8E8F;
 }
 
-/* Use the default background inside <main> */
-main {
-  background-color: var(--color-default);
+/* Theme’s header – respect your accent-bg */
+body > header {
+  background-color: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
 }
 
-/* Style code blocks for readability and separation */
-code, pre {
-  background-color: var(--color-neutral);
-  border: var(--border);
-}
-
-/* Navigation: basic link styling for all nav links */
-nav a {
-  /* Appearance for default navigation links */
+/* Theme’s nav links – clean, readable, hover/current state is obvious */
+header nav a,
+header nav a:visited {
+  color: var(--text);
+  border-color: var(--border);
+  background-color: var(--accent-bg);
   padding: 6px 12px;
   border: 1px solid transparent;
   text-decoration: none;
   display: inline-block;
   margin: 2px;
 }
-
-/* Navigation: highlight the current/active page link */
-nav a.nav-current {
-  background-color: white;
-  border: 1px solid var(--color-contrast);
-  color: white; 
+header nav a:hover,
+header nav a.current,
+header nav a[aria-current="page"],
+header nav a[aria-current="true"] {
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  cursor: pointer;
 }
 
-/* Gallery layout - flexbox for horizontal/vertical alignment 
-   Used if you present a group of images in a grid/gallery page. */
+/* Main content area keeps your bg */
+main {
+  background-color: var(--bg);
+}
+
+/* Code/Pre – subtle, readable, non-glaring in either mode */
+code, pre {
+  background-color: var(--accent-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+code {
+  color: var(--code);
+}
+pre {
+  color: var(--preformatted);
+}
+div.highlight code, div.highlight pre, div.highlight pre span {
+  color: inherit; /* Prevent highlight.js from overriding theme color */
+}
+
+/* Gallery – flexbox for grids, easy to use in markdown */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem; /* space between images */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
 }
-
-/* Individual gallery images spacing (if .gallery-image used) */
 .gallery-image {
-    display: block;
-    margin: 0.5rem;
+  display: block;
+  margin: 0.5rem;
 }
 
-/* Section break element inside posts (e.g. horizontal rule alternative) */
+/* Custom divider – a horizontal rule alternative */
 .custom-divider {
   text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  color: #ccc;          /* divider color */
-  font-size: 1.0em;     /* divider size */
+  margin: 0.5em 0;
+  color: var(--border);
+  font-size: 1em;
 }
 
-/* Center all inline content (including images and captions) 
-   within <figure> blocks—used for both standard and Hugo shortcode images */
+/* Figure/Image – center logic, lightbox support */
 figure {
   text-align: center;
+  margin: 1rem 0;
 }
-
-/* Robust centering of images inside <figure> 
-   Always centers block-level images, regardless of parent alignment */
 figure img {
   display: block;
   margin: 0 auto;
+  border-radius: var(--standard-border-radius);
 }
-
-/* Keep the lightbox anchor tightly wrapping its child image 
-   Ensures centering logic in <figure> works and avoids full-width anchors */
 figure a.glightbox {
   display: inline-block;
 }
 
-/* Custom Styling for Warnings */
+/* Icon – use with inline SVG, aligns nicely */
+.icon {
+  vertical-align: sub;
+  padding-right: 0.25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1.3em;
+  margin-right: 0.2rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* Custom warning – for editorial notes */
 .image-warning {
   color: #b00;
   font-weight: bold;
   font-size: 0.95em;
 }
 
+/* Blog post list – theme’s default but with your spacing */
+ul.blog-posts {
+  padding-left: 0;
+}
+ul.blog-posts > li {
+  list-style-type: none;
+  display: flex;
+}
+ul.blog-posts > li span {
+  flex: 0 0 130px;
+  color: var(--text-light);
+}
+
+/* Flex utility – handy for layout components */
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* TOC nav – remove excess margin */
+nav#TableOfContents > ul {
+  margin-block-start: 0;
+}
