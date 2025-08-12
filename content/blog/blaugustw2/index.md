@@ -1,6 +1,6 @@
 +++
-title = "Introduce Yourself. Blaugust Week 2. August 7th – August 13th"
-description = 'I was just following prompts.'
+title = "Blaugust Week 2. August 7th - August 13th"
+description = "Introduce Yourself. I was just following prompts."
 date = 2025-08-12T16:00:13+01:00
 draft = false
 author = "Alexander"
@@ -91,5 +91,5 @@ Visit Chatham, the jewel of the Medway crown. Situated on the dip slope of the b
 
  [^1]: *The earliest memory I have of being called Bongo goes back to early infancy. My sisters used to call me Ali. We had a red revolving see-saw in the garden with white plastic seats on either end. I recall a day when I was on one side and my older brother was on the other. I remember him calling out "Aliiiii", each time his side went down and I went up, then "BONGO!" when I bounced up from the seat as the see-saw bottomed out on his end. A lot of laughs at the time. As an aside there was a popular TV magician called [Ali Bongo](https://en.wikipedia.org/wiki/Ali_Bongo_(magician)) back in those days, which I guess is why the words came to my brother's mind. After that day my brother called me Bongo pretty much all the years we grew up together. The name caught on with all his mates. On the very odd occassion we meet now, my brother and his old friends still call me Bongo when they see me.* 
  
- [^2]: *When I left school I worked at a print shop. The boss read a book with a character in it called Colonel Twisty Turner. The colonel had a twisted bowel and farted a lot. My boss thought that was hilarious and as my surname is Turner decided I should also be known as Twisty. I mentioned this name to my friends and they thought it was a great fit. Not because I farted a lot! Because of the way I got things done and turned out positive, unexpected results. Again the name stuck and travelled with me into my early twenties during the time I trained as a mental health nurse. I'm still called Twisty now by the friends from those years who I maintain contact with*.
+ [^2]: *When I left school I worked at a print shop. The boss read a book with a character in it called Colonel Twisty Turner. The colonel had a twisted bowel and farted a lot. My boss thought that was hilarious and as my surname is Turner decided I should also be known as Twisty. I mentioned this name to my friends and they thought it was a great fit. Not because I farted a lot! Because of the way I got things done and turned out positive, unexpected results. Again the name stuck and travelled with me into my early twenties during the time I trained as a mental health nurse. I'm still called Twisty now by the friends from those years who I maintain contact with*
 
