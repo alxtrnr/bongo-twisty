@@ -1,10 +1,10 @@
 +++
 title = "Blaugust Week 2: Introduce Yourself"
-description = ' '
-date = 2025-08-12T09:00:13+01:00
+description = ''
+date = 2025-08-12T16:00:13+01:00
 draft = false
 author = "Alexander"
-images = []
+images = ["hospital.jpg"]
 +++
 
 The 2nd week of Blaugust ends tomorrow. Introduce yourself is the [optional prompt](https://nerdgirlthoughts.game.blog/2025/07/25/blaugust-2025-calendar-weekly-prompts/) for the week.  That'll do me for today...
