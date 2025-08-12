@@ -1,6 +1,6 @@
 +++
-title = "Blaugust Week 2: Introduce Yourself"
-description = ''
+title = "Introduce Yourself. Blaugust Week 2. August 7th – August 13th"
+description = 'I was just following prompts.'
 date = 2025-08-12T16:00:13+01:00
 draft = false
 author = "Alexander"

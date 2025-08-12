@@ -1,6 +1,6 @@
 +++
 title = "My Biggest Critic"
-description = 'The so called ego has as a lot to answer for. '
+description = 'The so called ego has as a lot to answer for.'
 date = 2025-08-11T18:00:13+01:00
 draft = false
 author = "Alexander"
