@@ -13,14 +13,21 @@ The 2nd week of Blaugust ends tomorrow. Introduce yourself is the [optional prom
 **Tell us ten random facts about the human behind the blog.**
 1. The first moon landing was 179 days after I was born.
 2. Four times around the equator is about the same distance as I have cycled since 2012
-3. In 2008 I was unlawfully arrested under section 44 of the Terrorism Act 2000
+3. In 2008 I was unlawfully [arrested](https://www.bongotwisty.blog/blog/section-44/) under section 44 of the Terrorism Act 2000
 4. A registered mental health nurse since 1992
 5. Very little interest in food other than a means to not to feel hungry. Also vegetarian. 
 6. Parallel parking is a super power. 
 7. My lateral incisors never grew and there is gap between my two front teeth.
 8. We (my wife and I) have four children. All boys. 
-9. The place where I was born was in the grounds of what at the time was called a mental hospital. There was close to 2000 beds there. 
-10. I can play a Jew's harp really loudly. I am also pretty good at whistling. 
+9. I can play a Jew's harp really loudly. I am also pretty good at whistling.
+10. The place I came into the world was in the grounds of what at the time was called a mental hospital. There was close to 2000 beds there.   
+
+
+{{< glightbox-figure 
+   src="hospital.jpg" 
+   title="The Asylum, Caterham"
+   alt="Historic black-and-white photograph of The Asylum, Caterham, showing a large Victorian institutional building with a central clock tower and multiple chimneys. The frontage is symmetrical, with tall windows, ivy climbing the walls, and a central entrance. In front, there is a circular fountain featuring sculpted figures, surrounded by a neatly maintained garden area. The overall appearance is imposing and characteristic of 19th-century institutional architecture." 
+>}}
 
 
 **Tell us about your absolutely favourite entertainment media.**\
