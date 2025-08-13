@@ -7,6 +7,7 @@ author = "Alexander"
 images = []
 +++
 
+{{< center >}}
 
 Looking for distractions.\
 Putting things off.\
@@ -44,3 +45,5 @@ Start again.
 I did the thing.\
 Woop! Yeah!\
 Go me! 
+
+{{< /center >}}
