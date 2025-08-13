@@ -8,14 +8,23 @@ images = []
 +++
 
 Sustainable behaviour.\
-The type of person that does (*insert activity*).
+Be the type of person that does (*insert activity*).
 
-Overdoing any activity will jeopardise that.\
-Not every instance has to be full on.
+Do too much, you risk crashing out\
+Not everything has to be full on.
+
+Time is finite.\
+Set limits. Prioritise.\
+Do the most important things first. 
 
 Recognise and adapt to capacity.\
-Cut down for a day or two. Mitigate the risk of giving up.
+Notice how you are feeling.\
+Remember you need to...
 
 Rest.\
 Recover.\
 Restore.
+
+I got what needed to be done this afternoon.\
+Woop! Yeah!\
+Go me! 
