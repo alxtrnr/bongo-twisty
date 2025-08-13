@@ -7,15 +7,27 @@ author = "Alexander"
 images = []
 +++
 
-Sustainable behaviour.\
-Be the type of person that does (*insert activity*).
 
-Do too much, you risk crashing out\
-Not everything has to be full on.
+Looking for distractions.\
+Putting things off.\
+Avoiding work.
+
+Feeling bleurghhh...
+
+Mid morning check in.
+
+
+{{< divider >}}
+
+Sustainable behaviour.\
+A person who (*insert activity*).
+
+Do too much.\
+Then don't bother.
 
 Time is finite.\
-Set limits. Prioritise.\
-Do the most important things first. 
+Set limits.\
+Prioritise.
 
 Recognise and adapt to capacity.\
 Notice how you are feeling.\
@@ -25,6 +37,10 @@ Rest.\
 Recover.\
 Restore.
 
-I got what needed to be done this afternoon.\
+{{< divider >}}
+
+Start again. 
+
+I did the thing.\
 Woop! Yeah!\
 Go me! 
