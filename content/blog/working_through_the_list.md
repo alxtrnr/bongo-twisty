@@ -20,7 +20,7 @@ I did not add any blogs that -
 * had colours, backgrounds, images or font size that made it hard work for me to read
 * were heavy on content I'm either not interested in or find out about through other means.  
 * I could not quickly see how to find stuff
-* only had a handful of few posts
+* only had a handful of posts
 * were heavy on meta blog posts
 * had lots of graphics / artwork without any appeal to me
 
