@@ -34,17 +34,18 @@ I've read a handful of posts about comments on blogs. Much more nuanced opinions
 Added to the custom.css for this site to have the option of a grid layout for image thumbnails. 
 
 **Any Other Business**\
-During the week I read [The Darkness You Choose, The Darkness that Chooses You](https://prickly.oxhe.art/scarcity/). Prickly Oxheart writes about scarcity.\
+During the week I read [The Darkness You Choose, The Darkness that Chooses You](https://prickly.oxhe.art/scarcity/) Prickly Oxheart writes about scarcity.\
 I tried it as an experiment over the weekend. I did not eat anything from around 9pm on Friday until an early breakfast on Sunday.\
 My thinking on Saturday felt a bit sharper. I focussed on what I was doing. I felt in control. Less prone to distractions. I noticed my thoughts. I think my sense of smell became more acute, perhaps unsurprisingly, to the smell of food. I appreciated eating on Sunday. I'm going to give it another go on Tuesday and Thursday next week.
 
-I listened to [The Practice of Life](https://dynamic.wakingup.com/course/COBEEAE?code=SC62BF3A1&pack=PK7AFA7&share_id=086CA239&source=content%20share) while out on my bike on Sunday. It's a short course by Charlotte Joko Beck on seeing everyday experiences and emotions as moments for awareness and insight. 
-
-In one of the sessions ("What is Sitting?") Charlotte says...
+I listened to [The Practice of Life](https://dynamic.wakingup.com/course/COBEEAE?code=SC62BF3A1&pack=PK7AFA7&share_id=086CA239&source=content%20share) while out on my bike on Sunday. It's a short course by Charlotte Joko Beck on seeing everyday experiences and emotions as moments for awareness and insight. In one of the sessions ("What is Sitting?") Charlotte says...
 
 >“We’re always looking for something, waiting for something—for the time which will be perfect, peaceful, better, different, happy,” she says. “But we’re not suddenly going to find some mysterious place where all our troubles disappear. Our great life truly is just what we are at this very second.” 
 
 It's a question that remains with me. What am I looking for, waiting for? Answering the question is not important. Noticing the moments I am doing this will be the practice.  
+
+And in other news [Itauma stuns Whyte with first-round knockout](https://www.bbc.co.uk/sport/boxing/videos/cy5p9l9pq31o). Moses is a Chatham lad. Went to school just round the corner from where we live. Is this guy gonna' all the way! We're all cheering for Moses in our house.
+
 
 
 
