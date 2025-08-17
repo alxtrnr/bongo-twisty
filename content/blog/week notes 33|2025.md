@@ -38,7 +38,9 @@ During the week I read [The Darkness You Choose, The Darkness that Chooses You](
 I tried it as an experiment over the weekend. I did not eat anything from around 9pm on Friday until an early breakfast on Sunday.\
 My thinking on Saturday felt a bit sharper. I focussed on what I was doing. I felt in control. Less prone to distractions. I noticed my thoughts. I think my sense of smell became more acute, perhaps unsurprisingly, to the smell of food. I appreciated eating on Sunday. I'm going to give it another go on Tuesday and Thursday next week.
 
-I listened to [A Substitute Life](https://dynamic.wakingup.com/course/COBEEAE?code=SC62BF3A1&pack=PK7AFA7&share_id=086CA239&source=content%20share) while out on my bike on Sunday. 
+I listened to [The Practice of Life](https://dynamic.wakingup.com/course/COBEEAE?code=SC62BF3A1&pack=PK7AFA7&share_id=086CA239&source=content%20share) while out on my bike on Sunday. It's a short course by Charlotte Joko Beck on seeing everyday experiences and emotions as moments for awareness and insight. 
+
+In one of the sessions ("What is Sitting?") Charlotte says...
 
 >“We’re always looking for something, waiting for something—for the time which will be perfect, peaceful, better, different, happy,” she says. “But we’re not suddenly going to find some mysterious place where all our troubles disappear. Our great life truly is just what we are at this very second.” 
 
