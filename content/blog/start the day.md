@@ -1,6 +1,6 @@
 +++
 title = 'Start the day'
-description = 'Week Notes'
+description = ''
 date = 2025-08-18T12:13:13+01:00
 draft = false
 author = "Alexander"
