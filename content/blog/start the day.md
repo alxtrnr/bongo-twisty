@@ -6,12 +6,12 @@ draft = false
 author = "Alexander"
 +++
 
-Monday morning. I like Mondays. My body clock wakes me just before 5.00 am. I lie in bed thinking about going out for a ride. Thoughts come to mind about how to realise what intentions I have for this week. Arranging, organising, setting routines. I am pleased I still work on stuff like this. That I remain hopeful about what's possible. I decide I will go out on my bike this evening and tomorrow morning. 
+ My body clock wakes me just before 5.00 am. It's Monday morning. I like Mondays. I lie in bed thinking about going out for a ride. Thoughts then come to mind about how to realise what intentions I have for this week. Arranging, organising, setting routines. I am pleased I still work on stuff like this. That I remain hopeful about what's possible. I decide I will go out on my bike this evening and tomorrow morning. 
 
 I go down stairs, put the kettle on. Feel a bit grumpy about two greasy oven trays left on the side. I didn't eat what was prepared on them. I wash and tidy up. I accept it's more important to me than it is to others. As much as I might like others to be more like me in this regard that's never changed a thing. 
 
 Take a cup of tea back upstairs. I have a quick read about Bodhicharya Kent, a Buddhist group based near where I live. I've been thinking about going along to one of the meetings since it opened at the beginning of July. Meetings are on Tuesdays.\
-I look at the images on the website. I run a commentary in my mind about the groups of smiley people pictured. I start to feel a little reluctant about going along. This is my reaction to what is clearly meant to be welcoming. I try to imagine myself in the pictures. It does not come to me. Decided not to let my reaction influence my decision to not go along tomorrow.
+I look at the images on the website. I run a commentary in my mind about the groups of smiley people pictured. I start to feel a little reluctant about going along. This is my reaction to what is clearly meant to be welcoming. I try to imagine myself in the pictures. It does not come to me. Decided to not let my reaction influence my decision to along tomorrow.
 
 I get up. Have some breakfast followed by 20 minutes meditation. I meditate most days. I have done since around 2009. It benefits me. In many of the ways you may hear attributed to the practice. Started with 30 seconds or so. Reading Leo Babatu's work on [Zen Habits](https://zenhabits.net) helped me get started. 
 
