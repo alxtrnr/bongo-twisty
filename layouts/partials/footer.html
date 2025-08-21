@@ -1,15 +1,12 @@
 <footer>
   <div class="footer-content">
     <p>
-      &copy; 2006 - {{ now.Year }} {{ .Site.Title }}. All rights reserved | {{ T "made_with" }}
-      <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+      &copy; 2006 - {{ now.Year }} {{ .Site.Title }}. 
+      Except where otherwise noted, content licensed under 
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener noreferrer" target="_blank">
+        CC BY-NC 4.0
+      </a>.
     </p>
-    <div class="social-links">
-      {{- $total := len .Site.Params.social -}}
-      {{- range $i, $v := .Site.Params.social -}}
-        <a href="{{ $v.url }}"{{ with $v.rel }} rel="{{ . }}"{{ end }} title="{{ $v.title }}">{{ $v.name }}</a>{{ if lt (add $i 1) $total }}&nbsp;{{ end }}
-      {{- end -}}
-    </div>
   </div>
 </footer>
 <!-- GLightbox JS: Load the self-hosted library file -->

@@ -7,12 +7,12 @@
 /* Override the theme’s palette variables for YOUR brand */
 :root {
   /* Light theme – these override the theme’s defaults in simple.css */
-  --accent: #6A9E9F;                /* Primary accent */
-  --accent-bg: #F2F2EF;             /* Very subtle neutral bg – not pure white */
-  --text: #4F4F4F;                  /* Main readable text (not pure black) */
-  --text-light: #ABABAB;            /* Lighter/deemphasized text & captions */
+  --accent: #63927E;                /* Primary accent */
+  --accent-bg: #EFF5F3;             /* Very subtle neutral bg – not pure white */
+  --text: #23382F;                  /* Main readable text (not pure black) */
+  --text-light: #7BAD97;            /* Lighter/deemphasized text & captions */
   --border: #D4D4D4;                /* Borders, rules, divider lines */
-  --bg: #FAF9F6;                    /* Page background – a warm off-white */
+  --bg: #F9FBFA;                    /* Page background – a warm off-white */
   --disabled: #EFEFEF;              /* Disabled controls look, per theme */
   --code: #D81B60;                  /* Inline code color */
   --preformatted: #444;             /* Code block text color */
@@ -43,8 +43,11 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: var(--sans-font);
+  /* Use system font stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+
+
 
 /* Links use your accent for clarity */
 a, a:visited {
@@ -60,7 +63,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: var(--accent);
+  background-color: var(--accent-bg);
   color: white;
   border-color: var(--accent);
 }
@@ -75,7 +78,7 @@ input[type="button"]:enabled:hover {
 
 /* Theme’s header – respect your accent-bg */
 body > header {
-  background-color: var(--accent-bg);
+  background-color: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 
