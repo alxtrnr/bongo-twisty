@@ -148,14 +148,14 @@ div.highlight code, div.highlight pre, div.highlight pre span {
 .site-title,
 .site-subtitle,
 header nav {
-  text-align: left;
+  text-align: center;
 }
 
 /* Make navigation buttons align horizontally, left anchored */
 header nav {
   display: flex;
   gap: 0.7em;           /* spacing between nav items */
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 0.5em 0 1em 0;
 }
@@ -329,6 +329,7 @@ nav#TableOfContents > ul {
   header nav {
     flex-wrap: wrap;
     gap: 0.5em;
+    justify-content: center; /* Ensure centering on mobile too */
   }
 
   header nav a {
