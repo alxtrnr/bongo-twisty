@@ -374,31 +374,46 @@ nav#TableOfContents > ul {
   }
 */
 
-/* Responsive navigation: wraps menu and shrinks padding on small screens */
+/* =================================================================
+   MOBILE OPTIMIZATIONS - Galaxy S23 & Similar Devices
+   ================================================================= */
+
+/* Reduce padding for better content utilization */
 @media (max-width: 600px) {
-  header nav {
-    flex-wrap: wrap;
-    gap: 0.5em;
-    justify-content: center; /* Ensure centering on mobile too */
+  .site-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+}
 
+/* Galaxy S23 sweet spot (393px wide) */
+@media (min-width: 381px) and (max-width: 480px) {
+  .site-container {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+  
   header nav a {
-    padding: 4px 8px;
+    padding: 6px 11px;
     font-size: 0.9em;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
   }
 }
 
-/* Blog post list: stack date/title vertically on narrow screens */
-@media (max-width: 480px) {
-  ul.blog-posts > li {
-    flex-direction: column;
-    margin-bottom: 1rem;
+/* Compact phones */
+@media (max-width: 380px) {
+  .site-container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
-
-  ul.blog-posts > li span {
-    flex: none;
-    font-size: 0.9em;
-    margin-bottom: 0.25rem;
+  
+  .gallery-grid {
+    grid-template-columns: 1fr;
   }
 }
+
 

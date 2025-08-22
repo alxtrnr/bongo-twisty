@@ -26,7 +26,8 @@ He may be clearing you out\
 for some new delight.*
 
 *The dark thought, the shame, the malice,\
-meet them at the door laughing, and invite them in.*
+meet them at the door laughing,\
+and invite them in.*
 
 *Be grateful for whoever comes,\
 because each has been sent\
