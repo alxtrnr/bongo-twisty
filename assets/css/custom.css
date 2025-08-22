@@ -7,16 +7,16 @@
 /* Override the theme’s palette variables for YOUR brand */
 :root {
   /* Light theme – these override the theme’s defaults in simple.css */
-  --accent: #63927E;                /* Primary accent */
-  --accent-bg: #EFF5F3;             /* Very subtle neutral bg – not pure white */
-  --text: #23382F;                  /* Main readable text (not pure black) */
-  --text-light: #7BAD97;            /* Lighter/deemphasized text & captions */
-  --border: #D4D4D4;                /* Borders, rules, divider lines */
-  --bg: #F9FBFA;                    /* Page background – a warm off-white */
-  --disabled: #EFEFEF;              /* Disabled controls look, per theme */
-  --code: #D81B60;                  /* Inline code color */
-  --preformatted: #444;             /* Code block text color */
-  --marked: #FFDD33;                /* Highlight/mark yellow */
+  --accent: #63927E;           /* Primary accent (used for buttons, links, and highlights) */
+  --accent-bg: #EFF5F3;        /* Subtle accent background (pale green-tinged, not pure white) */
+  --text: #23382F;             /* Main readable text (very dark green, high contrast) */
+  --text-light: #7BAD97;       /* Lighter/deemphasized text & captions (soft green) */
+  --border: #D4D4D4;           /* Borders, rules, divider lines (neutral light grey) */
+  --bg: #F9FBFA;               /* Page background (pale near-white, subtle green) */
+  --disabled: #EFEFEF;         /* Disabled controls (light neutral grey) */
+  --code: #D81B60;             /* Inline code or code highlight (strong magenta accent) */
+  --preformatted: #444;        /* Code block text color (dark grey for readability) */
+  --marked: #FFDD33;           /* Highlight/mark (bright yellow for emphasis) */
 }
 
 /* Override theme’s dark mode variables for YOUR palette */
@@ -76,7 +76,7 @@ input[type="button"]:enabled:hover {
   border-color: #5A8E8F;
 }
 
-/* Theme’s header – respect your accent-bg */
+/* Theme’s header – respect your --bg */
 body > header {
   background-color: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -124,6 +124,57 @@ pre {
 div.highlight code, div.highlight pre, div.highlight pre span {
   color: inherit; /* Prevent highlight.js from overriding theme color */
 }
+
+
+/* Consistent width for header and body */
+.site-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.site-container,  /* ensures both header and main use same layout */
+.main, 
+.content,
+.single,
+.markdown-body {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  box-sizing: border-box;
+}
+
+/* Left align the main header elements */
+.site-title,
+.site-subtitle,
+header nav {
+  text-align: left;
+}
+
+/* Make navigation buttons align horizontally, left anchored */
+header nav {
+  display: flex;
+  gap: 0.7em;           /* spacing between nav items */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5em 0 1em 0;
+}
+
+/* Target nav buttons for visual consistency (optional) */
+header nav a {
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+
+
+/* set width of blog post div *
+body.blog main {
+  max-width: 60rem;     /* Increase default 640px → 900px */
+  margin: 0 auto;       /* Keep it centered */
+  padding: 1.5rem;      /* Give some breathing room */
+}
+
 
 /* Gallery – flexbox for grids, easy to use in markdown */
 .gallery {
@@ -272,3 +323,31 @@ nav#TableOfContents > ul {
     }
   }
 */
+
+/* Responsive navigation: wraps menu and shrinks padding on small screens */
+@media (max-width: 600px) {
+  header nav {
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  header nav a {
+    padding: 4px 8px;
+    font-size: 0.9em;
+  }
+}
+
+/* Blog post list: stack date/title vertically on narrow screens */
+@media (max-width: 480px) {
+  ul.blog-posts > li {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  ul.blog-posts > li span {
+    flex: none;
+    font-size: 0.9em;
+    margin-bottom: 0.25rem;
+  }
+}
+

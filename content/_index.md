@@ -7,7 +7,7 @@ tags = []
 toc = true
 +++
 
-{{< center >}}
+
 ## Welcome!
 
 This being human is a guest house.
@@ -34,5 +34,3 @@ because each has been sent
 as a guide from beyond.
 
 *The Guest House, by Jalaluddin Rumi*
-
-{{< /center >}}
