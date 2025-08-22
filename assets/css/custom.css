@@ -324,35 +324,23 @@ nav#TableOfContents > ul {
   }
 */
 
-/* Combined mobile responsive styles */
+/* Responsive navigation: wraps menu and shrinks padding on small screens */
 @media (max-width: 600px) {
-  /* Center-align all main content on mobile */
-  .site-container,
-  main,
-  .content,
-  .single,
-  .intro,
-  ul.blog-posts,
-  nav.pagination {
-    text-align: center;
-  }
-
-  /* Responsive navigation: wraps menu and shrinks padding */
   header nav {
     flex-wrap: wrap;
     gap: 0.5em;
-    justify-content: center; /* Center nav buttons on mobile */
   }
 
   header nav a {
     padding: 4px 8px;
     font-size: 0.9em;
   }
+}
 
-  /* Blog post list: stack date/title vertically and center */
+/* Blog post list: stack date/title vertically on narrow screens */
+@media (max-width: 480px) {
   ul.blog-posts > li {
     flex-direction: column;
-    align-items: center;
     margin-bottom: 1rem;
   }
 
@@ -362,3 +350,4 @@ nav#TableOfContents > ul {
     margin-bottom: 0.25rem;
   }
 }
+
