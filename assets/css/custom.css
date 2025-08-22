@@ -191,7 +191,7 @@ header nav a {
     max-height: 300px;          /* Prevent tall header images; tune as needed */
     object-fit: cover;          /* Crop image if too tall */
     border-radius: 6px;         /* Subtle rounded corners, optional */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Soft shadow for contrast */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* Soft shadow for contrast */
     display: block;
     margin: 0 auto;             /* Center if smaller than container */
 }
