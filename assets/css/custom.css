@@ -416,4 +416,28 @@ nav#TableOfContents > ul {
   }
 }
 
+/* Mobile footer alignment */
+@media (max-width: 600px) {
+  body > footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Galaxy S23 optimization */
+@media (min-width: 381px) and (max-width: 480px) {
+  body > footer {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+}
+
+/* Compact phones */
+@media (max-width: 380px) {
+  body > footer {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
 
