@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <!-- Header Image Section using Page Resources -->
+  {{ $image := .Resources.GetMatch "header-banner.webp" }}
+  {{ if $image }}
+    <div class="home-header-image">
+      <img src="{{ $image.RelPermalink }}" alt="Header Banner" />
+    </div>
+  {{ end }}
+
+  <!-- Site Description/Tagline -->
+  {{ with .Site.Params.description }}
+    <div class="home-intro">
+      <p>{{ . }}</p>
+    </div>
+  {{ end }}
+
+  <!-- Home Page Content -->
+  {{ .Content }}
+
+  <!-- Recent Posts Section -->
+  {{ $mainSection := index .Site.MainSections 0 }}
+  {{ with .Site.GetPage $mainSection }}
+    <h2>Most recent posts...</h2>
+    <ul class="blog-posts">
+      {{ range first 5 .Pages }}
+        <li>
+          <span>{{ .Date.Format "02 Jan 2006" }}</span>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}

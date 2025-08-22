@@ -3,11 +3,18 @@
     {{- with .Title }}
       <h1 class="site-title">{{ . }}</h1>
     {{- end }}
-    {{ with .Description }}
-      <div class="site-subtitle">{{ . }}</div>
-    {{ end }}
     <nav>
       {{- partial "nav.html" . -}}
     </nav>
+
+    {{ if .IsHome }}
+      <div class="home-header-image">
+        <img src="{{ "header-banner.webp" | relURL }}" alt="BongoTwisty Header">
+      </div>
+    {{ end }}
+
+    {{ with .Description }}
+      <div class="site-subtitle">{{ . }}</div>
+    {{ end }}
   </div>
 </header>

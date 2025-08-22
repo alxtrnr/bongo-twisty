@@ -176,6 +176,55 @@ header nav a {
   border-radius: 4px;
 }
 
+/* Home page header image - optimized for 1272x300 dimensions */
+
+
+.home-header-image {
+    margin: .20rem 0 0.5rem 0;  /* Space above and especially below image */
+    text-align: center;         /* Center image inside its container */
+}
+
+.home-header-image img {
+    width: 100%;                /* Restrict to container width */
+    max-width: 900px;           /* Optional: cap very wide screens */
+    height: auto;               /* Maintain aspect ratio */
+    max-height: 300px;          /* Prevent tall header images; tune as needed */
+    object-fit: cover;          /* Crop image if too tall */
+    border-radius: 6px;         /* Subtle rounded corners, optional */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Soft shadow for contrast */
+    display: block;
+    margin: 0 auto;             /* Center if smaller than container */
+}
+
+/* Home page intro text */
+.home-intro {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.1em;
+  color: var(--text-light);
+}
+
+/* Responsive adjustments for your 1272x300 image */
+@media (max-width: 600px) {
+    .home-header-image {
+        margin: 1rem 0 1.5rem 0; /* Positive margins for header placement */
+    }
+    
+    .home-header-image img {
+        max-width: 100%;
+        max-height: 140px; /* More conservative height for mobile */
+        border-radius: 4px;
+    }
+}
+
+/* Homepage-only: Spacing between header and content. Targets pages that have both site-subtitle and home-header-image */
+body:has(.site-subtitle):has(.home-header-image) main {
+    margin-top: -2rem;
+}
+
+body:has(.site-subtitle):has(.home-header-image) main h2:first-child {
+    margin-top: 0;
+}
 
 /* Gallery – flexbox for grids, easy to use in markdown */
 .gallery {
