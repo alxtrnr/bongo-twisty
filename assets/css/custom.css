@@ -378,11 +378,27 @@ nav#TableOfContents > ul {
    MOBILE OPTIMIZATIONS - Galaxy S23 & Similar Devices
    ================================================================= */
 
-/* Reduce padding for better content utilization */
+/* Base mobile adjustments - 600px and below */
 @media (max-width: 600px) {
   .site-container {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  
+  body > footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  header nav {
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+  }
+
+  header nav a {
+    padding: 4px 8px;
+    font-size: 0.9em;
   }
 }
 
@@ -393,11 +409,16 @@ nav#TableOfContents > ul {
     padding-right: 0.875rem;
   }
   
+  body > footer {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+
   header nav a {
     padding: 6px 11px;
     font-size: 0.9em;
   }
-  
+
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
@@ -411,33 +432,26 @@ nav#TableOfContents > ul {
     padding-right: 0.75rem;
   }
   
+  body > footer {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
 }
 
-/* Mobile footer alignment */
-@media (max-width: 600px) {
-  body > footer {
-    padding-left: 1rem;
-    padding-right: 1rem;
+/* Blog post mobile layout */
+@media (max-width: 480px) {
+  ul.blog-posts > li {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  ul.blog-posts > li span {
+    flex: none;
+    font-size: 0.9em;
+    margin-bottom: 0.25rem;
   }
 }
-
-/* Galaxy S23 optimization */
-@media (min-width: 381px) and (max-width: 480px) {
-  body > footer {
-    padding-left: 0.875rem;
-    padding-right: 0.875rem;
-  }
-}
-
-/* Compact phones */
-@media (max-width: 380px) {
-  body > footer {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-}
-
-
