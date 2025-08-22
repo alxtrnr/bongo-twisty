@@ -132,10 +132,11 @@ div.highlight code, div.highlight pre, div.highlight pre span {
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  box-sizing: border-box;
 }
 
-.site-container,  /* ensures both header and main use same layout */
-.main, 
+/* Reset margins/padding only for content elements, NOT the container */
+.main,
 .content,
 .single,
 .markdown-body {
@@ -143,6 +144,15 @@ div.highlight code, div.highlight pre, div.highlight pre span {
   padding-left: 0 !important;
   box-sizing: border-box;
 }
+
+/* Ensure main content is centered within the container */
+main {
+  background-color: var(--bg);
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: left; /* Keep text left-aligned within the centered container */
+}
+
 
 /* Left align the main header elements */
 .site-title,
@@ -164,15 +174,6 @@ header nav {
 header nav a {
   padding: 6px 12px;
   border-radius: 4px;
-}
-
-
-
-/* set width of blog post div *
-body.blog main {
-  max-width: 60rem;     /* Increase default 640px → 900px */
-  margin: 0 auto;       /* Keep it centered */
-  padding: 1.5rem;      /* Give some breathing room */
 }
 
 
@@ -240,7 +241,7 @@ ul.blog-posts > li {
   display: flex;
 }
 ul.blog-posts > li span {
-  flex: 0 0 130px;
+  flex: 0 0 125px;
   color: var(--text-light);
 }
 

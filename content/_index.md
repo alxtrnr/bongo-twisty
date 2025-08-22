@@ -7,11 +7,8 @@ tags = []
 toc = true
 +++
 
-
 {{< center >}}
-
-### Welcome!
-
+## Welcome!
 
 *This being human is a guest house.
 Every morning a new arrival.*
