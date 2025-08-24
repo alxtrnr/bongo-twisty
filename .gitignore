@@ -1,19 +1,22 @@
-# Hugo build output
-/public/
-/resources/_gen/
+# Hugo build output (generated; do not commit)
+public/
 
-# Hugo cache and temporary files
+# Hugo generated resources cache (generated; do not commit)
+resources/_gen/
+
+# Hugo build lock and optional stats
 .hugo_build.lock
-/resources/
+# If a future pipeline needs this as an input, remove from ignore and commit it
 hugo_stats.json
 
-# Node.js dependencies (if using npm/yarn for asset processing)
+# Node.js dependencies and logs (only relevant if you adopt Node tooling)
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
-yarn.lock
+# When/if you adopt a package manager, commit ONE lockfile for reproducible builds and keep the other ignored:
+# package-lock.json
+# yarn.lock
 
 # Operating System files
 .DS_Store
@@ -31,7 +34,7 @@ Thumbs.db
 *.swo
 *~
 
-# Temporary files
+# Temporary/cache files
 *.tmp
 *.temp
 .cache/
