@@ -11,4 +11,5 @@ From [Spencer Greenberg’s One Helpful Idea Newsletter](https://www.spencergree
 
 > What's something someone can do the first time you meet them that makes you find them much more appealing?
 
-Cheerful and upbeat. A positive intonation. Smiles. Laughter. Enthusiasm and interest. Listening and responding. It brings out the best in me. It works both ways. When I'm like that towards others, people seem more interesting and appealing to me. 
+Cheerful and upbeat. A positive intonation. Smiles. Laughter. Enthusiasm and interest. Listening and responding. It brings out the best in me. When I'm like that people seem more interesting and appealing to me too.
+
