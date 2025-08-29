@@ -1,7 +1,7 @@
 +++
 title = "Blaugust Week 4. August 21st - August 27th"
 description = "Staying Motivated Week"
-date = 2025-08-28T08:53:13+01:00
+date = 2025-08-29T08:53:13+01:00
 draft = false
 author = "Alexander"
 images = []
@@ -26,8 +26,6 @@ So going on the premise of not feeling motivated how do I get anything done at a
 - I get things done to meet contractual expectations. Employment, finance, familial, societal obligations and so on. 
 
 I am lazy and aimless by default. In a conservation of energy and free spirit kind way. I don't need to be motivated to get things done. I just get on and do stuff regardless. 
-
-{{< divider >}}
 
 When thing's feel impossible? If something feels impossible I'm not even going to try. If I decide to have a go and do something I'll leave it to others to pontificate over whether me doing that thing is possible or not. I will find a way. I will adapt. I'll use my imagination. I will take a different approach. There's more than one way to skin a cat. Self belief goes a long way.
 
