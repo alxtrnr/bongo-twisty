@@ -7,11 +7,7 @@ author = "Alexander"
 images = ["ladies.jpg"]
 +++
 
-Fancied the idea of arranging image thumbnails in a grid. Quickest / easiest way to do this was to ask an LLM to write the CSS and add in some useful comments for learning and reference. 
-
-{{< divider >}}  
-
-Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. They're a distinctly British tradition.
+Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition.
 
 <div class="gallery-grid">
   {{< glightbox-figure src="noah.jpg" title="Noah's Ark" alt="Knitted Noah’s Ark scene on a post box. The decoration includes a knitted ark with black and white zebras, a chicken perched on top, two people in raincoats and boots, and a crocodile. The display sits in front of a brick wall and leafy trees." >}}
@@ -25,6 +21,8 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
   {{< glightbox-figure src="pirates.jpg" title="Pirates" alt="A pirate-themed knitted scene atop a red post box. The display features multiple pirates, a treasure chest, a shark, a palm tree, and a mermaid with pink hair, all crafted with yarn and arranged on a blue crocheted base, with houses and a traffic light in the background." >}}  
 
   {{< glightbox-figure src="beach.jpg" title="On the Beach" alt="Knitted figures of people, fish, and sea creatures arranged on a crocheted yellow cover over a red post box, with a stone wall and greenery in the background." >}}
+
+  {{< glightbox-figure src="hairdresser.webp" title="Hairdressing" alt="A crocheted postbox topper featuring hairdressing items including pink hair curlers, gray scissors, shampoo and conditioner bottles with labels, and pink hair rollers arranged on a white base with orange and white striped edging." >}}
 </div>
 
 I think they're great. I imagine a lot of laughs go into their creation. 
