@@ -4,7 +4,7 @@ description = "A symptomatic approach to societal ills"
 date = 2025-08-30T17:35:13+01:00
 draft = false
 author = "Alexander"
-images = []
+images = ["borstal.webp"]
 +++
 
 {{< glightbox-figure 
