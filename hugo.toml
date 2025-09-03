@@ -54,7 +54,7 @@ name = "Blog"
 pageRef = "/blog"
 weight = 20
 [[menu.main]]
-name = "Photos"
+name = "Images"
 pageRef = "/gallery/"
 weight = 30
 [[menu.main]]
