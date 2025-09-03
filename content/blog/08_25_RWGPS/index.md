@@ -4,7 +4,8 @@ description = "Monthly Recap"
 date = 2025-09-02T22:10:13+01:00
 draft = false
 author = "Alexander"
-images = []
+images = ["08_25_RWGPS recap.webp"]
+tags = ["cycling"]
 +++
 
 {{< glightbox-figure 
