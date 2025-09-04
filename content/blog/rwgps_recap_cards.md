@@ -11,7 +11,7 @@ I've had a [Ride with GPS](https://ridewithgps.com) account for years. The mappi
 
 Over the years I have saved a few. Collections are good. Recently realised how to generate them for all the years and months I have missed or deleted. If you have an account it's very easy to do. All you need to do is modify the link RWGPS share with you to a monthly recap. For a different month and year just edit the respective fields. For the year card delete the month field and just enter whatever year you're after. 
 
-## How To Generate Missing Cards
+### How To Generate Missing Cards
 
 - Use a previously shared Ride with GPS recap card link as a template.
 
@@ -20,7 +20,7 @@ Over the years I have saved a few. Collections are good. Recently realised how t
   - Set `year` to the desired four-digit year (e.g., `2023`).
 - To create a **yearly card**, remove the `month` field entirely and only specify the year.
 
-## Example Templates
+### Example Templates
 
 **Monthly card:**  
 
