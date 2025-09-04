@@ -23,15 +23,15 @@ Over the years I have saved a few. Collections are good. Recently realised how t
 ## Example Templates
 
 **Monthly card:**  
-```plaintext
-https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&month=8&otu=&year=2025
-```
+
+`https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&month=8&otu=&year=2025`
+
 Edit `USERID`, `month`, and `year` as needed.
 
 **Yearly card:**  
-```plaintext
-https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&year=2025
-```
+
+`https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&year=2025`
+
 Just remove the `month` parameter for a yearly summary.
 
 Doing this I created a card for every year from 2012. [RWGPS Year Recap](http://localhost:1313/bongo-twisty/gallery/cycling/rwgps_years/). Planning on creating retrospective posts for all the monthly cards. I love a collection. 
