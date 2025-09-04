@@ -154,6 +154,17 @@ main {
 }
 
 
+/*Enable Word-Wrapping*/
+pre, code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+a {
+  word-break: break-all;
+}
+
+
 /* Left align the main header elements */
 .site-title,
 .site-subtitle,

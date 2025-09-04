@@ -24,7 +24,7 @@ Over the years I have saved a few. Collections are good. Recently realised how t
 
 **Monthly card:**  
 
-`https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&month=8&otu=&year=2025`
+`https://ridewithgps.com/users/USERID/card.jpg?h=HASHVALUE&lang=en&metric=true&month=08&otu=&year=2025`
 
 Edit `USERID`, `month`, and `year` as needed.
 
