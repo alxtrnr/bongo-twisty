@@ -494,6 +494,19 @@ nav#TableOfContents > ul {
         max-height: 140px; /* More conservative height for mobile */
         border-radius: 4px;
     }
+
+    /* Archive mobile adjustments */
+    ul.archive-list > li {
+        gap: 0.5rem; /* Tighter spacing on mobile */
+    }
+    
+    .archive-date {
+        font-size: 0.9em;
+    }
+    
+    ul.archive-list > li a {
+        font-size: 0.95em;
+    }
 }
 
 /* Small mobile devices (Galaxy S23 and similar) */
@@ -524,6 +537,15 @@ nav#TableOfContents > ul {
         margin-right: calc(-0.625rem);
         max-height: 170px;
     }
+
+    /* Archive spacing for Galaxy S23 and similar */
+    ul.archive-list > li {
+        gap: 0.4rem;
+    }
+    
+    .archive-date {
+        font-size: 0.85em;
+    }
 }
 
 /* Compact phones - minimal but functional */
@@ -541,5 +563,18 @@ nav#TableOfContents > ul {
     .gallery-grid {
         grid-template-columns: 1fr; /* Single column for very small screens */
         gap: 0.4rem;
+    }
+
+    /* Archive spacing for compact phones */
+    ul.archive-list > li {
+        gap: 0.25rem; /* Very tight spacing on small screens */
+    }
+    
+    .archive-date {
+        font-size: 0.8em;
+    }
+    
+    ul.archive-list > li a {
+        font-size: 0.9em;
     }
 }
