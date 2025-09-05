@@ -13,7 +13,7 @@ From midnight to midnight PST on Bandcamp Fridays, Bandcamp waive their revenue 
 In the UK that's from 8:00am Friday to 7:59am on Saturday. [PST Converter](https://savvytime.com/converter/pst)\
 After today the next Bandcamp Friday is on October 3rd then December 5th. 
 
-Here's what's been added to my music library this evening...
+Here's what's been added to my [collection](https://bandcamp.com/alxtrnr) this evening...
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=12893476/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://rdh-hifi.bandcamp.com/album/unreleased-dubz-2011-2018">UNRELEASED DUBZ 2011-2018 by RDH Hi-Fi</a></iframe>
 
