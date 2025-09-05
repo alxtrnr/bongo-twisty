@@ -1,59 +1,64 @@
 /*
- * Hugo Simple Theme – Your Custom CSS
- * Deeply integrated with theme variables, supports OS-driven light/dark switch.
- * Place this file in /assets/css/custom.css and load it after the theme CSS.
- */
+* Hugo Simple Theme – Your Custom CSS
+* Deeply integrated with theme variables, supports OS-driven light/dark switch.
+* Place this file in /assets/css/custom.css and load it after the theme CSS.
+*/
 
-/* Override the theme’s palette variables for YOUR brand */
+/* Override the theme's palette variables for YOUR brand */
 :root {
-  /* Light theme – these override the theme’s defaults in simple.css */
-  --accent: #63927E;           /* Primary accent (used for buttons, links, and highlights) */
-  --accent-bg: #EFF5F3;        /* Subtle accent background (pale green-tinged, not pure white) */
-  --text: #23382F;             /* Main readable text (very dark green, high contrast) */
-  --text-light: #7BAD97;       /* Lighter/deemphasized text & captions (soft green) */
-  --border: #D4D4D4;           /* Borders, rules, divider lines (neutral light grey) */
-  --bg: #F9FBFA;               /* Page background (pale near-white, subtle green) */
-  --disabled: #EFEFEF;         /* Disabled controls (light neutral grey) */
-  --code: #D81B60;             /* Inline code or code highlight (strong magenta accent) */
-  --preformatted: #444;        /* Code block text color (dark grey for readability) */
-  --marked: #FFDD33;           /* Highlight/mark (bright yellow for emphasis) */
+    /* Light theme – these override the theme's defaults in simple.css */
+    --accent: #63927E; /* Primary accent (used for buttons, links, and highlights) */
+    --accent-bg: #EFF5F3; /* Subtle accent background (pale green-tinged, not pure white) */
+    --text: #23382F; /* Main readable text (very dark green, high contrast) */
+    --text-light: #7BAD97; /* Lighter/deemphasized text & captions (soft green) */
+    --border: #D4D4D4; /* Borders, rules, divider lines (neutral light grey) */
+    --bg: #F9FBFA; /* Page background (pale near-white, subtle green) */
+    --disabled: #EFEFEF; /* Disabled controls (light neutral grey) */
+    --code: #D81B60; /* Inline code or code highlight (strong magenta accent) */
+    --preformatted: #444; /* Code block text color (dark grey for readability) */
+    --marked: #FFDD33; /* Highlight/mark (bright yellow for emphasis) */
 }
 
-/* Override theme’s dark mode variables for YOUR palette */
+/* Override theme's dark mode variables for YOUR palette */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --accent: #6A9E9F;              /* Keep your accent – nice teal stands out */
-    --accent-bg: #2b2b2b;           /* Dark accent bg */
-    --text: #e0e0e0;                /* Light text for readability */
-    --text-light: #999;             /* Muted, less important */
-    --border: #444;                 /* Subtle, non-glaring border in dark */
-    --bg: #121212;                  /* Full dark for dark UIs */
-    --disabled: #111;               /* Barely visible disabled elements */
-    --code: #f06292;                /* Bright pink/magenta for code */
-    --preformatted: #ccc;           /* Light code block text */
-    --marked: #ffe033;              /* Highlight yellow for dark mode */
-  }
-  /* Slightly dim images in dark for comfort */
-  img, video {
-    opacity: 0.9;
-  }
+    :root {
+        --accent: #6A9E9F; /* Keep your accent – nice teal stands out */
+        --accent-bg: #2b2b2b; /* Dark accent bg */
+        --text: #e0e0e0; /* Light text for readability */
+        --text-light: #999; /* Muted, less important */
+        --border: #444; /* Subtle, non-glaring border in dark */
+        --bg: #121212; /* Full dark for dark UIs */
+        --disabled: #111; /* Barely visible disabled elements */
+        --code: #f06292; /* Bright pink/magenta for code */
+        --preformatted: #ccc; /* Light code block text */
+        --marked: #ffe033; /* Highlight yellow for dark mode */
+    }
+
+    /* Slightly dim images in dark for comfort */
+    img, video {
+        opacity: 0.9;
+    }
 }
 
 /* Base page – ensures your palette is applied everywhere */
 body {
-  background-color: var(--bg);
-  color: var(--text);
-  /* Use system font stack */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    /* Use system font stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
 
 /* Links use your accent for clarity */
 a, a:visited {
-  color: var(--accent);
+    color: var(--accent);
 }
+
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+a {
+    word-break: break-all;
 }
 
 /* Make buttons/nav elements use your accent */
@@ -62,76 +67,87 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: var(--accent-bg);
-  color: white;
-  border-color: var(--accent);
+    background-color: var(--accent-bg);
+    color: white;
+    border-color: var(--accent);
 }
+
 button:hover:enabled,
 .button:hover:enabled,
 input[type="submit"]:enabled:hover,
 input[type="reset"]:enabled:hover,
 input[type="button"]:enabled:hover {
-  background-color: #5A8E8F; /* Slightly darker accent on hover */
-  border-color: #5A8E8F;
+    background-color: #5A8E8F; /* Slightly darker accent on hover */
+    border-color: #5A8E8F;
 }
 
-/* Theme’s header – respect your --bg */
+/* Theme's header – respect your --bg */
 body > header {
-  background-color: var(--bg);
-  border-bottom: 1px solid var(--border);
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
 }
 
-/* Theme’s nav links – clean, readable, hover/current state is obvious */
+/* Theme's nav links – clean, readable, hover/current state is obvious */
 header nav a,
 header nav a:visited {
-  color: var(--text);
-  border-color: var(--border);
-  background-color: var(--accent-bg);
-  padding: 6px 12px;
-  border: 1px solid transparent;
-  text-decoration: none;
-  display: inline-block;
-  margin: 2px;
+    color: var(--text);
+    border-color: var(--border);
+    background-color: var(--accent-bg);
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 4px;
 }
+
 header nav a:hover,
 header nav a.current,
 header nav a[aria-current="page"],
 header nav a[aria-current="true"] {
-  background: var(--bg);
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  cursor: pointer;
+    background: var(--bg);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    cursor: pointer;
 }
 
 /* Main content area keeps your bg */
 main {
-  background-color: var(--bg);
+    background-color: var(--bg);
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: left; /* Keep text left-aligned within the centered container */
 }
 
 /* Code/Pre – subtle, readable, non-glaring in either mode */
 code, pre {
-  background-color: var(--accent-bg);
-  border: 1px solid var(--border);
-  color: var(--text);
-}
-code {
-  color: var(--code);
-}
-pre {
-  color: var(--preformatted);
-}
-div.highlight code, div.highlight pre, div.highlight pre span {
-  color: inherit; /* Prevent highlight.js from overriding theme color */
+    background-color: var(--accent-bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    /* Enable Word-Wrapping */
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
+code {
+    color: var(--code);
+}
+
+pre {
+    color: var(--preformatted);
+}
+
+div.highlight code, div.highlight pre, div.highlight pre span {
+    color: inherit; /* Prevent highlight.js from overriding theme color */
+}
 
 /* Consistent width for header and body */
 .site-container {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  box-sizing: border-box;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
 }
 
 /* Reset margins/padding only for content elements, NOT the container */
@@ -139,90 +155,51 @@ div.highlight code, div.highlight pre, div.highlight pre span {
 .content,
 .single,
 .markdown-body {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  box-sizing: border-box;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    box-sizing: border-box;
 }
 
-/* Ensure main content is centered within the container */
-main {
-  background-color: var(--bg);
-  margin: 0 auto;
-  max-width: 100%;
-  text-align: left; /* Keep text left-aligned within the centered container */
-}
-
-
-/*Enable Word-Wrapping*/
-pre, code {
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-a {
-  word-break: break-all;
-}
-
-
-/* Left align the main header elements */
+/* Header alignment */
 .site-title,
 .site-subtitle,
 header nav {
-  text-align: center;
+    text-align: center;
 }
 
-/* Make navigation buttons align horizontally, left anchored */
+/* Make navigation buttons align horizontally, center anchored */
 header nav {
-  display: flex;
-  gap: 0.7em;           /* spacing between nav items */
-  justify-content: center;
-  align-items: center;
-  padding: 0.5em 0 1em 0;
-}
-
-/* Target nav buttons for visual consistency (optional) */
-header nav a {
-  padding: 6px 12px;
-  border-radius: 4px;
+    display: flex;
+    gap: 0.7em; /* spacing between nav items */
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0 1em 0;
 }
 
 /* Home page header image - optimized for 1272x300 dimensions */
 .home-header-image {
-    margin: .20rem 0 0.5rem 0;  /* Space above and especially below image */
-    text-align: center;         /* Center image inside its container */
+    margin: 0.20rem 0 0.5rem 0; /* Space above and especially below image */
+    text-align: center; /* Center image inside its container */
 }
 
 .home-header-image img {
-    width: 100%;                /* Restrict to container width */
-    max-width: 900px;           /* Optional: cap very wide screens */
-    height: auto;               /* Maintain aspect ratio */
-    max-height: 300px;          /* Prevent tall header images; tune as needed */
-    object-fit: cover;          /* Crop image if too tall */
-    border-radius: 6px;         /* Subtle rounded corners, optional */
+    width: 100%; /* Restrict to container width */
+    max-width: 900px; /* Optional: cap very wide screens */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Prevent tall header images; tune as needed */
+    object-fit: cover; /* Crop image if too tall */
+    border-radius: 6px; /* Subtle rounded corners, optional */
     box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* Soft shadow for contrast */
     display: block;
-    margin: 0 auto;             /* Center if smaller than container */
+    margin: 0 auto; /* Center if smaller than container */
 }
 
 /* Home page intro text */
 .home-intro {
-  text-align: center;
-  margin: 2rem 0;
-  font-size: 1.1em;
-  color: var(--text-light);
-}
-
-/* Responsive adjustments for your 1272x300 image */
-@media (max-width: 600px) {
-    .home-header-image {
-        margin: 1rem 0 1.5rem 0; /* Positive margins for header placement */
-    }
-    
-    .home-header-image img {
-        max-width: 100%;
-        max-height: 140px; /* More conservative height for mobile */
-        border-radius: 4px;
-    }
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.1em;
+    color: var(--text-light);
 }
 
 /* Homepage-only: Spacing between header and content. Targets pages that have both site-subtitle and home-header-image */
@@ -234,281 +211,335 @@ body:has(.site-subtitle):has(.home-header-image) main h2:first-child {
     margin-top: 0;
 }
 
-/* Blog archive list: no bullets, tight spacing */
+
+/* Collapsible archive - streamlined version */
 ul.archive-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
+/* Individual archive entries: date → title (right-aligned) */
 ul.archive-list > li {
-  margin: 0.25rem 0;
+    margin: 0.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
 }
 
 .archive-date {
-  color: var(--text-light);
-  white-space: nowrap;
+    color: var(--text-light);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
+
+ul.archive-list > li a {
+    color: var(--accent);
+    text-decoration: none;
+    text-align: right;
+    word-break: break-word;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 0;
+
+}
+
+.archive-controls {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.archive-controls a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+/* Collapsible archive years - fixed alignment */
+details.archive-year {
+    border: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    margin: 0 0 1rem 0;
+}
+
+.archive-year__summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0; /* Remove gap to keep arrow and year together */
+    padding: 0.25rem 0;
+    border: 0;
+    justify-content: flex-start; /* Force left alignment */
+}
+
+.archive-year__summary::-webkit-details-marker {
+    display: none;
+}
+
+.archive-year__summary::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.35rem;
+    transition: transform 0.15s ease;
+    color: var(--text-light);
+    flex-shrink: 0;
+}
+
+details.archive-year[open] .archive-year__summary::before {
+    transform: rotate(90deg);
+}
+
+.archive-year__label {
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-right: auto; /* This pushes the count to the right */
+}
+
+.archive-year__count {
+    color: var(--text-light);
+    text-align: right;
+    flex-shrink: 0;
+    margin-left: auto; /* Ensure it stays at the right edge */
+}
+
+details.archive-year[open] .archive-year__summary {
+    border: 0;
+    margin-bottom: 0.25rem;
+}
+
+.archive-month__heading {
+    margin: 0.75rem 0 0.25rem 0;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+
+
 
 /* Home: More Recent Posts — no bullets, compact spacing */
 ul.recent-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 ul.recent-list > li {
-  margin: 0.25rem 0;
+    margin: 0.25rem 0;
 }
 
 /* Home page featured article: remove box styling */
 .home main article,
 main .featured-article,
 main > article {
-  border: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
 }
 
 /* Also normalize the hr below the article if needed */
 main > hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 1rem 0;
 }
-
 
 /* Gallery – flexbox for grids, easy to use in markdown */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
 }
+
 .gallery-image {
-  display: block;
-  margin: 0.5rem;
+    display: block;
+    margin: 0.5rem;
+}
+
+/* Gallery Grid Layout for Hugo Image Shortcodes */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-grid figure {
+    margin: 0;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Custom divider – a horizontal rule alternative */
 .custom-divider {
-  text-align: center;
-  margin: 0.5em 0;
-  color: var(--border);
-  font-size: 1em;
+    text-align: center;
+    margin: 0.5em 0;
+    color: var(--border);
+    font-size: 1em;
 }
 
 /* Figure/Image – center logic, lightbox support */
 figure {
-  text-align: center;
-  margin: 1rem 0;
+    text-align: center;
+    margin: 1rem 0;
 }
+
 figure img {
-  display: block;
-  margin: 0 auto;
-  border-radius: var(--standard-border-radius);
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--standard-border-radius);
 }
+
 figure a.glightbox {
-  display: inline-block;
+    display: inline-block;
 }
 
 /* Icon – use with inline SVG, aligns nicely */
 .icon {
-  vertical-align: sub;
-  padding-right: 0.25rem;
-  display: inline-block;
-  width: 1em;
-  height: 1.3em;
-  margin-right: 0.2rem;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+    vertical-align: sub;
+    padding-right: 0.25rem;
+    display: inline-block;
+    width: 1em;
+    height: 1.3em;
+    margin-right: 0.2rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
 /* Custom warning – for editorial notes */
 .image-warning {
-  color: #b00;
-  font-weight: bold;
-  font-size: 0.95em;
+    color: #b00;
+    font-weight: bold;
+    font-size: 0.95em;
 }
 
-/* Blog post list – theme’s default but with your spacing */
+/* Blog post list – theme's default but with your spacing */
 ul.blog-posts {
-  padding-left: 0;
+    padding-left: 0;
 }
+
 ul.blog-posts > li {
-  list-style-type: none;
-  display: flex;
+    list-style-type: none;
+    display: flex;
 }
+
 ul.blog-posts > li span {
-  flex: 0 0 125px;
-  color: var(--text-light);
+    flex: 0 0 125px;
+    color: var(--text-light);
 }
 
 /* Flex utility – handy for layout components */
 .flex-between {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* TOC nav – remove excess margin */
 nav#TableOfContents > ul {
-  margin-block-start: 0;
+    margin-block-start: 0;
 }
-
-/*
-  Gallery Grid Layout for Hugo Image Shortcodes
-
-  This grid wrapper enables responsive, equal-width column layout for any Hugo
-  shortcode output (e.g., <figure> elements generated by glightbox-figure).
-  The below rules are applied to the <div class="gallery-grid"> wrapper.
-*/
-
-.gallery-grid {
-  /*
-    Use CSS Grid for layout: flexible, modern, and easy to control breakpoints.
-    No need for media queries in most cases; grid adapts automatically.
-  */
-  display: grid;
-
-  /*
-    Columns will auto-fit to the available space, with a minimum width of 200px
-    before wrapping (adjust this value to your needs).
-    `1fr` ensures all columns are equal width.
-  */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
-  /*
-    Even spacing between grid items (images), regardless of row or column.
-    Adjust `gap` to control the "gutter" between images.
-  */
-  gap: 1rem;
-
-  /*
-    Add margin at the top for separation from preceding content.
-    Adjust as needed for your site design.
-  */
-  margin-top: 1rem;
-}
-
-.gallery-grid figure {
-  /*
-    Remove default margins from <figure> elements.
-    This prevents unexpected extra space in the grid.
-  */
-  margin: 0;
-}
-
-.gallery-grid img {
-  /*
-    Force images to fill their grid cell width.
-    `height: auto` maintains aspect ratio; never use fixed height here.
-  */
-  width: 100%;
-  height: auto;
-
-  /*
-    `display: block` removes unwanted whitespace below images.
-    Essential for consistent, tightly packed grids.
-  */
-  display: block;
-}
-
-/*
-  Optional: Add media queries here if you want different grid behavior
-  on mobile devices. For example, a single column on small screens.
-
-  @media (max-width: 500px) {
-    .gallery-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-*/
 
 /* =================================================================
-   MAXIMUM SPACE UTILIZATION - Galaxy S23 & Similar Devices
+   RESPONSIVE DESIGN - Mobile Optimizations
    ================================================================= */
 
 /* Base mobile - aggressive padding reduction */
 @media (max-width: 600px) {
-  .site-container {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-  
-  body > footer {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-  
-  header nav {
-    flex-wrap: wrap;
-    gap: 0.4em;
-    justify-content: center;
-    padding: 0.3em 0 0.6em 0;
-  }
+    .site-container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
 
-  header nav a {
-    padding: 4px 9px;
-    font-size: 0.85em;
-    margin: 1px;
-  }
-  
-  body {
-    line-height: 1.4;
-  }
-  
-  p {
-    margin: 0.75rem 0;
-  }
+    body > footer {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        gap: 0.4em;
+        justify-content: center;
+        padding: 0.3em 0 0.6em 0;
+    }
+
+    header nav a {
+        padding: 4px 9px;
+        font-size: 0.85em;
+        margin: 1px;
+    }
+
+    body {
+        line-height: 1.4;
+    }
+
+    p {
+        margin: 0.75rem 0;
+    }
+
+    .home-header-image {
+        margin: 1rem 0 1.5rem 0; /* Positive margins for header placement */
+    }
+
+    .home-header-image img {
+        max-width: 100%;
+        max-height: 140px; /* More conservative height for mobile */
+        border-radius: 4px;
+    }
 }
 
-/* Galaxy S23 maximum utilization (393px wide) */
-@media (min-width: 381px) and (max-width: 480px) {
-  .site-container {
-    padding-left: 0.625rem;    /* ~10px total margin */
-    padding-right: 0.625rem;
-  }
-  
-  body > footer {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-  }
+/* Small mobile devices (Galaxy S23 and similar) */
+@media (max-width: 480px) {
+    .site-container {
+        padding-left: 0.625rem; /* ~10px total margin */
+        padding-right: 0.625rem;
+    }
 
-  header nav a {
-    padding: 5px 10px;
-    font-size: 0.88em;
-  }
+    body > footer {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+    }
 
-  .gallery-grid {
-    grid-template-columns: repeat(3, 1fr);  /* 3-column gallery */
-    gap: 0.5rem;
-  }
-  
-  .home-header-image img {
-    width: calc(100vw - 1.25rem);
-    margin-left: calc(-0.625rem);
-    margin-right: calc(-0.625rem);
-    max-height: 170px;
-  }
+    header nav a {
+        padding: 5px 10px;
+        font-size: 0.88em;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2-column gallery for small screens */
+        gap: 0.5rem;
+    }
+
+    .home-header-image img {
+        width: calc(100vw - 1.25rem);
+        margin-left: calc(-0.625rem);
+        margin-right: calc(-0.625rem);
+        max-height: 170px;
+    }
 }
 
 /* Compact phones - minimal but functional */
 @media (max-width: 380px) {
-  .site-container {
-    padding-left: 0.5rem;      /* 8px margins */
-    padding-right: 0.5rem;
-  }
-  
-  body > footer {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+    .site-container {
+        padding-left: 0.5rem; /* 8px margins */
+        padding-right: 0.5rem;
+    }
 
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.4rem;
-  }
+    body > footer {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+        gap: 0.4rem;
+    }
 }

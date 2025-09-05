@@ -1,34 +1,34 @@
 {{ define "main" }}
-  
-
-  {{/* 1) Build year groups from section posts (newest first) */}}
   {{ $posts := .Pages.ByDate.Reverse }}
-  {{ $yearGroups := $posts.GroupByDate "2006" }}
-
-  {{/* 2) Create the paginator from the year groups (ensure this is the FIRST and ONLY paginate call on this page) */}}
-  {{ $pager := .Paginate $yearGroups }}
-
-  {{/* 3) Render only the years on the current page */}}
-  {{ range $yg := $pager.PageGroups }}
-    <section class="archive-year">
+  {{ $openAll := or (eq (site.Params.archiveOpenAll | default "") "all")
+                   (eq (.Param "archiveOpenAll" | default "") "all") }}
+  
+  <p class="archive-controls">
+    <a href="{{ .RelPermalink }}">Collapse all</a>
+  </p>
+  
+  {{ range $year := $posts.GroupByDate "2006" }}
+    {{ $yearID := printf "y-%s" $year.Key }}
+    <details class="archive-year" id="{{ $yearID }}" {{ if $openAll }}open{{ end }}>
+      <summary class="archive-year__summary">
+        <span class="archive-year__label">{{ $year.Key }}</span>
+        <span class="archive-year__count">({{ len $year.Pages }})</span>
+      </summary>
       
-
-      {{ range $mg := $yg.Pages.GroupByDate "2006-01" }}
-        {{ $full := printf "%s-01" $mg.Key }}        {{/* e.g., 2025-09-01 */}}
-        <h4 class="archive-month__heading">{{ time $full | time.Format "January 2006" }}</h4>
-
+      {{ range $month := $year.Pages.GroupByDate "2006-01" }}
+        {{ $full := printf "%s-01" $month.Key }}
+        {{ $monthID := printf "m-%s" $month.Key }}
+        <h3 class="archive-month__heading" id="{{ $monthID }}">{{ time $full | time.Format "January 2006" }}</h3>
+        
         <ul class="archive-list">
-          {{ range $p := $mg.Pages.ByDate.Reverse }}
+          {{ range $p := $month.Pages.ByDate.Reverse }}
             <li>
-              <span class="archive-date">{{ $p.Date.Format "Jan 2 2006" }}</span>:&nbsp;
+              <span class="archive-date">{{ $p.Date.Format "Jan 01 2006" }}</span>
               <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
             </li>
           {{ end }}
         </ul>
       {{ end }}
-    </section>
+    </details>
   {{ end }}
-
-  {{/* 4) Pager controls */}}
-  {{ partial "pagination.html" . }}
 {{ end }}
