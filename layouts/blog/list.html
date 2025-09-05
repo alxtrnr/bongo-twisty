@@ -1,34 +1,40 @@
 {{ define "main" }}
+  {{/* Source pages (newest first) and 'open all' option */}}
   {{ $posts := .Pages.ByDate.Reverse }}
-  {{ $openAll := or (eq (site.Params.archiveOpenAll | default "") "all")
-                   (eq (.Param "archiveOpenAll" | default "") "all") }}
-  
-  <p class="archive-controls">
-    <a href="{{ .RelPermalink }}">Collapse all</a>
-  </p>
-  
+  {{ $openAll := or (eq (site.Params.archiveOpenAll | default "") "all") (eq (.Param "archiveOpenAll" | default "") "all") }}
+
+  <div class="archive-controls">
+    <a href="#" onclick='document.querySelectorAll("details.archive-year").forEach(d => d.open = false);return false;'>Collapse all</a>
+  </div>
+
+  {{/* Group by year (key format: 2006) */}}
   {{ range $year := $posts.GroupByDate "2006" }}
     {{ $yearID := printf "y-%s" $year.Key }}
-    <details class="archive-year" id="{{ $yearID }}" {{ if $openAll }}open{{ end }}>
-      <summary class="archive-year__summary">
-        <span class="archive-year__label">{{ $year.Key }}</span>
-        <span class="archive-year__count">({{ len $year.Pages }})</span>
-      </summary>
-      
-      {{ range $month := $year.Pages.GroupByDate "2006-01" }}
-        {{ $full := printf "%s-01" $month.Key }}
-        {{ $monthID := printf "m-%s" $month.Key }}
-        <h3 class="archive-month__heading" id="{{ $monthID }}">{{ time $full | time.Format "January 2006" }}</h3>
-        
-        <ul class="archive-list">
-          {{ range $p := $month.Pages.ByDate.Reverse }}
-            <li>
-              <span class="archive-date">{{ $p.Date.Format "Jan 01 2006" }}</span>
-              <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
-    </details>
+    {{ $yearPages := $year.Pages }}
+
+    {{ if gt (len $yearPages) 0 }}
+      <details class="archive-year" id="{{ $yearID }}" {{ if $openAll }}open{{ end }}>
+        <summary class="archive-year__summary">
+          <span class="archive-year__label">{{ $year.Key }}</span>
+          <span class="archive-year__count">({{ len $yearPages }})</span>
+        </summary>
+
+        {{/* Group this year's pages by month label (e.g., "September 2006") */}}
+        {{ range $month := ($yearPages.GroupByDate "January 2006") }}
+          <h3 class="archive-month__heading">{{ $month.Key }}</h3>
+          <ul class="archive-list">
+            {{/* IMPORTANT: iterate the actual pages and use the INNER dot for fields */}}
+            {{ range (sort $month.Pages "Date" "desc") }}
+              <li>
+                <span class="archive-date">{{ .Date.Format "Jan 02 2006" }}</span>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+      </details>
+    {{ end }}
   {{ end }}
 {{ end }}
+
