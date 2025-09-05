@@ -48,7 +48,6 @@ body {
 }
 
 
-
 /* Links use your accent for clarity */
 a, a:visited {
   color: var(--accent);
@@ -188,8 +187,6 @@ header nav a {
 }
 
 /* Home page header image - optimized for 1272x300 dimensions */
-
-
 .home-header-image {
     margin: .20rem 0 0.5rem 0;  /* Space above and especially below image */
     text-align: center;         /* Center image inside its container */
@@ -236,6 +233,51 @@ body:has(.site-subtitle):has(.home-header-image) main {
 body:has(.site-subtitle):has(.home-header-image) main h2:first-child {
     margin-top: 0;
 }
+
+/* Blog archive list: no bullets, tight spacing */
+ul.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.archive-list > li {
+  margin: 0.25rem 0;
+}
+
+.archive-date {
+  color: var(--text-light);
+  white-space: nowrap;
+}
+
+/* Home: More Recent Posts — no bullets, compact spacing */
+ul.recent-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.recent-list > li {
+  margin: 0.25rem 0;
+}
+
+/* Home page featured article: remove box styling */
+.home main article,
+main .featured-article,
+main > article {
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Also normalize the hr below the article if needed */
+main > hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 1rem 0;
+}
+
 
 /* Gallery – flexbox for grids, easy to use in markdown */
 .gallery {

@@ -1,0 +1,33 @@
+{{ define "main" }}
+  {{ $blogPosts := where .Site.RegularPages "Section" "blog" }}
+  {{ $sortedPosts := $blogPosts.ByDate.Reverse }}
+
+  {{ with (index $sortedPosts 0) }}
+    <article>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ with .Params.tags }}
+          &nbsp;|&nbsp;
+          {{ range . }}
+            <span class="tag">{{ . }}</span>
+          {{ end }}
+        {{ end }}
+      </p>
+      {{ .Content }}
+    </article>
+  {{ end }}
+
+  <section>
+    <h4>More Recent Posts</h4>
+    <ul class="recent-list">
+      {{ range (first 4 (after 1 $sortedPosts)) }}
+        <li>
+          <span>{{ .Date.Format "Jan 2 2006" }}</span>:&nbsp;
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+{{ end }}

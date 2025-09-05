@@ -1,0 +1,34 @@
+{{ define "main" }}
+  
+
+  {{/* 1) Build year groups from section posts (newest first) */}}
+  {{ $posts := .Pages.ByDate.Reverse }}
+  {{ $yearGroups := $posts.GroupByDate "2006" }}
+
+  {{/* 2) Create the paginator from the year groups (ensure this is the FIRST and ONLY paginate call on this page) */}}
+  {{ $pager := .Paginate $yearGroups }}
+
+  {{/* 3) Render only the years on the current page */}}
+  {{ range $yg := $pager.PageGroups }}
+    <section class="archive-year">
+      
+
+      {{ range $mg := $yg.Pages.GroupByDate "2006-01" }}
+        {{ $full := printf "%s-01" $mg.Key }}        {{/* e.g., 2025-09-01 */}}
+        <h4 class="archive-month__heading">{{ time $full | time.Format "January 2006" }}</h4>
+
+        <ul class="archive-list">
+          {{ range $p := $mg.Pages.ByDate.Reverse }}
+            <li>
+              <span class="archive-date">{{ $p.Date.Format "Jan 2 2006" }}</span>:&nbsp;
+              <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{/* 4) Pager controls */}}
+  {{ partial "pagination.html" . }}
+{{ end }}

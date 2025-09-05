@@ -1,5 +1,5 @@
 +++
-title = "Photos"
-description = "Some photos of mine arranged into albums."
+title = "Photos & Images"
+description = "Arranged into albums"
 year = 2025
 +++

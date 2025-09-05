@@ -50,7 +50,7 @@ name = "Home"
 pageRef = "/"
 weight = 10
 [[menu.main]]
-name = "Blog"
+name = "Archive"
 pageRef = "/blog"
 weight = 20
 [[menu.main]]
@@ -70,7 +70,9 @@ weight = 50
 limit = 42
 
 [pagination]
-pagerSize = 25
+pagerSize = 31   # e.g., 3 years per page
+path = "page"   # optional; default is "page"
+
 
 [outputs]
 # Generate RSS for home only

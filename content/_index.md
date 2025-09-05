@@ -1,6 +1,6 @@
 +++
 title = "BongoTwisty"
-description = "In a perpetual state of growth and decay."
+description = "Enough is Plenty"
 date = 2025-07-06T13:32:00+01:00
 draft = false
 tags = []
