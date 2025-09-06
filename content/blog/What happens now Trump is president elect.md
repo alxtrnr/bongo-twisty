@@ -7,12 +7,7 @@ tags = []
 toc = false
 +++
 
-<div style="display: flex; justify-content: center;">
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/s-bKFo30o2o?si=TcwR0Cvzo7j5PBnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-
----
+{{< youtube s-bKFo30o2o >}}
 
 There is some irony in Trump becoming president elect on 9/11. Americans have a reputation for missing irony. They seem to have missed it on this occasion.   
 
@@ -24,8 +19,4 @@ As perverse as it seems it may be Trumps demagoguery, vicious misogyny, racism, 
 
 Fanciful thinking maybe but at the very least Trump represents a very big spanner in the works of the established order. Certainly not something that would come with Clinton. If there's anything positive to be had from Trump's victory that that could well be it. 
 
----
-
-<div style="display: flex; justify-content: center;">
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/gVqO3r3ugVo?si=E0Aoux8AKkDTyUmu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{{< youtube gVqO3r3ugVo >}}
