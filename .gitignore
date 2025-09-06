@@ -49,9 +49,12 @@ Thumbs.db
 
 # Obsidian workspace files
 .obsidian/workspace.json
-.obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/app.json
+content/blog/.obsidian/workspace.json
+content/blog/.obsidian/app.json
+content/blog/.obsidian/appearence.json
+content/blog/.obsidian/core-plugins.json
 
 # Other Obsidian cache files
 .trash/
