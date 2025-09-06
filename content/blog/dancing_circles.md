@@ -20,6 +20,6 @@ Get this. As I was writing this post I just nipped over to MySpace to get the UR
 
 The next is [Lupen Crook](https://lupencrooks.bandcamp.com) Worlds End. Just brilliant. The Crooked Family are part of ours by virtue of the stuff they put out. Elijah and Otis can pretty much name and sing along to all the their tunes. We love em! The video was filmed by another Medway legend, Dave Wise. Dave was the first person I met in terms of photography and music in Medway. A writer, photographer, videographer, all round decent bloke. Through his presence and work I first got to feel a part of this place for which I am grateful.
 
-{{ youtube f84ZdZ-7x1o }}
+{{< youtube f84ZdZ-7x1o >}}
 
 Many more I could add but this post has taken me ages. Maybe next one.
