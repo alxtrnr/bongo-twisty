@@ -46,3 +46,13 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Obsidian workspace files
+.obsidian/workspace.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+
+# Other Obsidian cache files
+.trash/
+.DS_Store
