@@ -16,10 +16,12 @@ I was interested in the background of the symbols which make up these flags.
 **St Georges Cross - England**\
 St George’s Cross became the flag of England following a victory by Richard the Lionheart. The battle in question was fought near to the place in Libya where St George is said have have slain the dragon. Richard believed St George blessed the victory. Richard chose him as patron saint of the army he commanded and so St Georges Flag came to be.
 
-St George was born in Turkey. His mother was from Palestine where he spent part of his youth. He was a Roman knight. As the story goes St George killed the evil dragon to end the terror it brought upon the people of that time and place. When doing so the dragons blood spilled onto the ground in the shape of a cross, hence the symbolism was created. George was made a saint after his execution and burial in Palestine not because he killed a dragon but for preventing the persecution of Christians. 
+St George was born in Turkey. His mother was from Palestine where he spent part of his youth. He was a Roman knight.\
+As the story goes St George killed the evil dragon to end the terror it brought upon the people of that time and place. When doing so the dragons blood spilled onto the ground in the shape of a cross, hence the symbolism was created.\
+George was made a saint after his execution and burial not because he killed a dragon but for preventing the persecution of Christians. 
 
 **St Andrews Cross (the blue saltire) - Scotland**\
-When he was executed St Andrew asked to be crucified on an X-shaped cross. He felt unworthy to die on the same upright cross as Jesus. The diagonal cross, called a saltire, became known as Saint Andrew's Cross.
+Prior to his execution St Andrew asked that he be crucified on an X-shaped cross. He felt unworthy to die on the same upright cross as Jesus. The diagonal cross, called a saltire, became known as Saint Andrew's Cross.
 
 When the Picts defeated the English in battle a white cloud formation in the shape of a saltire cross supposedly appeared against the blue sky. In gratitude, the leader of the Picts declared Andrew the patron saint of Scotland and adopted the saltire as the national symbol of Scotland.
 
@@ -28,11 +30,11 @@ Considered by some Irish nationalists as British invention rather than an authen
 
 {{< divider >}}
 
-Make what you will of all that. I see some irony in St George's heritage; in the saltire being inspired by the Picts defeating the English in battle; that St Patrick's Cross represents cronyism, privilege and favour rather than anything more noble than that.
+Make what you will of all that. I see irony in St George's heritage; in the saltire being inspired by the Picts defeating the English in battle; that St Patrick's Cross represents cronyism, privilege and favour rather than anything more noble than that.
 
-I am not a fan of "Operation Raise the Colours". It does not instil in me any patriotism or national pride. I do not feel represented. It's an unfortunate association I now have by virtue of living in an area where so many flags have been raised. 
+I am not a fan of "Operation Raise the Colours". It does not instil in me feelings of patriotism or national pride. I do not feel represented. It's an unfortunate association I now have by virtue of living in an area where so many flags have been raised. 
 
-Pondering whether to exercise my freedom of expression my removing those that I can. I've decided instead to purchase the Refugee Nation Flag and hoist that up on the lamppost that stands right outside my house. An orange and black flag inspired by the life vests many refugees had to wear in their search for a safer land to live. An orange and black flag as a symbol of hope and solidarity. It would be great if anyone reading this did the same and encouraged like minded folk to do so. 
+Pondering whether to exercise my freedom of expression my removing those that I can. I've decided instead to purchase the Refugee Nation Flag and zip tie that to a lamppost on the main road. An orange and black flag inspired by the life vests many refugees had to wear in their search for a safer land to live. An orange and black flag as a symbol of hope and solidarity. It would be great if anyone reading this did the same and encouraged like minded folk to do so. 
 
 {{< glightbox-figure 
    src="rnf.webp" 
