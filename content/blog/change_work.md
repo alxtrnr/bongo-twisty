@@ -1,7 +1,7 @@
 +++
 title = "A change at work"
 description = "Big mind, little mind"
-date = 2022-01-17T16:00:13+01:00
+date = 2022-01-22T16:00:13+01:00
 draft = false
 author = "Alexander"
 images = []
