@@ -1,57 +1,12 @@
 {{ define "main" }}
-
-
-{{ .Content }}
-
-<!-- Gallery render block -->
-<div class="gallery">
-  {{ range .Resources.Match "*.{jpg,jpeg,JPG,PNG,png}" }}
-    {{ $thumb := .Resize "600x" }}
-    {{ $large := .Resize "1200x" }}
-    <div class="gallery-image" style="display:inline-block;margin:0.5rem;">
-      <a href="{{ $large.RelPermalink }}"
-         class="glightbox"
-         data-gallery="gallery-{{ $.File.UniqueID }}"
-         data-title="{{ .Title | default .Name }}">
-        <img src="{{ $thumb.RelPermalink }}"
-             alt="{{ .Title | default .Name }}"
-             loading="lazy"
-             style="max-width:100%;height:auto;">
-      </a>
-      {{ with .Title }}
-        <div class="caption" style="text-align:center;font-size:0.95em;color:#666;margin-top:0.25rem;">
-          {{ . }}
-        </div>
+  <article class="gallery-single">
+    <header>
+      {{ with .Params.summary }}
+        <p class="summary">{{ . }}</p>
       {{ end }}
+    </header>
+    <div class="content">
+      {{ .Content }}
     </div>
-  {{ end }}
-</div>
-
-<!-- Optional tag display -->
-{{ $tags := .GetTerms "tags" }}
-{{ if gt (len $tags) 0 }}
-  <p>
-    {{ range $tags }}
-      <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>&nbsp;&nbsp;
-    {{ end }}
-  </p>
-{{ end }}
-
-<!-- Optional navigation between galleries -->
-{{ $pages := .CurrentSection.Pages.ByWeight }}
-{{ if or ($pages.Prev .) ($pages.Next .) }}
-  <div class="flex-between" style="margin-top: 3rem;">
-    {{ with $pages.Prev . }}
-      <a href="{{ .RelPermalink }}" rel="prev" aria-label="Previous gallery: {{ .Title }}">
-        <span>←</span> <span>{{ .Title }}</span>
-      </a>
-    {{ end }}
-    {{ with $pages.Next . }}
-      <a href="{{ .RelPermalink }}" rel="next" aria-label="Next gallery: {{ .Title }}">
-        <span>{{ .Title }}</span> <span>→</span>
-      </a>
-    {{ end }}
-  </div>
-{{ end }}
-
+  </article>
 {{ end }}
