@@ -1,13 +1,13 @@
 +++
 title = "Needs and Expectations"
-description = ""
+description = "On the risks of a needs based relationship"
 date = 2013-12-21T16:00:13+01:00
 draft = false
 author = "Alexander"
 images = []
 +++
 
-Like most days I was out riding my bike this morning. Until last week when they stopped working I normally rode wearing headphones and listening to music. With no music and just the sounds of the ride I've been reflecting more on things. Today I was reflecting on needs and relationships. 
+Like most days I was out riding my bike this morning. Until last week when they stopped working. I normally ride wearing headphones and listening to music. With no music and just the sounds of the ride I've been reflecting more on things. Today I was reflecting on needs and relationships. 
 
 We often form relationships with people who meet some need we have. We may not always be conscious of the need that's being met. If we are conscious of it then we may not choose or be able to share with the other person the need that forms the basis of our relationship with them. This could be because we feel ashamed of our needs, we don't know what they are, because we are scared of looking bad or because we want to look good.
 
