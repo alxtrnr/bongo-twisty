@@ -1,10 +1,9 @@
 +++
-title = "RWGPS Recap 2015"
+title = "RWGPS Recap"
+description = "Cycling Stats"
+event = ""
+year = 2015
 +++
-
-{{< center >}}
-Year summary and month by month recap of cycling stats.
-{{< /center >}}
 
 <div class="gallery-grid">
   

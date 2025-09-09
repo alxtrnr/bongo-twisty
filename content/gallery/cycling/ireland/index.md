@@ -1,8 +1,11 @@
 +++
 title = "Between Points and Places"
-description = "Photos from a bike ride in May 2025 between the Signature Discovery Points of Ireland’s Wild Atlantic Way. I didn’t always stay on the official route, instead, I often just followed the shortest, most scenic and bike friendly roads between them. The gallery includes a mix of places - a few well-known spots, alongside quieter corners and views I found along the way."
+description = "A Bike Ride in Ireland"
+event = ""
 images = ["Crockuna.jpg"]
 +++
+
+From a bike ride in May 2025 between the Signature Discovery Points of Ireland’s Wild Atlantic Way. I didn’t always stay on the official route, instead, I often just followed the shortest, most scenic and bike friendly roads between them. The gallery includes a mix of places - a few well-known spots, alongside quieter corners and views I found along the way.
 
 {{< glightbox-figure 
 src="Mannix Point.jpg" 

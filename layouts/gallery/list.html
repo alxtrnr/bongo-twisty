@@ -8,9 +8,10 @@
     {{ range $paginator.Pages }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ with .Params.year }} <span>({{ . }})</span>{{ end }}
         {{ with .Params.event }} <em>{{ . }}</em>{{ end }}
-        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+        {{ with .Params.description }} <span>: {{ . }}</span>{{ end }}
+        {{ with .Params.year }} <span>({{ . }})</span>{{ end }}
+        
       </li>
     {{ else }}
       <li>No galleries found.</li>
@@ -19,3 +20,8 @@
   
   {{ partial "pagination.html" . }}
 {{ end }}
+
+
+
+{{/* add the line below if wanted in thetop list */}}
+{{/* {{ with .Params.description }}<p>{{ . }}</p>{{ end }} */}}
