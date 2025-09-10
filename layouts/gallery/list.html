@@ -1,27 +1,39 @@
 {{ define "main" }}
-  
-  
   {{ .Content }}
   
-  {{ $paginator := .Paginate .RegularPagesRecursive }}
-  <ul class="gallery-list">
-    {{ range $paginator.Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ with .Params.event }} <em>{{ . }}</em>{{ end }}
-        {{ with .Params.description }} <span>: {{ . }}</span>{{ end }}
-        {{ with .Params.year }} <span>({{ . }})</span>{{ end }}
-        
-      </li>
-    {{ else }}
-      <li>No galleries found.</li>
-    {{ end }}
-  </ul>
   
-  {{ partial "pagination.html" . }}
+  {{ if eq (len .RegularPages) 0 }}
+    {{/* Parent section */}}
+    <ul class="gallery-list">
+      {{ range .Sections }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+    
+  {{ else }}
+    {{/* Child section - combine sections and pages */}}
+    <ul class="gallery-list">
+      {{/* First list subsections */}}
+      {{ range .Sections }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ with .Params.custom.name }} <span>: {{ . }}</span>{{ end }}
+          {{ with .Params.year }} <span> ({{ . }})</span>{{ end }}
+          
+        </li>
+      {{ end }}
+      
+      {{/* Then list direct pages */}}
+      {{ range .RegularPages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ with .Params.event }} <em>{{ . }}</em>{{ end }}
+          {{ with .Params.description }} <span>: {{ . }}</span>{{ end }}
+          {{ with .Params.year }} <span>({{ . }})</span>{{ end }}    
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 {{ end }}
-
-
-
-{{/* add the line below if wanted in thetop list */}}
-{{/* {{ with .Params.description }}<p>{{ . }}</p>{{ end }} */}}
