@@ -1,6 +1,6 @@
 +++
 title = "RWGPS Recaps"
-params.custom.name = "Cycling Stats"
+params.custom.index_subtitle = "Cycling Stats"
 year = "2012 - 2025"
 +++
 

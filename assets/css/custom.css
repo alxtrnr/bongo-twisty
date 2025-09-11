@@ -316,6 +316,16 @@ details.archive-year[open] .archive-year__summary {
 }
 
 
+/* Gallery list - remove bullets and padding */
+ul.gallery-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.gallery-list > li {
+  margin: 0.25rem 0;
+}
 
 
 /* Home: More Recent Posts — no bullets, compact spacing */

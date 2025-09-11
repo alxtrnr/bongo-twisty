@@ -4,13 +4,19 @@
   
   {{ if eq (len .RegularPages) 0 }}
     {{/* Parent section */}}
-    <ul class="gallery-list">
-      {{ range .Sections }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-      {{ end }}
-    </ul>
+    {{ with $.Params.custom.parent_info }}
+      <p class="gallery-description">{{ . }}</p>
+  {{ end }}
+
+  <ul class="gallery-list">
+    {{ range .Sections }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{/* Each item shows its own parameters */}}
+        {{ with .Params.custom.index_subtitle }} <small>: {{ . }}</small>{{ end }}
+      </li>
+    {{ end }}
+</ul>
     
   {{ else }}
     {{/* Child section - combine sections and pages */}}
@@ -19,8 +25,8 @@
       {{ range .Sections }}
         <li>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ with .Params.custom.name }} <span>: {{ . }}</span>{{ end }}
-          {{ with .Params.year }} <span> ({{ . }})</span>{{ end }}
+          {{ with .Params.custom.index_subtitle }} <small>: {{ . }}</small>{{ end }}
+          {{ with .Params.year }} <small> ({{ . }})</small>{{ end }}
           
         </li>
       {{ end }}
@@ -30,8 +36,8 @@
         <li>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           {{ with .Params.event }} <em>{{ . }}</em>{{ end }}
-          {{ with .Params.description }} <span>: {{ . }}</span>{{ end }}
-          {{ with .Params.year }} <span>({{ . }})</span>{{ end }}    
+          {{ with .Params.custom.index_subtitle }} <small>: {{ . }}</small>{{ end }}
+          {{ with .Params.year }} <small>({{ . }})</small>{{ end }}    
         </li>
       {{ end }}
     </ul>

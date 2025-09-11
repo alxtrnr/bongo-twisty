@@ -1,6 +1,7 @@
 +++
 title = "Between Points and Places"
 description = "A Bike Ride in Ireland"
+params.custom.index_subtitle = "A Bike Ride in Ireland"
 year = 2025
 event = ""
 images = ["Crockuna.jpg"]
