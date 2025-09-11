@@ -7,7 +7,7 @@ author = "Alexander"
 images = []
 +++
 
-News years day 2015.  Full of hopes and good intentions. I joined a Ride Every Day Challenge on Google +
+News years day 2015.  Full of hopes and good intentions. I joined a Ride Every Day Challenge.
 
 Only one way to go about that sort of thing. One day at a time. There was plenty of times when I just rode round the block. Some rides were less than a km. I made it to the end though [without missing a day](https://www.bongotwisty.blog/gallery/cycling/rwgps_recap/2015/).
 
