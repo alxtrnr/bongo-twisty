@@ -52,11 +52,9 @@ python cli.py goal add --type distance --target 5000 --unit miles --start 2025-0
 - `--end` : End date for goal (YYYY-MM-DD).
 - `--title` : Optional goal title.
 
-And an example of how how goals and progress are displayed - 
+Here's and example of how goals and progress are displayed using `python cli.py goal progress --all`
 
 ```bash
-python cli.py goal progress --all
-
 Goal: Annual Distance Goal (20ef1aac-bd8a-49af-b09f-26e59ac1a682)
 
 === ANNUAL GOAL PROGRESS (2025) ===
@@ -73,4 +71,4 @@ To reach your goal, you need:
 • Monthly: 1522.5 km/month
 ```
 
-Having this to play around with will encourage me to keep going. The [repo](https://github.com/alxtrnr/cycling-stats-cli) is on GitHub for anyone interested. 
+Having this to play around with will encourage me to keep going. The [repo](https://github.com/alxtrnr/cycling-stats-cli) is on GitHub if you're interested in it for your own use. Enjoy your cycling analytics and ride safely! 
