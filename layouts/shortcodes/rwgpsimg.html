@@ -1,0 +1,13 @@
+{{/* Usage:
+   {{< rwgpsimg year="2016" name="y_2016_RWGPS.webp" alt="2016 recap" class="my-img" >}}
+*/}}
+{{ $year := .Get "year" }}
+{{ $name := .Get "name" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+
+{{ with site.GetPage (printf "/gallery/cycling/rwgps_recap/%s" $year) }}
+  {{ with .Resources.GetMatch $name }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" class="{{ $class }}">
+  {{ end }}
+{{ end }}
