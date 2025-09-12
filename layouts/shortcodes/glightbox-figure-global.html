@@ -1,0 +1,31 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" -}}
+{{- $alt := .Get "alt" -}}
+{{- $image := "" -}}
+
+{{/* Try page resource first */}}
+{{- $pageResource := .Page.Resources.GetMatch $src -}}
+{{- if $pageResource -}}
+  {{- $image = $pageResource -}}
+{{- else -}}
+  {{/* Fallback to global resource */}}
+  {{- $globalResource := resources.Get $src -}}
+  {{- if $globalResource -}}
+    {{- $image = $globalResource -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $image -}}
+<figure>
+  <a href="{{ $image.RelPermalink }}" class="glightbox" data-title="{{ $title }}">
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}">
+  </a>
+</figure>
+{{- else -}}
+  {{/* Fallback for static files */}}
+<figure>
+  <a href="{{ $src | relURL }}" class="glightbox" data-title="{{ $title }}">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" title="{{ $title }}">
+  </a>
+</figure>
+{{- end -}}
