@@ -5,8 +5,40 @@
         <p class="summary">{{ . }}</p>
       {{ end }}
     </header>
+    
     <div class="content">
       {{ .Content }}
     </div>
+    
+    <!-- Image Gallery with Grid Layout and GLightbox Integration -->
+    {{ with .Resources.ByType "image" }}
+      <div class="gallery-grid">
+        {{ range . }}
+          <!-- Generate optimized image sizes -->
+          {{ $thumbnail := .Fill "300x300 Smart webp q85" }}
+          {{ $large := .Resize "1200x webp q85" }}
+          
+          <!-- GLightbox compatible gallery item -->
+          <a href="{{ $large.RelPermalink }}" 
+             class="gallery-item glightbox" 
+             data-gallery="gallery"
+             data-title="{{ with .Title }}{{ . }}{{ else }}Gallery Image{{ end }}"
+             data-description="{{ with .Params.description }}{{ . }}{{ end }}">
+            <div class="gallery-image-wrapper">
+              <img src="{{ $thumbnail.RelPermalink }}" 
+                   alt="{{ with .Title }}{{ . }}{{ else }}Gallery image{{ end }}"
+                   width="{{ $thumbnail.Width }}" 
+                   height="{{ $thumbnail.Height }}"
+                   loading="lazy"
+                   decoding="async"
+                   class="gallery-image">
+              <div class="gallery-overlay">
+                <!-- <i class="gallery-icon">🔍</i> -->
+              </div>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
   </article>
 {{ end }}
