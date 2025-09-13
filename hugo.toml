@@ -7,6 +7,10 @@ title = "BongoTwisty"
 copyright = "© 2025 A J Turner"
 mainSections = ["blog"]
 
+# Prevent original images from being published - only processed versions
+[cascade._build]
+publishResources = false
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
