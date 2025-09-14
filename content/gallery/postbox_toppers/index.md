@@ -33,6 +33,14 @@ alt = "Knitted figures of people, fish, and sea creatures arranged on a crochete
 src = "hairdresser.webp"
 title = "Hairdressers"
 alt = "A crocheted postbox topper featuring hairdressing items including pink hair curlers, gray scissors, shampoo and conditioner bottles with labels, and pink hair rollers arranged on a white base with orange and white striped edging."
+[[resources]]
+src = "20250914_milk_and_bread_barham.jpg"
+title = "Milk and Bread"
+alt = " A close-up view of crocheted food items sitting on the telephone box's yarn-bombed surface. The scene includes a white milk bottle with MILK lettered in blue, a brown loaf of bread, a yellow knob of butter and various other crocheted food elements arranged on a turquoise textured base. These detailed food replicas showcase the intricate craftsmanship typical of modern UK postbox and telephone box yarn bombing installations."
+[[resources]]
+src = "20250914_wise_owl_deal.jpg"
+title = "Wise Owl"
+alt = "A red British telephone box covered in elaborate white and purple crocheted yarn bombing art. On top sits a crocheted owl wearing a graduation cap with blue eyes, purple scarf, and multicolored clothing. The phone box displays the letters ABC and 123 in purple lettering on white crocheted panels, with decorative mushrooms (red toadstool and yellow varieties) adorning the sides. The entire structure is wrapped in white textured yarn work with purple trim, representing a whimsical example of UK yarn bombing street art."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

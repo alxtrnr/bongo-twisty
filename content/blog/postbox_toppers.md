@@ -16,7 +16,6 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       alt="Knitted Noah's Ark scene on a post box. The decoration includes a knitted ark with black and white zebras, a chicken perched on top, two people in raincoats and boots, and a crocodile. The display sits in front of a brick wall and leafy trees." 
       >}}
   
-
   {{< glightbox-figure-global
       src="gallery/postbox_toppers/maypole.webp" 
       title="Maypole" 
@@ -52,5 +51,18 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       title="Hairdressing" 
       alt="A crocheted postbox topper featuring hairdressing items including pink hair curlers, gray scissors, shampoo and conditioner bottles with labels, and pink hair rollers arranged on a white base with orange and white striped edging." 
       >}}
+
+  {{< glightbox-figure-global
+      src = "gallery/postbox_toppers/20250914_wise_owl_deal.jpg"
+      title = "Wise Owl"
+      alt = "A red British post box covered in elaborate white and purple crocheted yarn bombing art. On top sits a crocheted owl wearing a graduation cap with blue eyes, purple scarf, and multicolored clothing. The phone box displays the letters ABC and 123 in purple lettering on white crocheted panels, with decorative mushrooms red toadstool and yellow varieties adorning the sides. The entire structure is wrapped in white textured yarn work with purple trim, representing a whimsical example of UK yarn bombing street art."
+      >}}
+
+  {{< glightbox-figure-global
+      src = "gallery/postbox_toppers/20250914_milk_and_bread_barham.jpg"
+      title = "Milk and Bread"
+      alt = "A close-up view of crocheted food items sitting on the post box's yarn-bombed surface. The scene includes a white milk bottle with MILK lettered in blue, a brown loaf of bread, a yellow knob of butter and various other crocheted food elements arranged on a turquoise textured base. These detailed food replicas showcase the intricate craftsmanship typical of modern UK postbox and telephone box yarn bombing installations."
+      >}}
+
 </div>
 
