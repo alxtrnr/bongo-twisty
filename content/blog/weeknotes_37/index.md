@@ -1,5 +1,5 @@
 +++
-title = "Week Notes: 36|2025"
+title = "Week Notes: 37|2025"
 description = ""
 date = 2025-09-15T21:55:13+01:00
 draft = false
