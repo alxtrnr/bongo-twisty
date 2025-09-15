@@ -3,15 +3,27 @@
 {{- $alt := .Get "alt" -}}
 {{- $image := "" -}}
 
-{{/* Try page resource first */}}
+{{/* Try page resource first (current page) */}}
 {{- $pageResource := .Page.Resources.GetMatch $src -}}
 {{- if $pageResource -}}
   {{- $image = $pageResource -}}
 {{- else -}}
+  {{/* Try to get the gallery page and its resources */}}
+  {{- $galleryPage := .Site.GetPage "/gallery/postbox_toppers" -}}
+  {{- if $galleryPage -}}
+    {{- $filename := path.Base $src -}}
+    {{- $galleryResource := $galleryPage.Resources.GetMatch $filename -}}
+    {{- if $galleryResource -}}
+      {{- $image = $galleryResource -}}
+    {{- end -}}
+  {{- end -}}
+  
   {{/* Fallback to global resource */}}
-  {{- $globalResource := resources.Get $src -}}
-  {{- if $globalResource -}}
-    {{- $image = $globalResource -}}
+  {{- if not $image -}}
+    {{- $globalResource := resources.Get $src -}}
+    {{- if $globalResource -}}
+      {{- $image = $globalResource -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
