@@ -31,8 +31,7 @@
     <a href="{{ $large.RelPermalink }}" 
        class="glightbox" 
        data-gallery="blog-images"
-       data-title="{{ with .Title }}{{ . }}{{ else }}{{ .Text }}{{ end }}"
-       data-description="{{ with .Title }}{{ . }}{{ end }}">
+       data-title="{{ with .Title }}{{ . }}{{ else }}{{ .Text }}{{ end }}">
       <picture>
         <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
         <img src="{{ $fallback.RelPermalink }}" 
