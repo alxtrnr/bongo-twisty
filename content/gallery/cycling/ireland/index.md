@@ -6,71 +6,71 @@ type = "gallery"
 layout = "single"
 params.custom.index_subtitle = "A Bike Ride in Ireland"
 [[resources]]
-src = "Mannix Point.webp"
+src = "Mannix Point.jpg"
 title = "Mannix Point, County Kerry"
 alt = ""
 [[resources]]
-src = "Near Malin Head.webp"
+src = "Near Malin Head.jpg"
 title = "Near Malin Head, County Donegal"
 alt = ""
 [[resources]]
-src = "Lough Tait.webp"
+src = "Lough Tait.jpg"
 title = "Lough Tait, County Sligo"
 alt = ""
 [[resources]]
-src = "Benbulbin.webp"
+src = "Benbulbin.jpg"
 title = "Benbulbin, County Sligo"
 alt = ""
 [[resources]]
-src = "Crockuna.webp"
+src = "Crockuna.jpg"
 title = "Near Crockuna, County Donegal"
 alt = ""
 [[resources]]
-src = "Downpatrick Head.webp"
+src = "Downpatrick Head.jpg"
 title = "Downpatrick Head, County Mayo"
 alt = ""
 [[resources]]
-src = "Fanad Head Lighthouse.webp"
+src = "Fanad Head Lighthouse.jpg"
 title = "Fanad Head Lighhouse, County Donegal"
 alt = ""
 [[resources]]
-src = "Central Donegal.webp"
+src = "Central Donegal.jpg"
 title = "Central Donegal"
 alt = ""
 [[resources]]
-src = "Downpatrick Head.webp"
+src = "Downpatrick Head.jpg"
 title = "Downpatrick Head, County Sligo"
 alt = ""
 [[resources]]
-src = "Malin Head Tower.webp"
+src = "Malin Head Tower.jpg"
 title = "Malin Head Tower, County Donegal"
 alt = ""
 [[resources]]
-src = "Barley Cove.webp"
+src = "Barley Cove.jpg"
 title = "Barley Cove, County Cork"
 alt = ""
 [[resources]]
-src = "Beara Peninsula.webp"
+src = "Beara Peninsula.jpg"
 title = "Along the Coastal R575 on the Beara Peninsula, County Kerry"
 alt = ""
 [[resources]]
-src = "Kinny Lough.webp"
+src = "Kinny Lough.jpg"
 title = "Kinny Lough, County Donegal"
 alt = ""
 [[resources]]
-src = "Illancreeve.webp"
+src = "Illancreeve.jpg"
 title = "Illancreeve, County Donegal"
 alt = ""
 [[resources]]
-src = "Beara Bowl.webp"
+src = "Beara Bowl.jpg"
 title = "Beara Bowl, County Mayo"
 alt = ""
 [[resources]]
-src = "Dawros.webp"
+src = "Dawros.jpg"
 title = "From the Connemara Loop nr Dawross More, County Galway"
 alt = ""
 [[resources]]
-src = "Ballagsheen Pass.webp"
+src = "Ballagsheen Pass.jpg"
 title = "Ballagsheen Pass, County Kerry"
 alt = ""
 +++
