@@ -64,5 +64,23 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       alt="A close-up view of crocheted food items sitting on the post box's yarn-bombed surface. The scene includes a white milk bottle with MILK lettered in blue, a brown loaf of bread, a yellow knob of butter and various other crocheted food elements arranged on a turquoise textured base. These detailed food replicas showcase the intricate craftsmanship typical of modern UK postbox and telephone box yarn bombing installations."
       >}}
 
+
+  {{< glightbox-figure-global
+      src = "20250920_sunflowers_folkstone.jpg"
+      title = "Sunflowers"
+      alt = "A red UK postbox is topped with a handmade crochet cover in yellows and browns, featuring sunflower and petal designs, with suburban houses in the background."
+      >}}
+
+  {{< glightbox-figure-global
+      src = "20250920_octopus_folkstone01.jpg"
+      title = "Sea Creatures"
+      alt = "The side view shows a postbox topper with a knitted marine scene, including a colorful octopus and various small, crocheted sea creatures in red, yellow, white, and grey."
+      >}}
+
+  {{< glightbox-figure-global
+      src = "20250920_octopus_folkstone.jpg"
+      title = "Sea Creatures"
+      alt = "A knitted blue and pink octopus sits atop a red postbox, with multiple tentacles draping over the sides and buildings along a street visible behind."
+      >}}
 </div>
 

@@ -3,12 +3,10 @@
 {{- $alt := .Get "alt" -}}
 {{- $image := "" -}}
 
-{{/* Try page resource first (current page) */}}
 {{- $pageResource := .Page.Resources.GetMatch $src -}}
 {{- if $pageResource -}}
   {{- $image = $pageResource -}}
 {{- else -}}
-  {{/* Try to get the gallery page and its resources */}}
   {{- $galleryPage := .Site.GetPage "/gallery/postbox_toppers" -}}
   {{- if $galleryPage -}}
     {{- $filename := path.Base $src -}}
@@ -17,8 +15,6 @@
       {{- $image = $galleryResource -}}
     {{- end -}}
   {{- end -}}
-  
-  {{/* Fallback to global resource */}}
   {{- if not $image -}}
     {{- $globalResource := resources.Get $src -}}
     {{- if $globalResource -}}
@@ -28,16 +24,16 @@
 {{- end -}}
 
 {{- if $image -}}
-<figure>
-  <a href="{{ $image.RelPermalink }}" class="glightbox" data-title="{{ $title }}">
-    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}">
-  </a>
-</figure>
+  {{- $thumb := $image.Fill "400x300 Smart" }} <!-- Change dimensions as needed -->
+  <figure>
+    <a href="{{ $image.RelPermalink }}" class="glightbox" data-title="{{ $title }}">
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
+    </a>
+  </figure>
 {{- else -}}
-  {{/* Fallback for static files */}}
-<figure>
-  <a href="{{ $src | relURL }}" class="glightbox" data-title="{{ $title }}">
-    <img src="{{ $src | relURL }}" alt="{{ $alt }}" title="{{ $title }}">
-  </a>
-</figure>
+  <figure>
+    <a href="{{ $src | relURL }}" class="glightbox" data-title="{{ $title }}">
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" title="{{ $title }}">
+    </a>
+  </figure>
 {{- end -}}

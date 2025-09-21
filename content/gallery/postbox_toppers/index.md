@@ -36,11 +36,23 @@ alt = "A crocheted postbox topper featuring hairdressing items including pink ha
 [[resources]]
 src = "20250914_milk_and_bread_barham.jpg"
 title = "Milk and Bread"
-alt = " A close-up view of crocheted food items sitting on the telephone box's yarn-bombed surface. The scene includes a white milk bottle with MILK lettered in blue, a brown loaf of bread, a yellow knob of butter and various other crocheted food elements arranged on a turquoise textured base. These detailed food replicas showcase the intricate craftsmanship typical of modern UK postbox and telephone box yarn bombing installations."
+alt = " A close-up view of crocheted food items sitting on the post box's yarn-bombed surface. The scene includes a white milk bottle with MILK lettered in blue, a brown loaf of bread, a yellow knob of butter and various other crocheted food elements arranged on a turquoise textured base. These detailed food replicas showcase the intricate craftsmanship typical of modern UK postbox and telephone box yarn bombing installations."
 [[resources]]
 src = "20250914_wise_owl_deal.jpg"
 title = "Wise Owl"
-alt = "A red British telephone box covered in elaborate white and purple crocheted yarn bombing art. On top sits a crocheted owl wearing a graduation cap with blue eyes, purple scarf, and multicolored clothing. The phone box displays the letters ABC and 123 in purple lettering on white crocheted panels, with decorative mushrooms (red toadstool and yellow varieties) adorning the sides. The entire structure is wrapped in white textured yarn work with purple trim, representing a whimsical example of UK yarn bombing street art."
+alt = "A red British postbox box covered in elaborate white and purple crocheted yarn bombing art. On top sits a crocheted owl wearing a graduation cap with blue eyes, purple scarf, and multicolored clothing. The post box displays the letters ABC and 123 in purple lettering on white crocheted panels, with decorative mushrooms (red toadstool and yellow varieties) adorning the sides. The entire structure is wrapped in white textured yarn work with purple trim, representing a whimsical example of UK yarn bombing street art."
+[[resources]]
+src = "20250920_sunflowers_folkstone.jpg"
+title = "Sunflowers"
+alt = "A red UK postbox is topped with a handmade crochet cover in yellows and browns, featuring sunflower and petal designs, with suburban houses in the background."
+[[resources]]
+src = "20250920_octopus_folkstone01.jpg"
+title = "Sea Creatures"
+alt = "The side view shows a postbox topper with a knitted marine scene, including a colorful octopus and various small, crocheted sea creatures in red, yellow, white, and grey."
+[[resources]]
+src = "20250920_octopus_folkstone.jpg"
+title = "Sea Creatures"
+alt = "A knitted blue and pink octopus sits atop a red postbox, with multiple tentacles draping over the sides and buildings along a street visible behind."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
