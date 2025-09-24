@@ -3,7 +3,7 @@ title = "The Circus Has Come to Town"
 description = "Rochester and Strood By-Election"
 date = 2014-10-19T19:51:13+01:00
 draft = false
-images = ["20090121_spouse_and_ben jones.jpg"]
+images = []
 tags = []
 +++
 
@@ -17,7 +17,7 @@ This is all expected. They have to work hard at this. Cameron and his chums know
 
 Farage is a smiling mercenary. His penchant for supping pints with the locals should fool no one. Anyone who thinks UKIP has their interests at heart are gravely mistaken. Farage et al are all from the same mould as Cameron and his crew. Just as self-serving and deceitful.
 
-![A middle-aged man in a dark suit enthusiastically drinking from a pint glass of beer, appearing to be celebrating. Behind him is a bar setting with various bottles and English flags visible, suggesting this is taken in a pub or similar venue](farrage.jpg "Farrage - Smiling Mercenary")
+![A middle-aged man in a dark suit enthusiastically drinking from a pint glass of beer, appearing to be celebrating. Behind him is a bar setting with various bottles and English flags visible, suggesting this is taken in a pub or similar venue](farrage.jpg "Thirsty Nigel")
 
 [We need a sea change in politics.](https://greenparty.org.uk/about/our-core-values/)
 
