@@ -36,7 +36,7 @@ In February I rode the Gospel Pass 150km. Nothing that harsh except the climb go
 
 ![A cycling route map of a 159km loop in Wales starting and ending near Chepstow, passing through Hay-on-Wye, Craswall, Pandy, Abergavenny, Monmouth and back via Tintern. The route shows 2,034m elevation gain and 7 hours 21 minutes moving time, with an elevation profile displaying several significant climbs throughout the challenging Welsh countryside ride.](20140222_gospel_pass.jpg)
 
-![A touring bicycle parked beside a narrow country road on a hillside with expansive views across rolling Welsh valleys and distant mountains under a cloudy sky during golden hour light.](20140222_gospel_pass.view.jpg "Gospel Pass")
+![A touring bicycle parked beside a narrow country road on a hillside with expansive views across rolling Welsh valleys and distant mountains under a cloudy sky during golden hour light.](20140222_gospel_pass_view.jpg "Gospel Pass")
 
 Home again and back to the daily circuits. The pain was on and off but mostly in the background. I think it was now that I put my saddle down a fraction of an inch. Whether it was this or just good fortune the problem seemed on the wane and I began to forget about it.
 
