@@ -1,5 +1,5 @@
 +++
-title = "Cycling and Achilles Tendinopathy"
+title = "Cycling and Achilles Tendonitis"
 description = ""
 date = 2014-06-07T19:51:13+01:00
 draft = false
@@ -10,23 +10,23 @@ tags = ["cycling"]
 
 I have been off my bike since May 3rd. That is the date when I rode the fifth and last audax I have completed so far this year. The Hell Forest 100. 
 
-![A cycling route map showing a 104km route through Kent countryside with 1,285m elevation gain and 4 hours 12 minutes moving time. The red route line starts and ends near Halstead and passes through areas including Otham, Sharphorne, Nutley, Crowborough, Mayfield, Heathfield, Dallington, and other villages. An elevation profile chart shows the terrain with several significant climbs throughout the route.](20140503_Hell_Forest_100.jpg)
+![A cycling route map showing a 104km route through Kent countryside with 1,285m elevation gain and 4 hours 12 minutes moving time. The red route line starts and ends near Halstead and passes through areas including Otham, Sharphorne, Nutley, Crowborough, Mayfield, Heathfield, Dallington, and other villages. An elevation profile chart shows the terrain with several significant climbs throughout the route.](20140503_Hell_Forest_100.jpg "audax: Hell Forest 100")
 
-I took part knowing that I had developed Achilles tendinopathy. It was a short ride. Not too hilly. Decent weather. The wife and I had planned a camping trip around it with the boys. I am going for a [Randonneur Round the Year](https://www.audax.uk/awards-pages/randonneur-round-the-year/) award in 2014. All sorts of reasons why I rode it in spite of knowing that it would aggravate the injury.
+I took part knowing that I had developed Achilles tendonitis. It was a short ride. Not too hilly. Decent weather. The wife and I had planned a camping trip around it with the boys. I am going for a [Randonneur Round the Year](https://www.audax.uk/awards-pages/randonneur-round-the-year/) award in 2014. All sorts of reasons why I rode it in spite of knowing that it would aggravate the injury.
 
 I completed the ride in good time without much discomfort. As I was riding the 12 or so miles back to the camp-site it began to feel pretty sore. It was fine when I got off the bike and walking. Just a little twinge. As soon as I got back on though the twinge became noticeably worse and quite painful. On inspection it was clear there was some swelling and redness.
 
-![A close-up photograph of a person's lower leg and ankle showing what appears to be an injury or medical condition affecting the Achilles tendon area. The skin appears reddened or inflamed, and the person is wearing dark colored cycling shoes with visible branding.](20140504_achillies.jpg)
+![A close-up photograph of a person's lower leg and ankle showing what appears to be an injury or medical condition affecting the Achilles tendon area. The skin appears reddened or inflamed, and the person is wearing dark colored cycling shoes with visible branding.](20140504_achillies.jpg "Reddened and Inflamed")
 
 I never rode again for the rest of the weekend. The bike went on the car and that is where it stayed until we got home.
 
-![An orange and cream colored camping tent pitched on grass at a campsite with other tents visible in the background. The tent appears to be a two-person model with guy ropes securing it to the ground. A bicycle wheel shadow is cast on the tent fabric, indicating the photo was taken from beside a parked bicycle.](20140505_bike_tent.jpg)
+![An orange and cream colored camping tent pitched on grass at a campsite with other tents visible in the background. The tent appears to be a two-person model with guy ropes securing it to the ground. A bicycle wheel shadow is cast on the tent fabric, indicating the photo was taken from beside a parked bicycle.](20140505_bike_tent.jpg "Shadow Self")
 
 So how did I manage to mess up my Achilles? The etiology tracks back a good few months.
 
 At the tail end of January I rode the Hills and Mills 100. For the last 20-30 km I experienced pain in my left calf. I had never felt any aches or pains when riding for as long as I can remember. This was a sharp and deep pain. I ignored it in so much as I kept on riding but it did slow me down a bit.
 
-![A cyclist in bright green high-visibility jacket and dark cap riding along a tree-lined country lane in misty conditions. The rider is on a dark colored bicycle and appears to be on a long-distance cycling event or audax ride, with atmospheric fog creating a moody backdrop through the overhanging trees.](Hills-and-Mills.jpg)
+![A cyclist in bright green high-visibility jacket and dark cap riding along a tree-lined country lane in misty conditions. The rider is on a dark colored bicycle and appears to be on a long-distance cycling event or audax ride, with atmospheric fog creating a moody backdrop through the overhanging trees.](Hills-and-Mills.jpg "audax: Hills and Mills")
 
 Once off my bike the pain was gone. I remember going out on my daily circuits after this ride and feeling the pain again. On the first ride after the audax I turned round and went back home after half a mile or so because it was that bad. I had a couple of days off riding.
 
@@ -36,7 +36,7 @@ In February I rode the Gospel Pass 150km. Nothing that harsh except the climb go
 
 ![A cycling route map of a 159km loop in Wales starting and ending near Chepstow, passing through Hay-on-Wye, Craswall, Pandy, Abergavenny, Monmouth and back via Tintern. The route shows 2,034m elevation gain and 7 hours 21 minutes moving time, with an elevation profile displaying several significant climbs throughout the challenging Welsh countryside ride.](20140222_gospel_pass.jpg)
 
-![A touring bicycle parked beside a narrow country road on a hillside with expansive views across rolling Welsh valleys and distant mountains under a cloudy sky during golden hour light.](20140222_gospel_pass_view.jpg)
+![A touring bicycle parked beside a narrow country road on a hillside with expansive views across rolling Welsh valleys and distant mountains under a cloudy sky during golden hour light.](20140222_gospel_pass.view.jpg "Gospel Pass")
 
 Home again and back to the daily circuits. The pain was on and off but mostly in the background. I think it was now that I put my saddle down a fraction of an inch. Whether it was this or just good fortune the problem seemed on the wane and I began to forget about it.
 
@@ -48,8 +48,9 @@ In the last week of March I finished the [Man of Kent 200km](https://www.bongotw
 
 So I stuck with the regular rides close to home. Twenty or so miles every morning and evening. April began well. The second week I was [Pembrokeshire](https://www.bongotwisty.blog/hills_and_valleys/). The third week in [Gloucestershire](https://ridewithgps.com/trips/21153319), [Nottingham](https://ridewithgps.com/trips/21153321) and [Coventry](https://ridewithgps.com/trips/21153322).
 
-![A peaceful canal towpath scene at sunset with a red and black narrowboat moored alongside the waterway, surrounded by lush green vegetation and trees with spring foliage. The gravel towpath stretches into the distance with a touring bicycle visible on the left side, creating a tranquil evening cycling route along the canal.](20140414_covcanal_nunneaton.jpg)
-![A touring bicycle with red panniers parked on a cycle path approaching a Victorian railway viaduct with an ornate entrance plaque under bright blue sky. A blue cycle route sign is visible on the left, and the path leads through the viaduct tunnel with green fields and trees on either side.](20140413_stapenhill_viaduct.jpg)
+![A peaceful canal towpath scene at sunset with a red and black narrowboat moored alongside the waterway, surrounded by lush green vegetation and trees with spring foliage. The gravel towpath stretches into the distance with a touring bicycle visible on the left side, creating a tranquil evening cycling route along the canal.](20140414_covcanal_nunneaton.jpg "Coventry Canal near Nunneaton")
+
+![A touring bicycle with red panniers parked on a cycle path approaching a Victorian railway viaduct with an ornate entrance plaque under bright blue sky. A blue cycle route sign is visible on the left, and the path leads through the viaduct tunnel with green fields and trees on either side.](20140413_stapenhill_viaduct.jpg "Stapenhill Viaduct, Burton upon Trent")
 
 Plenty of hills and mileage among that lot. None of my outings were over fifty odd miles though. I enjoyed the cycling and was free from the troubles I had experienced with my calf. I finished off the month with the [Oasts and Coasts 300km](https://www.bongotwisty.blog/audax-oasts-and-coasts-300k/). I suffered on that audax but not because of anything to do with the woes described in this post. It was no longer on my mind. If I thought of it at all it was thinking that I had the problem cracked by lowering my saddle and changing the pedals.
 
@@ -59,7 +60,7 @@ As no discomfort accompanied the swelling I ignored it and was back on my bike t
 
 So I went ahead and completed the audax. It was a great ride. Good company, lovely scenery. Rest stops second to none with plenty of coffee, cakes and other assorted munchies laid on.
 
-![A black road bike parked on grass at a cycling rest stop with a group of cyclists in colorful jerseys gathered around a support vehicle and trailer in a wooded area during what appears to be an organized cycling event.](20140503_tricross.jpg)
+![A black road bike parked on grass at a cycling rest stop with a group of cyclists in colorful jerseys gathered around a support vehicle and trailer in a wooded area during what appears to be an organized cycling event.](20140503_tricross.jpg "A control stop during the Hell Forest 100")
 
 Average speed was a tad over fifteen miles an hour. It had been my intention to treat the event as a slow and sociable ride. That plan nose dived after I took a wrong turn on the way from the camp-site then having to pedal like crazy for six miles to reach the start line in time. I was the last to set out. I was the second rider back. I rode with others for much of the way but at the front of the field. It felt OK to me at that time although twinges of pain were there. If I'd have listened to my body and not ignored what it had told me since January I might not have been off my bike for so long.
 
@@ -79,7 +80,7 @@ Delighted with this advice the very next day I rode to the pool. Immediately I k
 
 It was now with the encouragement and haranguing of my friends that I finally did what I should have done a long time before. Total rest from exercise. I bought myself some [KT tape](https://www.kttape.com/blogs/how-to-apply/achilles-tendonitis) and have worn it to support and strap my Achilles up since then.
 
-![A close-up view of a cyclist's lower leg and foot showing bright blue kinesiology tape applied from ankle to mid-calf, wearing a black Adidas training shoe on tiled flooring.](20142520_taped.jpg)
+![A close-up view of a cyclist's lower leg and foot showing bright blue kinesiology tape applied from ankle to mid-calf, wearing a black Adidas training shoe on tiled flooring.](20142520_taped.jpg "Kinesiology Tape")
 
 Resting my ankle on a pack of frozen peas morning and evening and necking a couple of Ibuprofen every few days or so. That's been the way for the last three weeks now. Went out for a test ride a few days ago. The pain is all but gone. The swelling has almost disappeared. I'm not going to rush back. I have finally learned a lesson on this one. Missing out on a good few rides with friends. The most recent is this evenings London Night Ride.
 
