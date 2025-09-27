@@ -7,7 +7,7 @@ images = ["Ken Livingstone"]
 tags = []
 +++
 
-![](ken.jpg "Ken Livingstone")
+![Ken Livingstone in business attire (suit jacket and tie) walking through St Pancras Station concourse, with glass railings, and contemporary architecture. He's carrying an umbrella.](ken.jpg "Ken Livingstone")
 
 To follow on from my [last blog post](https://www.bongotwisty.blog/photo_law/), today about 10 minutes after I took the shot above I was stopped by the police, searched, and questioned under section 44 of the Terrorism Act 2000. The police asked me to show them the pictures on my camera as part of their search stating the risk there was of hostile reconnaissance taking place in the area. The first picture that came up was this one. Not surprisingly the officer remarked it was Ken though then added, "...never mind. He's not the mayor anymore". The questioning continued without further event.
 

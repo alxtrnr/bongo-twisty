@@ -7,7 +7,7 @@ images = ["washing_line.jpg"]
 tags = []
 +++
 
-![](washing_line.jpg)
+![A typical British back garden scene featuring a washing line strung between posts with various items of laundry hanging to dry. The garden has a neat lawn path, wooden fencing, established trees and shrubs, and what appears to be a small shed or garden building in the background.](washing_line.jpg "Washing Line")
 
 The washing line. An essential utility. It took us ages to get the scaffold poles - about a year or so. In the end we got these two for a tenner from a fella taking down some scaffold at the end of our road.
 
