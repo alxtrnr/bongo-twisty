@@ -1,51 +1,252 @@
-<!--
-    Markdown Image Syntax Example:
-    ![Screenshot of the dashboard](dashboard.jpg "The main dashboard view")
+{{/*
+==============================================================================
+ENHANCED GLIGHTBOX IMAGE RENDER HOOK
+==============================================================================
+
+OVERVIEW:
+This render hook processes all standard Markdown images ![](image.jpg) with 
+three-step resource lookup, automatic image optimization, GLightbox lightbox 
+integration, and graceful error handling.
+
+FEATURES:
+• Three-step image resource discovery (page → gallery → global)
+• Configurable image processing and lightbox behavior
+• JSON parameter support in image titles
+• Environment-aware error handling
+• Fully backward compatible with standard Markdown
+
+==============================================================================
+SITE CONFIGURATION
+==============================================================================
+
+Add this configuration to your hugo.toml to customize behavior:
+
+[markup.goldmark.parser]
+  # Required for title attributes and render hooks
+  wrapStandAloneImageWithinParagraph = false
+  [markup.goldmark.parser.attribute]
+    image = true
+    block = true
+    title = true
     
-    Hugo Processing Benefits:
-    • Convert to WebP for modern browsers
-    • Resize large images to 960px max width  
-    • Add lazy loading and proper dimensions
-    • Wrap in figure/picture elements for better semantics
--->
-
-{{ $src := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
-{{ if $src }}
-  {{ $data := newScratch }}
-  {{ if gt $src.Width 1100 }}
-    {{ $data.Set "webp" ($src.Resize "960x webp q90") }}
-    {{ $data.Set "large" ($src.Resize "1200x webp q85") }}
-    {{ $data.Set "fallback" ($src.Resize "960x q90") }}
-  {{ else }}
-    {{ $data.Set "webp" ($src.Resize (printf "%dx%d webp q90" $src.Width $src.Height)) }}
-    {{ $data.Set "large" $src }}
-    {{ $data.Set "fallback" ($src.Resize (printf "%dx%d q90" $src.Width $src.Height)) }}
-  {{ end }}
+[params.imageProcessing]
+  # Default gallery page for image fallback (optional)
+  defaultGallery = "/gallery"
   
-  {{ $webp := $data.Get "webp" }}
-  {{ $large := $data.Get "large" }}
-  {{ $fallback := $data.Get "fallback" }}
+  # Default resize parameter for all images
+  defaultResize = "600x"
   
-  <figure>
-    <!-- GLightbox wrapper link -->
-    <a href="{{ $large.RelPermalink }}" 
-       class="glightbox" 
-       data-gallery="blog-images"
-       data-title="{{ with .Title }}{{ . }}{{ else }}{{ .Text }}{{ end }}">
-      <picture>
-        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-        <img src="{{ $fallback.RelPermalink }}" 
-             alt="{{ .Text }}" 
-             loading="lazy" 
-             decoding="async" 
-             width="{{ $webp.Width }}" 
-             height="{{ $webp.Height }}">
-      </picture>
-    </a>
-    {{ with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
-  </figure>
-{{ else }}
-  <!-- Fallback for images not in page bundle -->
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}>
-{{ end }}
+  # Enable fallback to global assets directory
+  enableGlobalFallback = true
+  
+  # Enable GLightbox functionality site-wide
+  lightbox = true
 
+==============================================================================
+BASIC USAGE
+==============================================================================
+
+1. SIMPLE IMAGE (page resources only):
+   ![Alt text](image.jpg)
+   
+2. IMAGE WITH TITLE/CAPTION:
+   ![Alt text](image.jpg "My Image Caption")
+   
+3. IMAGE WITH FALLBACK TO GALLERY:
+   Requires defaultGallery configured in site params
+   ![Alt text](shared-image.jpg)
+
+==============================================================================
+ADVANCED USAGE WITH JSON PARAMETERS
+==============================================================================
+
+Use JSON in the title attribute for per-image customization:
+
+1. CUSTOM GALLERY PAGE:
+   ![Alt text](image.jpg '{"title": "Caption", "gallery": "/portfolio/work"}')
+   
+2. CUSTOM IMAGE PROCESSING:
+   ![Alt text](banner.jpg '{"resize": "1200x400 Smart", "title": "Hero Banner"}')
+   
+3. MIXED PARAMETERS:
+   ![Alt text](photo.jpg '{"title": "Photo", "gallery": "/gallery/events", "resize": "800x600"}')
+   
+4. TITLE ONLY (NO OTHER PARAMS):
+   ![Alt text](simple.jpg '{"title": "Simple Caption"}')
+
+JSON PARAMETER OPTIONS:
+• title: Custom caption/title (overrides simple title strings)
+• gallery: Gallery page path for resource fallback
+• resize: Hugo image processing string (e.g., "800x600 Smart", "600x", "400x300 q85")
+
+==============================================================================
+RESOURCE LOOKUP PROCESS
+==============================================================================
+
+The render hook searches for images in this order:
+
+STEP 1 - PAGE RESOURCES:
+• Searches current page bundle: content/posts/my-post/image.jpg
+• Uses .Page.Resources.GetMatch method
+
+STEP 2 - GALLERY PAGE RESOURCES (if configured):
+• Searches specified gallery page resources
+• Uses path.Base to match filename only
+• Configurable via site params or JSON parameter
+
+STEP 3 - GLOBAL ASSETS (if enabled):
+• Searches site assets directory: assets/images/image.jpg
+• Uses resources.Get method
+• Can be disabled via site configuration
+
+==============================================================================
+IMAGE PROCESSING
+==============================================================================
+
+DEFAULT BEHAVIOR:
+• Creates responsive thumbnail using Hugo's .Resize method
+• Default resize: "600x" (maintains aspect ratio)
+• Configurable via site params or JSON parameters
+
+RESIZE OPTIONS:
+• "600x" - Scale to 600px width, maintain aspect ratio
+• "800x600" - Scale to fit within 800x600, maintain aspect ratio  
+• "400x300 Smart" - Crop to exact 400x300 using smart cropping
+• "1200x q85" - Scale to 1200px width with 85% quality
+
+==============================================================================
+GLIGHTBOX INTEGRATION
+==============================================================================
+
+AUTOMATIC LIGHTBOX:
+• Wraps images in <a> tags with GLightbox classes
+• Groups images in data-gallery="gallery"
+• Adds data-glightbox title attribute for captions
+• Links thumbnail to full-resolution image
+
+LIGHTBOX FEATURES:
+• Click thumbnail to open full-size image
+• Keyboard navigation (arrow keys, escape)
+• Mobile touch gestures
+• Automatic gallery grouping
+
+DISABLE LIGHTBOX:
+Set lightbox = false in [params.imageProcessing] to render plain <img> tags
+
+==============================================================================
+ERROR HANDLING
+==============================================================================
+
+DEVELOPMENT MODE (hugo server):
+• Shows detailed error message with search locations
+• Lists all attempted resource paths
+• Helps debug missing or misnamed images
+
+PRODUCTION MODE (hugo build):
+• Falls back to standard <img> tag with original src
+• Shows minimal warning: "⚠️ Image optimization unavailable"
+• Maintains site functionality even with missing optimized images
+
+==============================================================================
+*/}}
+
+{{/* layouts/_default/_markup/render-image.html */}}
+
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+{{- $image := "" -}}
+
+{{/* Configuration from site params (defaults provided) */}}
+{{- $defaultGalleryPage := site.Params.imageProcessing.defaultGallery | default "" -}}
+{{- $defaultResize := site.Params.imageProcessing.defaultResize | default "600x" -}}
+{{- $enableGlobalFallback := site.Params.imageProcessing.enableGlobalFallback | default true -}}
+{{- $lightboxEnabled := site.Params.imageProcessing.lightbox | default true -}}
+
+{{/* Parse title for additional parameters (JSON format) */}}
+{{- $galleryPage := $defaultGalleryPage -}}
+{{- $resize := $defaultResize -}}
+{{- $customParams := dict -}}
+
+{{- if $title -}}
+  {{- if strings.HasPrefix $title "{" -}}
+    {{- $customParams = transform.Unmarshal $title -}}
+    {{- $galleryPage = $customParams.gallery | default $galleryPage -}}
+    {{- $resize = $customParams.resize | default $resize -}}
+    {{- $title = $customParams.title | default "" -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Step 1: Check current page resources */}}
+{{- $pageResource := .Page.Resources.GetMatch $src -}}
+{{- if $pageResource -}}
+  {{- $image = $pageResource -}}
+{{- else -}}
+
+  {{/* Step 2: Check specified gallery page (if configured) */}}
+  {{- if $galleryPage -}}
+    {{- $galleryPageObj := site.GetPage $galleryPage -}}
+    {{- if $galleryPageObj -}}
+      {{- $filename := path.Base $src -}}
+      {{- $galleryResource := $galleryPageObj.Resources.GetMatch $filename -}}
+      {{- if $galleryResource -}}
+        {{- $image = $galleryResource -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{/* Step 3: Check global resources (if enabled and still not found) */}}
+  {{- if and (not $image) $enableGlobalFallback -}}
+    {{- $globalResource := resources.Get $src -}}
+    {{- if $globalResource -}}
+      {{- $image = $globalResource -}}
+    {{- end -}}
+  {{- end -}}
+
+{{- end -}}
+
+{{/* Render the image or error message */}}
+{{- if $image -}}
+  {{- $thumb := $image.Resize $resize -}}
+  
+  {{- if $title -}}
+    <figure class="image-figure">
+      {{- if $lightboxEnabled -}}
+        <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery" data-glightbox="title: {{ $title }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+        </a>
+      {{- else -}}
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+      {{- end -}}
+      <figcaption>{{ $title }}</figcaption>
+    </figure>
+  {{- else -}}
+    {{- if $lightboxEnabled -}}
+      <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+      </a>
+    {{- else -}}
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+    {{- end -}}
+  {{- end -}}
+  
+{{- else -}}
+  {{/* Graceful error handling with fallback to standard img tag */}}
+  {{- if hugo.IsProduction -}}
+    <img src="{{ $src }}" alt="{{ $alt }}" class="image-not-processed"{{ with $title }} title="{{ . }}"{{ end }}>
+    {{- if $title -}}
+      <small class="image-warning">⚠️ Image optimization unavailable</small>
+    {{- end -}}
+  {{- else -}}
+    <div class="image-error" style="border: 2px dashed #ff6b6b; padding: 1rem; margin: 1rem 0; background: #ffe0e0;">
+      <strong>⚠️ Image not found:</strong> {{ $src }}
+      {{- with $title }}<br><strong>Title:</strong> {{ . }}{{ end }}
+      <br><strong>Searched in:</strong>
+      <ul style="margin: 0.5rem 0 0 1rem;">
+        <li>Page resources ({{ .Page.RelPermalink }})</li>
+        {{- if $galleryPage }}<li>Gallery page ({{ $galleryPage }})</li>{{ end }}
+        {{- if $enableGlobalFallback }}<li>Global assets directory</li>{{ end }}
+      </ul>
+    </div>
+  {{- end -}}
+{{- end -}}

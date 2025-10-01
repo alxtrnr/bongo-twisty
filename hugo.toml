@@ -1,4 +1,11 @@
-# Basic config
+# ==============================================================================
+# HUGO SITE CONFIGURATION
+# ==============================================================================
+# Site: BongoTwisty Personal Blog
+# Theme: hugo-simple
+# Enhanced with: GLightbox Image Render Hook with three-step resource lookup
+
+# Basic site configuration
 baseURL = "https://alxtrnr.github.io/bongo-twisty/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
@@ -8,6 +15,7 @@ copyright = "© 2025 A J Turner"
 mainSections = ["blog"]
 
 # Prevent original images from being published - only processed versions
+# This saves bandwidth by only serving optimized images
 [cascade._build]
 publishResources = false
 
@@ -15,26 +23,57 @@ publishResources = false
 enableRobotsTXT = true
 
 # https://github.com/gohugoio/hugo/issues/12152
+# Prevent Hugo from capitalizing list page titles automatically
 capitalizeListTitles = false
 
+# ==============================================================================
+# TAXONOMIES CONFIGURATION
+# ==============================================================================
 [taxonomies]
 tag = "tags"
 
+# ==============================================================================
+# PERMALINK CONFIGURATION
+# ==============================================================================
 [permalinks]
 blog = "/:slugorcontentbasename/"
 tags = "/blog/:slug"
 
+# ==============================================================================
+# MARKDOWN PROCESSING CONFIGURATION
+# ==============================================================================
+# Enhanced Goldmark configuration for image render hooks and content processing
+
 [markup.goldmark.renderer]
+# Allow inline HTML in markdown (required for some advanced features)
 unsafe = true
+
+[markup.goldmark.parser]
+# REQUIRED FOR IMAGE RENDER HOOK: Disable paragraph wrapping for standalone images
+# This allows image attributes to be applied directly to <img> tags rather than wrapping <p> tags
+wrapStandAloneImageWithinParagraph = false
+
+[markup.goldmark.parser.attribute]
+# Enable markdown attributes for images (allows ![](image.jpg){.class #id} syntax)
+image = true
+# Enable attributes for block elements (headings, paragraphs, etc.)
+block = true
+# Enable title attributes (required for JSON parameter parsing in image render hook)
+title = true
+
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 3
+
 [markup.highlight]
 lineNos = true
 lineNumbersInTable = false
 noClasses = true
 style = "catppuccin-mocha"
 
+# ==============================================================================
+# SITE PARAMETERS
+# ==============================================================================
 [params]
 title = "BongoTwisty"
 description = "A Personal Blog"
@@ -42,52 +81,103 @@ favicon = "images/favicon.png?v=2"
 dateFormat = "02 Jan 2006"
 hideMadeWithLine = false
 hideRSSLink = false
+
+# IMPORTANT: Keep this as 'images' (not social_images) for theme compatibility
+# The hugo-simple theme expects this parameter for OpenGraph/social sharing
 images = ["/images/default-og.png"]
 
+# ==============================================================================
+# IMAGE RENDER HOOK CONFIGURATION
+# ==============================================================================
+# Using a different namespace to avoid conflicts with theme's 'images' parameter
+# The render hook will access these via site.Params.imageProcessing.*
+
+[params.imageProcessing]
+# Default gallery page for image fallback (optional)
+# When an image isn't found in the current page bundle, check this gallery page
+defaultGallery = "/gallery"
+
+# Default image processing parameters
+# Controls how images are resized and optimized
+defaultResize = "600x"
+
+# Enable fallback to global assets directory
+# If true, searches assets/ directory when images aren't found in page or gallery resources
+enableGlobalFallback = true
+
+# Enable GLightbox lightbox functionality
+# If true, wraps images in clickable links that open in a lightbox overlay
+lightbox = true
+
+# ==============================================================================
+# AUTHOR INFORMATION
+# ==============================================================================
 [params.author]
 name = "BongoTwisty"
 email = "bongotwisty@pm.me"
 fediverse = "@alxtrnr@cupoftea.social"
 
+# ==============================================================================
+# NAVIGATION MENU
+# ==============================================================================
 [[menu.main]]
 name = "Home"
 pageRef = "/"
 weight = 10
+
 [[menu.main]]
 name = "Posts"
 pageRef = "/blog"
 weight = 20
+
 [[menu.main]]
 name = "Images"
 pageRef = "/gallery/"
 weight = 30
+
 [[menu.main]]
 name = "About"
 pageRef = "/about/"
 weight = 40
+
 [[menu.main]]
 name = "Contact"
 pageRef = "/contact/"
 weight = 50
 
+# ==============================================================================
+# RSS CONFIGURATION
+# ==============================================================================
 [services.rss]
 limit = 42
 
+# ==============================================================================
+# PAGINATION SETTINGS
+# ==============================================================================
 [pagination]
 pagerSize = 31   # e.g., 3 years per page
-path = "page"   # optional; default is "page"
+path = "page"    # optional; default is "page"
 
-
+# ==============================================================================
+# OUTPUT FORMATS
+# ==============================================================================
 [outputs]
 # Generate RSS for home only
 section = ["html"]
 taxonomy = ["html"]
 term = ["html"]
 
+# ==============================================================================
+# CACHE CONFIGURATION
+# ==============================================================================
 [caches]
 [caches.images]
+# Cache processed images to speed up subsequent builds
 dir = ':cacheDir/images'
 
+# ==============================================================================
+# SOCIAL MEDIA LINKS
+# ==============================================================================
 [[params.social]]
 name = "Mastodon"
 url = "https://cupoftea.social/@alxtrnr"
@@ -98,4 +188,3 @@ title = "Follow me on Mastodon"
 name = "GitHub"
 url = "https://github.com/alxtrnr"
 title = "My GitHub"
-
