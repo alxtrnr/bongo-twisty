@@ -94,5 +94,11 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       title = "Halloween"
       alt = "A detailed view of a knitted Halloween tableau showing multiple crocheted pumpkins of varying sizes and colors including orange, pink, white, and patterned varieties. A black cat in a witch's hat sits among the pumpkins, with one orange pumpkin featuring a black silhouette design. The display includes autumn leaves in various colors (orange, red, white, yellow, green) scattered across a multi-colored knitted base with geometric patterns. The scene is photographed outdoors with stone architecture visible in the background."
       >}}
+
+  {{< glightbox-figure-global
+      src = "pirates01.jpg"
+      title = "Pirates, Seal"
+      alt = "A large knitted pirate ship display with colorful yarn figures on a brick-paved street. The ship features a blue and yellow knitted hull with white foam-like waves, brown masts with rigging, and several knitted pirate characters wearing traditional hats and clothing. A large white knitted swan or seagull figure extends from the right side of the scene. The display sits on a pedestrian shopping street with traditional English storefronts visible in the background, including DENIZ shop signage."
+      >}}
 </div>
 
