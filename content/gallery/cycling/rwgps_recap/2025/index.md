@@ -37,4 +37,8 @@ alt = "July 2025 cycling summary card with a calendar-style layout and monthly t
 src = "card_2025_08.webp"
 title = ""
 alt = "August 2025 cycling summary card with a calendar-style layout and monthly totals, highlighting selected rides with distance and elevation."
+[[resources]]
+src = "card_2025_09.jpg"
+title = ""
+alt = "September 2025 cycling summary card with a calendar-style layout and monthly totals, highlighting selected rides with distance and elevation."
 +++

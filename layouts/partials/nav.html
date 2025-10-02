@@ -6,6 +6,7 @@
     {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}class="nav-current"{{ end }}
   >{{ .Name }}</a>
 {{ end }}
+
 {{ if not .Site.Params.hideRSSLink }}
   <a href="{{ relURL "index.xml" }}">
     <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
