@@ -4,7 +4,7 @@ date = 2025-10-03
 draft = false
 +++
 
-The [Care Quality Commission (CQC)](https://www.cqc.org.uk) has to date [assessed 72 local authorities across 9 quality statements. I wanted to look at how the outcome of Kent County Council's CQC assessment compared nationally with other local authorities. 
+The [Care Quality Commission (CQC)](https://www.cqc.org.uk) has to date assessed 72 local authorities across 9 quality statements. I wanted to look at how the outcome of Kent County Council's CQC assessment compared nationally with other local authorities. 
 
 The CQC website has several [pages of links](https://www.cqc.org.uk/search/content/7217) to all the local authority assessments completed. Each assessment page has another link to the outcome summary for the respective local authority. I could not find an aggregated table of results to make easy comparisons between them. Clicking link after link to diplay each summary page in a new tab was not going to work. 
 
@@ -86,7 +86,7 @@ Generates three output formats in `cqc_la_results/` directory:
 - **Comprehensive logging**: Tracks extraction success rates per QS
 - **Debug mode**: Optional detailed logging for troubleshooting
 - **Statistics tracking**:
-    - Overall ratings extracted: 71/72 (98.6%)
+    - Overall ratings extracted: 72/72 (100%)
     - Quality statements: 72/72 (100%)
     - Total QS scores: 648/648 (100%)
     - Average QS per authority: 9.0/9
@@ -271,7 +271,7 @@ All features from basic report PLUS:
 ### **Extraction Success:**
 
 - **100% quality statement extraction** (648/648 scores)
-- **98.6% overall rating extraction** (71/72 authorities)
+- **100% overall rating extraction** (72/72 authorities)
 - **Zero data loss** through robust matching strategies
 
 
