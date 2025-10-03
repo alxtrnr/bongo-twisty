@@ -1,0 +1,451 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CQC Local Authority Assessment Report - Kent County Council Focus</title>
+        <meta charset="UTF-8">
+        <style>
+            body { 
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+            }
+            .container { 
+                max-width: 1200px; 
+                margin: 0 auto; 
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .header { 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white; 
+                padding: 30px; 
+                text-align: center;
+                margin: -20px -20px 30px -20px;
+            }
+            .header h1 { margin: 0; font-size: 2.5em; }
+            .header p { margin: 10px 0 0 0; font-size: 1.1em; opacity: 0.9; }
+            .kent-spotlight { 
+                background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+                color: white; 
+                padding: 30px; 
+                margin: 30px -20px;
+                border-radius: 10px;
+            }
+            .kent-spotlight h2 { margin: 0 0 20px 0; font-size: 2em; }
+            .kent-cards { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+                gap: 20px; 
+                margin: 20px 0;
+            }
+            .kent-card { 
+                background: rgba(255,255,255,0.1); 
+                padding: 20px; 
+                border-radius: 8px; 
+                text-align: center;
+                backdrop-filter: blur(10px);
+            }
+            .kent-card h4 { margin: 0 0 10px 0; color: white; }
+            .kent-card .number { font-size: 1.5em; font-weight: bold; color: #fff; }
+            .kent-card .comparison { font-size: 0.9em; opacity: 0.9; }
+            .summary-cards { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+                gap: 20px; 
+                margin: 30px 0;
+            }
+            .card { 
+                background: white; 
+                padding: 20px; 
+                border-radius: 8px; 
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                text-align: center;
+                border-left: 4px solid #667eea;
+            }
+            .card h3 { margin: 0; color: #333; }
+            .card .number { font-size: 2em; font-weight: bold; color: #667eea; }
+            .chart { 
+                margin: 30px 0; 
+                background: white; 
+                padding: 20px; 
+                border-radius: 8px; 
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            table { 
+                border-collapse: collapse; 
+                width: 100%; 
+                margin: 20px 0;
+                background: white;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            th, td { 
+                border: 1px solid #dee2e6; 
+                padding: 12px; 
+                text-align: left; 
+                font-size: 0.9em;
+            }
+            th { 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white; 
+                font-weight: bold;
+            }
+            tr:nth-child(even) { background-color: #f8f9fa; }
+            tr:hover { background-color: #e9ecef; }
+            .section { margin: 40px 0; }
+            .section h2 { 
+                color: #333; 
+                border-bottom: 2px solid #667eea; 
+                padding-bottom: 10px;
+                font-size: 1.8em;
+            }
+            .outstanding { color: #00a65a; font-weight: bold; }
+            .good { color: #3c8dbc; font-weight: bold; }
+            .requires-improvement { color: #f39c12; font-weight: bold; }
+            .inadequate { color: #dd4b39; font-weight: bold; }
+            .performance-indicator { 
+                display: inline-block; 
+                padding: 4px 8px; 
+                border-radius: 4px; 
+                font-size: 0.8em; 
+                font-weight: bold;
+            }
+            .above-average { background: #d4edda; color: #155724; }
+            .below-average { background: #f8d7da; color: #721c24; }
+            .average { background: #fff3cd; color: #856404; }
+            .footer { 
+                margin-top: 40px; 
+                padding: 20px; 
+                background: #f8f9fa; 
+                text-align: center; 
+                color: #666;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🏛️ CQC Local Authority Assessment Report</h1>
+                <p><strong>Special Focus: Kent County Council</strong></p>
+                <p>Comprehensive Analysis of 72 Local Authority Assessments</p>
+                <p>Generated on 03 October 2025 at 15:47</p>
+            </div>
+            
+            
+    <div class="kent-spotlight">
+        <h2>🎯 Kent County Council Performance Spotlight</h2>
+        <div class="kent-cards">
+            <div class="kent-card">
+                <h4>Overall Rating</h4>
+                <div class="number">Requires improvement</div>
+                <div class="comparison">CQC Assessment Outcome</div>
+            </div>
+            <div class="kent-card">
+                <h4>National Ranking</h4>
+                <div class="number">#37</div>
+                <div class="comparison">out of 72 authorities</div>
+            </div>
+            <div class="kent-card">
+                <h4>Average QS Score</h4>
+                <div class="number">2.22</div>
+                <div class="comparison">National avg: 2.60</div>
+            </div>
+            <div class="kent-card">
+                <h4>Performance Percentile</h4>
+                <div class="number">11th</div>
+                <div class="comparison">percentile nationally</div>
+            </div>
+            <div class="kent-card">
+                <h4>Outstanding QS</h4>
+                <div class="number">0</div>
+                <div class="comparison">out of 9 quality statements</div>
+            </div>
+            <div class="kent-card">
+                <h4>Good QS</h4>
+                <div class="number">2</div>
+                <div class="comparison">out of 9 quality statements</div>
+            </div>
+            <div class="kent-card">
+                <h4>Requires Improvement</h4>
+                <div class="number">7</div>
+                <div class="comparison">quality statements</div>
+            </div>
+            <div class="kent-card">
+                <h4>Inadequate QS</h4>
+                <div class="number">0</div>  
+                <div class="comparison">quality statements</div>
+            </div>
+        </div>
+        
+        <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 8px;">
+            <h4>📊 Key Insights for Kent County Council:</h4>
+            <ul style="margin: 10px 0;">
+                <li><strong>Overall Performance:</strong> Below national average 
+                    <span class="performance-indicator below-average">
+                        -0.38 vs national avg
+                    </span>
+                </li>
+                <li><strong>Ranking:</strong> Middle 50% performer nationally</li>
+                <li><strong>Strengths:</strong> 2 quality statements rated Good or Outstanding</li>
+                <li><strong>Areas for improvement:</strong> 7 quality statements requiring attention</li>
+            </ul>
+        </div>
+    </div>
+    
+            
+            <div class="summary-cards">
+                <div class="card">
+                    <h3>Total Authorities</h3>
+                    <div class="number">72</div>
+                </div>
+                <div class="card outstanding">
+                    <h3>Outstanding</h3>
+                    <div class="number">2</div>
+                    <small>2.8%</small>
+                </div>
+                <div class="card good">
+                    <h3>Good</h3>
+                    <div class="number">47</div>
+                    <small>65.3%</small>
+                </div>
+                <div class="card requires-improvement">
+                    <h3>Requires Improvement</h3>
+                    <div class="number">21</div>
+                    <small>29.2%</small>
+                </div>
+                <div class="card inadequate">
+                    <h3>Inadequate</h3>
+                    <div class="number">1</div>
+                    <small>1.4%</small>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📈 Overall Rating Distribution</h2>
+                <div class="chart">
+                    <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.1.1.min.js" integrity="sha256-HUEFyfiTnZJxCxur99FjbKYTvKSzwDaD3/x5TqHpFu4=" crossorigin="anonymous"></script>                <div id="overall_chart" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("overall_chart")) {                    Plotly.newPlot(                        "overall_chart",                        [{"labels":["Good","Requires improvement","Outstanding","Inadequate","Not Rated"],"marker":{"colors":["#3c8dbc","#f39c12","#00a65a","#dd4b39","#999999"]},"textinfo":"label+percent+value","textposition":"auto","values":{"dtype":"i1","bdata":"LxUCAQE="},"type":"pie"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"size":14},"title":{"text":"Overall CQC Rating Distribution (72 Local Authorities)"},"showlegend":true},                        {"responsive": true}                    )                };            </script>        </div>
+</body>
+</html>
+                </div>
+            </div>
+            
+            <div class='section'><h2>🎯 Kent County Council vs National Average</h2><div class='chart'><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                            <div id="kent_comparison" class="plotly-graph-div" style="height:500px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("kent_comparison")) {                    Plotly.newPlot(                        "kent_comparison",                        [{"marker":{"color":"#e74c3c"},"name":"Kent County Council","text":["2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","3.0"],"textposition":"auto","x":["qs1","qs2","qs3","qs4","qs5","qs6","qs7","qs8","qs9"],"y":[2,2,3,2,2,2,2,2,3],"type":"bar"},{"marker":{"color":"#3498db"},"name":"National Average","text":["2.3","2.6","2.4","2.4","2.9","2.6","2.6","2.7","2.9"],"textposition":"auto","x":["qs1","qs2","qs3","qs4","qs5","qs6","qs7","qs8","qs9"],"y":[2.263888888888889,2.625,2.4444444444444446,2.4444444444444446,2.875,2.5694444444444446,2.5833333333333335,2.7083333333333335,2.861111111111111],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"size":12},"xaxis":{"title":{"text":"Quality Statements"},"tickangle":45},"yaxis":{"title":{"text":"Score (1=Inadequate, 4=Outstanding)"},"range":[1,4]},"legend":{"x":0,"y":1},"title":{"text":"Kent County Council vs National Average - Quality Statement Scores"},"barmode":"group","height":500},                        {"responsive": true}                    )                };            </script>        </div>
+</body>
+</html></div></div>
+            
+            <div class="section">
+                <h2>📊 Quality Statement Performance Analysis</h2>
+                <div class="chart">
+                    <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                            <div id="qs_chart" class="plotly-graph-div" style="height:600px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("qs_chart")) {                    Plotly.newPlot(                        "qs_chart",                        [{"marker":{"color":"#00a65a"},"name":"Outstanding","x":["QS1: Assessing Needs","QS2: Supporting People to Lead Healthier Lives","QS3: Equity in Experience and Outcomes","QS4: Care Provision, Integration and Continuity","QS5: Partnerships and Communities","QS6: Safe Pathways, Systems and Transitions","QS7: Safeguarding","QS8: Governance, Management and Sustainability","QS9: Learning, Improvement and Innovation"],"y":{"dtype":"i1","bdata":"AAECAAUBAQIC"},"type":"bar"},{"marker":{"color":"#3c8dbc"},"name":"Good","x":["QS1: Assessing Needs","QS2: Supporting People to Lead Healthier Lives","QS3: Equity in Experience and Outcomes","QS4: Care Provision, Integration and Continuity","QS5: Partnerships and Communities","QS6: Safe Pathways, Systems and Transitions","QS7: Safeguarding","QS8: Governance, Management and Sustainability","QS9: Learning, Improvement and Innovation"],"y":{"dtype":"i1","bdata":"FCwdIDUnKjA7"},"type":"bar"},{"marker":{"color":"#f39c12"},"name":"Requires improvement","x":["QS1: Assessing Needs","QS2: Supporting People to Lead Healthier Lives","QS3: Equity in Experience and Outcomes","QS4: Care Provision, Integration and Continuity","QS5: Partnerships and Communities","QS6: Safe Pathways, Systems and Transitions","QS7: Safeguarding","QS8: Governance, Management and Sustainability","QS9: Learning, Improvement and Innovation"],"y":{"dtype":"i1","bdata":"MxooKA4gGxUK"},"type":"bar"},{"marker":{"color":"#dd4b39"},"name":"Inadequate","x":["QS1: Assessing Needs","QS2: Supporting People to Lead Healthier Lives","QS3: Equity in Experience and Outcomes","QS4: Care Provision, Integration and Continuity","QS5: Partnerships and Communities","QS6: Safe Pathways, Systems and Transitions","QS7: Safeguarding","QS8: Governance, Management and Sustainability","QS9: Learning, Improvement and Innovation"],"y":{"dtype":"i1","bdata":"AQEBAAAAAgEB"},"type":"bar"},{"marker":{"color":"#999999"},"name":"Not Rated","x":["QS1: Assessing Needs","QS2: Supporting People to Lead Healthier Lives","QS3: Equity in Experience and Outcomes","QS4: Care Provision, Integration and Continuity","QS5: Partnerships and Communities","QS6: Safe Pathways, Systems and Transitions","QS7: Safeguarding","QS8: Governance, Management and Sustainability","QS9: Learning, Improvement and Innovation"],"y":{"dtype":"i1","bdata":"AAAAAAAAAAAA"},"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"size":12},"xaxis":{"title":{"text":"Quality Statements"},"tickangle":45},"title":{"text":"Quality Statement Performance Distribution"},"yaxis":{"title":{"text":"Number of Authorities"}},"barmode":"stack","height":600},                        {"responsive": true}                    )                };            </script>        </div>
+</body>
+</html>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📊 Average Quality Statement Scores</h2>
+                <div class="chart">
+                    <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                            <div id="avg_chart" class="plotly-graph-div" style="height:500px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("avg_chart")) {                    Plotly.newPlot(                        "avg_chart",                        [{"marker":{"color":"#17a2b8"},"text":["2.26","2.62","2.44","2.44","2.88","2.57","2.58","2.71","2.86"],"textposition":"auto","x":["qs1","qs2","qs3","qs4","qs5","qs6","qs7","qs8","qs9"],"y":{"dtype":"f8","bdata":"x3Ecx3EcAkAAAAAAAAAFQOQ4juM4jgNA5DiO4ziOA0AAAAAAAAAHQOQ4juM4jgRAq6qqqqqqBECrqqqqqqoFQDmO4ziO4wZA"},"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"size":12},"xaxis":{"title":{"text":"Quality Statements"},"tickangle":45},"yaxis":{"title":{"text":"Average Score"},"range":[1,4]},"title":{"text":"Average Quality Statement Scores (1=Inadequate, 4=Outstanding)"},"height":500},                        {"responsive": true}                    )                };            </script>        </div>
+</body>
+</html>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📋 Quality Statement Performance Summary</h2>
+                <p>Detailed breakdown of ratings for each Quality Statement across all 72 authorities:</p>
+                <table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Quality Statement</th>
+      <th>Outstanding</th>
+      <th>Good</th>
+      <th>Requires Improvement</th>
+      <th>Inadequate</th>
+      <th>Not Rated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>QS1: Assessing Needs</td>
+      <td>0 (0.0%)</td>
+      <td>20 (27.8%)</td>
+      <td>51 (70.8%)</td>
+      <td>1 (1.4%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS2: Supporting People to Lead Healthier Lives</td>
+      <td>1 (1.4%)</td>
+      <td>44 (61.1%)</td>
+      <td>26 (36.1%)</td>
+      <td>1 (1.4%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS3: Equity in Experience and Outcomes</td>
+      <td>2 (2.8%)</td>
+      <td>29 (40.3%)</td>
+      <td>40 (55.6%)</td>
+      <td>1 (1.4%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS4: Care Provision, Integration and Continuity</td>
+      <td>0 (0.0%)</td>
+      <td>32 (44.4%)</td>
+      <td>40 (55.6%)</td>
+      <td>0 (0.0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS5: Partnerships and Communities</td>
+      <td>5 (6.9%)</td>
+      <td>53 (73.6%)</td>
+      <td>14 (19.4%)</td>
+      <td>0 (0.0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS6: Safe Pathways, Systems and Transitions</td>
+      <td>1 (1.4%)</td>
+      <td>39 (54.2%)</td>
+      <td>32 (44.4%)</td>
+      <td>0 (0.0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS7: Safeguarding</td>
+      <td>1 (1.4%)</td>
+      <td>42 (58.3%)</td>
+      <td>27 (37.5%)</td>
+      <td>2 (2.8%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS8: Governance, Management and Sustainability</td>
+      <td>2 (2.8%)</td>
+      <td>48 (66.7%)</td>
+      <td>21 (29.2%)</td>
+      <td>1 (1.4%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QS9: Learning, Improvement and Innovation</td>
+      <td>2 (2.8%)</td>
+      <td>59 (81.9%)</td>
+      <td>10 (13.9%)</td>
+      <td>1 (1.4%)</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+            
+            <div class="section">
+                <h2>🏆 Top Performing Authorities</h2>
+                <p>Authorities with the highest number of Good/Outstanding Quality Statement ratings:</p>
+                <table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Authority</th>
+      <th>Overall Rating</th>
+      <th>Good/Outstanding QS Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hertfordshire County Council</td>
+      <td>Good</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>London Borough of Camden</td>
+      <td>Outstanding</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Cheshire East Council</td>
+      <td>Good</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Royal Borough of Kensington and Chelsea</td>
+      <td>Outstanding</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Knowsley Council</td>
+      <td>Good</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+            
+            <div class="section">
+                <h2>⚠️ Authorities Requiring Focus</h2>
+                <p>Authorities with the highest number of Requires Improvement/Inadequate ratings:</p>
+                <table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Authority</th>
+      <th>Overall Rating</th>
+      <th>Requires Improvement/Inadequate QS Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Blackpool Council</td>
+      <td>Inadequate</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Gloucestershire County Council</td>
+      <td>Requires improvement</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Lancashire County Council</td>
+      <td>Requires improvement</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Bath and North East Somerset Council</td>
+      <td>Requires improvement</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Derby City Council</td>
+      <td>Requires improvement</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+            
+            <div class="footer">
+                <p><strong>Report Summary:</strong> This comprehensive analysis covers 72 Local Authority assessments 
+                with complete Quality Statement data (648 individual ratings), featuring detailed analysis of Kent County Council's performance.</p>
+                <p><em>Generated using Python-based CQC scraper with 100% data extraction success rate.</em></p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
