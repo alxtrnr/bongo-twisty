@@ -15,7 +15,7 @@ Visted the parents at the weekend. Mum was just back from an appointment to remo
 
 Spouse had a consultation with her GP. Nothing definitive. Maybe migraines. General advice received about eating healthily etc... 
 
-S3 back from uni during week. He's captain of a local football team. His team won. He said it looked like they were going to win the league. I thought it wwas a bit previous to bank on that. He said they were so far ahead others would not catch up with them now. I know nothing about football but thought the season had just started. What do I know. 
+S3 back from uni during week. He's captain of a local football team. His team won. He said it looked like they were going to win the league. I thought it was a bit previous to bank on that. He said they were so far ahead others would not catch up with them now. I know nothing about football but thought the season had just started. What do I know. 
 
 S2 and S3 are both now involved in the alpha/beta testing phase of the music app a friend of mine has been developing. S2 might be involved in data analytics with the app at some point. He's completed a music and business degree and is now completing a data analytics course so is well placed for it. Hope it works out. He'd welcome something more on his CV than warehouse work. 
 
@@ -30,14 +30,30 @@ Out for a ride every day last week. Up and out the door around 5.00 am Monday to
 
 ![Hoo Loop](hoo_loop.png)
 
-It's become a goto ride over the last year or so. Having a regular route like this works really well for getting the miles in. Not having to think about where to go, how long it will take, what the conditions will be like etc.\
+It's become a goto ride over the last year or so. Having a regular route like this works really well for getting the miles in. Not having to think about where to go, how long it will take, what the conditions will be like etc.
+
 I'm properly sorted on the clothing front to deal with whatever the weather is between now and spring. Feeling cautiously confident I'm going to reach my annual distance goal. 
+
+```bash
+=== ANNUAL GOAL PROGRESS (2025) ===
+Goal: 18,000 km
+Current: 13,802.3 km (76.7% complete)
+Year Progress: 76.4% elapsed
+Days passed: 279 | Days remaining: 86
+Status: ✅ On track
+
+=== PACING TARGETS ===
+To reach your goal, you need:
+• Daily: 48.8 km/day
+• Weekly: 341.7 km/week
+• Monthly: 1485.8 km/month
+```
 
 Completed a 200k DiY audax on Saturday. It was very blowy out with the tail end of Storm Amy continuing to clear the air. I took this into account with the route planning. Had the wind behind me for the much of the first half. Protected from the wind by hills and hedgerows on the second. 
 
 ![audax: Wealdowns 200 DiY](20251004_wealdown_200.png)
 
-Stopped for breakfast in the cafe at Headcorn Areodrome at 10.45 am. It was a bit early to stay true to the intermittant fasting schedule I've been following. Sometimes it makes sense to do something different. With just over four and half hours / 90km of riding done I felt alright with making an exception. 
+Stopped for breakfast in the cafe at Headcorn Areodrome at 10.45 am. It was a bit early to stay true to the intermittent fasting schedule I've been following. Sometimes it makes sense to do something different. With just over four and half hours / 90km of riding done I felt alright with making an exception. 
 
 Finished the week with just over 514k done. Happy to have completed the 200 so early in the month. It's the first ride of the third consecutive RRtY. Toying with the idea of two years in one. That means at least two 200 + rides each month for the next year.  
 
@@ -60,9 +76,9 @@ Once again I have not saved or shared any blog posts I have read which struck a 
 **Screen Time**:\
 I watched episode one of the current Slow Horses series. Not sure why but I was not as taken with it than with previous seasons. Wondering if the line between character and caricature has become blurred. Not watched episode two yet. I'll give it a go. 
 
-Ellis (Inspector Ellis) on Channel 5 is pretty good. My dad suggested it to me at the weekend. Watched the first epsiode last night. It was a bit long but I guess she did solve the case from a cold start. 
+Ellis (Inspector Ellis) on Channel 5 is pretty good. My dad suggested it to me at the weekend. Watched the first episode last night. It was a bit long but I guess she did solve the case from a cold start. 
 
-We got a new TV. Special to me but pretty standard really. 43" inch smart TV. Not had one of those before. A bit of a revelations. So many free channels. Also prompted me to get the boys old Xbox down from their wardrobe and hook it up in the living room. Revived an old account I still had the details for. I've been racing around Mexico in Forza Horizon Five.
+We got a new TV. Special to me but pretty standard really. 43" inch smart TV. Not had one of those before. A bit of a revelation. So many free channels. Also prompted me to get the boys old Xbox down from their wardrobe and hook it up in the living room. Revived an old account I still had the details for. I've been driving around Mexico in Forza Horizon Five.
 
 
 **Other business**:\
