@@ -100,5 +100,12 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       title = "Pirates, Seal"
       alt = "A large knitted pirate ship display with colorful yarn figures on a brick-paved street. The ship features a blue and yellow knitted hull with white foam-like waves, brown masts with rigging, and several knitted pirate characters wearing traditional hats and clothing. A large white knitted swan or seagull figure extends from the right side of the scene. The display sits on a pedestrian shopping street with traditional English storefronts visible in the background, including DENIZ shop signage."
       >}}
+      
+  {{< glightbox-figure-global
+      src = "20251004_harvest_seal.jpg"
+      title = "Harvest, Seal"
+      alt = "A large knitted and crocheted harvest sculpture featuring colorful wool vegetables and fruits displayed outdoors in a residential street"
+      >}}
+
 </div>
 

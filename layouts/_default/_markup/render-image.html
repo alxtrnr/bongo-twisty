@@ -210,35 +210,35 @@ PRODUCTION MODE (hugo build):
   {{- $thumb := $image.Resize $resize -}}
   
   {{- if $title -}}
-    <figure class="image-figure">
+    <figure class="image-figure" style="text-align: center; margin: 1rem auto;">
       {{- if $lightboxEnabled -}}
         <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery" data-glightbox="title: {{ $title }}">
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy" style="display: inline-block;">
         </a>
       {{- else -}}
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy" style="display: inline-block;">
       {{- end -}}
       <figcaption>{{ $title }}</figcaption>
     </figure>
   {{- else -}}
     {{- if $lightboxEnabled -}}
-      <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery">
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+      <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery" style="display: block; text-align: center;">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy" style="display: inline-block;">
       </a>
     {{- else -}}
-      <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $alt }}" loading="lazy" style="display: block; margin: 0 auto;">
     {{- end -}}
   {{- end -}}
   
 {{- else -}}
   {{/* Graceful error handling with fallback to standard img tag */}}
   {{- if hugo.IsProduction -}}
-    <img src="{{ $src }}" alt="{{ $alt }}" class="image-not-processed"{{ with $title }} title="{{ . }}"{{ end }}>
+    <img src="{{ $src }}" alt="{{ $alt }}" class="image-not-processed" style="display: block; margin: 0 auto;"{{ with $title }} title="{{ . }}"{{ end }}>
     {{- if $title -}}
-      <small class="image-warning">⚠️ Image optimization unavailable</small>
+      <small class="image-warning" style="display: block; text-align: center;">⚠️ Image optimization unavailable</small>
     {{- end -}}
   {{- else -}}
-    <div class="image-error" style="border: 2px dashed #ff6b6b; padding: 1rem; margin: 1rem 0; background: #ffe0e0;">
+    <div class="image-error" style="border: 2px dashed #ff6b6b; padding: 1rem; margin: 1rem auto; background: #ffe0e0; max-width: 600px;">
       <strong>⚠️ Image not found:</strong> {{ $src }}
       {{- with $title }}<br><strong>Title:</strong> {{ . }}{{ end }}
       <br><strong>Searched in:</strong>
@@ -250,3 +250,4 @@ PRODUCTION MODE (hugo build):
     </div>
   {{- end -}}
 {{- end -}}
+

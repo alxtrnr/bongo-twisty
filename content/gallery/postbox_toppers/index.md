@@ -65,6 +65,10 @@ alt = "A detailed view of a knitted Halloween tableau showing multiple crocheted
 src = "pirates01.jpg"
 title = "Pirates, Seal"
 alt = "A large knitted pirate ship display with colorful yarn figures on a brick-paved street. The ship features a blue and yellow knitted hull with white foam-like waves, brown masts with rigging, and several knitted pirate characters wearing traditional hats and clothing. A large white knitted swan or seagull figure extends from the right side of the scene. The display sits on a pedestrian shopping street with traditional English storefronts visible in the background, including DENIZ shop signage."
+[[resources]]
+src = "20251004_harvest_seal.jpg"
+title = "Harvest, Seal"
+alt = "A large knitted and crocheted harvest sculpture featuring colorful wool vegetables and fruits displayed outdoors in a residential street"
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
