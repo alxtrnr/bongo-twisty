@@ -209,94 +209,6 @@ All features from basic report PLUS:
 - Performance categorization: Top/middle/bottom quartile logic
 ```
 
-
-***
-
-### **🔧 Technical Architecture**
-
-### **Data Flow:**
-
-```
-1. CQC Website → Scraper → Raw JSON/CSV
-2. Raw Data → Report Generator → HTML Report
-3. HTML Report → Browser → Visual Analysis
-```
-
-
-### **Dependencies:**
-
-- **requests**: HTTP requests and session management
-- **beautifulsoup4**: HTML parsing
-- **pandas**: Data manipulation and analysis
-- **plotly**: Interactive chart generation
-- **lxml**: Fast HTML parsing
-- **numpy**: Statistical calculations (Kent report)
-
-
-### **Code Quality Standards:**
-
-- **PEP-8 compliant**: Full style guide adherence
-- **Type hints**: Python 3.12+ type annotations throughout
-- **Docstrings**: Google-style documentation
-- **Error handling**: Try-except blocks with logging
-- **Resource management**: Context managers for cleanup
-
-***
-
-### **📊 Output Capabilities**
-
-### **Data Formats:**
-
-1. **CSV**: Easy Excel/analysis integration
-2. **JSON**: Programmatic access and API-ready
-3. **HTML**: Shareable professional reports
-
-### **Analysis Features:**
-
-- **Descriptive statistics**: Counts, percentages, averages
-- **Comparative analysis**: Authority vs national benchmarks
-- **Visual representations**: Charts showing distributions and trends
-- **Drill-down capabilities**: Full dataset access for deep analysis
-
-
-### **Practical Applications:**
-
-- **Performance monitoring**: Track CQC ratings over time
-- **Benchmarking**: Compare authorities nationally
-- **Improvement planning**: Identify areas needing focus
-- **Stakeholder reporting**: Professional presentations
-- **Strategic planning**: Data-driven decision making
-
-***
-
-### **🎯 Key Achievements**
-
-### **Extraction Success:**
-
-- **100% quality statement extraction** (648/648 scores)
-- **100% overall rating extraction** (72/72 authorities)
-- **Zero data loss** through robust matching strategies
-
-
-### **Reporting Excellence:**
-
-- **Professional visualizations** with Plotly
-- **Contextual insights** with automated analysis
-- **Authority-specific focus** (Kent) with meaningful comparisons
-- **Export-ready formats** for further analysis
-
-
-### **Production Ready:**
-
-- **Error handling**: Comprehensive exception management
-- **Logging**: Detailed activity tracking
-- **Scalability**: Handles pagination automatically
-- **Maintainability**: Clean, documented code with type safety
-
-This suite provides a **complete end-to-end solution** for CQC data extraction, analysis, and visualization, enabling data-driven insights into local authority performance across England.
-
-Based on the comprehensive functionality overview and the league tables report we discussed creating, here's the additional content to add:
-
 ***
 
 ### **📊 Script 4: CQC League Tables HTML Report**
@@ -465,14 +377,6 @@ Interactive league table visualization implementing CQC best practice guidance f
 - Outstanding/concern-focused summary tables
 
 
-### **Professional Styling:**
-
-- **GOV.UK Design System compliance**: Official UK government styling
-- **Accessibility features**: WCAG 2.1 AA compliant
-- **Print-optimized CSS**: Professional hard copy formatting
-- **Brand consistency**: CQC color scheme and typography
-
-
 ### **Use Cases:**
 
 - **Strategic planning**: Identify improvement priorities by QS theme
@@ -484,9 +388,90 @@ Interactive league table visualization implementing CQC best practice guidance f
 
 ***
 
-### **🎯 Complete Suite Capabilities**
+### **🔧 Technical Architecture**
 
-With the addition of the League Tables report, the suite now provides:
+### **Data Flow:**
+
+```
+1. CQC Website → Scraper → Raw JSON/CSV
+2. Raw Data → Report Generator → HTML Report
+3. HTML Report → Browser → Visual Analysis
+```
+
+
+### **Dependencies:**
+
+- **requests**: HTTP requests and session management
+- **beautifulsoup4**: HTML parsing
+- **pandas**: Data manipulation and analysis
+- **plotly**: Interactive chart generation
+- **lxml**: Fast HTML parsing
+- **numpy**: Statistical calculations (Kent report)
+
+
+### **Code Quality Standards:**
+
+- **PEP-8 compliant**: Full style guide adherence
+- **Type hints**: Python 3.12+ type annotations throughout
+- **Docstrings**: Google-style documentation
+- **Error handling**: Try-except blocks with logging
+- **Resource management**: Context managers for cleanup
+
+***
+
+### **📊 Output Capabilities**
+
+### **Data Formats:**
+
+1. **CSV**: Easy Excel/analysis integration
+2. **JSON**: Programmatic access and API-ready
+3. **HTML**: Shareable professional reports
+
+### **Analysis Features:**
+
+- **Descriptive statistics**: Counts, percentages, averages
+- **Comparative analysis**: Authority vs national benchmarks
+- **Visual representations**: Charts showing distributions and trends
+- **Drill-down capabilities**: Full dataset access for deep analysis
+
+
+### **Practical Applications:**
+
+- **Performance monitoring**: Track CQC ratings over time
+- **Benchmarking**: Compare authorities nationally
+- **Improvement planning**: Identify areas needing focus
+- **Stakeholder reporting**: Professional presentations
+- **Strategic planning**: Data-driven decision making
+
+***
+
+### **🎯 Key Achievements**
+
+### **Extraction Success:**
+
+- **100% quality statement extraction** (648/648 scores)
+- **100% overall rating extraction** (72/72 authorities)
+- **Zero data loss** through robust matching strategies
+
+
+### **Reporting Excellence:**
+
+- **Professional visualizations** with Plotly
+- **Contextual insights** with automated analysis
+- **Authority-specific focus** (Kent) with meaningful comparisons
+- **Export-ready formats** for further analysis
+
+
+### **Production Ready:**
+
+- **Error handling**: Comprehensive exception management
+- **Logging**: Detailed activity tracking
+- **Scalability**: Handles pagination automatically
+- **Maintainability**: Clean, documented code with type safety
+
+
+
+### **🎯 Complete Suite Capabilities**
 
 1. **Data extraction** (Script 1) → Raw assessment data
 2. **Comprehensive analysis** (Script 2) → Overall sector overview
