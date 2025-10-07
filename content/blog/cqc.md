@@ -294,3 +294,204 @@ All features from basic report PLUS:
 - **Maintainability**: Clean, documented code with type safety
 
 This suite provides a **complete end-to-end solution** for CQC data extraction, analysis, and visualization, enabling data-driven insights into local authority performance across England.
+
+Based on the comprehensive functionality overview and the league tables report we discussed creating, here's the additional content to add:
+
+***
+
+### **📊 Script 4: CQC League Tables HTML Report**
+
+### **Functionality:**
+
+Interactive league table visualization implementing CQC best practice guidance for meaningful performance comparisons across multiple dimensions.
+
+### **Key Features:**
+
+#### **1. Multi-Dimensional League Table Structure**
+
+**Theme-Based Organization:**
+
+- **Working With People Tables** (QS1-3):
+    - QS1: Assessing needs
+    - QS2: Supporting people to live healthier lives
+    - QS3: Equity in experiences and outcomes
+- **Providing Support Tables** (QS4-5):
+    - QS4: Care provision, integration, and continuity
+    - QS5: Partnerships and communities
+- **Ensuring Safety Tables** (QS6-7):
+    - QS6: Safe systems, pathways, and transitions
+    - QS7: Safeguarding
+- **How the LA is Run Tables** (QS8-9):
+    - QS8: Governance, management, and sustainability
+    - QS9: Learning, improvement, and innovation
+
+
+#### **2. Visual Heat Map Presentation**
+
+**Color-Coded Rating System:**
+
+```python
+- Outstanding: Dark green (#2d5016)
+- Good: Light green (#85994b)
+- Requires Improvement: Amber/orange (#f47738)
+- Inadequate: Red (#d4351c)
+- Not Rated: Grey (#b1b4b6)
+```
+
+**Interactive Features:**
+
+- Sortable columns for each quality statement
+- Overall rating filter buttons
+- Authority name search functionality
+- Instant visual pattern recognition across 9 QS columns
+
+
+#### **3. Outstanding Practice Showcase**
+
+**Excellence Highlights Section:**
+
+- **Overall Outstanding Authorities** (2):
+    - London Borough of Camden
+    - Royal Borough of Kensington and Chelsea
+- **Quality Statement Excellence** callouts:
+    - 5 authorities with Outstanding partnerships (QS5)
+    - Individual QS Outstanding achievements highlighted
+- Direct links to CQC assessment reports for learning
+
+
+#### **4. Individual Quality Statement Rankings**
+
+**Nine Dedicated League Tables:**
+
+- Separate sortable table for each QS
+- Ranks all 72 authorities by specific QS performance
+- Allows focused analysis on particular assessment areas
+- Identifies sector leaders and improvement opportunities by theme
+
+
+#### **5. Performance Distribution Analytics**
+
+**Statistical Summaries:**
+
+- Rating counts per QS (Outstanding/Good/RI/Inadequate breakdown)
+- Percentage distributions across rating categories
+- Visual bar charts showing rating splits for each QS
+- Most/least consistent performance indicators
+
+
+#### **6. Authority Type Classification**
+
+**Automatic Categorization:**
+
+```python
+- London Boroughs (identifiable from name pattern)
+- County Councils (parsed from authority name)
+- Unitary Authorities (derived from naming convention)
+- Metropolitan Boroughs (extracted from titles)
+```
+
+**Filterable Views:**
+
+- Regional comparisons for peer learning
+- Authority type benchmarking
+- Geographic cluster analysis
+
+
+#### **7. Areas Requiring Attention**
+
+**Improvement Focus Section:**
+
+- Inadequate-rated authority identification (1 authority)
+- Multiple Requires Improvement flagging (21 authorities)
+- Common challenge themes across QS categories
+- Sector-wide improvement priority analysis
+
+
+#### **8. Interactive Filtering \& Search**
+
+**User Controls:**
+
+- **Overall rating filter**: Show only Outstanding/Good/RI/Inadequate
+- **Authority search**: Real-time name filtering
+- **Column sorting**: Click any QS column to rank
+- **Theme view toggle**: Switch between full table and theme-grouped views
+- **Export functionality**: Download filtered results
+
+
+#### **9. Contextual Guidance Integration**
+
+**Best Practice Implementation:**
+
+- Avoids oversimplified single-score rankings
+- Presents rating bands rather than strict numerical order
+- Emphasizes learning from excellence over punitive ranking
+- Includes assessment methodology explanation
+- Notes baseline assessment period (April 2023-December 2025)
+
+
+#### **10. Advanced Table Features**
+
+**Technical Capabilities:**
+
+- **Responsive design**: Mobile-friendly table layouts
+- **Sticky headers**: Column headers remain visible when scrolling
+- **Zebra striping**: Alternating row colors for readability
+- **Hyperlinked authority names**: Direct CQC report access
+- **Assessment date display**: Temporal context for each rating
+- **Performance pattern highlighting**: Visual indicators for mixed ratings
+
+
+#### **11. Benchmark Comparison Tools**
+
+**Comparative Analytics:**
+
+- Authority vs national average across all 9 QS
+- Peer group comparisons (similar authority types)
+- Regional performance clustering
+- Quartile positioning indicators
+
+
+### **Data Integration:**
+
+**Input Source:**
+
+- `la_raw_assessments.json` (72 authorities × 9 QS = 648 data points)
+
+**Table Generation:**
+
+- Master league table with all authorities and QS columns
+- 9 individual QS-specific ranking tables
+- Theme-grouped comparative tables (3 theme groups)
+- Outstanding/concern-focused summary tables
+
+
+### **Professional Styling:**
+
+- **GOV.UK Design System compliance**: Official UK government styling
+- **Accessibility features**: WCAG 2.1 AA compliant
+- **Print-optimized CSS**: Professional hard copy formatting
+- **Brand consistency**: CQC color scheme and typography
+
+
+### **Use Cases:**
+
+- **Strategic planning**: Identify improvement priorities by QS theme
+- **Peer learning**: Compare similar authorities' approaches
+- **Performance monitoring**: Track assessment outcomes sector-wide
+- **Quality improvement**: Learn from Outstanding-rated practices
+- **Stakeholder reporting**: Share visual performance data
+- **Sector benchmarking**: Position authority within national context
+
+***
+
+### **🎯 Complete Suite Capabilities**
+
+With the addition of the League Tables report, the suite now provides:
+
+1. **Data extraction** (Script 1) → Raw assessment data
+2. **Comprehensive analysis** (Script 2) → Overall sector overview
+3. **Authority-specific focus** (Script 3) → Kent deep-dive
+4. **Interactive comparison** (Script 4) → Multi-dimensional league tables
+
+This creates a **complete analytical ecosystem** from raw CQC data through to actionable insights, supporting evidence-based decision-making for local authority social care improvement planning.
+
