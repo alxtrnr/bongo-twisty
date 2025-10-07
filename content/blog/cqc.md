@@ -16,7 +16,10 @@ Complete breakdown of ratings for each quality statement, top/bottom performers,
 **[📍 Kent-Focused Analysis](/reports/cqc_kent_focused_report_20251003_1547.html)**  
 Detailed analysis focusing specifically on Kent County Council's assessment.
 
-Both reports include sortable tables and detailed metrics for each authority's performance. It's kind of work related. They display the data in a way that works for me and enable making the comparisons I was after. 
+**[🏆 CQC Local Authority Assessment League Tables](/reports/cqc_league_tables.html)**
+Interactive rankings across all 9 quality statements with theme-based comparisons and performance heat maps
+
+Each report includes sortable tables and detailed metrics for each authority's performance. It's kind of work related. They display the data in a way that works for me and enable making the comparisons I was after. 
 
 It was close to 100% [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding). One of many DiY coding projects I have completed this way. Prompt, test, iterate. Job done. Good enough will do. 
 
