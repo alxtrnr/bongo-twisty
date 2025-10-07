@@ -471,7 +471,7 @@ Interactive league table visualization implementing CQC best practice guidance f
 
 
 
-### **🎯 Complete Suite Capabilities**
+### **Complete Suite Capabilities**
 
 1. **Data extraction** (Script 1) → Raw assessment data
 2. **Comprehensive analysis** (Script 2) → Overall sector overview
