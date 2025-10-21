@@ -10,7 +10,7 @@ Adopting a critical stance to something we do not understand protects the child 
 
 The vulnerable child in me was triggered. I instigated the change in the system my colleague was struggling to get to grips with. Grumpiness the "safe" outlet for my own vulnerability and anger. 
 
-There were at least two children in the space we occupied. Both vulnerable. Both seeking to protect themselves. You can imagine how they might have gone. Speaking over one another. Not listening. No empathy or compassion from either side. It did not dissolve into a bun fight. We stayed within the boundaries of acceptable adult discourse. The children were muted, censored by the adults we now are. It was however children that were pulling the strings. 
+There were at least two children in the space we occupied. Both vulnerable. Both seeking to protect themselves. You might imagine how that went. Speaking over one another. Not listening. No empathy or compassion from either side. It did not dissolve into a bun fight. We stayed within the boundaries of acceptable adult discourse. The children were muted, censored by the adults we now are. It was however children that were pulling the strings. 
 
 There is nothing unusual about being triggered. It happens. Less and less so with me these days. I have been working on myself for some years now. I guess that's why it felt notable. All day I was on a hair trigger. Reacting not responding. 
 
