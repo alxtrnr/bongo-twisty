@@ -7,7 +7,7 @@ tags = ["cycling"]
 
 Out on my bike yesterday and my Karoo 2 GPS came off my bars. I did not notice until after a few miles had passed. Live tracking showed me where to go find it. It was on a quiet country lane.  I rode back as fast as I could hoping to find it in one piece while imagining the worst. 
 
-I found it in a shallow puddle, looking tragic, face down on the side of the road. The screen was damaged quite badly. Tracking had paused but it was still working. I reattached it and continued the ride back home. 
+I found it in a shallow puddle, looking tragic, face down on the side of the road. The screen was damaged quite badly. Tracking had paused but it was still working. I reattached it and continued the [ride](https://ridewithgps.com/trips/345654457) back home. 
 
 ![Cycling route map showing a 72.8km loop starting from Chatham, Kent, passing through Rochester, Cuxton, Shorne, Gravesend, Lower Higham, Cliffe Woods, Lower Stoke, and Upper Stoke before returning to Chatham. The route has 902 meters of elevation gain and a moving time of 3 hours 10 minutes. An elevation profile graph below the map shows relatively flat terrain with notable hills near the end of the route.](card.png)
 
