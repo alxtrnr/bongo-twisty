@@ -107,5 +107,11 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       alt = "A large knitted and crocheted harvest sculpture featuring colorful wool vegetables and fruits displayed outdoors in a residential street"
       >}}
 
+  {{< glightbox-figure-global
+      src = "20251022_halloween_shorne.jpg"
+      title = "Halloween, Shorne"
+      alt = "Crocheted Halloween decoration in the form of an orange pumpkin with white mesh netting draped over a traditional red British Royal Mail postbox, complete with a grey knitted stem and black decorative elements"
+      >}}
+
 </div>
 

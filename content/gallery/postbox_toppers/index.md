@@ -69,6 +69,10 @@ alt = "A large knitted pirate ship display with colorful yarn figures on a brick
 src = "20251004_harvest_seal.jpg"
 title = "Harvest, Seal"
 alt = "A large knitted and crocheted harvest sculpture featuring colorful wool vegetables and fruits displayed outdoors in a residential street"
+[[resources]]
+src = "20251022_halloween_shorne.jpg"
+title = "Halloween, Shorne"
+alt = "Crocheted Halloween decoration in the form of an orange pumpkin with white mesh netting draped over a traditional red British Royal Mail postbox, complete with a grey knitted stem and black decorative elements"
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
