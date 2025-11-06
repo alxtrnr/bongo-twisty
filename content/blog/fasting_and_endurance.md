@@ -9,12 +9,12 @@ Intermittent fasting, specifically the 16:8 method where you only eat during an 
 
 I am cherry picking the parts I was inspired by: 
 
-> When you choose to fast, you're conducting an experiment with your own machinery. The metabolic switch flips from glucose to fat, from immediate fuel to stored reserves. Your brain shifts into a different gear — sharper, quieter, less cluttered by the constant background noise of digestive processing. This is voluntary darkness: closing the shutter to make the picture clear.
-
-> Short-term voluntary scarcity sharpens focus.
-
-> We live now in a world where abundance creates its own problems. Choice overload paralyses us in grocery aisles. The tyranny of infinite options can make us less decisive than scarcity ever did. Sometimes constraints liberate us from the exhausting democracy of having to choose everything, all the time.
-
+> When you choose to fast, you're conducting an experiment with your own machinery. The metabolic switch flips from glucose to fat, from immediate fuel to stored reserves. Your brain shifts into a different gear — sharper, quieter, less cluttered by the constant background noise of digestive processing. This is voluntary darkness: closing the shutter to make the picture clear...
+>
+> Short-term voluntary scarcity sharpens focus...
+>
+> We live now in a world where abundance creates its own problems. Choice overload paralyses us in grocery aisles. The tyranny of infinite options can make us less decisive than scarcity ever did. Sometimes constraints liberate us from the exhausting democracy of having to choose everything, all the time...
+>
 > Fasting is a chosen darkness — you pull the curtains to concentrate the light that remains. 
 
 
@@ -34,6 +34,8 @@ Most days I do a 50km loop. This is often first thing in the morning hence while
 
 Every month I do at least one ride of 200km or more. The last few have been while fasting. The first 100k of September and October rides were on an empty stomach. I fared much better than I thought I might. I did not '[bonk](https://www.bikeradar.com/advice/fitness-and-training/how-to-avoid-bonking-on-a-bike-ride)' and neither was my pace markedly different from normal. 
 
-Last weekend I rode a 400k DiY audax. I planned the first control stop at 80k. I got there before 1.00 pm so just had a black coffee and carried on riding. Other than on long rides I only drink decaf tea and coffee. I felt pretty good on the next section and put that in part down to the caffeine. The next control was at 160k. I still had around 10 - 15k to go when 1.00 pm came round. I kept going and got to the stop at around 1.20 pm. 
+Yesterday I set out on a 400k ride. I planned the first control stop at 80k. I got there before 1.00 pm so just had a black coffee and carried on riding. Other than on long rides I only drink decaf tea and coffee. I felt pretty good on the next section and put that in part down to the caffeine. The next control was at 160k. I still had around 10 - 15k to go when 1.00 pm came round. I kept going and got to the stop at around 1.20 pm. 100 miles done on an empty stomach without suffering. This was first. There is no doubt in my mind that intermittent fasting has increased my cycling endurance. 
 
-100 miles done on an empty stomach without suffering. This was first. There is no doubt in my mind that Intermittent fasting has increased my cycling endurance. 
+<iframe src="https://ridewithgps.com/embeds?type=trip&id=347998210&title=audax%3A%20London%20%26%20Brighton%20400k%20DiY&metricUnits=true&sampleGraph=true&distanceMarkers=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+
+I kept going for the rest of the day and into the early hours of today. I could have managed the last 150km better. I did bonk. Nausea and headache mostly. My pace did not reduce by much though, if at all. Luckliy the wind was beind me all along the south coast. Lessons learned and to apply this coming weekend. I have a 600 planned. 
