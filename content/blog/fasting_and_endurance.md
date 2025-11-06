@@ -38,4 +38,4 @@ Yesterday I set out on a 400k ride. I planned the first control stop at 80k. I g
 
 <iframe src="https://ridewithgps.com/embeds?type=trip&id=347998210&title=audax%3A%20London%20%26%20Brighton%20400k%20DiY&metricUnits=true&sampleGraph=true&distanceMarkers=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
 
-I kept going for the rest of the day and into the early hours. Got back home around 4.15 am. I could have managed the last 150km better. I did bonk. Nausea and headache mostly. My pace did not reduce by much though, if at all. Luckliy the wind was beind me all along the south coast. Lessons learned and will be applied this coming weekend. I have a 600 planned. 
+I kept going for the rest of the day and into the early hours. Got back home around 4.15 am. I could have managed the last 150km better. I did bonk. Nausea and headache mostly. My pace did not reduce by much though, if at all. Luckily the wind was behind me all along the south coast. Lessons learned and will be applied this coming weekend. I have a 600 planned. 
