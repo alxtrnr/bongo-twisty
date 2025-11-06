@@ -461,7 +461,42 @@ nav#TableOfContents > ul {
 /* =================================================================
    RESPONSIVE DESIGN - Mobile Optimizations
    ================================================================= */
+/* Bandcamp Embed - Desktop full size, mobile responsive */
+.bandcamp-embed {
+  max-width: none;
+}
 
+.bandcamp-embed iframe {
+  width: 700px;
+  height: 1194px;
+  border: 0;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .bandcamp-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 170.57%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .bandcamp-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Base mobile - aggressive padding reduction */
+@media (max-width: 600px) {
+    .site-container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
 /* Base mobile - aggressive padding reduction */
 @media (max-width: 600px) {
     .site-container {

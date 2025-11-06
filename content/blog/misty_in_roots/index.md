@@ -5,7 +5,11 @@ date = 2025-11-06
 tags = ["music"]
 +++
 
-<iframe style="border: 0; width: 700px; height: 1194px;" src="https://bandcamp.com/EmbeddedPlayer/album=2444581172/size=large/bgcol=ffffff/linkcol=0687f5/package=1457123484/transparent=true/" seamless><a href="https://mistyinroots.bandcamp.com/album/live-at-the-counter-eurovision-79">Live at the Counter Eurovision 79 by Misty In Roots</a></iframe>
+{{< bandcamp 
+  src="https://bandcamp.com/EmbeddedPlayer/album=2444581172/size=large/bgcol=ffffff/linkcol=0687f5/package=1457123484/transparent=true/" 
+  link="https://mistyinroots.bandcamp.com/album/live-at-the-counter-eurovision-79" 
+  title="Live at the Counter Eurovision 79 by Misty In Roots" 
+>}}
 
 A week ago last Wednesday spouse and I went down to Brighton to see [Misty in Roots](https://en.wikipedia.org/wiki/Misty_in_Roots) play. Spouse won the tickets in a competition. 
 
