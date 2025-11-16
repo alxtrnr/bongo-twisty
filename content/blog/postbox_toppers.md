@@ -119,5 +119,11 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       alt = "A handcrafted Remembrance Day tribute featuring knitted figures and elements arranged on a purple knitted postbox topper. The scene includes a British Queen's Guard soldier in red uniform with black bearskin hat on the left, a miniature knitted cenotaph monument in the center draped with a red poppy garland, and a naval or air force officer figure in navy blue uniform on the right. Multiple red knitted poppies are scattered across the purple surface, along with small red, white, and blue decorative elements. The display sits on a red postbox against a stone wall background."
       >}}
 
+  {{< glightbox-figure-global
+      src = "20251116__armistice_lower_higham.jpg"
+      title = "Armistice, Lower Higham"
+      alt = "Hand-knitted commemorative display featuring miniature figures of Royal Guards in red uniforms and black bearskin hats positioned behind a knitted memorial stone. The stone is adorned with bright red poppies and sits on a crocheted base decorated with red, white, and blue flowers. The scene is photographed at dawn or dusk against a stone wall backdrop with countryside visible in the distance."
+      >}}
+
 </div>
 
