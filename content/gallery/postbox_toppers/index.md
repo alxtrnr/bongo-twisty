@@ -74,9 +74,13 @@ src = "20251022_halloween_shorne.jpg"
 title = "Halloween, Shorne"
 alt = "Crocheted Halloween decoration in the form of an orange pumpkin with white mesh netting draped over a traditional red British Royal Mail postbox, complete with a grey knitted stem and black decorative elements"
 [[resources]]
-src = "20251111_upper_higham.jpg"
+src = "20251111_armistice.jpg"
 title = "Armistice Day, Upper Higham"
 alt = "A handcrafted Remembrance Day tribute featuring knitted figures and elements arranged on a purple knitted postbox topper. The scene includes a British Queen's Guard soldier in red uniform with black bearskin hat on the left, a miniature knitted cenotaph monument in the center draped with a red poppy garland, and a naval or air force officer figure in navy blue uniform on the right. Multiple red knitted poppies are scattered across the purple surface, along with small red, white, and blue decorative elements. The display sits on a red postbox against a stone wall background."
+[[resources]]
+src = "20251116__armistice_lower_higham.jpg"
+title = "Armistice, Lower Higham"
+alt = "Hand-knitted commemorative postbox topper featuring miniature figures of Royal Guards in red uniforms and black bearskin hats positioned behind a knitted memorial stone. The stone is adorned with bright red poppies and sits on a crocheted base decorated with red, white, and blue flowers. The scene is photographed at dawn against a stone wall backdrop with countryside visible in the distance."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
