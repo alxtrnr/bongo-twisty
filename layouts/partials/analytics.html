@@ -1,24 +1,20 @@
 <script>
 (function() {
-  var url = 'https://bongotwisty.goatcounter.com/count?p=' + encodeURIComponent(location.pathname + location.search);
-
-  // Try to use sendBeacon for tracking
-  if (!navigator.sendBeacon || !navigator.sendBeacon(url)) {
-    // If CSP blocks sendBeacon, fallback to image request
-    var img = document.createElement('img');
-    img.src = url;
-    img.style.position = 'absolute';
-    img.style.bottom = '0px';
-    img.style.width = '1px';
-    img.style.height = '1px';
-    img.loading = 'eager';
-    img.setAttribute('alt', '');
-    img.setAttribute('aria-hidden', 'true');
-    document.body.appendChild(img);
-  }
-})();
+    var e, t = "https://bongotwisty.goatcounter.com/count?p=" + encodeURIComponent(location.pathname + location.search);
+    (!navigator.sendBeacon || !navigator.sendBeacon(t)) && (e = document.createElement("img"),
+    e.src = t,
+    e.style.position = "absolute",
+    e.style.bottom = "0px",
+    e.style.width = "1px",
+    e.style.height = "1px",
+    e.loading = "eager",
+    e.setAttribute("alt", ""),
+    e.setAttribute("aria-hidden", "true"),
+    document.body.appendChild(e))
+}
+)()
 </script>
 <noscript>
-  <img src="https://bongotwisty.goatcounter.com/count?p={{ .Permalink }}" style="width:1px; height:1px; position:absolute; bottom:0;" loading="eager" alt="" aria-hidden="true"/>
+    <img src="https://bongotwisty.goatcounter.com/count?p={{ .RelPermalink | urlquery }}" style="width:1px;height:1px;position:absolute;bottom:0;" loading="eager" alt="" aria-hidden="true">
 </noscript>
 
