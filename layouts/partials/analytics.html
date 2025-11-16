@@ -1,2 +1,24 @@
-<script data-goatcounter="https://bongotwisty.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<script>
+(function() {
+  var url = 'https://bongotwisty.goatcounter.com/count?p=' + encodeURIComponent(location.pathname + location.search);
+
+  // Try to use sendBeacon for tracking
+  if (!navigator.sendBeacon || !navigator.sendBeacon(url)) {
+    // If CSP blocks sendBeacon, fallback to image request
+    var img = document.createElement('img');
+    img.src = url;
+    img.style.position = 'absolute';
+    img.style.bottom = '0px';
+    img.style.width = '1px';
+    img.style.height = '1px';
+    img.loading = 'eager';
+    img.setAttribute('alt', '');
+    img.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(img);
+  }
+})();
+</script>
+<noscript>
+  <img src="https://bongotwisty.goatcounter.com/count?p={{ .Permalink }}" style="width:1px; height:1px; position:absolute; bottom:0;" loading="eager" alt="" aria-hidden="true"/>
+</noscript>
+
