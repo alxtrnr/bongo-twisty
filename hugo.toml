@@ -86,6 +86,8 @@ hideRSSLink = false
 # The hugo-simple theme expects this parameter for OpenGraph/social sharing
 images = ["/images/default-og.png"]
 
+# Analytics
+goatcounter = "bongotwisty"  # Replace 'yoursite' with your GoatCounter code
 # ==============================================================================
 # IMAGE RENDER HOOK CONFIGURATION
 # ==============================================================================

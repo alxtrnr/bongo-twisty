@@ -37,43 +37,43 @@
     <!-- GLightbox CSS for gallery lightbox support -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-    <!-- A partial to be overwritten by the user.
-         Simply place a custom_head.html into
-         your local /layouts/partials-directory -->
     {{- partial "custom_head.html" . -}}
   </head>
 
   <body>
-  <div class="site-container">
-    <header>
-      {{ partial "header.html" . }}
-    </header>
-    
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
-  </div>
+    <div class="site-container">
+      <header>
+        {{ partial "header.html" . }}
+      </header>
+      
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
 
-  <footer>
-    {{ partial "custom_footer.html" . }}
-    {{ partial "footer.html" . }}
-  </footer>
+    <footer>
+      {{ partial "custom_footer.html" . }}
+      {{ partial "footer.html" . }}
+    </footer>
 
-  <!-- GLightbox JS for gallery lightbox support -->
-  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      GLightbox({
-        selector: '.glightbox',
-        touchNavigation: true,
-        loop: true,
-        scrollLock: false
+    <!-- GLightbox JS for gallery lightbox support -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        GLightbox({
+          selector: '.glightbox',
+          touchNavigation: true,
+          loop: true,
+          scrollLock: false
+        });
       });
-    });
-  </script>
+    </script>
 
-  <!-- Custom body partial -->
-  {{- partial "custom_body.html" . -}}
-</body>
+    {{- partial "custom_body.html" . -}}
 
+    {{- if .Site.Params.goatcounter }}
+      {{ partial "analytics.html" . }}
+    {{- end }}
+
+  </body>
 </html>
