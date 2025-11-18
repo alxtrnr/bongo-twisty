@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Monitor git submodules (your theme)
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
