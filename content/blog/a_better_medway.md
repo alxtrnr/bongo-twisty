@@ -34,7 +34,7 @@ An update to my post, '[A Space for Cycling in Medway](https://www.bongotwisty.b
 
 Very encouraging to read that the Provisional Cycling Action Plan for 2014 to 2017 I referred to in my previous post has now been approved. The plan was not attached to the email forwarded to me. No links to the approved plan on the councils website yet. If I get a copy I'll update this post and link to it.
 
-Searching for that did though turn up this [letter](/bongo-twisty/pdfs/A9-SELEP-support-for-Medway-Council.pdf) to David from Peter Jones, CBE, Chair, South East Local Enterprise Partnership supporting Medway's application to the Local Sustainable Transport Fund (LSTF) for £163,000 which will in part be used for the bicycle bus initiative David mentions.
+Searching for that did though turn up this [letter](/pdfs/A9-SELEP-support-for-Medway-Council.pdf) to David from Peter Jones, CBE, Chair, South East Local Enterprise Partnership supporting Medway's application to the Local Sustainable Transport Fund (LSTF) for £163,000 which will in part be used for the bicycle bus initiative David mentions.
 
 I echo David's words and his hope that those councillors who are not fully supportive of the Cycling Action Plan can indeed be persuaded. I do wonder what the objections are. If I can find out who objects to what and why I'll be sure to write a post about that to.
 
