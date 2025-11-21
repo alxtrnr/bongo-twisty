@@ -2,7 +2,7 @@
 title = "Reverse sensors; who needs them?"
 description = ""
 date = 2007-09-29
-tags = ["Cycling"]
+tags = []
 +++
 
 ![A silver car is parked with its rear bumper pressed up against the front bumper of another light green car on the street, showing no visible damage. Both vehicles are wet from rain, with the silver car's number plate "FP03 ZJV" clearly visible.](fp03zjv.jpg)
