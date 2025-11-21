@@ -41,5 +41,3 @@ I echo David's words and his hope that those councillors who are not fully suppo
 It would seem odd wouldn't it that given the reported increase in number of people cycling in Medway why any councillor would not support initiatives that set out to create safer and more accessible ways to do so? It certainly seems to counter the work of [Medway Council's health improvement team](https://www.medway.gov.uk/homepage/48/a_better_medway "A better Medway") who say they working throughout Medway to help local people make healthy lifestyle choices.
 
 As a foot note I contacted the [leader of the Labour Party in Medway](http://democracy.medway.gov.uk/mgUserInfo.aspx?UID=165 "Vince Maple") via Twitter to ask what his parties position was on this. He asked me to drop him an email, 'so I can send you a reply which is more than 140 characters'. That was on the 13th May. Not had a reply yet but I guess it's only been a week or so since I asked.
-
-Medway Cycle Action Plan 2014 - 2017 - Consultation.pdf
