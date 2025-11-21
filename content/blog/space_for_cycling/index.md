@@ -28,13 +28,13 @@ The UK cycling charity [CTC](http://www.ctc.org.uk/) is running an ongoing natio
 
 The reply I received was rather bland but with the promise that he would share these points with [Richard Hicks](http://democracy.medway.gov.uk/mgUserInfo.aspx?UID=200) at Medway Council who has the auspicious title of: Deputy Director, Customer Contact, Leisure, Culture, Democracy and Governance. Good stuff. I was not expecting great things or immediate changes to happen but I was hopeful of a considered reply. Here's what I got from one of his minions in planning via my ward councillor -
 
->In flat developments we do look for cycle parking provision but not as yet in housing and there is no policy backing for it. However, we are undergoing production of a new local plan which will look at sustainability and as part of that review housing standards, parking standards and cycling provision. The production of that plan will however take time._
+>In flat developments we do look for cycle parking provision but not as yet in housing and there is no policy backing for it. However, we are undergoing production of a new local plan which will look at sustainability and as part of that review housing standards, parking standards and cycling provision. The production of that plan will however take time.
 > 
 >I hope this helps 
 > 
 >Dave
 > 
->There is a cycle day at one of the parks next Saturday. Details should be on the council website_
+>There is a cycle day at one of the parks next Saturday. Details should be on the council website.
 
-The cycle day referred to is Medway's Big Ride which I was thinking might have been affiliated to the CTC campaign but looking at the promotional blurb there's no mention of it. Not to worry though because in spite of Dave's reply the council has already produced a Provisional Cycling Action Plan for 2014 to 2017. Just a shame that my councillor and Dave in planning did not seem to be aware of it. Here's hoping though that the laudable schemes included in the plan get to see the light of day.
+The cycle day referred to is Medway's "Big Ride" which I was thinking might have been affiliated to the CTC campaign but looking at the promotional blurb there's no mention of it. Not to worry though because in spite of Dave's reply the council has already produced a Provisional Cycling Action Plan for 2014 to 2017. Just a shame that my councillor and Dave in planning did not seem to be aware of it. Here's hoping though that the laudable schemes included in the plan get to see the light of day.
 
