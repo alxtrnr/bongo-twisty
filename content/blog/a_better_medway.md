@@ -9,7 +9,7 @@ An update to my post, '[A Space for Cycling in Medway](https://www.bongotwisty.b
 
 > Dear [Councillor Turpin](http://democracy.medway.gov.uk/mgUserInfo.aspx?UID=678 "Rupert Turpin")
 > 
-> I refer to Mr Turner's e-mail of 8th May where he makes a number of excellent points and, for many of us, is 'pushing at an open door'. I believe that a number of his ideas are contained in the attached 'Cycling Action Plan' which has now been formally adopted.
+> I refer to Mr Turner's e-mail of 8th May where he makes a number of excellent points and, for many of us, is 'pushing at an open door'. I believe that a number of his ideas are contained in the attached '[Cycling Action Plan](/pdfs/medway_cycle_action_plan_2014_2017.pdf)' which has now been formally adopted.
 >
 > With particular reference to his comments contained in his item 4, it would require an Act of Parliament to allow cycling through the Medway Tunnel and some significant engineering to protect cyclists from passing HGVs, a risk which is exacerbated by the constraints within the Tunnel. However, as an alternative, we are working with the local bus operator, Nu-Venture Coaches, to accommodate bikes within 3 of their buses that provide services through there, hopefully, by the end of the year.
 >
@@ -41,3 +41,5 @@ I echo David's words and his hope that those councillors who are not fully suppo
 It would seem odd wouldn't it that given the reported increase in number of people cycling in Medway why any councillor would not support initiatives that set out to create safer and more accessible ways to do so? It certainly seems to counter the work of [Medway Council's health improvement team](https://www.medway.gov.uk/homepage/48/a_better_medway "A better Medway") who say they working throughout Medway to help local people make healthy lifestyle choices.
 
 As a foot note I contacted the [leader of the Labour Party in Medway](http://democracy.medway.gov.uk/mgUserInfo.aspx?UID=165 "Vince Maple") via Twitter to ask what his parties position was on this. He asked me to drop him an email, 'so I can send you a reply which is more than 140 characters'. That was on the 13th May. Not had a reply yet but I guess it's only been a week or so since I asked.
+
+Medway Cycle Action Plan 2014 - 2017 - Consultation.pdf
