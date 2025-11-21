@@ -5,7 +5,7 @@ date = 2014-05-12
 tags = ["Cycling"]
 
 [[resources]]
-src = "s4c_nomotor.gif"
+src = ["s4c_nomotor.gif", "s4c_schools.gif", "s4c_towncentres.gif", "s4c_protectedspace.gif", "s4c_greenspaces.gif", "s4c_20mph.gif"]
 +++
 
 The UK cycling charity [CTC](http://www.ctc.org.uk/) is running an ongoing national campaign, [Space for Cycling](http://www.ctc.org.uk/campaign/space-for-cycling), which aims to create the conditions where anyone can cycle anywhere. There are six main themes: 

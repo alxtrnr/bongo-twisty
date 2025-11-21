@@ -88,6 +88,7 @@ images = ["/images/default-og.png"]
 
 # Analytics
 goatcounter = "bongotwisty"  # Replace 'yoursite' with your GoatCounter code
+
 # ==============================================================================
 # IMAGE RENDER HOOK CONFIGURATION
 # ==============================================================================
