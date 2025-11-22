@@ -125,5 +125,11 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       alt = "Hand-knitted commemorative display featuring miniature figures of Royal Guards in red uniforms and black bearskin hats positioned behind a knitted memorial stone. The stone is adorned with bright red poppies and sits on a crocheted base decorated with red, white, and blue flowers. The scene is photographed at dawn or dusk against a stone wall backdrop with countryside visible in the distance."
       >}}
 
+  {{< glightbox-figure-global
+      src = "20251122_tankerton.jpg"
+      title = "Autumn Harvest, Tankerton"
+      alt = "An autumnal post box topper displayed on a large circular bright orange crocheted platform. The centerpiece features a tower of textured knitted pumpkins in various sizes - pink with blue speckles, olive green, and coral - with decorative stems. Scattered around the base are smaller crocheted elements including miniature pumpkins, brown acorns, colorful mushrooms (red and brown), green oak leaves, and small knitted figures. The display is positioned in front of a blue-painted storefront with large windows, creating a festive seasonal scene"
+      >}}
+
 </div>
 
