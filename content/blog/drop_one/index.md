@@ -9,11 +9,11 @@ So I missed a day. On the 17th September I wrote a post, which was the first one
 
 There was a good reason for that. I went on an errand. It never took long though my journey home was meandering. From Whitstable back to Chatham via Seasalter, Faversham, Sittingbourne, Sheppey Bridge and the back roads home along the path of the River Medway. I stopped a few times to take some pictures. Night time photography. The weather was lousy and got progressively wetter the nearer home I got. All the same I came back with a few pictures that I thought were worthy of an upload.
 
-![Middle Row, Faversham](backstreet.jpg "Middle Row, Faversham")
+![Black and white night photograph of a narrow cobblestone alley with weathered buildings on both sides, illuminated by street lamps creating pools of light in the darkness](backstreet.jpg "Middle Row, Faversham")
 
-![Sheppey Crossing](pillar-talk.jpg "Pillar Talk | Sheppey Crossing")
+![Atmospheric night photograph beneath a large bridge or viaduct, showing massive concrete support pillars silhouetted against a misty sky with distant lights glowing in amber tones](pillar-talk.jpg "Pillar Talk | Sheppey Crossing")
 
-![Gateway](churchyard.jpg "Gateway")
+![Night photograph of a historic brick church with illuminated archway entrance, viewed through a cemetery gate with gravestones visible in the foreground and overgrown vegetation framing the scene](churchyard.jpg "Gateway")
 
 I got home about 11.30pm and did the decent thing, I spent some time with spouse rather than on the computer.
 
