@@ -8,13 +8,13 @@ tags = ["Garden"]
 
 Seven days after putting down grass seeds to grow a lawn and here is how things are looking - 
 
-![Garden lawn after seven days of growth, showing patchy grass coverage with bare soil visible, bordered by residential fencing and walls](grass7days.jpg)
+![Garden lawn after seven days of growth, showing patchy grass coverage with bare soil visible, bordered by residential fencing and walls](grass7days.jpg "7 days")
 
 You could be forgiven for thinking "so where is the grass", and if you saw it [last week](https://www.bongotwisty.blog/growing_grass/) it does not seem to have changed much.
 
 Well I suppose from the picture above it does look that way and until yesterday I'd have agreed. This morning though I looked out at and hallelujah! The grass had begun to sprout all over. Here's a close up to prove the point -
 
-![Close-up macro shot of newly sprouted grass seedlings emerging from soil after seven days, showing delicate green blades among scattered autumn leaves and soil particles](grass7daysclose.jpg)
+![Close-up macro shot of newly sprouted grass seedlings emerging from soil after seven days, showing delicate green blades among scattered autumn leaves and soil particles](grass7daysclose.jpg "7 days up close")
 
 I am delighted and relieved in equal measures. Seeding rather than laying turf was a bit of a leap of faith. It said on the packet that in favourable conditions grass would begin to show in about 7-10 days. I had my doubts. The weather conditions have been OK but I would not have put money on that or the results of my preparation to be so favourable. I certainly never expected the growth to be this punctual!
 

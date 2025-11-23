@@ -10,7 +10,7 @@ Last week it was [seven days](https://bongo-twisty/seven_days_post_seeding/) aft
 
 This Sunday at fourteen days there is no doubt. We are growing lawn!
 
-![Young grass seedlings emerging across garden plot, showing early growth stage with soil still visible between green shoots](grass14.jpg)
+![Young grass seedlings emerging across garden plot, showing early growth stage with soil still visible between green shoots](grass14.jpg "14 days")
 
 The amount it has grown in the last seven days is astounding. There are still a few patchy bits. This is possibly because the seed was raked in a bit deeper in some areas. Everyday though it looks likes it's grown more.
 

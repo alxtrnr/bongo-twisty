@@ -12,7 +12,7 @@ The bald patches are slowly getting covered and the rest is generally getting a 
 
 Here's how it's looking on day twenty one...
 
-![Established lawn in narrow garden with green grass, bordered by wooden fence on left and weathered brick wall on right, with play equipment visible at far end](grass-21.jpg) 
+![Established lawn in narrow garden with green grass, bordered by wooden fence on left and weathered brick wall on right, with play equipment visible at far end](grass-21.jpg "21 days") 
 
 To the untrained eye i.e. anyone who is not out there everyday like me checking on progress it probably looks no different from last week. I realise any more pictures now are perhaps superfluous to requirements. What the hell. I'll stop next week at 28 days post seeding. I'm not planning on mowing the lawn until spring so perhaps one more then just before I do will be in order.
 
