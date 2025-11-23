@@ -1,25 +1,14 @@
 +++
-title = "Home Grown"
-description = ""
+title = "Twenty one days post seeding"
+description = "Home Grown"
 date = 2007-10-21
 +++
 
-
 Home grown in Medway. Our lawn and two local artists. Our lawn first.
 
-It's now 21 days since the seed went down. Growth has slowed a bit from the amazing pace seen between it being seeded...
+It's now 21 days since the seed went down. Growth has slowed a bit from the amazing pace seen between being [seeded]( https://www.bongotwisty.blog/growing_grass/), to [seven days](https://www.bongotwisty.blog/seven_days_post_seeding/), then [fourteen](https://www.bongotwisty.blog/fourteen_days_post_seeding/).
 
-![Freshly prepared garden bed with dark topsoil spread across narrow plot, ready for seeding, flanked by wooden fence and brick wall](seeded.jpg)
-
-to seven days...
-
-![Garden lawn after seven days of growth, showing patchy grass coverage with bare soil visible, bordered by residential fencing and walls](grass7days.jpg) 
-
-then fourteen...
-
- ![Young grass seedlings emerging across garden plot, showing early growth stage with soil still visible between green shoots](grass14.jpg) 
-
- The bald patches slowly getting covered and the rest is generally getting a bit thicker. I wish my hair would grow like that!
+The bald patches are slowly getting covered and the rest is generally getting a bit thicker. I wish my hair would grow like that!
 
 Here's how it's looking on day twenty one...
 
