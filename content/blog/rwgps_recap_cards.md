@@ -34,4 +34,4 @@ Edit `USERID`, `month`, and `year` as needed.
 
 Just remove the `month` parameter for a yearly summary.
 
-Doing this I created a card for every year from 2012. [RWGPS Year Recap](https://www.bongotwisty.blog/gallery/cycling/rwgps_years/). Planning on creating retrospective posts for all the monthly cards. I love a collection. 
+Doing this I created a card for every year from 2012. [RWGPS Year Recap](https://www.bongotwisty.blog/gallery/cycling/rwgps_recap/). Planning on creating retrospective posts for all the monthly cards. I love a collection. 
