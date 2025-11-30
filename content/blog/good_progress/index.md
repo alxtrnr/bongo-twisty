@@ -15,7 +15,7 @@ A bought a gel bumper case to help protect it, which was ready and waiting when 
 
 It's been a very good month on the mileage front...
 
-![Alt text](card_2025_11.jpg '{"title": "November Recap", "gallery": "/gallery/cycling/rwgps_recap/2025/"}')
+![November 2025 cycling calendar showing distance and elevation gain for each ride. The calendar displays 21 rides totaling 2,011 kilometers with 18,874 meters of elevation gain over 3 days, 23 hours, and 10 minutes of moving time. Notable rides include a 403-kilometer ride with 3,311 meters of elevation on Saturday, November 1st, and a 607-kilometer ride with 4,380 meters of elevation on Saturday, November 8th. Most other rides averaged around 50 kilometers. The image uses a dark background with blue-highlighted calendar cells and orange accent text.](card_2025_11.jpg '{"title": "November Recap", "gallery": "/gallery/cycling/rwgps_recap/2025/"}')
 
 Yesterdays ride made my yearly Eddington number (km) a personal best since the year I first started logging my rides...
 
