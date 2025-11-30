@@ -13,8 +13,14 @@ With a bit of a push through December I passed 10,000 miles for the year. Well p
 
 <img style="display:block;margin:auto" src="https://i.ibb.co/m5c5qN8G/Screenshot-from-2025-03-20-13-23-12.png">
 
+![Alt text](y_2024_RWGPS.jpg '{"title": "2024 Recap", "gallery": "/gallery/cycling/rwgps_recap/2024/"}')
 
 ---
-This is the most distance I've covered in a single year since 2015 when I got in just over 18,000km. Ten years on seems like a good time to work on beating that. 
+
+This is the most distance I've covered in a single year since 2015 when I got in just under 18,000km. 
+
+![Alt text](y_2015_RWGPS.jpg '{"title": "2015 Recap", "gallery": "/gallery/cycling/rwgps_recap/2015/"}')
+
+Ten years on seems like a good time to work on beating that. 
 
 I have a dream of riding to New Zealand (to visit my brother) and back again via the Americas when I retire. That's the direction I'm heading. Like the yearly miles nothing is certain but come what may the journey towards this dream feels worthwhile and fun. Long may that last.
