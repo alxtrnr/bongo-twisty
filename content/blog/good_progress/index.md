@@ -7,7 +7,7 @@ tags = ["cycling"]
 
 Happy to be ending this month on a good note.  
 
-Sent the [damaged Karoo 3](https://www.bongotwisty.blog/cracked_screen/) back on Tuesday. A brand new boxed unit with all accessories included arrived on Saturday. Hammerhead gave me 50% off the RRP. The additional bracket, 1/4 turn mount and the lanyard was a bonus worth £52.00. Free P&P for the return and replacement. Pretty good service in my books. 
+Sent the [damaged Karoo 3](https://www.bongotwisty.blog/cracked_screen/) back on Tuesday. A brand new boxed unit with all accessories included arrived on Saturday. Hammerhead gave me 50% off the RRP. The additional bracket, 1/4 turn mount, charging cable and lanyard were all a welcome bonus. They're worth £52.00 when bought separately. Free P&P for the return and replacement. Pretty good service in my books. 
 
 I bought a gel bumper case to help protect it and had this ready and waiting when it arrived. Screen protectors are in transit. All I need to be now is a bit more careful.
 
