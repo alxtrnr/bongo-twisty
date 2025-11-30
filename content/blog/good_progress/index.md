@@ -41,16 +41,18 @@ I've achieved this on the way to beating my overall distance total for 2015. I m
 ```bash
 === ANNUAL GOAL PROGRESS (2025) ===
 Goal: 18,000 km
-Current: 16,911.7 km (94.0% complete)
+Current: 17,008.2 km (94.5% complete)
 Year Progress: 91.5% elapsed
 Days passed: 334 | Days remaining: 31
-Status: 🚀 Ahead of pace by 2.4%
+Status: 🚀 Ahead of pace by 3.0%
 
 === PACING TARGETS ===
 To reach your goal, you need:
-• Daily: 35.1 km/day
-• Weekly: 245.7 km/week
-• Monthly: 1068.6 km/month
+• Daily: 32.0 km/day
+• Weekly: 224.0 km/week
+• Monthly: 973.9 km/month
+
+
 ``` 
 
 If you happen to be on RWGPS add me as a [friend](https://ridewithgps.com/users/151788/) - I'll add you back. Happy to connect and see what you are up to. 
