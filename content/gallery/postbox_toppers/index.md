@@ -85,6 +85,10 @@ alt = "Hand-knitted commemorative postbox topper featuring miniature figures of 
 src = "20251122_tankerton.jpg"
 title = "Autumn Harvest, Tankerton"
 alt = "An autumnal post box topper displayed on a large circular bright orange crocheted platform. The centerpiece features a tower of textured knitted pumpkins in various sizes - pink with blue speckles, olive green, and coral - with decorative stems. Scattered around the base are smaller crocheted elements including miniature pumpkins, brown acorns, colorful mushrooms (red and brown), green oak leaves, and small knitted figures. The display is positioned in front of a blue-painted storefront with large windows, creating a festive seasonal scene"
+[[resources]]
+src = "20251205_christmas_upper_higham.jpg"
+title = "Christmas, Upper Higham"
+alt = "A collection of hand-crocheted festive mice figurines arranged around a decorated Christmas tree on top of a post box in Upper Higham. The display features seven mice dressed in Victorian-style winter clothing including bonnets, coats, and scarves in earthy tones of brown, orange, green, and grey. One central mouse wears a bright red coat and scarf. The dark blue-green crocheted Christmas tree is adorned with white garland spirals, white pompom ornaments, and a yellow star topper. The scene is photographed just before dawn."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
