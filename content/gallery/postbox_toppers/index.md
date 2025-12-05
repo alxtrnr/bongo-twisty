@@ -93,8 +93,3 @@ alt = "A collection of hand-crocheted festive mice figurines arranged around a d
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
 
-
-
-
-
-
