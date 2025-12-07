@@ -19,6 +19,25 @@
     --marked: #FFDD33; /* Highlight/mark (bright yellow for emphasis) */
 }
 
+/* Manual dark mode toggle – activated by .dark-mode class */
+body.dark-mode {
+    --accent: #6A9E9F;
+    --accent-bg: #2b2b2b;
+    --text: #e0e0e0;
+    --text-light: #999;
+    --border: #444;
+    --bg: #121212;
+    --disabled: #111;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --marked: #ffe033;
+}
+
+body.dark-mode img,
+body.dark-mode video {
+    opacity: 0.9;
+}
+
 /* Override theme's dark mode variables for YOUR palette */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -622,4 +641,15 @@ nav#TableOfContents > ul {
     ul.archive-list > li a {
         font-size: 0.9em;
     }
+}
+
+/* Theme toggle positioning - works with existing nav flexbox */
+.js-toggle-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Add some visual separation between nav links and toggle */
+header nav .js-toggle-wrapper {
+    margin-left: 1rem;
 }
