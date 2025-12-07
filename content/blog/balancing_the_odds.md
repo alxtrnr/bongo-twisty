@@ -1,5 +1,5 @@
 +++
-title = "Balancing the odds on my bike."
+title = "What's the odds?."
 description = "The numbers say there's no reason to stop riding."
 date = 2025-12-05
 tags = ["cycling"]
