@@ -77,7 +77,8 @@ a:hover {
 }
 
 a {
-    word-break: break-all;
+    overflow-wrap: break-word;
+    word-break: normal;
 }
 
 /* Make buttons/nav elements use your accent */
