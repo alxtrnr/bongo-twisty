@@ -1106,4 +1106,22 @@ A friend of mine once joked about about me collecting badges when I was a kid. I
 
 These are a collection of some if not all the badges I "earned" when I used to post my rides on Strava. I found them in my archive files. Can't recall how I came to save them all along with the details. Most likely a python script or similar. I found Strava a bit noisy.
 
+**Summary Analysis**\
+Based on my Strava challenge data from January 2013 to April 2019, I completed 154 challenges and managed to meet the goal requirements in each one.
+
+**Performance Overview**\
+I consistently surpassed the minimum targets across four main challenge categories: monthly distance challenges (MTS Ride), climbing challenges, Gran Fondo (single ride distance), and time-based challenges.
+
+**Distance Results**\
+The monthly distance challenges typically set targets around 777 miles. In July 2017, I rode 1,419.62 miles against a goal of 776.71 miles. July 2016 showed 1,147.32 miles, and February 2015 recorded 1,116.43 miles. Several months reached over 900 miles.
+
+**Climbing Results**\
+My climbing challenges showed varied vertical gains. July 2017 recorded 63,719 feet against a 26,247-foot target. January 2016 reached 52,733 feet versus a 13,123-foot goal, and February 2019 recorded 53,703 feet against 24,606 feet required.
+
+**Gran Fondo Results**\
+The Gran Fondo challenges tracked my longest single rides. July 2017 recorded 909.26 miles versus a 61.96-mile goal. May 2018 showed 377.88 miles, and September 2015 reached 261.47 miles against a 74.56-mile target. These longer distances aligned with my audax riding.
+
+**Time-Based Results**\
+Time-based challenges included the Pearl Izumi Fall Forty in December 2013, where I logged 58.6 hours against a 40-hour goal. The Gore Wear 24 in 24 challenge in April 2019 was completed at the 24-hour target.
+
 {{< strava-challenges >}}
