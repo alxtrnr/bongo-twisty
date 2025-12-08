@@ -1,8 +1,8 @@
 ---
 title: "Strava"
-date: 2025-12-08
+date: 2020-03-02
 disableAutoGallery: true
-year: "2013 - 2019"
+year: "Jan 2013 - Apr 2019"
 type: "gallery"
 layout: "single"
 custom:

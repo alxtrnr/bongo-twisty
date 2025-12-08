@@ -1,6 +1,6 @@
 +++
 title = "Between Points and Places"
-description = "A Bike Ride in Ireland"
+description = ""
 year = 2025
 type = "gallery"
 layout = "single"
