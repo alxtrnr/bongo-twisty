@@ -1,44 +1,38 @@
 {{ define "main" }}
-  <article class="gallery-single">
-    <header>
-      {{ with .Params.summary }}
-        <p class="summary">{{ . }}</p>
+
+{{/* Custom subtitle for single gallery pages */}}
+{{ with .Params.custom.index_subtitle }}
+<p class="gallery-subtitle" style="text-align: center; font-size: 1.1em; color: var(--text-light); margin: 1rem 0;">{{ . }}</p>
+{{ end }}
+
+{{ .Content }}
+
+{{/* Only generate automatic gallery if not disabled */}}
+{{- if not .Params.disableAutoGallery -}}
+  {{ with .Resources.ByType "image" }}
+    <div class="gallery-grid">
+      {{ range . }}
+        {{ $thumbnail := .Fill "300x300 Smart webp q85" }}
+        {{ $large := .Resize "1200x webp q85" }}
+        <a href="{{ $large.RelPermalink }}" 
+           class="gallery-item glightbox" 
+           data-gallery="gallery"
+           data-title="{{ .Name }}" 
+           data-description="">
+          <div class="gallery-image-wrapper">
+            <img src="{{ $thumbnail.RelPermalink }}" 
+                 alt="{{ .Name }}" 
+                 width="300" 
+                 height="300" 
+                 loading="lazy" 
+                 decoding="async" 
+                 class="gallery-image">
+            <div class="gallery-overlay"></div>
+          </div>
+        </a>
       {{ end }}
-    </header>
-    
-    <div class="content">
-      {{ .Content }}
     </div>
-    
-    <!-- Image Gallery with Grid Layout and GLightbox Integration -->
-    {{ with .Resources.ByType "image" }}
-      <div class="gallery-grid">
-        {{ range . }}
-          <!-- Generate optimized image sizes -->
-          {{ $thumbnail := .Fill "300x300 Smart webp q85" }}
-          {{ $large := .Resize "1200x webp q85" }}
-          
-          <!-- GLightbox compatible gallery item -->
-          <a href="{{ $large.RelPermalink }}" 
-             class="gallery-item glightbox" 
-             data-gallery="gallery"
-             data-title="{{ with .Title }}{{ . }}{{ else }}Gallery Image{{ end }}"
-             data-description="{{ with .Params.description }}{{ . }}{{ end }}">
-            <div class="gallery-image-wrapper">
-              <img src="{{ $thumbnail.RelPermalink }}" 
-                   alt="{{ with .Title }}{{ . }}{{ else }}Gallery image{{ end }}"
-                   width="{{ $thumbnail.Width }}" 
-                   height="{{ $thumbnail.Height }}"
-                   loading="lazy"
-                   decoding="async"
-                   class="gallery-image">
-              <div class="gallery-overlay">
-                <!-- <i class="gallery-icon">🔍</i> -->
-              </div>
-            </div>
-          </a>
-        {{ end }}
-      </div>
-    {{ end }}
-  </article>
+  {{ end }}
+{{- end -}}
+
 {{ end }}

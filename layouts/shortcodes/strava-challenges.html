@@ -1,0 +1,145 @@
+{{/* layouts/shortcodes/strava-challenges.html */}}
+
+{{/* Inject CSS once per page */}}
+{{ if not ($.Page.Scratch.Get "strava-css-loaded") }}
+  {{ $.Page.Scratch.Set "strava-css-loaded" true }}
+  <style>
+    .strava-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem 1.5rem;
+      padding: 2rem 0;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .challenge-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .challenge-item a.glightbox {
+      display: block;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .challenge-item a.glightbox:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .challenge-item img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      display: block;
+      background: #f5f5f5;
+      margin: 0 auto;
+    }
+
+    .challenge-info {
+      text-align: center;
+    }
+
+    .challenge-info h4 {
+      margin: 0 0 0.5rem 0;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .challenge-name {
+      font-weight: 600;
+      margin: 0 0 0.25rem 0;
+      font-size: 0.9rem;
+      line-height: 1.3;
+    }
+
+    .challenge-name a {
+      color: #fc4c02;
+      text-decoration: none;
+    }
+
+    .challenge-name a:hover {
+      text-decoration: underline;
+    }
+
+    .challenge-stat,
+    .challenge-goal {
+      margin: 0.125rem 0;
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .challenge-activity {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.8rem;
+    }
+
+    .challenge-activity a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .challenge-activity a:hover {
+      text-decoration: underline;
+    }
+
+    /* Mobile: Single column */
+    @media (max-width: 640px) {
+      .strava-gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+  </style>
+{{ end }}
+
+{{/* Generate the gallery */}}
+{{- $challenges := .Page.Params.challenges -}}
+
+<div class="strava-gallery">
+  {{- range $challenges -}}
+    {{- $pageResource := $.Page.Resources.GetMatch .image -}}
+    
+    {{- if $pageResource -}}
+      {{/* Create 200x200 thumbnail */}}
+      {{- $thumb := $pageResource.Fill "200x200 Smart q85" -}}
+      
+      {{/* Create 300x300 for lightbox */}}
+      {{- $lightbox := $pageResource.Fill "300x300 Smart q90" -}}
+      
+      <div class="challenge-item">
+        <a href="{{ $lightbox.RelPermalink }}" 
+           class="glightbox" 
+           data-gallery="strava-challenges"
+           data-glightbox="title: {{ .name }}; description: {{ .stat }} / {{ .goal }}">
+          <img src="{{ $thumb.RelPermalink }}" 
+               alt="{{ .name }}" 
+               loading="lazy"
+               width="{{ $thumb.Width }}" 
+               height="{{ $thumb.Height }}">
+        </a>
+        <div class="challenge-info">
+          <h4>{{ .date }}</h4>
+          <p class="challenge-name">
+            {{- if .url -}}
+              <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+            {{- else -}}
+              {{ .name }}
+            {{- end -}}
+          </p>
+          <p class="challenge-stat">{{ .stat }}</p>
+          <p class="challenge-goal">{{ .goal }}</p>
+          {{- if .activity -}}
+            <p class="challenge-activity"><a href="{{ .activity }}">View Activity</a></p>
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>
