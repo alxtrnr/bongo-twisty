@@ -1,14 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>404 - Not Found</title>
-</head>
-<body style="margin:0; text-align:center; background:#111; color:#fff;">
-  <div style="padding:2rem 1rem;">
-    <img src="/images/404_image.png"
-         alt="404: Twist? There's nothing here"
-         style="max-width:100%; height:auto;" />
-  </div>
-</body>
-</html>
+{{ define "main" }}
+<main>
+  <article>
+    <header>
+      <h1>404: Twist? There’s nothing here</h1>
+      <p>But here’s a bongo twist instead.</p>
+    </header>
+
+    {{/* 800x800 processed image from static/images */}}
+    <figure>
+      <img src="/images/404_image.png"
+           alt="404: Twist? There's nothing here"
+           width="800" height="800"
+           style="max-width:100%; height:auto;" />
+    </figure>
+  </article>
+</main>
+{{ end }}
