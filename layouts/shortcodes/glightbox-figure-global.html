@@ -1,4 +1,5 @@
 {{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
 {{- $alt := .Get "alt" -}}
 {{- $image := "" -}}
 
@@ -24,12 +25,19 @@
 
 {{- if $image -}}
   {{- $thumb := $image.Fill "400x300 Smart" }}
-  {{- $title := $image.Title -}}
-  {{- $altText := or $alt $image.Params.alt $title -}}
+  {{- $displayCaption := or $caption $image.Title -}}
+  {{- $altText := or $alt $image.Params.alt $displayCaption -}}
   <figure>
-    <a href="{{ $image.RelPermalink }}" class="glightbox" data-title="{{ $title }}">
-      <img src="{{ $thumb.RelPermalink }}" alt="{{ $altText }}" loading="lazy">
+    <a href="{{ $image.RelPermalink }}" class="glightbox" data-title="{{ $displayCaption }}">
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ $altText }}" title="{{ $displayCaption }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
     </a>
-    <figcaption>{{ $title }}</figcaption>
+    <figcaption>{{ $displayCaption }}</figcaption>
+  </figure>
+{{- else -}}
+  <figure>
+    <a href="{{ $src | relURL }}" class="glightbox" data-title="{{ $caption }}">
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}">
+    </a>
+    <figcaption>{{ $caption }}</figcaption>
   </figure>
 {{- end -}}

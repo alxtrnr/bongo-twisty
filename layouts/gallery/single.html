@@ -17,11 +17,11 @@
         <a href="{{ $large.RelPermalink }}" 
            class="gallery-item glightbox" 
            data-gallery="gallery"
-           data-title="{{ .Name }}" 
-           data-description="">
+           data-title="{{ .Title }}" 
+           data-description="{{ .Params.alt }}">
           <div class="gallery-image-wrapper">
             <img src="{{ $thumbnail.RelPermalink }}" 
-                 alt="{{ .Name }}" 
+                 alt="{{ or .Params.alt .Title }}" 
                  width="300" 
                  height="300" 
                  loading="lazy" 
