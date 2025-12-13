@@ -86,7 +86,7 @@ src = "20251122_tankerton.jpg"
 title = "Autumn Harvest, Tankerton"
 alt = "An autumnal post box topper displayed on a large circular bright orange crocheted platform. The centerpiece features a tower of textured knitted pumpkins in various sizes - pink with blue speckles, olive green, and coral - with decorative stems. Scattered around the base are smaller crocheted elements including miniature pumpkins, brown acorns, colorful mushrooms (red and brown), green oak leaves, and small knitted figures. The display is positioned in front of a blue-painted storefront with large windows, creating a festive seasonal scene"
 [[resources]]
-src = "20251205_christmas_upper_higham.jpg"
+src = "20251213_christmas_upper_higham.jpg"
 title = "Christmas, Upper Higham"
 alt = "A collection of hand-crocheted festive mice figurines arranged around a decorated Christmas tree on top of a post box in Upper Higham. The display features seven mice dressed in Victorian-style winter clothing including bonnets, coats, and scarves in earthy tones of brown, orange, green, and grey. One central mouse wears a bright red coat and scarf. The dark blue-green crocheted Christmas tree is adorned with white garland spirals, white pompom ornaments, and a yellow star topper. The scene is photographed just before dawn."
 [[resources]]
@@ -94,9 +94,13 @@ src = "20251206_christmas_colney_heath.jpg"
 title = "Christmas, Colney Heath"
 alt = "A festive knitted Christmas scene displayed on top of a red Royal Mail post box in a residential street. The handcrafted topper features a winter wonderland tableau on a circular white crocheted base with red detail stitching. At the center stands a tall green spiral Christmas tree decorated with colorful baubles in pink, blue, and other bright colors, topped with a golden yellow star. Surrounding the tree are multiple knitted figures: two white snowmen wearing red Santa hats with white pompoms, one holding a yellow gift, and several small dolls dressed in colorful winter clothing - including figures in red, blue, and green striped outfits with knitted hats. There's also a brown teddy bear character among the group. The scene is photographed outdoors with suburban houses, parked cars, hedges, and a cloudy sky visible in the background, creating a charming community Christmas display."
 [[resources]]
-src = "20251209_christmas_lower_higham.jpg"
+src = "20251213_christmas_lower_higham.jpg"
 title = "Christmas, Lower Higham"
 alt = "A red pillar postbox at night is covered with a chunky grey knitted topper decorated with handmade festive crochet figures. On top sit a large penguin in a Santa hat and scarf, reindeer, Santas, snowmen, angels and other small Christmas characters, surrounded by knitted baubles and presents, while tiny red-and-white Christmas stocking decorations are stitched all around the edge."
+[[resources]]
+src = "20251213_christmas_shorne.jpg"
+title = "Christmas, Shorne"
+alt = "Hand-knitted nativity scene displayed as a festive topper on a village post box, featuring yarn figures of Mary, Joseph, baby Jesus, an angel with curly blond hair, and the three wise men gathered in front of a crocheted stable, with a faded “Post Office” sign on the wall behind."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

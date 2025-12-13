@@ -132,7 +132,7 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       >}}
 
   {{< glightbox-figure-global
-      src = "20251205_christmas_upper_higham.jpg"
+      src = "20251213_christmas_upper_higham.jpg"
       title = "Christmas, Upper Higham"
       alt = "A collection of hand-crocheted festive mice figurines arranged around a decorated Christmas tree on top of a post box in Upper Higham. The display features seven mice dressed in Victorian-style winter clothing including bonnets, coats, and scarves in earthy tones of brown, orange, green, and grey. One central mouse wears a bright red coat and scarf. The dark blue-green crocheted Christmas tree is adorned with white garland spirals, white pompom ornaments, and a yellow star topper. The scene is photographed just before dawn."
       >}}
@@ -144,9 +144,15 @@ Postbox Toppers seen when out and about on my bike. First sighting by the post o
       >}}
 
   {{< glightbox-figure-global
-      src = "20251209_christmas_lower_higham.jpg"
+      src = "20251213_christmas_lower_higham.jpg"
       title = "Christmas, Lower Higham"
       alt = "A red pillar postbox at night is covered with a chunky grey knitted topper decorated with handmade festive crochet figures. On top sit a large penguin in a Santa hat and scarf, reindeer, Santas, snowmen, angels and other small Christmas characters, surrounded by knitted baubles and presents, while tiny red-and-white Christmas stocking decorations are stitched all around the edge."
       >}}
+  {{< glightbox-figure-global
+      src = "20251213_christmas_shorne.jpg"
+      title = "Christmas, Shorne"
+      alt = "Hand-knitted nativity scene displayed as a festive topper on a village post box, featuring yarn figures of Mary, Joseph, baby Jesus, an angel with curly blond hair, and the three wise men gathered in front of a crocheted stable, with a faded “Post Office” sign on the wall behind."
+      >}}
+
 </div>
 
