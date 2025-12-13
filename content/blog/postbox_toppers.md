@@ -148,6 +148,7 @@ src = "20251213_christmas_lower_higham.jpg"
 caption = "Christmas, Lower Higham"
 alt = "A red pillar postbox at night is covered with a chunky grey knitted topper decorated with handmade festive crochet figures. On top sit a large penguin in a Santa hat and scarf, reindeer, Santas, snowmen, angels and other small Christmas characters, surrounded by knitted baubles and presents, while tiny red-and-white Christmas stocking decorations are stitched all around the edge."
 >}}
+
 {{< glightbox-figure-global
 src = "20251213_christmas_shorne.jpg"
 caption = "Christmas, Shorne"
