@@ -101,6 +101,35 @@ alt = "A red pillar postbox at night is covered with a chunky grey knitted toppe
 src = "20251213_christmas_shorne.jpg"
 title = "Christmas, Shorne"
 alt = "Hand-knitted nativity scene displayed as a festive topper on a village post box, featuring yarn figures of Mary, Joseph, baby Jesus, an angel with curly blond hair, and the three wise men gathered in front of a crocheted stable, with a faded “Post Office” sign on the wall behind."
+[[resources]]
+src = "20251214_christmas_stelling_minnis.jpg"
+title = "Christmas, Stelling Minnis"
+alt = "A festive hand-knitted postbox topper displayed on a red British Royal Mail postbox, featuring a charming winter scene with three crocheted snowmen figures and a decorated teal Christmas tree with colorful baubles and a gold star. The scene is set on a circular blue and white crocheted base with intricate striped patterns. The snowmen have white fluffy bodies, orange carrot noses, and happy expressions, with one holding what appears to be a red mitten or scarf. Behind the display, a dark wooden building and residential street are visible under a cloudy winter sky, capturing the community spirit of festive yarn-bombing in a British village."
+[[resources]]
+src = "20251214_christmas_barham.jpg"
+title = "Christmas, Barham Village"
+alt = "A close-up view of a charming crocheted Christmas scene atop a red British postbox, featuring two festive figures in red Santa outfits with white fluffy trim and matching Santa hats topped with sparkly blue tinsel pom-poms. Between them sits a small white crocheted Christmas pudding decorated with red and green holly berries. The figures rest on a grey and burgundy striped knitted base that wraps around the curved top of the postbox. The background shows a residential street with bare winter trees, green grass verges, and a cloudy sky, capturing the whimsical tradition of festive postbox toppers in British communities."
+[[resources]]
+src = "20251214_christmas_little_mongham.jpg"
+title = "Christmas, Little Mongham"
+alt = "A delightful crocheted postbox topper photographed in bright sunlight, featuring an elaborate festive scene on a circular base with red, white, and green striped patterns. The display includes two snowmen figures (one with a colorful striped hat and red scarf, another with a yellow turban-style hat), decorative Christmas trees in various shades of green with tinsel details, a small red stocking, and a dark Christmas tree decoration. In the foreground, a small crocheted Christmas tree with sparkly green yarn and a red star on top takes center stage. Red mittens or stockings accent the edges of the circular base. The postbox topper sits atop a red Royal Mail postbox with white fluffy trim visible at the base, while a black-painted wooden building and garden furniture are visible in the sunny background."
+[[resources]]
+src = "20251214_christmas_greenhill.jpg"
+title = "Christmas, Greenhill"
+alt = "A festive and elaborate crocheted postbox topper featuring a snowy winter wonderland scene with multiple knitted characters creating a bustling Christmas tableau. The white fluffy base, resembling snow, supports various figures including Santa Claus in red, carolers, a grey donkey, birds (including a robin with a red breast), and other festive characters, all arranged around a decorated Christmas tree and holly decoration. The display sits on a multi-layered circular base with white, blue, and textured yarns in various colors, trimmed with tinsel and decorative edging. The scene is photographed during daytime against a residential street backdrop with houses and cars visible."
+[[resources]]
+src = "20251214_christmas_tankerton.jpg"
+title = "Christmas, Tankerton"
+alt = "A charming crocheted postbox topper featuring a winter scene with adorable penguin figures on an ice-blue circular base. The display includes five knitted penguins wearing matching light blue hats and scarves, arranged around white crocheted snowballs or igloos on top of a textured pale blue base that resembles ice. The word SOUTH appears in red lettering on the side. A grey crocheted seal sits on the edge. The topper is displayed on a red Royal Mail postbox in front of shop windows showing reflections of buildings, creating a playful Arctic-themed Christmas decoration."
+[[resources]]
+src = "20251214_christmas_faversham.jpg"
+title = "Christmas, Faversham"
+alt = "An elegant Christmas postbox topper photographed at night, featuring a tall angel figure with white crocheted wings and a sparkly silver dress standing atop a green knitted base decorated with small festive figures. A doll with blonde hair serves as the angel, dressed in shimmering white and silver garments with outstretched arms. The circular base is adorned with gold tinsel trim around the edge and small crocheted figures including what appear to be carolers or nativity characters, along with decorative elements like a snowman. The scene is set against a dark evening sky with street lights and residential buildings visible in the background."
+[[resources]]
+src = "20251214_christmas_ash.jpg"
+title = "Christmas, Ash"
+alt = "An intricate crocheted nativity scene postbox topper displayed on a red Royal Mail postbox in Ash, Kent, featuring a detailed manger scene with Mary in blue robes holding baby Jesus, Joseph with a red headband, and three amigurumi-style animals (a grey donkey, white sheep, and grey elephant) positioned around the holy family. The figures are set within a golden-brown stable structure against a white weathered wall with moss growth. The entire scene sits atop a rich blue circular crocheted base decorated with colorful sheep motifs in red, orange, yellow, green, white, and pink scattered across the surface, creating a whimsical and heartwarming celebration of the Christmas story through the traditional craft of postbox topper yarn-bombing."
+
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
