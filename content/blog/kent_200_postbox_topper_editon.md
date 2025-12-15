@@ -5,7 +5,7 @@ date = 2025-12-15
 draft = false
 author = "Alexander"
 images = ["20251214_christmas_stelling_minnis.jpg"]
-tags = ["Postbox Toppers", "Cycling"]
+tags = ["Post Box Topper", "Cycling"]
 +++
 
 Out on the last 200k rde of 2025 yesterday. Followed a route I know well through the Kent Downs to Deal, over to Canterbury before heading across to Tankerton, then Faversham and back home to Chatham. 
@@ -18,9 +18,9 @@ The ride takes me by my two sisters and parents homes on the way so I took the o
 
 My sister in Deal dosed me up with a big helping of Sloe Gin she'd made. I'd never drunk it before. Didn't think I would like it since I don't enjoy spirits as a general rule of thumb. I did like it though hence the generous measure she poured me. 
 
-I set off again feeling alright, maybe a little bit woozy but steady enough. It took a toll though on my percieved exertion. The 50k or so from Deal to Tankerton took me nearly three hours. Felt like a lot more hard work than it normally does. At the time I put it down to the [Tannus Armour](https://www.tannus.co.uk) tyre inserts I'd fitted to mitigate the risk of punctures. I've had loads of flats over the last month. Hedge trimmings along country lanes, glass shards and flint. While the inserts may have been a contributing factor I think it was the gin that put lead in my legs. At least I did not get any punctures. 
+I set off again feeling alright, maybe a little bit woozy but steady enough. It took a toll though on my perceived exertion. The 50k or so from Deal to Tankerton took me nearly three hours. Felt like a lot more hard work than it normally does. At the time I put it down to the [Tannus Armour](https://www.tannus.co.uk) tyre inserts I'd fitted to mitigate the risk of punctures. I've had loads of flats over the last month. Hedge trimmings along country lanes, glass shards and flint. While the inserts may have been a contributing factor I think it was the gin that put lead in my legs. At least I did not get any punctures. 
 
-Despite the physical sruggle It was a good ride. The weather was dry. Not too cold. Very little wind. What's more there was loads of festive postbox toppers to snap a picture of and add to the growing [collection](http://localhost:1313/bongo-twisty/gallery/postbox_toppers/)...
+Despite the physical struggle It was a good ride. The weather was dry. Not too cold. Very little wind. What's more there was loads of festive postbox toppers to snap a picture of and add to the growing [collection](http://localhost:1313/bongo-twisty/gallery/postbox_toppers/)...
 
 <div class="gallery-grid">
 
@@ -38,7 +38,7 @@ alt = "A close-up view of a charming crocheted Christmas scene atop a red Britis
 
 {{< glightbox-figure-global
 src = "20251214_christmas_little_mongham.jpg"
-title = "Christmas, Little Mongham"
+title = "Christmas, Great Mongham"
 alt = "A delightful crocheted postbox topper photographed in bright sunlight, featuring an elaborate festive scene on a circular base with red, white, and green striped patterns. The display includes two snowmen figures (one with a colorful striped hat and red scarf, another with a yellow turban-style hat), decorative Christmas trees in various shades of green with tinsel details, a small red stocking, and a dark Christmas tree decoration. In the foreground, a small crocheted Christmas tree with sparkly green yarn and a red star on top takes center stage. Red mittens or stockings accent the edges of the circular base. The postbox topper sits atop a red Royal Mail postbox with white fluffy trim visible at the base, while a black-painted wooden building and garden furniture are visible in the sunny background."
 >}}
 
