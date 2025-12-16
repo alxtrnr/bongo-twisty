@@ -111,7 +111,7 @@ title = "Christmas, Barham Village"
 alt = "A close-up view of a charming crocheted Christmas scene atop a red British postbox, featuring two festive figures in red Santa outfits with white fluffy trim and matching Santa hats topped with sparkly blue tinsel pom-poms. Between them sits a small white crocheted Christmas pudding decorated with red and green holly berries. The figures rest on a grey and burgundy striped knitted base that wraps around the curved top of the postbox. The background shows a residential street with bare winter trees, green grass verges, and a cloudy sky, capturing the whimsical tradition of festive postbox toppers in British communities."
 [[resources]]
 src = "20251214_christmas_little_mongham.jpg"
-title = "Christmas, Little Mongham"
+title = "Christmas, Mongeham Village Hall"
 alt = "A delightful crocheted postbox topper photographed in bright sunlight, featuring an elaborate festive scene on a circular base with red, white, and green striped patterns. The display includes two snowmen figures (one with a colorful striped hat and red scarf, another with a yellow turban-style hat), decorative Christmas trees in various shades of green with tinsel details, a small red stocking, and a dark Christmas tree decoration. In the foreground, a small crocheted Christmas tree with sparkly green yarn and a red star on top takes center stage. Red mittens or stockings accent the edges of the circular base. The postbox topper sits atop a red Royal Mail postbox with white fluffy trim visible at the base, while a black-painted wooden building and garden furniture are visible in the sunny background."
 [[resources]]
 src = "20251214_christmas_greenhill.jpg"
