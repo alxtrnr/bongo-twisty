@@ -23,9 +23,9 @@ alt="Colourful knitted figures of children dancing around a maypole on the top o
 >}}
 
 {{< glightbox-figure-global
-src="santa.webp"
-caption="Santa"
-alt="A red British postbox topped with a crocheted Santa Claus, Christmas tree, and presents, all on a crocheted snowy cover, set in a park with leafless trees and houses in the background."
+src = "20250621_sheep_lower_higham.jpg"
+title = "Postbox Topper: Shaun the Sheep"
+alt = "A crocheted postbox topper featuring a group of knitted characters from Shaun the Sheep, including Shaun, Bitzer the dog, and the flock, standing on a light-coloured base atop a red Royal Mail postbox with a brick wall in the background."
 >}}
 
 {{< glightbox-figure-global
@@ -196,4 +196,11 @@ src = "20251214_christmas_ash.jpg"
 title = "Christmas, Ash"
 alt = "An intricate crocheted nativity scene postbox topper displayed on a red Royal Mail postbox in Ash, Kent, featuring a detailed manger scene with Mary in blue robes holding baby Jesus, Joseph with a red headband, and three amigurumi-style animals (a grey donkey, white sheep, and grey elephant) positioned around the holy family. The figures are set within a golden-brown stable structure against a white weathered wall with moss growth. The entire scene sits atop a rich blue circular crocheted base decorated with colorful sheep motifs in red, orange, yellow, green, white, and pink scattered across the surface, creating a whimsical and heartwarming celebration of the Christmas story through the traditional craft of postbox topper yarn-bombing."
 >}}
+
+{{< glightbox-figure-global
+src="santa.webp"
+caption="Santa, Barming"
+alt="A red British postbox topped with a crocheted Santa Claus, Christmas tree, and presents, all on a crocheted snowy cover, set in a park with leafless trees and houses in the background."
+>}}
+
 </div>
