@@ -2,32 +2,34 @@ name: Check Hugo Version
 
 on:
   schedule:
-    - cron: '0 10 * * 1'  # Every Monday at 10:00 UTC
-  workflow_dispatch:  # Manual trigger
+    - cron: '0 10 * * 1' # Every Monday at 10:00 UTC
+  workflow_dispatch: # Manual trigger
 
 jobs:
   check-version:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Get current Hugo version from workflow
         id: current
         run: |
           CURRENT_VERSION=$(grep -oP 'HUGO_VERSION:\s*\K[\d.]+' .github/workflows/hugo.yaml)
           echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
-      
+
       - name: Get latest Hugo version
         id: latest
         run: |
           LATEST=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r .tag_name | sed 's/v//')
           echo "version=$LATEST" >> $GITHUB_OUTPUT
-      
+
       - name: Compare versions
         run: |
           echo "Current: ${{ steps.current.outputs.version }}"
           echo "Latest: ${{ steps.latest.outputs.version }}"
+
           if [ "${{ steps.current.outputs.version }}" != "${{ steps.latest.outputs.version }}" ]; then
             echo "::warning::New Hugo version available: ${{ steps.latest.outputs.version }}"
           fi
