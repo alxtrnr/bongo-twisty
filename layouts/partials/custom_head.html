@@ -1,5 +1,8 @@
 <!-- DEBUG: using custom_head.html -->
 
+<!-- Mastodon Verification -->
+<link rel="me" href="https://social.vivaldi.net/@BongoTwisty">
+
 <!-- Custom CSS (via Hugo asset pipeline) -->
 {{ $custom := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}">
