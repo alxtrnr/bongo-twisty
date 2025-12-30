@@ -75,7 +75,7 @@ style = "catppuccin-mocha"
 # SITE PARAMETERS
 # ==============================================================================
 [params]
-title = "BongoTwisty"
+title = "Bongo Twisty"
 description = "A Personal Blog"
 favicon = "images/favicon.png?v=2"
 dateFormat = "02 Jan 2006"
@@ -118,7 +118,7 @@ lightbox = true
 [params.author]
 name = "BongoTwisty"
 email = "bongotwisty@pm.me"
-fediverse = "@alxtrnr@cupoftea.social"
+fediverse = "@bongotwisty@vivaldi.net"
 
 # ==============================================================================
 # NAVIGATION MENU
@@ -183,7 +183,7 @@ dir = ':cacheDir/images'
 # ==============================================================================
 [[params.social]]
 name = "Mastodon"
-url = "https://cupoftea.social/@alxtrnr"
+url = "https://vivaldi.net/@bongotwisty"
 rel = "me"
 title = "Follow me on Mastodon"
 
