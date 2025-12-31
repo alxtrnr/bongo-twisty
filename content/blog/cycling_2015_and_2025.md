@@ -26,7 +26,7 @@ Everything went up except the number of activities, which dropped by nearly half
 
 ### Tracking Progress
 
-During 2025 I built an app to track my cycling stats and check progress against goals every now and then. The app pulls data from [RWGPS](https://ridewithgps.com/users/151788/) and let me see how I'm doing against annual targets, track my Eddington number and a few other metrics for good measure.  Having this helped maintain the pace and avoid a mad scramble towards the end of the year to catch up. 
+During 2025 I built an [app](https://www.bongotwisty.blog/stats_cli/) to track my cycling stats and check progress against goals every now and then. The app pulls data from [RWGPS](https://ridewithgps.com/users/151788/) and let me see how I'm doing against annual targets, track my Eddington number and a few other metrics for good measure.  Having this helped maintain the pace and avoid a mad scramble towards the end of the year to catch up. 
 
 My Eddington number (in km) for 2025 ended at 63. In 2015 it was 60. The Eddington number is the largest number where you've ridden at least that distance on at least that many occasions. My overall Eddington sits at 141 and just one ride short of 142. My long term aim is 200. 
 
