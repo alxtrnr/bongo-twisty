@@ -22,7 +22,7 @@ In 2015 I set out to ride every day of the year, which I just about managed. In 
 | Active hours | 801:10 | 872:03  | +70:53 (+8.8%) |
 | Calories burned | 393,826 | 448,761 | +54,935 (+13.9%) |
 
-Everything went up except the number of activities, which dropped by nearly half. 2015 was about getting out on the bike every day. 2025 was about getting in the miles.
+Everything went up except the number of activities, which dropped by nearly half. 2015 was about getting out on the bike every day. 2025 was about getting the miles in. 
 
 ### Tracking Progress
 
