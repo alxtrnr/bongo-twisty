@@ -32,7 +32,7 @@ My Eddington number (in km) for 2025 ended at 63. In 2015 it was 60. The Eddingt
 
 ### Comparisons
 
-In 2015 I was riding about 1.29 times per day to keep the streak going.  Many were short rides and commutes. My [Audax](https://www.audax.uk/about-us/about-audax-uk/) riding that year was not too shabby: 11 organised calendar events totaling 2,520 km, mostly 100-200 km brevets, with my longest being a 606 km audax called The Flatlands.  I got 21 Audax UK points that year (1 point per 100 km).
+In 2015 I was riding about 1.29 times per day to keep the streak going.  Many were short rides and commutes. My [Audax](https://www.audax.uk/about-us/about-audax-uk/) riding that year was not too shabby: 11 organised calendar events totaling 2,520 km, mostly 200 km brevets, with my longest being The Flatlands 600 km. I got 21 Audax UK points that year (1 point per 100 km for rides > 200k).
 
 In 2025 I averaged 0.70 activities per day, so roughly every other day, but each ride was generally longer and hillier.  I rode 15 DIY audax events. 4,500 km in all. Nearly double the 2015 total. That got me 45 Audax UK points. I started and ended all but one from home. I rode when it suited family life. Living in Chatham on the dip slope of the North Downs meant many of my rides were up and down the hills and lanes of the North Downs. All that climbing added up over the year.
 
