@@ -3,7 +3,7 @@ title = "Git & Hugo Blog Workflow: Aide-Mémoire"
 description = "A concise aide-mémoire for managing your Hugo blog using Git."
 date = 2025-07-07T13:32:00+01:00
 draft = false
-tags = []
+tags = ["Hugo"]
 toc = false
 +++
 
