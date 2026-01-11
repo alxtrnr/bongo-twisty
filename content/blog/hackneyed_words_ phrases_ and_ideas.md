@@ -5,7 +5,7 @@ date = 2026-01-11
 tags = []
 +++
 
-For a while it's been on my mind, stewing. It comes from the circles I have been... circling. Not mixing in. That's not what I do. Always on the periphery. That's been my way. I understand why that is. I've been exploring and working on something different to do. It is deeply, though, entrenched. I have my bearing.
+For a while it's been on my mind, stewing. It comes from the circles I have been... circling. Not mixing in. That's not what I do. Always on the periphery. That's been my way. I understand why that is. I've been exploring and working on something different to do. It is though, deeply entrenched. I have my bearing.
 
 I digressed. Back to the point. We see what we look at. Maybe not always, but I'll go with the premise. I've been looking at personal blogs and Mastodon posts. A common thread runs through many (not all) of those that pass through my bias filter: hackneyed words, phrases, and ideas. 
 
