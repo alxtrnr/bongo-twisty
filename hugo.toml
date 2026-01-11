@@ -1,7 +1,7 @@
 # ==============================================================================
 # HUGO SITE CONFIGURATION
 # ==============================================================================
-# Site: BongoTwisty Personal Blog
+# Site: Bongo Twisty Personal Blog
 # Theme: hugo-simple
 # Enhanced with: GLightbox Image Render Hook with three-step resource lookup
 
@@ -10,7 +10,7 @@ baseURL = "https://alxtrnr.github.io/bongo-twisty/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
 languageCode = "en-gb"
-title = "BongoTwisty"
+title = "Bongo Twisty"
 copyright = "© 2025 A J Turner"
 mainSections = ["blog"]
 
@@ -116,9 +116,9 @@ lightbox = true
 # AUTHOR INFORMATION
 # ==============================================================================
 [params.author]
-name = "BongoTwisty"
+name = "Bongo Twisty"
 email = "bongotwisty@pm.me"
-fediverse = "@bongotwisty@vivaldi.net"
+fediverse = "@BongoTwisty@vivaldi.net"
 
 # ==============================================================================
 # NAVIGATION MENU
@@ -183,7 +183,7 @@ dir = ':cacheDir/images'
 # ==============================================================================
 [[params.social]]
 name = "Mastodon"
-url = "https://vivaldi.net/@bongotwisty"
+url = "https://social.vivaldi.net/@BongoTwisty"
 rel = "me"
 title = "Follow me on Mastodon"
 
