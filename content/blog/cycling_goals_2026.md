@@ -1,6 +1,6 @@
 +++
 title = "Cycling: Goals and Methods for 2026"
-description = ""
+description = "Quality Over Volume"
 date = 2026-01-23
 tags = ["Cycling"]
 +++
