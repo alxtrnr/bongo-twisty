@@ -9,7 +9,7 @@ I completed my annual distance goal at the end of 2025. For 2026 I thought somet
 
 Lat year I rode one route a lot. It took no thought. It was a sure fire way of getting the miles in. The ride was nice enough. Not too hilly, not too flat. A mix of rural lanes and urban roads. Start and finish from home. 50km. I could do a loop before or after work. Towards the end of the year I was riding pretty much on autopilot.
 
-I thought about adding a bit of variety by planning seven different routes starting and ending at home. Pick any one of them on any given day depending on my mood, the weather, time constraints and so on. Sounded good to me. My average speed has gone down a bit so thought I could work on upping that a bit too. 
+I thought about adding a bit of variety by planning seven different routes starting and ending at home. Pick one on any given day depending on my mood, the weather, time constraints and so on. Sounded good to me. My average speed has gone down a bit so thought I could work on upping that a bit too. 
 
 Average speed makes more sense with a bit of context.
 
@@ -51,8 +51,8 @@ Just ten days in I was doubting the approach. Adapting rides and schedules to ac
 - Instead of creating and syncing workouts to follow I shall use the terrain to guide my effort.
 - I'll adjust the schedule according to need and guided by the metrics.
 - I'll keep regular fasted morning rides to no more that 90 minutes and stay around the mid level of zone 2. Just doing that instead of coasting on these rides will increases my speed and support endurance. 
-- "The Ridge" and "The Drag" I'll use during the week to push through zone 3 as quick as I can into zone 4. I will let off the pace just over the summit. I'll do these with a least a day between them to rest and between 5.00 pm and 7.30 pm. This means I can eat before and after each of these. 
-- On longer rides I'll eat something suitable every 60 to 90 minutes to keep up strength and power.   
+- "The Ridge" and "The Drag" I'll use during the week to push through zone 3 as quick as I can into zone 4. I will let off the pace just over the summit. I'll do these with a least a day between them for rest, and between 5.00 pm and 7.30 pm. This means I can eat before and after each of these. 
+- On longer rides I'll eat something suitable every 60 to 90 minutes to help maintain strength and power.   
 - No fasting on audax days. 
 - I'll have a rest day after completing an audax and whenever I feel the need or the numbers suggest I should. 
 - Whey isolate to break fast followed by moderation and healthy eating. No biscuits, sweets or snacks. 
