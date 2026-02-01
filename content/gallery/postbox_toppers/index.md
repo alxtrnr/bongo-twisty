@@ -133,6 +133,15 @@ alt = "An intricate crocheted nativity scene postbox topper displayed on a red R
 src = "20250621_sheep_lower_higham.jpg"
 title = "Shaun the Sheep, Lower Higham"
 alt = "A crocheted postbox topper featuring a group of knitted characters from Shaun the Sheep, including Shaun, Bitzer the dog, and the flock, standing on a light-coloured base atop a red Royal Mail postbox with a brick wall in the background."
+[[resources]]
+src = "20260201_valentines_shorne.jpg"
+title = "Valentines, Shorne"
+alt = "A knitted post box topper in Valentine's Day theme featuring a green crocheted base with red knitted hearts arranged around it and a small vase of red roses with green leaves at the center, displayed on a traditional red British post box in front of a weathered stone Post Office sign and brick wall in Shorne, Kent."
+[[resources]]
+src = "20260117_bethlehem_seal.jpg"
+title = "Bethlehem, Seal Village"
+alt = "A knitted nativity scene post box topper featuring the Holy Family with baby Jesus in a manger, surrounded by shepherd figures and farm animals including sheep and a donkey, all arranged on a circular crocheted base in earth tones of brown, grey, and cream, displayed on a traditional red British post box at night in Seal Village, Kent."
+
 
 +++
 
