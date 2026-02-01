@@ -23,12 +23,13 @@ I'm easily distracted. Visceral body fat (VF) is fat that surrounds abdominal or
 
 Physiologically and gear wise I'm more akin to a diesel engine rather than anything sporty. I had some awareness of heart rate zones. I'd also heard the term "junk miles" but since I don't train had not given either much thought. No such thing as "junk miles" when you love cycling. However, it did occur to me that from a training perspective a lot of my rides likely involved many such miles.
 
-Heart rate zones are pretty simple to understand. 
+The basics of heart rate zones are pretty simple to understand. 
 
 **Zone 1**: Recovery. Easy rides. Gentle pace. Coasting is okay.\
 **Zone 2**: Endurance. Moderate effort. Conversational pace.\
 **Zone 3**: Tempo. Feels like hard work after a while. Creates fatigue.\
-**Zone 4**: Threshold. Really going for it. Short bursts. Big effort.
+**Zone 4**: Threshold. Pushing hard. Deliberate effort. Legs are feeling it.\
+**Zone 5**: V02 Max. I look and feel mess. Short bursts. If it don't kill yer' it'll make you stonger.  
 
 I dug out the heart rate monitor I bought years ago and paired it with my Karoo GPS. I was not at all surprised to confirm my default riding pace is on par with recreation and leisure. Mostly high zone 1 and low to mid 2, from time to time I would drift upwards into zone 3, and never into zone 4. 
 
