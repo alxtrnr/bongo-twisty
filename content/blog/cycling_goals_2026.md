@@ -29,9 +29,9 @@ The basics of heart rate zones are pretty simple to understand.
 **Zone 2**: Endurance. Moderate effort. Conversational pace.\
 **Zone 3**: Tempo. Feels like hard work after a while. Creates fatigue.\
 **Zone 4**: Threshold. Pushing hard. Deliberate effort. Legs are feeling it.\
-**Zone 5**: V02 Max. I look and feel mess. Short bursts. If it don't kill yer' it'll make you stonger.  
+**Zone 5**: V02 Max. I look and feel a mess. Short bursts. If it don't kill yer' it'll make you stonger.  
 
-I dug out the heart rate monitor I bought years ago and paired it with my Karoo GPS. I was not at all surprised to confirm my default riding pace is on par with recreation and leisure. Mostly high zone 1 and low to mid 2, from time to time I would drift upwards into zone 3, and never into zone 4. 
+I dug out the heart rate monitor I bought years ago and paired it with my Karoo GPS. I was not at all surprised to confirm my default riding pace is on par with recreation and leisure. Mostly high zone 1 and low to mid 2, from time to time I would drift upwards into zone 3, zone 4 on long steep hills. Zone 5 if ever, only under duress. 
 
 Nothing wrong with that but my VF, average speed, and endurance will at best only be maintained if I don't make any changes. 
 
