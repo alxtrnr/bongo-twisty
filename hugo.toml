@@ -130,12 +130,12 @@ weight = 10
 
 [[menu.main]]
 name = "Blog Posts"
-pageRef = "/blog"
+pageRef = "/posts"
 weight = 20
 
 [[menu.main]]
 name = "/Pages"
-pageRef = "/directory/"
+pageRef = "/pages/"
 weight = 30
 
 # ==============================================================================
