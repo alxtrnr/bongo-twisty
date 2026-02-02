@@ -6,7 +6,7 @@
 # Enhanced with: GLightbox Image Render Hook with three-step resource lookup
 
 # Basic site configuration
-baseURL = "https://alxtrnr.github.io/bongo-twisty/"
+baseURL = "https://bongotwisty.blog/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
 languageCode = "en-gb"
@@ -129,24 +129,14 @@ pageRef = "/"
 weight = 10
 
 [[menu.main]]
-name = "Posts"
+name = "Blog Posts"
 pageRef = "/blog"
 weight = 20
 
 [[menu.main]]
-name = "Images"
-pageRef = "/gallery/"
+name = "/Pages"
+pageRef = "/directory/"
 weight = 30
-
-[[menu.main]]
-name = "About"
-pageRef = "/about/"
-weight = 40
-
-[[menu.main]]
-name = "Contact"
-pageRef = "/contact/"
-weight = 50
 
 # ==============================================================================
 # RSS CONFIGURATION
