@@ -6,9 +6,6 @@ date = 2025-07-17T16:30:19+01:00
 draft = false
 +++
 
-
-Feel free to get in touch by using the form below.
-
 <div id="letterbird-container"></div>
 <script src="https://letterbird.co/embed/v1.js"
   data-letterbirduser="bongotwisty"
