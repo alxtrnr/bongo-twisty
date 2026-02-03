@@ -7,7 +7,7 @@ draft = false
 +++
 
 
-Get in touch using the form below!
+Feel free to get in touch by using the form below.
 
 <div id="letterbird-container"></div>
 <script src="https://letterbird.co/embed/v1.js"
