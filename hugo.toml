@@ -12,7 +12,7 @@ defaultContentLanguage = "en"
 languageCode = "en-gb"
 title = "Bongo Twisty"
 copyright = "© 2025 A J Turner"
-mainSections = ["blog"]
+mainSections = ["posts"]
 
 # Prevent original images from being published - only processed versions
 # This saves bandwidth by only serving optimized images
@@ -36,8 +36,8 @@ tag = "tags"
 # PERMALINK CONFIGURATION
 # ==============================================================================
 [permalinks]
-blog = "/:slugorcontentbasename/"
-tags = "/blog/:slug"
+posts = "/:slugorcontentbasename/"
+tags = "/posts/:slug"
 
 # ==============================================================================
 # MARKDOWN PROCESSING CONFIGURATION
@@ -87,7 +87,7 @@ hideRSSLink = false
 images = ["/images/default-og.png"]
 
 # Analytics
-goatcounter = "bongotwisty"  # Replace 'yoursite' with your GoatCounter code
+goatcounter = "bongotwisty"
 
 # ==============================================================================
 # IMAGE RENDER HOOK CONFIGURATION
@@ -130,7 +130,7 @@ weight = 10
 
 [[menu.main]]
 name = "Blog Posts"
-pageRef = "/blog"
+pageRef = "/posts/"
 weight = 20
 
 [[menu.main]]

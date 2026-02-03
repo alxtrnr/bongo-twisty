@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ $blogPosts := where .Site.RegularPages "Section" "blog" }}
+  
+
+  {{ $blogPosts := where .Site.RegularPages "Section" "in" .Site.MainSections }}
   {{ $sortedPosts := $blogPosts.ByDate.Reverse }}
 
   {{ with (index $sortedPosts 0) }}

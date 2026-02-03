@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "7622f35ccf4c321e",
+    "type": "split",
+    "children": [
+      {
+        "id": "db7305e9138bc3bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e03859f4578e803",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf451c861f53d104",
+    "type": "split",
+    "children": [
+      {
+        "id": "3277ff449097240f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0719807c44740ffd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6e63a232a48ad60c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3094757f68c47da8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e30a97363615bcdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bbb815e1290100a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2443adea4528cb6e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "audax  Wye Wednesday 200k.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for audax  Wye Wednesday 200k"
+            }
+          },
+          {
+            "id": "be51b3a21c1ed638",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "audax  Wye Wednesday 200k.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from audax  Wye Wednesday 200k"
+            }
+          },
+          {
+            "id": "1743dda912d93e89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a6952da9198152a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "audax  Wye Wednesday 200k.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of audax  Wye Wednesday 200k"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3e03859f4578e803",
+  "lastOpenFiles": [
+    "change_work.md",
+    "working_nights.md",
+    "let_go_emotions.md",
+    "needs_relationships.md",
+    "six_camping.md",
+    "heritage_sold/index.md",
+    "heritage_sold/ap_gone.webp",
+    "heritage_sold/ap.webp",
+    "heritage_sold/a&V.webp",
+    "heritage_sold/EditorWindow-qfTOmI-2a7bb7d3.digikamtempfile.webp",
+    "heritage_sold/A&P_sold.webp",
+    "heritage_sold/EditorWindow-HupIOt-741179a9.digikamtempfile.webp",
+    "heritage_sold",
+    "New Folder",
+    "score_hole/fam.webp",
+    "score_hole/EditorWindow-devwQx-72a32eb9.digikamtempfile.webp",
+    "rnf/index.md",
+    "rnf/rnf.webp",
+    "rnf",
+    "score_hole/index.md",
+    "score_hole/horn.webp",
+    "score_hole",
+    "daily_commute.md",
+    "way_back_machine.md",
+    "covid_positive.md",
+    "1000_yards/index.md",
+    "1000_yards",
+    "machine_gun/index.md",
+    "machine_gun",
+    "lupen_elijah.md",
+    "dancing_circles.md",
+    "reckless_drunk.md",
+    "coping_skills.md",
+    "me2.md",
+    "neils_hat.md",
+    "bc_friday/index.md",
+    "bc_friday",
+    "stages_photographer.md",
+    "cris_moos_list.md",
+    "city_status.md",
+    "practice_campers.md",
+    "tree_house.md",
+    "flower.md",
+    "kurt wenner"
+  ]
+}
