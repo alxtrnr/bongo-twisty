@@ -1,6 +1,6 @@
 +++
 title = '/Pages'
-description ="A hub for content that's not blog posts and places you can find me online."
+description ="Content that's not blog posts, and places you can find me online."
 date = 2026-02-02
 draft = false
 type = "page"
