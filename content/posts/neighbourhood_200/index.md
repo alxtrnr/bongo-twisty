@@ -3,6 +3,7 @@ title = "audax: Neighbourhood 200 DiY"
 description = ""
 date = 2026-02-08
 tags = ["cycling"]
+image = ["20260207_Date_Almond_Rice_Cakes.jpg"]
 +++
 
 I started my first RRtY[^1] series in October 2023, the second in October 2024 and the third and fourth in October 2025. I'm now doing two years simultaneously because... well it seems manageable and I don't want to take ten years to get the Ultra (x10) RRtY Award. If I keep going with two a year I'll get that in 2029. 
@@ -24,7 +25,9 @@ Anyhow, the ride did not prompt writing this post. I attribute that to my new fo
 
 ![A plate of tasty looking home made shaped and baked date and almond rice balls](20260207_Date_Almond_Rice_Cakes.jpg)
 
-I made eleven of them and came back with five. The only other thing I ate on the ride was a packet of Frazzels when I stopped to top up my water bottle. Pretty pleased with that. Less stopping equals less faffing hence time management improves. I know — 10 hrs. I put that down in part to giving blood the previous Friday. More to the point though is that I can sustain 20kmp/h over very long distances so I'm pretty okay with this to help prepare for the ride I have planned from Calais to near enough Lisbon over 11 days in May. Not that I shall be able to bake any such treats on the way but all the same I think it will help develop part of the mindset I need to get there within the time I have to do it. 
+I made eleven of them and came back with five. The only other thing I ate on the ride was a packet of Frazzels when I stopped to top up my water bottle. Pretty pleased with that. 
+
+Less stopping equals less faffing hence time management improves. I know — 10 hrs. I put that down in part to giving blood the previous Friday. More to the point though is that I can sustain 20kmp/h over very long distances so I'm pretty okay with this to help prepare for the ride I have planned from Calais to near enough Lisbon over 11 days in May. Not that I shall be able to bake any such treats on the way but all the same I think it will help develop part of the mindset I need to get there within the time I have to do it. 
 
 [^1]: The Randonneur Round the Year (RRtY) Award. The award is earned with a validated Brevet de Randonneur (BR[^2]) or Brevet de Randonneur Mondiaux (BRM[^3]) completed in each of any 12 consecutive calendar months. There are also RM (Randonneurs Mondiaux) events which are 1200km (usually 90 hour time limit) or longer (time limit based on nominal distance and speed limits similar to those for BR rides[^2])         
 
