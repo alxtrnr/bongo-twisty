@@ -1,9 +1,9 @@
 +++
 title = "audax: Neighbourhood 200 DiY"
+images = ["/posts/neighbourhood_200/20260207_Date_Almond_Rice_Cakes.jpg"]
 description = ""
 date = 2026-02-08
 tags = ["cycling"]
-images = ["/posts/neighbourhood_200/20260207_Date_Almond_Rice_Cakes.jpg"]
 +++
 
 I started my first RRtY[^1] series in October 2023, the second in October 2024 and the third and fourth in October 2025. I'm now doing two years simultaneously because... well it seems manageable and I don't want to take ten years to get the Ultra (x10) RRtY Award. If I keep going with two a year I'll get that in 2029. 
