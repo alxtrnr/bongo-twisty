@@ -23,7 +23,7 @@ Flatish at the beginning on a loop of the Hoo Peninsula and towards the end on a
 
 Anyhow, the ride did not prompt writing this post. I attribute that to my new found interest in fuelling myself on the bike. I have taken to making "portable" snacks to keep me going while out on the road. Following recipes in the book "Feed Zone Portables" by Biju Thomas and Allen Limm. I started with making banana and walnut quick crusts, then had a go at some mushroom & swiss frittatas. Yesterday I took a turn with shaped and baked date and almond rice balls. My competence is growing - 
 
-![A plate of tasty looking home made shaped and baked date and almond rice balls](20260207_Date_Almond_Rice_Cakes.jpg)
+![A plate of tasty looking home made shaped and baked date and almond rice balls](cover.jpg)
 
 I made eleven of them and came back with five. The only other thing I ate on the ride was a packet of Frazzels when I stopped to top up my water bottle. Pretty pleased with that. 
 
