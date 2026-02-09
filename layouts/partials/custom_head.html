@@ -1,28 +1,3 @@
-<!-- DEBUG: using custom_head.html -->
-
-
-<!-- Open Graph Image (page-level override) -->
-{{- if .Params.images -}}
-  {{- range first 1 .Params.images -}}
-    <meta property="og:image" content="{{ . | absURL }}">
-    <meta name="twitter:image" content="{{ . | absURL }}">
-    <meta itemprop="image" content="{{ . | absURL }}">
-  {{- end -}}
-{{- else if .Resources -}}
-  {{- $images := .Resources.ByType "image" -}}
-  {{- $featured := $images.GetMatch "*feature*" -}}
-  {{- if not $featured -}}
-    {{- $featured = $images.GetMatch "{*cover*,*thumbnail*}" -}}
-  {{- end -}}
-  {{- if $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}">
-    <meta name="twitter:image" content="{{ $featured.Permalink }}">
-    <meta itemprop="image" content="{{ $featured.Permalink }}">
-  {{- end -}}
-{{- end -}}
-
-
-
 <!-- Mastodon Verification -->
 <link rel="me" href="https://social.vivaldi.net/@BongoTwisty">
 

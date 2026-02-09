@@ -1,6 +1,5 @@
 +++
 title = "audax: Neighbourhood 200 DiY"
-images = ["/posts/neighbourhood_200/20260207_Date_Almond_Rice_Cakes.jpg"]
 description = ""
 date = 2026-02-08
 tags = ["cycling"]
