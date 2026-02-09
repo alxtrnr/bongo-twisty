@@ -235,6 +235,11 @@ body:has(.site-subtitle):has(.home-header-image) main h2:first-child {
     margin-top: 0;
 }
 
+/*centers every table site-wide*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Collapsible archive - streamlined version */
 ul.archive-list {
