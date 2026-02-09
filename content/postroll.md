@@ -10,7 +10,7 @@ Inspired by [Jedda](https://notes.jeddacp.com/postroll/) here's a rolling list o
 
 It serves no practical function for me since I can save any such posts in my [feed reader](https://github.com/samuelclay/NewsBlur?tab=readme-ov-file). I'm doing this is to hat tip and give thanks to people who took the time to write and publish what they did. I understand it's considered good form to contribute back in this way to the [IndieWeb](https://indieweb.org). I think it's also possible to learn something about a person by what they like to read so think there's an element of 'getting to know me' in sharing this. 
 
-It will be a first in first out list (FIFO) arbitrarily limited to 22. When the list gets to 22 the link at the bottom will be removed to make way for a newcomer at the top. That may have been an unnecessary explanation of a FIFO list. Being explicit sometimes help. 
+It will be a first in first out list (FIFO). When the list gets too long for my liking the link at the bottom will be removed to make way for a newcomer at the top. I know — FIFO. Being explicit sometimes help. 
 
 
 1. [When Love Thy Neighbor Is a Cry of Resistance](https://www.meditationsinanemergency.com/when-love-thy-neighbor-is-a-cry-of-resistance/) by Rebecca Solnit. Oh my. So good to read. Such a refreshing take on what's going on around the world. A powerful message of strength, hope and love that is grounded in the interconnection between all living things. So pleased to have come across Rebecca's writing. 
