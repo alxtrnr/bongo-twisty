@@ -5,9 +5,9 @@ date = 2026-02-13
 tags = []
 +++
 
-A few months ago I [set my music free](https://www.bongotwisty.blog/set_the_music_free/) with an instance of the Navidrome Music Streaming Server on [Pikapod](https://www.pikapods.com). It was very easy. I was up in running in no time. 
+A few months ago I [set my music free](https://www.bongotwisty.blog/set_the_music_free/) with an instance of the Navidrome Music Streaming Server on [Pikapod](https://www.pikapods.com). It was very easy. I was up and running in no time. 
 
-At the time I had an old laptop that I could have used as a server but was put off by the thought of wrangling network settings. I had my fill of that with a Nextcloud instance on a Raspberry Pie some years ago.
+There was an old laptop that I could have used as a server but was put off by the thought of wrangling network settings. I had my fill of that with a Nextcloud instance on a Raspberry Pie some years ago.
 
 Pikapod provides a great service at a good price and profit shares with the developers of the open source apps it hosts. All good. I was happy with the service. 
 
@@ -21,7 +21,7 @@ Here's a few details -
 ***
 ## Server
  
-- **Model**: Lenovo IdeaPad Flex 15D
+- **Model**: Lenovo IdeaPad Flex 15D\
 - **CPU**: Intel Atom x7-Z8750 (4 cores, 1.6-2.56 GHz)
 - **RAM**: 4GB
 - **OS**: Ubuntu Server 24.04 LTS
@@ -29,10 +29,10 @@ Here's a few details -
 ***
 ## CPU Constraints
 
-**No real-time transcoding** - CPU will struggle with FLAC→MP3 conversion
-**Solution**: Sync only MP3 files, pre-convert lossless formats
-**Limited concurrent streams** - Max 2-3 simultaneous users recommended
-**Power efficient**: 2W TDP, suitable for 24/7 operation
+- **No real-time transcoding** - CPU will struggle with FLAC→MP3 conversion
+- **Solution**: Sync only MP3 files, pre-convert lossless formats
+- **Limited concurrent streams** - Max 2-3 simultaneous users
+- **Power efficient**: 2W TDP, suitable for 24/7 operation
 
 ***
 
