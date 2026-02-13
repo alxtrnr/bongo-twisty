@@ -21,7 +21,7 @@ Here's a few details -
 ***
 ## Server
  
-- **Model**: Lenovo IdeaPad Flex 15D\
+- **Model**: Lenovo IdeaPad Flex 15D
 - **CPU**: Intel Atom x7-Z8750 (4 cores, 1.6-2.56 GHz)
 - **RAM**: 4GB
 - **OS**: Ubuntu Server 24.04 LTS
