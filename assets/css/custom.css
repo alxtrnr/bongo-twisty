@@ -161,34 +161,6 @@ pre {
     color: var(--preformatted);
 }
 
-/* ============================================
-   MOBILE CODE BLOCK FIX - Hugo Chroma Override
-   ============================================ */
-
-/* Target Hugo's highlight wrapper */
-.highlight,
-.highlight pre,
-.highlight pre code,
-div.highlight,
-div.highlight > pre.chroma,
-div.highlight > pre.chroma > code {
-  overflow-x: auto !important;
-  max-width: 100% !important;
-}
-
-/* Force wrapping on mobile screens */
-@media (max-width: 768px) {
-  .highlight pre,
-  .highlight pre code,
-  div.highlight > pre.chroma,
-  div.highlight > pre.chroma > code {
-    white-space: pre-wrap !important;
-    word-break: break-all !important;
-    overflow-wrap: anywhere !important;
-  }
-}
-
-
 div.highlight code, div.highlight pre, div.highlight pre span {
     color: inherit; /* Prevent highlight.js from overriding theme color */
 }
