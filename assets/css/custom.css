@@ -144,21 +144,43 @@ main {
 
 /* Code/Pre – subtle, readable, non-glaring in either mode */
 code, pre {
-    background-color: var(--accent-bg);
-    border: 1px solid var(--border);
-    color: var(--text);
-    /* Enable Word-Wrapping */
-    white-space: pre-wrap;
-    word-break: break-word;
-    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  background-color: var(--accent-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  /* Force code blocks to wrap on mobile */
+  overflow-x: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap !important;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+pre code {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 code {
-    color: var(--code);
+  color: var(--code);
 }
 
 pre {
-    color: var(--preformatted);
+  color: var(--preformatted);
+}
+
+/* Additional mobile safety for code blocks */
+@media (max-width: 768px) {
+  pre, 
+  code,
+  pre code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+  }
 }
 
 div.highlight code, div.highlight pre, div.highlight pre span {
@@ -519,30 +541,6 @@ nav#TableOfContents > ul {
     height: 100%;
   }
 }
-
-/* Prevent horizontal overflow on mobile - apply to all content */
-main,
-article,
-p,
-li,
-div {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
-}
-
-/* Ensure long URLs and technical strings break appropriately */
-body {
-  overflow-x: hidden;
-}
-
-/* More aggressive breaking for very long strings without spaces */
-h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-
 
 /* Base mobile - aggressive padding reduction */
 @media (max-width: 600px) {
