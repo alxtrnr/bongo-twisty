@@ -520,6 +520,30 @@ nav#TableOfContents > ul {
   }
 }
 
+/* Prevent horizontal overflow on mobile - apply to all content */
+main,
+article,
+p,
+li,
+div {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Ensure long URLs and technical strings break appropriately */
+body {
+  overflow-x: hidden;
+}
+
+/* More aggressive breaking for very long strings without spaces */
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+
+
 /* Base mobile - aggressive padding reduction */
 @media (max-width: 600px) {
     .site-container {
