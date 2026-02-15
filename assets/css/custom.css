@@ -144,44 +144,50 @@ main {
 
 /* Code/Pre – subtle, readable, non-glaring in either mode */
 code, pre {
-  background-color: var(--accent-bg);
-  border: 1px solid var(--border);
-  color: var(--text);
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-  /* Force code blocks to wrap on mobile */
-  overflow-x: auto;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  white-space: pre-wrap !important;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-pre code {
-  white-space: pre-wrap !important;
-  word-break: break-word;
-  overflow-wrap: break-word;
+    background-color: var(--accent-bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    /* Enable Word-Wrapping */
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 code {
-  color: var(--code);
+    color: var(--code);
 }
 
 pre {
-  color: var(--preformatted);
+    color: var(--preformatted);
 }
 
-/* Additional mobile safety for code blocks */
+/* ============================================
+   MOBILE CODE BLOCK FIX - Hugo Chroma Override
+   ============================================ */
+
+/* Target Hugo's highlight wrapper */
+.highlight,
+.highlight pre,
+.highlight pre code,
+div.highlight,
+div.highlight > pre.chroma,
+div.highlight > pre.chroma > code {
+  overflow-x: auto !important;
+  max-width: 100% !important;
+}
+
+/* Force wrapping on mobile screens */
 @media (max-width: 768px) {
-  pre, 
-  code,
-  pre code {
+  .highlight pre,
+  .highlight pre code,
+  div.highlight > pre.chroma,
+  div.highlight > pre.chroma > code {
     white-space: pre-wrap !important;
-    word-break: break-word !important;
+    word-break: break-all !important;
     overflow-wrap: anywhere !important;
   }
 }
+
 
 div.highlight code, div.highlight pre, div.highlight pre span {
     color: inherit; /* Prevent highlight.js from overriding theme color */
