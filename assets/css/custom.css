@@ -193,8 +193,6 @@ div.highlight code, div.highlight pre, div.highlight pre span {
     }
 }
 
-
-
 /* ============================================
    FIX: Code blocks responsive to actual screen width
    ============================================ */
@@ -248,9 +246,6 @@ div.highlight code, div.highlight pre, div.highlight pre span {
     margin-right: 0 !important;
   }
 }
-
-
-
 
 /* Consistent width for header and body */
 .site-container {
