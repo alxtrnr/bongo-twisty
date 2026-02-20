@@ -6,6 +6,11 @@
 <meta name="fediverse:creator" content="{{ . }}" />
 {{ end }}
 
+<!-- IndieLogin email identity -->
+{{ with .Site.Params.author.email }}
+  <link rel="me authn" href="mailto:{{ . }}">
+{{ end }}
+
 <!-- Custom CSS (via Hugo asset pipeline) -->
 {{ $custom := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}">
