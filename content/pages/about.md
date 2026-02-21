@@ -4,6 +4,7 @@ description = 'A little about me and this site.'
 date = 2025-07-06T15:02:29+01:00
 draft = false
 author = "Alexander"
+url = "/about/"
 +++
 
 A mixed bag of family stuff, cycling, fleeting interests, learning, photos, poorly thought out opinions, reflective pondering, reactionary rants and righteous posturing. 

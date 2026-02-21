@@ -4,6 +4,7 @@ description = "Happy to hear from you."
 layout = "contact"
 date = 2025-07-17T16:30:19+01:00
 draft = false
+url = "/contact/"
 +++
 
 <div id="letterbird-container"></div>

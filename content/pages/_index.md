@@ -2,15 +2,14 @@
 title = '/Pages'
 description ="Content that's not blog posts, and places you can find me online."
 date = 2026-02-02
-draft = false
-type = "page"
 +++
 
 **Categories**
 
 [About](/about/) - A little bit about me and this site.\
 [Galleries](/gallery/) - Photos & Images\
-[Post Roll](/postroll/) - A rolling list of blogs, blog posts or links I've enjoyed.
+[Post Roll](/postroll/) - A rolling list of blogs, blog posts or links I've enjoyed.\
+[Webmentions](/webmentions/) - How I send, receive and make use of Webmentions.
 
 **Find me online**
 
