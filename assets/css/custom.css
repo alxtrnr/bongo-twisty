@@ -159,6 +159,69 @@ main {
   font-size: 1.06em;  /* 60% bigger than normal */
 }
 
+/*hCard themeing*/
+/* h-card on About page */
+.hcard-about {
+  margin: 2rem auto 2.5rem;           /* centered, with top/bottom spacing */
+  padding: 1.5rem 1.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border, #ccc);
+  background: var(--bg-alt, #f4f4f4);
+  max-width: 32rem;
+  text-align: center;
+}
+
+.hcard-about img.u-photo {
+  display: block;
+  margin: 0 auto 0.75rem;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hcard-about p {
+  margin: 0.25rem 0;
+}
+
+.hcard-about .p-name,
+.hcard-about .p-nickname {
+  font-weight: 600;
+}
+
+.hcard-about .p-note {
+  margin-top: 0.5rem;
+}
+
+.hcard-about .p-adr,
+.hcard-about .p-adr span {
+  margin-top: 0.5rem;
+  color: var(--text, #222) !important;
+}
+
+/* Mastodon + other links inside card */
+.hcard-about a {
+  text-decoration: none;
+}
+
+.hcard-about a:hover {
+  text-decoration: underline;
+}
+
+/* “Add to Address Book” link – subtle */
+.hcard-about a[href^="http://h2vx.com/vcf/"] {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-light, #666);
+}
+
+.hcard-about a[href^="http://h2vx.com/vcf/"]:hover {
+  color: var(--accent, #008080);
+}
+
+
+
 /* Code/Pre – subtle, readable, non-glaring in either mode */
 code, pre {
     background-color: var(--accent-bg);

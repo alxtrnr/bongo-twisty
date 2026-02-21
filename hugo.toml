@@ -82,6 +82,17 @@ dateFormat = "02 Jan 2006"
 hideMadeWithLine = false
 hideRSSLink = false
 
+# hCard
+hcard_photo      = "/images/avatar.jpg"
+hcard_nickname   = "Bongo Twisty"
+hcard_note       = "Family, cycling, music, taking pictures and learning. Curious and open-minded."
+hcard_locality   = "Medway"
+hcard_region     = "Kent"
+hcard_country    = "England"
+hcard_mastodon   = "https://social.vivaldi.net/@BongoTwisty"
+hcard_url        = "https://www.bongotwisty.blog"
+
+
 # IMPORTANT: Keep this as 'images' (not social_images) for theme compatibility
 # The hugo-simple theme expects this parameter for OpenGraph/social sharing
 images = ["/images/default-og.png"]

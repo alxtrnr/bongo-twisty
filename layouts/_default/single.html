@@ -22,6 +22,10 @@
     </details>
   {{ end }}
   <content>
+    {{ if .Params.show_hcard }}
+      {{ partial "hcard.html" . }}
+    {{ end }}
+    
     {{ .Content }}
     {{ if eq .Section "posts" }}
       {{ partial "email-comment.html" . }}

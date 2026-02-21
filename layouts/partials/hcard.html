@@ -1,0 +1,41 @@
+<div class="h-card vcard hcard-about" id="about-hcard">
+
+  {{/* Photo */}}
+  {{ with .Site.Params.hcard_photo }}
+  <img class="u-photo photo" src="{{ . }}" alt="{{ $.Title }}" />
+  {{ end }}
+
+  {{/* Nickname as name + URL */}}
+  <p>
+    <a class="p-name fn p-nickname nickname u-url url u-uid"
+       rel="me"
+       href="{{ .Site.Params.hcard_url }}">
+      {{ .Site.Params.hcard_nickname }}
+    </a>
+  </p>
+
+  {{/* Short note / bio */}}
+  <p class="p-note note">
+    {{ .Site.Params.hcard_note }}
+  </p>
+
+  {{/* Address */}}
+  <p class="p-adr h-adr adr">
+    <span class="p-locality locality">{{ .Site.Params.hcard_locality }}</span>,
+    <span class="p-region region">{{ .Site.Params.hcard_region }}</span>,
+    <span class="p-country-name country-name">{{ .Site.Params.hcard_country }}</span>
+  </p>
+
+  {{/* Mastodon */}}
+  <p>
+    <a class="u-url" rel="me" href="{{ .Site.Params.hcard_mastodon }}">Mastodon</a>
+  </p>
+
+  {{/* Add to Address Book */}}
+  <p>
+  <a href="http://h2vx.com/vcf/https://www.bongotwisty.blog/about/%23about-hcard">
+    Add to Address Book
+  </a>
+</p>
+
+</div>
