@@ -135,7 +135,7 @@ weight = 20
 
 [[menu.main]]
 name = "/Pages"
-pageRef = "/pages/pages.md"
+pageRef = "/pages/_index.md"
 weight = 30
 
 # ==============================================================================
