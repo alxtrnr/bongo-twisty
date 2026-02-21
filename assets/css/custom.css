@@ -142,7 +142,7 @@ main {
     text-align: left; /* Keep text left-aligned within the centered container */
 }
 
-/*Increase size of callout to contact line beneath each post*/
+/*Styling of space above the contact line beneath each post*/
 .post-contact-cta {
   margin-top: 2rem;  /* space above the whole CTA block */
 }
@@ -153,7 +153,7 @@ main {
   border-top: 1px solid #ccc;  /* the divider line */
 }
 
-
+/*Increase size of callout to contact line beneath each post*/
 .post-contact-cta p {
   text-align: center;   /* center the whole line */  
   font-size: 1.06em;  /* 60% bigger than normal */
