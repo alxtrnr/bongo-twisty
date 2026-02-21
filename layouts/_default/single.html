@@ -23,7 +23,7 @@
   {{ end }}
   <content>
     {{ .Content }}
-    {{ if eq .Section "blog" }}
+    {{ if eq .Section "posts" }}
       {{ partial "email-comment.html" . }}
     {{ end }}
   </content>

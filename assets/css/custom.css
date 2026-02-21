@@ -142,6 +142,23 @@ main {
     text-align: left; /* Keep text left-aligned within the centered container */
 }
 
+/*Increase size of callout to contact line beneath each post*/
+.post-contact-cta {
+  margin-top: 2rem;  /* space above the whole CTA block */
+}
+
+.post-contact-divider {
+  width: 65%;                  /* 50% of the main text width */
+  margin: 0 auto 1rem;         /* center the line, add space below */
+  border-top: 1px solid #ccc;  /* the divider line */
+}
+
+
+.post-contact-cta p {
+  text-align: center;   /* center the whole line */  
+  font-size: 1.06em;  /* 60% bigger than normal */
+}
+
 /* Code/Pre – subtle, readable, non-glaring in either mode */
 code, pre {
     background-color: var(--accent-bg);
