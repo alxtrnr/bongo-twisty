@@ -220,6 +220,26 @@ main {
   color: var(--accent, #008080);
 }
 
+/* Home page h-card (compact) */
+.hcard-home {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hcard-home img.u-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Optional: tone down the link so it feels like part of the heading */
+.hcard-home .p-name {
+  font-weight: 600;
+}
 
 
 /* Code/Pre – subtle, readable, non-glaring in either mode */

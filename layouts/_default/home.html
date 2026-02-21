@@ -1,6 +1,5 @@
 {{ define "main" }}
   
-
   {{ $blogPosts := where .Site.RegularPages "Section" "in" .Site.MainSections }}
   {{ $sortedPosts := $blogPosts.ByDate.Reverse }}
 
@@ -19,6 +18,8 @@
       {{ .Content }}
     </article>
   {{ end }}
+
+  {{ partial "hcard-home.html" . }}
 
   <section>
     <h4>More Recent Posts</h4>

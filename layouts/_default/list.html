@@ -1,10 +1,9 @@
-{{ define "main" }}
+{{ define "main" }}  
   {{ with .Content }}
     <div class="intro">
       {{ . }}
     </div>
   {{ end }}
-
   {{/* Skip the default post list on the blog archive page so the archive’s year paginator is the only one */}}
   {{ if not (and .IsSection (eq .Section "blog")) }}
     <ul class="blog-posts">

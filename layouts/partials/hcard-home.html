@@ -1,0 +1,9 @@
+<div class="h-card hcard-home">
+  <a class="p-name u-url u-uid" rel="me" href="{{ .Site.Params.hcard_url }}">
+    {{ .Site.Params.hcard_nickname }}
+  </a>
+  {{ with .Site.Params.hcard_photo }}
+    <img class="u-photo" src="{{ . }}" alt="{{ $.Site.Params.hcard_nickname }}" />
+  {{ end }}
+</div>
+
