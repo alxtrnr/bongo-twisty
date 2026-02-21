@@ -97,6 +97,19 @@ hcard_url        = "https://www.bongotwisty.blog"
 # The hugo-simple theme expects this parameter for OpenGraph/social sharing
 images = ["/images/default-og.png"]
 
+# Define the vCard media type and output format
+[mediaTypes]
+  [mediaTypes."text/vcard"]
+    suffixes = ["vcf"]
+
+[outputFormats]
+  [outputFormats.VCard]
+    mediaType = "text/vcard"
+    isPlainText = true
+    isHTML = false
+    noUgly = true
+    rel = "vcard"
+
 # Analytics
 goatcounter = "bongotwisty"
 

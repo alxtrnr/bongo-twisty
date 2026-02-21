@@ -6,6 +6,7 @@ draft = false
 author = "Alexander"
 url = "/about/"
 show_hcard = true
+outputs = ["HTML", "VCard"]
 +++
 
 A mixed bag of family stuff, cycling, fleeting interests, learning, photos, poorly thought out opinions, reflective pondering, reactionary rants and righteous posturing. 

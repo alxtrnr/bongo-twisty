@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:{{ .Site.Params.hcard_nickname }}
+N:{{ .Site.Params.hcard_name_family }};{{ .Site.Params.hcard_name_given }};;;
+PHOTO;VALUE=URI:{{ .Site.Params.hcard_photo }}
+ADR;TYPE=home:;;{{ .Site.Params.hcard_locality }};{{ .Site.Params.hcard_region }};;{{ .Site.Params.hcard_country }};
+URL:{{ .Site.Params.hcard_url }}
+{{ with .Site.Params.hcard_mastodon -}}
+item1.URL:{{ . }}
+item1.X-ABLabel:Mastodon
+{{- end }}
+NOTE:{{ .Site.Params.hcard_note }}
+END:VCARD
