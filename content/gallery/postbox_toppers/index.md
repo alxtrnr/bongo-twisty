@@ -1,7 +1,5 @@
 +++
 title = "Post Box Toppers"
-description = ""
-event = ""
 type = "gallery"
 layout = "single"
 params.custom.index_subtitle = "Yarnbombing"
@@ -141,7 +139,10 @@ alt = "A knitted post box topper in Valentine's Day theme featuring a green croc
 src = "20260117_bethlehem_seal.jpg"
 title = "Bethlehem, Seal Village"
 alt = "A knitted nativity scene post box topper featuring the Holy Family with baby Jesus in a manger, surrounded by shepherd figures and farm animals including sheep and a donkey, all arranged on a circular crocheted base in earth tones of brown, grey, and cream, displayed on a traditional red British post box at night in Seal Village, Kent."
-
+[[resources]]
+src = "20260222_piggy_barham.jpg"
+title = "Little Piggy, Barham"
+alt = "Crocheted multicoloured pig postbox topper with long eyelashes sitting on a red “Post Office” box in Barham, Kent."
 
 +++
 

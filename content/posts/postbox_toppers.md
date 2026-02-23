@@ -203,4 +203,10 @@ caption="Santa, Barming"
 alt="A red British postbox topped with a crocheted Santa Claus, Christmas tree, and presents, all on a crocheted snowy cover, set in a park with leafless trees and houses in the background."
 >}}
 
+{{< glightbox-figure-global
+src = "20260222_piggy_barham.jpg"
+title = "Little Piggy, Barham"
+alt = "Crocheted multicoloured pig postbox topper with long eyelashes sitting on a red “Post Office” box in Barham, Kent."
+>}}
+
 </div>
