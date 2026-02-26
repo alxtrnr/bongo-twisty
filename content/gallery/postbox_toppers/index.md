@@ -143,6 +143,11 @@ alt = "A knitted nativity scene post box topper featuring the Holy Family with b
 src = "20260222_piggy_barham.jpg"
 title = "Little Piggy, Barham"
 alt = "Crocheted multicoloured pig postbox topper with long eyelashes sitting on a red “Post Office” box in Barham, Kent."
+[[resources]]
+src = "20260226_whale_higham.jpg"
+title = "Sea Creatures, Higham"
+alt = "Knitted ocean‑themed post box topper in Higham featuring a large grey whale surrounded by colourful woollen fish, seaweed, and small sea creatures on a crocheted beige cover."
+
 
 +++
 

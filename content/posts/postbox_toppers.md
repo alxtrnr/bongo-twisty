@@ -209,4 +209,10 @@ title = "Little Piggy, Barham"
 alt = "Crocheted multicoloured pig postbox topper with long eyelashes sitting on a red “Post Office” box in Barham, Kent."
 >}}
 
+{{< glightbox-figure-global
+src = "20260226_whale_higham.jpg"
+title = "Sea Creatures, Higham"
+alt = "Knitted ocean‑themed post box topper in Higham featuring a large grey whale surrounded by colourful woollen fish, seaweed, and small sea creatures on a crocheted beige cover."
+>}}
+
 </div>
