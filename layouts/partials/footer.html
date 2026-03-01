@@ -1,5 +1,10 @@
 <footer>
   <div class="footer-content">
+
+    {{- with .Site.Params.listenBrainz.username }}
+      {{ partial "listenbrainz.html" . }}
+    {{- end }}
+
     <p>
       <a href="https://xn--sr8hvo.ws/previous"><b>←</b></a>
       <a href="https://xn--sr8hvo.ws"><b>An IndieWeb Webring</b></a>

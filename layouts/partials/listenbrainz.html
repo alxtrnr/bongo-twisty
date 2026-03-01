@@ -1,0 +1,58 @@
+<p id="listenbrainz-widget">
+  What I'm <a href="https://listenbrainz.org/user/{{ . }}/" target="_blank">listening to right now</a>:
+  <span class="now-playing"><noscript>not sure, try with Javascript enabled.</noscript></span>
+</p>
+
+<script type="text/javascript">
+var initNowPlaying = function (wrapper) {
+  if (!wrapper) return;
+
+  var placeholder = wrapper.getElementsByClassName('now-playing')[0];
+
+  var show = function (data) {
+    if (data && data.payload && data.payload.listens && data.payload.listens.length > 0) {
+      var meta = data.payload.listens[0].track_metadata;
+      var query = encodeURIComponent(
+        '"' + meta.track_name + '" AND artist:"' + meta.artist_name +
+        '" AND release:"' + meta.release_name + '"'
+      );
+      var href = 'https://musicbrainz.org/search?query=' + query +
+                 '&type=recording&limit=5&method=advanced';
+      placeholder.innerHTML = '<a href="' + href + '" target="_blank">' +
+        meta.artist_name + ' &ndash; ' + meta.track_name + '</a>';
+    } else {
+      placeholder.innerHTML = 'Nothing playing right now.';
+    }
+  };
+
+  var fetchNow = function () {
+    var req = new XMLHttpRequest();
+    var url = 'https://api.listenbrainz.org/1/user/{{ . }}/playing-now';
+
+    req.onloadend = function () {
+      if (req.readyState === this.DONE && req.status === 200 && req.response) {
+        try {
+          var data = JSON.parse(req.responseText);
+          show(data);
+        } catch (e) {
+          console.log('Error parsing ListenBrainz response:', e);
+        }
+      } else {
+        console.log('Could not load now playing: ' + req.statusText.toLowerCase());
+      }
+    };
+
+    req.open('GET', url);
+    req.send();
+  };
+
+  // Initial fetch on page load
+  fetchNow();
+
+  // Refresh every 4 minutes (240000 ms)
+  setInterval(fetchNow, 240000);
+};
+
+initNowPlaying(document.getElementById('listenbrainz-widget'));
+</script>
+

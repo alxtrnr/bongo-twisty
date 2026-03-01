@@ -40,6 +40,17 @@ posts = "/:slugorcontentbasename/"
 tags = "/posts/:slug"
 
 # ==============================================================================
+# MODULES CONFIGURATION
+# ==============================================================================
+
+[module]
+  [[module.imports]]
+    path = "go.deuill.org/hugo-module-listenbrainz"
+
+[params.listenBrainz]
+  username = "alxtrnr"
+
+# ==============================================================================
 # MARKDOWN PROCESSING CONFIGURATION
 # ==============================================================================
 # Enhanced Goldmark configuration for image render hooks and content processing
