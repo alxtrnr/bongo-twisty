@@ -4,6 +4,7 @@ description = "Other People's Posts"
 date = 2026-03-01
 draft = false
 author = "Alexander"
+url = "/postroll/"
 +++
 
 Inspired by [Jedda](https://notes.jeddacp.com/postroll/) here's a rolling list of blogs, blog posts or links I've enjoyed. 
