@@ -1,20 +1,18 @@
 <footer>
   <div class="footer-content">
-
-    {{- with .Site.Params.listenBrainz.username }}
-      {{ partial "listenbrainz.html" . }}
-    {{- end }}
-
+      {{- with .Site.Params.listenBrainz.username }}
+        {{ partial "listenbrainz.html" . }}
+      {{- end }}
     <p>
       <a href="https://xn--sr8hvo.ws/previous"><b>←</b></a>
       <a href="https://xn--sr8hvo.ws"><b>An IndieWeb Webring</b></a>
       <a href="https://xn--sr8hvo.ws/next"><b>→</b></a>
-      <br>  
+      <br>
       <a href="https://fediring.net/previous?host=https://www.bongotwisty.blog"><b>←</b></a>
       <a href="https://fediring.net/"><b>Fediring</b></a>
       <a href="https://fediring.net/random"><b>[?]</b></a>
       <a href="https://fediring.net/next?host=https://www.bongotwisty.blog"><b>→</b></a>
-      <br>  
+      <br><br>  
       &copy; 2006 - {{ now.Year }} {{ .Site.Title }}. 
       Except where otherwise noted, content licensed under 
       <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener noreferrer" target="_blank">
