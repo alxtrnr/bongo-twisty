@@ -215,4 +215,10 @@ title = "Sea Creatures, Higham"
 alt = "Knitted ocean‑themed post box topper in Higham featuring a large grey whale surrounded by colourful woollen fish, seaweed, and small sea creatures on a crocheted beige cover."
 >}}
 
+{{< glightbox-figure-global
+src = "20260308_dog_rolvenden_layne.jpeg"
+title = "Scoop the Poop, Rolvenden Layne"
+alt = "Knitted dog with hat and scarf on a turquoise crochet cover over a post box, with small knitted poops and a park in the background."
+>}}
+
 </div>
