@@ -1,10 +1,10 @@
 +++
 title = "The Postbox of the Future"
 description = ""
+images = ["/gallery/postbox_toppers/20260304_postbox_of_the_future.jpeg"]
 date = 2026-03-05
 draft = false
 tags = ["Post Box Topper"]
-images = ["/gallery/postbox_toppers/20260304_postbox_of_the_future.jpeg"]
 +++
 
 I love a [postbox topper](https://www.bongotwisty.blog/gallery/postbox_toppers/). A post box I pass by on a regular basis nearly always has one on top. This may be the last of it's kind on this one - 
