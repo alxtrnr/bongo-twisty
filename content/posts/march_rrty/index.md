@@ -2,7 +2,7 @@
 title = "March RRtY Rides"
 description = ""
 date = 2026-03-23
-images = [""]
+images = ["cover.jpeg"]
 draft = false
 tags = ["Cycling"]
 +++
