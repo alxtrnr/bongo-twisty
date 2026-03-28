@@ -151,6 +151,10 @@ alt = "Knitted ocean‑themed post box topper in Higham featuring a large grey w
 src = "20260308_dog_rolvenden_layne.jpeg"
 title = "Scoop the Poop, Rolvenden Layne"
 alt = "Knitted dog with hat and scarf on a turquoise crochet cover over a post box, with small knitted poops and a park in the background."
+[[resources]]
+src = "20260328_rainbows_end_shorne.jpeg"
+title = "Rainbows End, Shorne"
+alt = "Crocheted post box topper in Shorne Village, Kent showing a leprechaun with yellow beard, pot of gold and rainbow on a textured white and brown base." 
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

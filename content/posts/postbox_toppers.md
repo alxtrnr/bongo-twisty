@@ -221,4 +221,10 @@ title = "Scoop the Poop, Rolvenden Layne"
 alt = "Knitted dog with hat and scarf on a turquoise crochet cover over a post box, with small knitted poops and a park in the background."
 >}}
 
+{{< glightbox-figure-global
+src = "20260328_rainbows_end_shorne.jpeg"
+title = "Rainbows End, Shorne"
+alt = "Crocheted post box topper in Shorne Village, Kent showing a leprechaun with yellow beard, pot of gold and rainbow on a textured white and brown base."
+>}}
+
 </div>
