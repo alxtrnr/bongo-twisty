@@ -16,5 +16,5 @@ alt = "Cycling summary card for February 2026 showing a calendar of 14 rides tot
 [[resources]]
 src = "card_2026_03.jpg"
 title = ""
-alt = "Cycling summary card for February 2026 showing a calendar of 14 rides totalling 1,137 km distance, 12,872 m elevation gain, and 2 days 5 hours 28 minutes of moving time."
+alt = "Cycling summary card for February 2026 showing a calendar of 16 rides totalling 1,137 km distance, 12,872 m elevation gain, and 2 days 5 hours 28 minutes of moving time."
 +++
