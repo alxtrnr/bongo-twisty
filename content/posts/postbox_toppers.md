@@ -227,4 +227,17 @@ title = "Rainbows End, Shorne"
 alt = "Crocheted post box topper in Shorne Village, Kent showing a leprechaun with yellow beard, pot of gold and rainbow on a textured white and brown base."
 >}}
 
+{{< glightbox-figure-global
+src = "20260405_easter_st_margarets_at_cliffe.jpg"
+title = "Easter, St Margaret's at Cliffe"
+alt = "Red village postbox decorated with crocheted Easter designs beside a roadside."
+>}}
+
+{{< glightbox-figure-global
+src = "20260405_easter_faversham.jpg"
+title = "Easter, Faversham"
+alt = "Knitted fairy-tale Easter scene with toadstool house and figures on top of a red postbox."
+>}}
+
+
 </div>
