@@ -7,7 +7,7 @@ tags = ["Cycling"]
 +++
 
 
-[replacedbyclawd](https://replacebyclawd.com/?url=https://www.bongotwisty.blog/&job=bd7dd8841bc8&slug=bongo-twisty) - My ride reports can be cloned, but the actual business model still appears to be pedalling into a headwind and noticing things machines would ignore.
+[replacedbyclawd](https://replacebyclawd.com) - My ride reports can be cloned, but the actual business model still appears to be pedalling into a headwind and noticing things machines would ignore.
 
 # IDENTITY.md — Who Am I?
 
