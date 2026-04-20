@@ -2,7 +2,6 @@
 title = "Coastal 200"
 description = ""
 date = 2026-04-06
-images = ["cover.jpg"]
 draft = false
 tags = ["Cycling"]
 +++
