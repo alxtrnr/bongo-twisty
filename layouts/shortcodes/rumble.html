@@ -1,0 +1,9 @@
+<!-- layouts/_shortcodes/rumble.html -->
+<div class="rumble-embed">
+  <iframe
+    src="https://rumble.com/embed/{{ .Get "id" }}/?pub={{ .Get "pub" | default "4pbo88" }}"
+    title="{{ .Get "title" | default "Rumble video" }}"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>

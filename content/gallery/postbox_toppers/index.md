@@ -163,6 +163,10 @@ alt = "Red village postbox decorated with crocheted Easter designs beside a road
 src = "20260405_easter_faversham.jpg"
 title = "Easter, Faversham"
 alt = "Knitted fairy-tale Easter scene with toadstool house and figures on top of a red postbox." 
+[[resources]]
+src = "20260423_easter_shorne.jpg"
+title = "Easter, Shorne"
+alt = "Hand-crocheted Easter post box topper in teal featuring three beige crocheted crucifixes, decorated with spring daffodils in yellow and white and purple crocuses, displayed on a red Royal Mail post box in Shorne Village" 
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

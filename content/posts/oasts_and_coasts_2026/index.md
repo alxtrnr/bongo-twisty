@@ -34,6 +34,5 @@ Due to where I live my ride started on a part of the route that crosses the Rive
 
 It was this weekend the organised event took place. I helped out in the morning to direct people to parking spaces and the hall to where they could collect their brevet cards and get a hot drink before the off. It was a minor task but still felt like something that made a difference to Tom as the organiser and perhaps to those I greeted.
 
-<iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v76slr0/?pub=4pbo88" frameborder="0" allowfullscreen></iframe>
-
+{{< rumble id="v76slr0" title="Oasts and Coasts 2026" >}}
 

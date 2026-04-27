@@ -239,5 +239,10 @@ title = "Easter, Faversham"
 alt = "Knitted fairy-tale Easter scene with toadstool house and figures on top of a red postbox."
 >}}
 
+{{< glightbox-figure-global
+src = "20260423_easter_shorne.jpg"
+title = "Easter, Shorne"
+alt = "Hand-crocheted Easter post box topper in teal featuring three beige crocheted crucifixes, decorated with spring daffodils in yellow and white and purple crocuses, displayed on a red Royal Mail post box in Shorne Village" 
+>}}
 
 </div>
