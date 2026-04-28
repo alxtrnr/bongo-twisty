@@ -33,7 +33,7 @@ Given the myriad of possibilities the project affords, after much thought and de
 
 **Y** - Estuario de Virrila, Peru, 5°51'53.4 S 80°43'51.6 W
 
-It got me thinking about route planning. If you joined the letters up in a straight line you'd have about 80,000 km to ride. Bit tricky in places. Maybe a too much to cycle on a whim but for future reference...
+It got me thinking about route planning. If you joined the letters up in a straight line you'd have about 80,000 km to ride. Bit tricky in places. Maybe too much to cycle on a whim but for future reference...
 
 | From                     | To                                | Approx distance | Notes                                                                                 |
 | ------------------------ | --------------------------------- | --------------- | ------------------------------------------------------------------------------------- |
