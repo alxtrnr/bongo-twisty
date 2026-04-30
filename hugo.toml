@@ -9,14 +9,14 @@
 baseURL = "https://bongotwisty.blog/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "Bongo Twisty"
 copyright = "© 2025 A J Turner"
 mainSections = ["posts"]
 
 # Prevent original images from being published - only processed versions
 # This saves bandwidth by only serving optimized images
-[cascade._build]
+[cascade.build]
 publishResources = false
 
 # Generate a nice robots.txt for SEO
