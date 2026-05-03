@@ -20,7 +20,7 @@ On that basis job done I guess. Time for me to upgrade.
 
 Or not. 
 
-Ubuntu has served me well but all along I have been aware that Canonical and Microsoft have been getting closer and closer. In 2014 they partnered with Azure cloud optimisation. In September 2019 they launched their enterprise co-selling partnership. In 2016 the Windows Subsystem for Linux (WSL). More recently Ubuntu Pro and Microsoft Defender integration. It's what drives the development of Ubuntu and makes Cannonical profitable. 
+Ubuntu has served me well but all along I have been aware that Canonical and Microsoft have been getting closer and closer. In 2014 they partnered with Azure cloud optimisation. In 2016 the Windows Subsystem for Linux (WSL). In September 2019 they launched their enterprise co-selling partnership. More recently Ubuntu Pro and Microsoft Defender integration. It's what drives the development of Ubuntu and makes Cannonical profitable. 
 
 The only value casual desktop users like me provide Canonical is adding to the global usage statistics, word of mouth recommendations, live testing, and the occasional bug report. Ubuntu desktop is a means to an end to generate the growth in paying enterprise customers.
 
