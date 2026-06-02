@@ -16,9 +16,13 @@ alt = "Cycling summary card for February 2026 showing a calendar of 14 rides tot
 [[resources]]
 src = "card_2026_03.jpg"
 title = ""
-alt = "Cycling summary card for February 2026 showing a calendar of 16 rides totalling 1,137 km distance, 12,872 m elevation gain, and 2 days 5 hours 28 minutes of moving time."
+alt = "Cycling summary card for March 2026 showing a calendar of 16 rides totalling 1,137 km distance, 12,872 m elevation gain, and 2 days 5 hours 28 minutes of moving time."
 [[resources]]
 src = "card_2026_04.jpg"
 title = ""
-alt = "Cycling summary card for February 2026 showing a calendar of 22 rides totalling 1,270 km distance, 14,156 m elevation gain, and 2 days 10 hours 12 minutes of moving time."
+alt = "Cycling summary card for April 2026 showing a calendar of 22 rides totalling 1,270 km distance, 14,156 m elevation gain, and 2 days 10 hours 12 minutes of moving time."
+[[resources]]
+src = "card_2026_05.jpg"
+title = ""
+alt = "Cycling summary card for May 2026 showing a calendar of 24 rides totalling 3,011 km distance, 16,573 m elevation gain, and 6 days 3 hours 35 minutes of moving time."
 +++
