@@ -170,7 +170,7 @@ alt = "Hand-crocheted Easter post box topper in teal featuring three beige croch
 [[resources]]
 src = "20260529_space_highham_01.jpg"
 title = "Space, Higham"
-alt = "A red “postbox of the future” with a solar panel on top is wrapped in a chunky crocheted grey topper decorated with knitted space‑themed figures, including rockets, planets, stars and a tiny orange astronaut." 
+alt = "A red postbox of the future with a solar panel on top is wrapped in a chunky crocheted grey topper decorated with knitted space‑themed figures, including rockets, planets, stars and a tiny orange astronaut." 
 [[resources]]
 src = "20260529_space_highham_03.jpg"
 title = "Space, Higham"
