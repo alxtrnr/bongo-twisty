@@ -78,6 +78,9 @@ jobs:
           --baseURL "${{ steps.pages.outputs.base_url }}/" \
           --cacheDir "${{ runner.temp }}/hugo_cache"
 
+      - name: Index with Pagefind       
+        run: npx -y pagefind --site public
+
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
