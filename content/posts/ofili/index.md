@@ -1,6 +1,6 @@
 +++
-title = 'Malachi'
-description = "Self portrait inspired by Christopher Ofili"
+title = 'An Ofili Inspired Portrait'
+description = ""
 date = 2019-04-10
 draft = false
 tags = ["family"]
@@ -12,4 +12,4 @@ tags = ["family"]
 
 ![Self portrait inspired by Christopher Ofili](20191004_malachi_ofili.jpg)
 
-We created our own Christopher Ofili inspired portraits
+We created our own [Christopher Ofili](https://en.wikipedia.org/wiki/Chris_Ofili) inspired portraits
