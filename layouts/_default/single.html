@@ -15,22 +15,32 @@
       </p>
     {{ end }}
   {{ end }}
+
   {{ if .Params.toc }}
     <details>
       <summary>Table of Contents</summary>
       {{ .TableOfContents }}
     </details>
   {{ end }}
+
   <content>
     {{ if .Params.show_hcard }}
       {{ partial "hcard.html" . }}
     {{ end }}
-    
-    {{ .Content }}
+
+    {{/* Pagefind indexes only what's inside data-pagefind-body */}}
+    <div data-pagefind-body>
+      {{ .Content }}
+      <ul data-pagefind-ignore>
+        {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+
     {{ if eq .Section "posts" }}
       {{ partial "email-comment.html" . }}
     {{ end }}
   </content>
+
   {{ if eq .Type $mainSection }}
     {{ $tags := .GetTerms "tags" }}
     {{ if gt (len $tags) 0 }}
@@ -40,6 +50,7 @@
         {{ end }}
       </p>
     {{ end }}
+
     {{ $pages := .CurrentSection.Pages.ByWeight }}
     {{ if or ($pages.Prev .) ($pages.Next .) }}
       <div class="flex-between" style="margin-top: 3rem;">

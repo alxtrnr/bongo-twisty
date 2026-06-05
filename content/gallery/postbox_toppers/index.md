@@ -167,6 +167,18 @@ alt = "Knitted fairy-tale Easter scene with toadstool house and figures on top o
 src = "20260423_easter_shorne.jpg"
 title = "Easter, Shorne"
 alt = "Hand-crocheted Easter post box topper in teal featuring three beige crocheted crucifixes, decorated with spring daffodils in yellow and white and purple crocuses, displayed on a red Royal Mail post box in Shorne Village" 
+[[resources]]
+src = "20260529_space_highham_01.jpg"
+title = "Space, Higham"
+alt = "A red postbox of the future with a solar panel on top is wrapped in a chunky crocheted grey topper decorated with knitted space‑themed figures, including rockets, planets, stars and a tiny orange astronaut." 
+[[resources]]
+src = "20260529_space_highham_03.jpg"
+title = "Space, Higham"
+alt = "A solar‑topped red postbox wearing a grey yarn topper dotted with brightly coloured knitted rockets and stars." 
+[[resources]]
+src = "20260529_space_highham_02.jpg"
+title = "Space, Higham"
+alt = "Rear view of a red postbox covered by a grey crochet topper showing woolly planets, bug‑eyed aliens and pom‑pom details clustered around the rim." 
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
