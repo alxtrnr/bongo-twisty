@@ -1,5 +1,6 @@
 ---
 title: "Search"
+description: "Search across all posts by title or content."
 layout: "search"
 ---
 
