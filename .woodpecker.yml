@@ -14,7 +14,8 @@ steps:
     commands:
       - set -eux
       - apt-get update
-      - apt-get install -y git curl ca-certificates python3 nodejs npm
+      - apt-get install -y git curl ca-certificates python3 nodejs npm golang
+      - go version
       - curl -L https://github.com/gohugoio/hugo/releases/download/v0.160.1/hugo_extended_0.160.1_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
       - tar -xzf /tmp/hugo.tar.gz -C /tmp
       - install /tmp/hugo /usr/local/bin/hugo
