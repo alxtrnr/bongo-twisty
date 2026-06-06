@@ -4,7 +4,7 @@ when:
 
 steps:
   - name: build
-    image: peaceiris/hugo:v0.160.1-ext
+    image: debian:bookworm-slim
     when:
       - event: push
         branch: main
@@ -12,7 +12,13 @@ steps:
       HUGO_ENVIRONMENT: production
       TZ: Europe/London
     commands:
-      - apt-get update -qq && apt-get install -y -qq git python3 nodejs npm
+      - set -eux
+      - apt-get update
+      - apt-get install -y git curl ca-certificates python3 nodejs npm
+      - curl -L https://github.com/gohugoio/hugo/releases/download/v0.160.1/hugo_extended_0.160.1_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
+      - tar -xzf /tmp/hugo.tar.gz -C /tmp
+      - install /tmp/hugo /usr/local/bin/hugo
+      - hugo version
       - git submodule update --init --recursive
       - hugo --gc --minify --baseURL "https://BongoTwisty.codeberg.page/"
       - npx -y pagefind@1.3.0 --site public
@@ -30,6 +36,7 @@ steps:
       DEPLOY_KEY:
         from_secret: pages_deploy_key
     commands:
+      - set -eux
       - apk add --no-cache git openssh-client
       - git config --global user.email "ci@bongo-twisty"
       - git config --global user.name "CI Deploy"
