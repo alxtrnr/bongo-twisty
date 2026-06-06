@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: docker
 
     env:
       HUGO_VERSION: 0.160.1
