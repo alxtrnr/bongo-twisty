@@ -63,7 +63,7 @@ jobs:
           cd public
           git init
           git checkout -b pages
-          cp ../static/.domains . 2>/dev/null || echo "YOURUSERNAME.codeberg.page" > .domains
+          cp ../static/.domains . 2>/dev/null || echo "BongoTwisty.codeberg.page" > .domains
           git add .
           git commit -m "Deploy: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push --force git@codeberg.org:BongoTwisty/pages.git pages:pages
