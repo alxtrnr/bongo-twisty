@@ -1,0 +1,33 @@
+steps:
+  - name: build-and-deploy
+    image: peaceiris/hugo:v0.160.1-ext
+    environment:
+      HUGO_ENVIRONMENT: production
+      TZ: Europe/London
+      DEPLOY_KEY:
+        from_secret: PAGES_DEPLOY_KEY
+    commands:
+      - apt-get update -qq && apt-get install -y -qq git openssh-client python3 nodejs npm
+      - git submodule update --init --recursive
+      - hugo --gc --minify --baseURL "https://BongoTwisty.codeberg.page/"
+      - npx -y pagefind@1.3.0 --site public
+      - python3 tools/send_webmentions.py
+      - git config --global user.email "ci@bongo-twisty"
+      - git config --global user.name "CI Deploy"
+      - eval $(ssh-agent -s)
+      - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
+      - mkdir -p ~/.ssh
+      - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
+      - cd public
+      - git init
+      - git checkout -b pages
+      - cp ../static/.domains . 2>/dev/null || echo "BongoTwisty.codeberg.page" > .domains
+      - git add .
+      - git commit -m "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+      - git push --force git@codeberg.org:BongoTwisty/pages.git pages:pages
+
+trigger:
+  branch:
+    - main
+  event:
+    - push
