@@ -39,7 +39,7 @@ jobs:
           hugo \
           --gc \
           --minify \
-          --baseURL "https://YOURUSERNAME.codeberg.page/" \
+          --baseURL "https://BongoTwisty.codeberg.page/" \
           --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Index with Pagefind
@@ -66,4 +66,4 @@ jobs:
           cp ../static/.domains . 2>/dev/null || echo "YOURUSERNAME.codeberg.page" > .domains
           git add .
           git commit -m "Deploy: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push --force git@codeberg.org:YOURUSERNAME/pages.git pages:pages
+          git push --force git@codeberg.org:BongoTwisty/pages.git pages:pages
