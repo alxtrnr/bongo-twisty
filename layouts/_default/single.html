@@ -31,9 +31,6 @@
     {{/* Pagefind indexes only what's inside data-pagefind-body */}}
     <div data-pagefind-body>
       {{ .Content }}
-      <ul data-pagefind-ignore>
-        {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
-      </ul>
     </div>
 
     {{ if eq .Section "posts" }}
