@@ -195,6 +195,9 @@ path = "page"    # optional; default is "page"
 # OUTPUT FORMATS
 # ==============================================================================
 [outputs]
+# Generate HTML + RSS + robots for home
+home = ["html", "rss", "robots"]
+
 # Generate RSS for home only
 section = ["html"]
 taxonomy = ["html"]
