@@ -21,12 +21,12 @@ We visited my sister at the weekend and left with her unwanted "Russell Hobbs Br
       >}} 
 	 {{< glightbox-figure-global 
       src="20260615_tomato_and_cheese_bread_loaf.jpg" 
-      caption="Cheddar Cheese and Sunb Dried Tomato Loaf" 
+      caption="Cheddar Cheese and Sun Dried Tomato Loaf" 
       alt="Square tomato and cheese loaf from a bread machine, with a rough, bubbled top crust." 
       >}} 
 	 {{< glightbox-figure-global 
       src="20260615_tomato_and_cheese_bread.jpg" 
-      caption="Cheddar Cheese and Sunb Dried Tomato Loaf" 
+      caption="Cheddar Cheese and Sun Dried Tomato Loaf" 
       alt="Tomato and cheese loaf with the cut end showing an open, slightly uneven crumb." 
       >}}
 	</div>
