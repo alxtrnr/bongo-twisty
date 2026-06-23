@@ -1,0 +1,119 @@
+{{/* Townsquare widget mount + theme override — loaded after widget.css */}}
+
+
+<link rel="stylesheet" href="https://townsquare.cauenapier.com/widget.css" />
+
+<style>
+
+  /* Re-assert widget theme AFTER tokens.css has loaded */
+  #townsquare-root#townsquare-root {
+    --scene: #f9fbfa;
+    --page: #eff5f3;
+    --surface: #eff5f3;
+    --ink: #63927e;
+    --you: #63927e;
+    --you-deep: #63927e;
+    --tree-trunk: #000444;
+    --tree-canopy: #63927e;
+    --other: #26241f;
+    --ground: rgba(42, 41, 38, 0.16);
+    --scene-edge: color-mix(in oklab, var(--scene) 88%, var(--page) 12%);
+    --text: var(--ink);
+    --muted: var(--ink);
+  }
+
+  #townsquare-root#townsquare-root[data-townsquare-theme="dark"] {
+    --scene: #121212;
+    --page: #121212;
+    --surface: #000111;
+    --ink: #e0e0e0;
+    --you: #6a9e9f;
+    --you-deep: #6a9e9f;
+    --tree-trunk: #000444;
+    --tree-canopy: #2b2b2b;
+    --other: #ddd7cc;
+    --ground: rgba(242, 238, 230, 0.18);
+    --scene-edge: color-mix(in oklab, var(--scene) 88%, var(--page) 12%);
+    --text: var(--ink);
+    --muted: var(--ink);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    #townsquare-root#townsquare-root[data-townsquare-theme="auto"] {
+      --scene: #121212;
+      --page: #121212;
+      --surface: #000111;
+      --ink: #e0e0e0;
+      --you: #6a9e9f;
+      --you-deep: #6a9e9f;
+      --tree-trunk: #000444;
+      --tree-canopy: #2b2b2b;
+      --other: #ddd7cc;
+      --ground: rgba(242, 238, 230, 0.18);
+      --scene-edge: color-mix(in oklab, var(--scene) 88%, var(--page) 12%);
+      --text: var(--ink);
+      --muted: var(--ink);
+    }
+  }
+
+  #townsquare-root#townsquare-root .townsquare__stage {
+    background: linear-gradient(
+      180deg,
+      var(--scene) 0%,
+      var(--scene) 72%,
+      var(--scene-edge) 72%,
+      var(--page) 72.4%,
+      var(--page) 100%
+    );
+  }
+
+  #townsquare-root#townsquare-root .townsquare__ground {
+    background: var(--ground);
+  }
+
+  /* Remove double divider below widget */
+  .townsquare-widget {
+    margin-bottom: 0;
+  }
+
+  .townsquare-widget + hr {
+    display: none;
+  }
+</style>
+
+<section class="townsquare-widget">
+  <div id="townsquare-root"></div>
+  <script type="module">
+    import { mountTownSquare } from "https://townsquare.cauenapier.com/townsquare.mjs";
+    mountTownSquare(document.getElementById("townsquare-root"), {
+      serverOrigin: "https://townsquare.cauenapier.com",
+      siteKey: "site_BW8E0oicAhlkfZEc",
+      scene: {"benches":2,"benchXs":[0.2,0.62],"trees":1,"treeXs":[0.80],"lamps":1,"lampXs":[0.12],"birds":3},
+      theme: "host"
+    });
+  </script>
+</section>
+
+<script>
+  (function() {
+    var root = document.getElementById('townsquare-root');
+    if (!root) return;
+
+    function syncTheme() {
+      if (document.body.classList.contains('dark-mode')) {
+        root.setAttribute('data-townsquare-theme', 'dark');
+      } else {
+        root.setAttribute('data-townsquare-theme', 'light');
+      }
+    }
+
+    // Sync on page load
+    syncTheme();
+
+    // Watch for the toggle being clicked
+    var switcher = document.querySelector('.js-toggle');
+    if (switcher) {
+      switcher.addEventListener('click', syncTheme);
+    }
+  })();
+</script>
