@@ -245,4 +245,10 @@ title = "Easter, Shorne"
 alt = "Hand-crocheted Easter post box topper in teal featuring three beige crocheted crucifixes, decorated with spring daffodils in yellow and white and purple crocuses, displayed on a red Royal Mail post box in Shorne Village" 
 >}}
 
+{{< glightbox-figure-global
+src = "20260707_tea_and_cakes_shorne.jpg"
+title = "Tea and Cake, Shorne"
+alt = "Crochet post box topper in Shorne village depicting a tea-and-cakes theme - a smiling cream-colored teacup with a heart design and pink cheeks sits on a saucer at the top, surrounded by an assortment of crocheted treats on a black knitted base—including a pink cherry-topped cupcake, a rainbow-speckled cupcake, a sprinkle-covered pink donut, pastel-colored macarons, cream and pink meringues, and orange and yellow tart-shaped decorations."
+>}}
+
 </div>
