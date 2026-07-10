@@ -251,4 +251,16 @@ title = "Tea and Cake, Shorne"
 alt = "Crochet post box topper in Shorne village depicting a tea-and-cakes theme - a smiling cream-colored teacup with a heart design and pink cheeks sits on a saucer at the top, surrounded by an assortment of crocheted treats on a black knitted base—including a pink cherry-topped cupcake, a rainbow-speckled cupcake, a sprinkle-covered pink donut, pastel-colored macarons, cream and pink meringues, and orange and yellow tart-shaped decorations."
 >}}
 
+{{< glightbox-figure-global
+src = "20260612_sea_snail_st_margarets.jpg"
+title = "Sea Snail, St Margaret's at Cliffe"
+alt = "Red Royal Mail post box decorated with yarn bombing. A pale yellow crochet trim covers the 'Post Office' lettering on the box door. A large white crochet snail with tall stalk eyes and brown eyebrows perches on top. Residential street visible in background."
+>}}
+
+{{< glightbox-figure-global
+src = "20260612_sea_snails_friends_st_margarets.jpg"
+title = "Sea Snail's Friends, St Margaret's at Cliffe"
+alt = "Reverse view of a crochet sea-themed postbox topper. A blue crocheted panel features three red and cream sea creatures: a lobster near the top, a jellyfish with dangling tentacles in the centre, and a crab at the base. A whimsical snail figure with stalk eyes sits atop the installation."
+>}}
+
 </div>
