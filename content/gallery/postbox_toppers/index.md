@@ -191,6 +191,10 @@ alt = "Red Royal Mail post box decorated with yarn bombing. A pale yellow croche
 src = "20260612_sea_snails_friends_st_margarets.jpg"
 title = "Sea Snail's Friends, St Margaret's at Cliffe"
 alt = "Reverse view of a crochet sea-themed postbox topper. A blue crocheted panel features three red and cream sea creatures: a lobster near the top, a jellyfish with dangling tentacles in the centre, and a crab at the base. A whimsical snail figure with stalk eyes sits atop the installation."
+[[resources]]
+src = "20260713_summer_higham.jpg"
+title = "Summer Time, Higham"
+alt = "Red UK pillar box covered in mustard-yellow knitted mesh with handmade knitted figurines wearing swimming costumes and bright rubber rings. A solar panel sits on top. Residential street background."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
