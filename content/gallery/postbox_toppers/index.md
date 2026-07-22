@@ -195,6 +195,22 @@ alt = "Reverse view of a crochet sea-themed postbox topper. A blue crocheted pan
 src = "20260713_summer_higham.jpg"
 title = "Summer Time, Higham"
 alt = "Red UK pillar box covered in mustard-yellow knitted mesh with handmade knitted figurines wearing swimming costumes and bright rubber rings. A solar panel sits on top. Residential street background."
+[[resources]]
+src = "20260716_beach_house_bedfordshire.jpg"
+title = "Beach House, Henlow, Bedfordshire"
+alt = "Beach-themed knitted postbox topper featuring cottage with blue roof, sea turtle, fish, badger, crab and seagull on wave-patterned knitwork with residential street in background."
+[[resources]]
+src = "20260716_hunny_northhamtonshire.jpg"
+title = "Winnie the Pooh, Helmdon, Northamptonshire"
+alt = "Winnie the Pooh knitted topper with bees, sunflower, honey pot and flowers on black postbox lid beside stone wall, with Hunny handwritten sign visible among the decorations."
+[[resources]]
+src = "20260717_upton_rock_Gloucestershire.jpg"
+title = "Upton Rock, Upton-upon-Severn, Gloucestershire"
+alt = "Knitted sheep scene titled Upton Rock showing seven mouse figures in sweaters playing musical intruments as a band around a central stage with green backdrop against brick wall, displayed on teal crocheted surface."
+[[resources]]
+src = "20260718_seaside_st_athan_barry.jpg"
+title = "At the Seaside, St Athan, Barry"
+alt = "Crocheted seaside scene on red postbox featuring striped lighthouse, blue waves, octopus, seal, picnic basket and nautical decorations."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

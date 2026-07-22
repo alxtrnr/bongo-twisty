@@ -269,4 +269,29 @@ title = "Summer Time, Higham"
 alt = "Red UK pillar box covered in mustard-yellow knitted mesh with handmade knitted figurines wearing swimming costumes and bright rubber rings. A solar panel sits on top. Residential street background."
 >}}
 
+{{< glightbox-figure-global
+src = "20260716_beach_house_bedfordshire.jpg"
+title = "Beach House, Henlow, Bedfordshire"
+alt = "Beach-themed knitted postbox topper featuring cottage with blue roof, sea turtle, fish, badger, crab and seagull on wave-patterned knitwork with residential street in background."
+>}}
+
+{{< glightbox-figure-global
+src = "20260716_hunny_northhamtonshire.jpg"
+title = "Winnie the Pooh, Helmdon, Northamptonshire"
+alt = "Winnie the Pooh knitted topper with bees, sunflower, honey pot and flowers on black postbox lid beside stone wall, with Hunny handwritten sign visible among the decorations."
+>}}
+
+{{< glightbox-figure-global
+src = "20260717_upton_rock_Gloucestershire.jpg"
+title = "Upton Rock, Upton-upon-Severn, Gloucestershire"
+alt = "Knitted sheep scene titled Upton Rock showing seven mouse figures in sweaters playing musical intruments as a band around a central stage with green backdrop against brick wall, displayed on teal crocheted surface."
+>}}
+
+{{< glightbox-figure-global
+src = "20260718_seaside_st_athan_barry.jpg"
+title = "At the Seaside, St Athan, Barry"
+alt = "Crocheted seaside scene on red postbox featuring striped lighthouse, blue waves, octopus, seal, picnic basket and nautical decorations."
+>}}
+
+
 </div>
