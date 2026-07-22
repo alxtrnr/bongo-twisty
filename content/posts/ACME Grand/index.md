@@ -68,31 +68,6 @@ In total I rode 1068km with 10,689m elevation in 74hrs 47m — 13.5kmph overall 
 
 *Stage 4 was split by the sleep stop at Tadmarton and stage 7 the sleep stop at Felinfach.*
 
-### Official Route Sheet vs. GPS (Per-Stage Comparison)
-
-| Control Segment | Official Dist (km) | Official Elev (m) | GPS Dist (km) | GPS Elev (m) |
-|-----------------|-------------------|-------------------|---------------|--------------|
-| Witham → Haddenham | 95 | 408 | 90.2 | 769 |
-| Haddenham → Barton-le-Clay | 65 | 174 | 75.7 | 391 |
-| Barton → Towcester | 55 | 357 | 58.2 | 498 |
-| Towcester → Strensham | 93 | 602 | 97.3 | 976 |
-| Strensham → Hay-on-Wye | 80 | 539 | 79.8 | 856 |
-| Hay → Aberaeron | 101 | 1,395 | 103.0 | 1,572 |
-| Aberaeron → Port Talbot | 92 | 1,266 | 106.2 | 1,314 |
-| Port Talbot → Barry | 47 | 326 | 51.0 | 535 |
-| Barry → Chepstow | 58 | 215 | 59.5 | 306 |
-| Chepstow → Pershore | 80 | 720 | 80.9 | 1,038 |
-| Pershore → Towcester | 87 | 643 | 92.2 | 976 |
-| Towcester → St Neots | 66 | 263 | 65.7 | 496 |
-| St Neots → Buntingford | 43 | 228 | 46.6 | 374 |
-| Buntingford → Witham | 57 | 318 | 61.8 | 588 |
-| **Totals** | **1,009** | **7,450** | **1,068.1** | **10,689** |
-
-- *Distance difference: 1,068 km GPS vs 1,009 km official (+59 km / 6%)*
-- *Elevation difference: 10,689 m GPS vs 7,450 m official (+3,239 m / 43%)*
-- *Largest GPS elevation spikes: Stage 6 (Hay→Aberaeron) at 1,572 m vs 1,395 m official, and Stage 10 (Chepstow→Pershore) at 1,038 m vs 720 m official*
-- *Why the difference? GPS barometric sensors capture every small undulation; official route sheets smooth gradients and calculate from mapping data*
-
 ### A Few Pictures from Along the Way
 
 <div class="gallery-grid">
