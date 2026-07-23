@@ -50,7 +50,7 @@ After just an hour or so back on the bike I very suddenly got an overwhelming ca
 The route slowly but surely made it's way to the Abergwesyn Valley nestled in the Cambrian Mountains. A beautiful place to ride a bike. This for me was the highlight of the ride. Surrounded by scenic views and riding along well maintained country lanes. That the Devils Staircase lay ahead and the subseqent ramps over the following 10 - 12 km took nothing away from the pleasure in being in this part of Wales. I rode them all and loved it. 
 
 ![Hammerhead cycling computer mounted on handlebars displaying 9.8km to the Devil's Staircase](20260717_devils_staircase.jpg "The Devils Staircase, Abergwesyn Road")
-![Single-track lane winding through wide green valley between steep hillsides with stream running along left edge under bright late afternoon sun.](20260717_Abergwesyn_valley.jpg "Abergwesyn Valley")
+![Single-track lane winding through wide green valley between steep hillsides with stream running along left edge under bright late afternoon sun.](cover.jpg "Abergwesyn Valley")
 ![Steep hill warning sign showing 25 percent gradient with bilingual text Keep in low gear  Gadwch mewn gear isel beside tree-lined country road curving into conifer forest.](20260717_25_percent.jpg "The Devils Staircase, Abergwesyn Road")
 
 I left Hay-on-Wye at 1.15 pm. The control cutoff at Aberaeron was just past 10.00 pm. 9 hours to cover 102 km should be more than enough no matter the hills. What with my unscheduled sleep stop and slow pace on the climbs time was though getting on. Fortuantly as is the case with hills they balance out and my pace was enhanced by all the descents including for the last 12 km into Aberaeron. I got there close to 9.30 pm. Had a pizza by the sea front before setting out again with the intention to ride till midnight. 
@@ -159,7 +159,7 @@ In total I rode 1068km with 10,689m elevation in 74hrs 47m — 13.5kmph overall 
       alt="Hammerhead cycling computer mounted on handlebars displaying 9.8km to the Devil's Staircase" 
       >}}
   {{< glightbox-figure-global 
-      src="20260717_Abergwesyn_valley.jpg" 
+      src="cover.jpg"
       caption="Abergwesyn Valley" 
       alt="Single-track lane winding through wide green valley between steep hillsides with stream running along left edge under bright late afternoon sun." 
       >}} 
