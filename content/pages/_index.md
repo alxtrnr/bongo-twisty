@@ -7,7 +7,7 @@ date = 2026-02-02
 **Pages**\
 [About](/about/) - A little bit about me and this site.\
 [Galleries](/gallery/) - Photos & Images\
-[Post Roll](/postroll/) - A rolling list of blogs, blog posts or links I've enjoyed.\
+[Other People's Writing](/postroll/) - A rolling list of blogs and posts I think are great.\
 [Webmentions](/webmentions/) - How I send, receive and make use of Webmentions.
 
 **Elsewhere**\

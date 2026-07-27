@@ -179,6 +179,38 @@ alt = "A solar‑topped red postbox wearing a grey yarn topper dotted with brigh
 src = "20260529_space_highham_02.jpg"
 title = "Space, Higham"
 alt = "Rear view of a red postbox covered by a grey crochet topper showing woolly planets, bug‑eyed aliens and pom‑pom details clustered around the rim." 
+[[resources]]
+src = "20260707_tea_and_cakes_shorne.jpg"
+title = "Tea and Cake, Shorne"
+alt = "Crochet post box topper in Shorne village depicting a tea-and-cakes theme - a smiling cream-colored teacup with a heart design and pink cheeks sits on a saucer at the top, surrounded by an assortment of crocheted treats on a black knitted base—including a pink cherry-topped cupcake, a rainbow-speckled cupcake, a sprinkle-covered pink donut, pastel-colored macarons, cream and pink meringues, and orange and yellow tart-shaped decorations."
+[[resources]]
+src = "20260612_sea_snail_st_margarets.jpg"
+title = "Sea Snail, St Margaret's at Cliffe"
+alt = "Red Royal Mail post box decorated with yarn bombing. A pale yellow crochet trim covers the 'Post Office' lettering on the box door. A large white crochet snail with tall stalk eyes and brown eyebrows perches on top. Residential street visible in background."
+[[resources]]
+src = "20260612_sea_snails_friends_st_margarets.jpg"
+title = "Sea Snail's Friends, St Margaret's at Cliffe"
+alt = "Reverse view of a crochet sea-themed postbox topper. A blue crocheted panel features three red and cream sea creatures: a lobster near the top, a jellyfish with dangling tentacles in the centre, and a crab at the base. A whimsical snail figure with stalk eyes sits atop the installation."
+[[resources]]
+src = "20260713_summer_higham.jpg"
+title = "Summer Time, Higham"
+alt = "Red UK pillar box covered in mustard-yellow knitted mesh with handmade knitted figurines wearing swimming costumes and bright rubber rings. A solar panel sits on top. Residential street background."
+[[resources]]
+src = "20260716_beach_house_bedfordshire.jpg"
+title = "Beach House, Henlow, Bedfordshire"
+alt = "Beach-themed knitted postbox topper featuring cottage with blue roof, sea turtle, fish, badger, crab and seagull on wave-patterned knitwork with residential street in background."
+[[resources]]
+src = "20260716_hunny_northhamtonshire.jpg"
+title = "Winnie the Pooh, Helmdon, Northamptonshire"
+alt = "Winnie the Pooh knitted topper with bees, sunflower, honey pot and flowers on black postbox lid beside stone wall, with Hunny handwritten sign visible among the decorations."
+[[resources]]
+src = "20260717_upton_rock_Gloucestershire.jpg"
+title = "Upton Rock, Upton-upon-Severn, Gloucestershire"
+alt = "Knitted sheep scene titled Upton Rock showing seven mouse figures in sweaters playing musical intruments as a band around a central stage with green backdrop against brick wall, displayed on teal crocheted surface."
+[[resources]]
+src = "20260718_seaside_st_athan_barry.jpg"
+title = "At the Seaside, St Athan, Barry"
+alt = "Crocheted seaside scene on red postbox featuring striped lighthouse, blue waves, octopus, seal, picnic basket and nautical decorations."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

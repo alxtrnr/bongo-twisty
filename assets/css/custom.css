@@ -59,6 +59,7 @@ body.dark-mode video {
     }
 }
 
+
 /* Base page – ensures your palette is applied everywhere */
 body {
     background-color: var(--bg);

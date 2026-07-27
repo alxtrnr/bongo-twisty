@@ -25,4 +25,8 @@ alt = "Cycling summary card for April 2026 showing a calendar of 22 rides totall
 src = "card_2026_05.jpg"
 title = ""
 alt = "Cycling summary card for May 2026 showing a calendar of 24 rides totalling 3,011 km distance, 16,573 m elevation gain, and 6 days 3 hours 35 minutes of moving time."
+[[resources]]
+src = "card_2026_06.jpg"
+title = ""
+alt = "Cycling summary card for June 2026 showing a calendar of 24 rides totalling 1,100 km distance, 12,524 m elevation gain, and 2 days 4 hours 11 minutes of moving time."
 +++
