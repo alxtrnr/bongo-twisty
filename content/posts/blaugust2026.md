@@ -16,7 +16,7 @@ In the "Crowd Control" chapter Jessica recounts advice she received about "radia
 
 Sounds a bit mechanical. Jessica notes without genuine interest it's inauthentic and perceived as such. Going through the motions. 
 
-During this Blaugust I shall be on the look out for people who write things I find interesting. I shall be more discerning. Attention is perhaps the most valuable thing we have to give. Best not too waste it.  
+During Blaugust I shall be on the look out for people who write things I find interesting. Our attention is the most valuable thing we have to give. Best not to waste it.  
 
 In the mean time...
 
