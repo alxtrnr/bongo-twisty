@@ -6,7 +6,7 @@ draft = false
 author = "Alexander"
 +++
 
-You can find loads of reviews. Mine is mostly the title of this post. 
+You can find loads of [reviews](https://bubbles.town/search?q=XTEINK&lang=en). Mine is mostly the title of this post. 
 
 I have the [X4](https://www.xteink.com/products/xteink-x4). It was delivered on the 25th June. I have just finished reading a series of six books ([Gone - series 1](https://en.wikipedia.org/wiki/Gone_(novel_series))). Looking forward to getting stuck into another one. That would not have happened without the X4. It's made reading regularly very low effort. That suits me. I would miss having it.   
 
