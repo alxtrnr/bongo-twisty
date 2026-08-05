@@ -10,17 +10,13 @@ steps:
         branch: main
     environment:
       HUGO_ENVIRONMENT: production
-      TZ: Europe/London                                    # Aligned to Medway time
-      SITE_URL: https://BongoTwisty.codeberg.Page          # NEW — for webmention script on Codeberg
-      HUGO_CACHE_DIR: /tmp/hugo_cache                      # NEW — enables caching
+      TZ: Europe/London
+      SITE_URL: https://BongoTwisty.codeberg.Page
+      HUGO_CACHE_DIR: /tmp/hugo_cache
     commands:
       - set -eux
       - apt-get update
-      # ADDED sass, REMOVED golang (unused — we download Hugo binary)
       - apt-get install -y git curl ca-certificates python3 nodejs npm sass
-      - go version
-      # [Optional: Remove golang entirely if not used anywhere else]
-      # But if you want to keep the check, leave it:
       - curl -L https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
       - tar -xzf /tmp/hugo.tar.gz -C /tmp
       - install /tmp/hugo /usr/local/bin/hugo
@@ -51,7 +47,7 @@ steps:
       - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
       - mkdir -p ~/.ssh
       - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
-      - git clone --branch pages git@codeberg.org:BongoTwisty/pages.git pages-repo
+      - git clone --branch pages git@codeberg.org:BongoTwisky/pages.git pages-repo
       - rm -rf pages-repo/*
       - cp -a public/. pages-repo/
       - cp static/.domains pages-repo/.domains 2>/dev/null || echo "BongoTwisty.codeberg.Page" > pages-repo/.domains
