@@ -1,4 +1,19 @@
 #!/usr/bin/env python3
+"""
+Webmention sender for Hugo static sites.
+
+Sends W3C Webmentions (https://www.w3.org/TR/webmention/) for external
+links found in generated HTML. Supports full and incremental (git-based)
+modes. Designed to run in CI pipelines (GitHub Actions, Woodpecker/Codeberg).
+
+Configuration via environment variables:
+  SITE_URL  - Base URL of the site (default: https://bongotwisty.blog)
+  MODE      - "full" or "incremental" (default: incremental)
+
+Cache file (webmention-sent.json) should be committed to the repo
+so it persists between CI runs.
+"""
+
 import os
 import sys
 import json
@@ -10,11 +25,23 @@ from datetime import datetime, timezone, date
 
 # --- Config -------------------------------------------------------------
 
-SITE_URL = "https://bongotwisty.blog"  # matches hugo.toml baseURL
+# [FIX 1] Read SITE_URL from environment so the script works correctly
+# regardless of which CI platform (GitHub or Codeberg) is running it.
+# Falls back to the production custom domain for local use.
+SITE_URL = os.environ.get("SITE_URL", "https://bongotwisty.blog").rstrip("/")
 PUBLIC_DIR = Path("public")
 CACHE_PATH = Path("webmention-sent.json")
 MAX_PER_RUN = 20  # cap for incremental mode
 CUTOFF_DATE = date(2017, 1, 1)  # only consider content from 2017-01-01 onwards
+
+# [FIX 4] Non-editorial link exclusion.
+# Domains that appear in site chrome (footers, sidebars) rather than
+# content. These should not receive webmentions because they are
+# navigation widgets, not editorial references.
+EXCLUDE_DOMAINS = frozenset({
+    "xn--sr8hvo.ws",   # IndieWeb webring — redirects to random members
+    "fediring.net",    # Fediring — same issue
+})
 
 # --- Simple HTML link extractor -----------------------------------------
 
@@ -67,10 +94,11 @@ def cache_key(source, target):
     return f"{source} {target}"
 
 
-# --- Utilities ----------------------------------------------------------
+# --- Link filtering -----------------------------------------------------
 
 
 def is_external_link(href: str):
+    """Return True if href is an absolute external http(s) link."""
     if not href or href.startswith("#"):
         return False
     parsed = urlparse(href)
@@ -80,9 +108,37 @@ def is_external_link(href: str):
     if not parsed.netloc:
         return False
     # absolute, but internal
+    # [FIX 1] Use the configurable SITE_URL instead of a hardcoded string
     if href.startswith(SITE_URL):
         return False
     return parsed.scheme in ("http", "https")
+
+
+def is_excluded_link(url: str):
+    """
+    [FIX 4] Check if a URL belongs to an excluded (non-editorial) domain.
+    These are webring redirectors and other site-chrome links that
+    should not receive webmentions.
+    """
+    try:
+        netloc = urlparse(url).netloc.lower()
+        # Strip port if present
+        if ":" in netloc:
+            netloc = netloc.split(":")[0]
+        return any(
+            netloc == domain or netloc.endswith("." + domain)
+            for domain in EXCLUDE_DOMAINS
+        )
+    except Exception:
+        return False
+
+
+def should_send_webmention(href: str):
+    """Combined filter: must be external AND not excluded."""
+    return is_external_link(href) and not is_excluded_link(href)
+
+
+# --- Utilities ----------------------------------------------------------
 
 
 def html_path_to_url(path: Path):
@@ -108,6 +164,7 @@ def run_curl(args):
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
+
     def safe_decode(b):
         try:
             return b.decode("utf-8")
@@ -118,6 +175,28 @@ def run_curl(args):
 
 
 # --- Discover Webmention endpoint --------------------------------------
+
+
+def _extract_href_from_tag(tag_html: str, target_url: str):
+    """
+    [FIX 3] Extract a webmention endpoint href from an HTML tag string.
+    Returns the absolute URL if found, otherwise None.
+    Shared between <link> and <a> tag parsing.
+    """
+    href_pos = tag_html.lower().find("href=")
+    if href_pos == -1:
+        return None
+    quote = tag_html[href_pos + 5]
+    if quote not in ("'", '"'):
+        return None
+    end_href = tag_html.find(quote, href_pos + 6)
+    if end_href == -1:
+        return None
+    href = tag_html[href_pos + 6 : end_href]
+    # Make absolute if needed
+    if href.startswith("http://") or href.startswith("https://"):
+        return href
+    return urljoin(target_url, href)
 
 
 def discover_endpoint(target_url: str):
@@ -136,7 +215,7 @@ def discover_endpoint(target_url: str):
                         if start != -1 and end != -1:
                             return part[start + 1 : end]
 
-    # 2) try HTML <link rel="webmention">
+    # 2) try HTML <link rel="webmention"> and <a rel="webmention">
     code, body, _ = run_curl(["-sL", "-H", "Accept-Encoding: identity", target_url])
     if code != 0:
         return None
@@ -147,29 +226,28 @@ def discover_endpoint(target_url: str):
         idx = lower.find('rel="webmention"', idx)
         if idx == -1:
             break
-        # search backwards a bit for <link ...>
-        snippet_start = lower.rfind("<link", 0, idx)
-        if snippet_start == -1:
+
+        # [FIX 3] Search backwards for either <link or <a tag
+        link_start = lower.rfind("<link", 0, idx)
+        a_start = lower.rfind("<a", 0, idx)
+
+        # Use whichever tag is closer and still contains our position
+        tag_start = max(link_start, a_start)
+        if tag_start == -1:
             idx += 15
             continue
-        snippet_end = lower.find(">", idx)
-        if snippet_end == -1:
+
+        tag_end = lower.find(">", idx)
+        if tag_end == -1:
             break
-        snippet = body[snippet_start:snippet_end]
-        # crude href parse
-        href_pos = snippet.lower().find("href=")
-        if href_pos != -1:
-            quote = snippet[href_pos + 5]
-            if quote in ("'", '"'):
-                end_href = snippet.find(quote, href_pos + 6)
-                if end_href != -1:
-                    href = snippet[href_pos + 6 : end_href]
-                    # make absolute if needed
-                    if href.startswith("http://") or href.startswith("https://"):
-                        return href
-                    else:
-                        return urljoin(target_url, href)
-        idx = snippet_end
+
+        tag_html = body[tag_start:tag_end]
+        href = _extract_href_from_tag(tag_html, target_url)
+        if href:
+            return href
+
+        idx = tag_end
+
     return None
 
 
@@ -177,12 +255,88 @@ def discover_endpoint(target_url: str):
 
 
 def send_webmention(source_url: str, target_url: str, endpoint_url: str):
+    """
+    [FIX 2] Return a tuple (status, message) where status is one of:
+      - True:   successfully sent (2xx)
+      - "gone": target is permanently gone (410/404)
+      - False:  transient failure or unexpected error
+    The caller caches True results, skips "gone" results (don't cache,
+    will retry next run in case of temporary issue), and retries False.
+    """
     data = f"source={source_url}&target={target_url}"
-    code, out, err = run_curl(["-s", "-X", "POST", "-d", data, endpoint_url])
-    if code == 0:
-        return True, out.strip()
+    code, out, err = run_curl([
+        "-s",
+        "-o", "/dev/null",
+        "-w", "%{http_code}",
+        "-X", "POST",
+        "-d", data,
+        endpoint_url,
+    ])
+
+    if code != 0:
+        return False, (err.strip() or "curl error")
+
+    try:
+        http_status = int(out.strip())
+    except ValueError:
+        return False, f"unexpected output: {out.strip()}"
+
+    if 200 <= http_status < 300:
+        return True, f"HTTP {http_status}"
+    elif http_status in (404, 410):
+        return "gone", f"HTTP {http_status}"
+    elif http_status == 429:
+        return False, f"HTTP {http_status} (rate limited)"
     else:
-        return False, (err.strip() or out.strip())
+        return False, f"HTTP {http_status}"
+
+
+# --- Process a single HTML file ----------------------------------------
+
+
+def process_html_file(html_path: Path, cache: dict, mode_label: str, sent_counter: list):
+    """
+    Extract external links from an HTML file and send webmentions for
+    any that haven't been cached.
+
+    Uses a mutable list for sent_counter so it can be updated across
+    the caller's iteration without returning.
+
+    Returns: number of new webmentions sent from this file.
+    """
+    source_url = html_path_to_url(html_path)
+    links = extract_links_from_file(html_path)
+    sent_from_file = 0
+
+    for href in links:
+        # [FIX 4] Combined filter: external + not excluded
+        if not should_send_webmention(href):
+            continue
+
+        target_url = href
+        key = cache_key(source_url, target_url)
+        if key in cache:
+            continue
+
+        endpoint = discover_endpoint(target_url)
+        if not endpoint:
+            continue
+
+        ok, msg = send_webmention(source_url, target_url, endpoint)
+
+        if ok is True:
+            sent_from_file += 1
+            cache[key] = datetime.now(timezone.utc).isoformat()
+            print(f"SENT ({mode_label}): {source_url} -> {target_url} via {endpoint}")
+        elif ok == "gone":
+            print(f"GONE ({mode_label}): {source_url} -> {target_url}: {msg}")
+        else:
+            print(
+                f"FAIL ({mode_label}): {source_url} -> {target_url}: {msg}",
+                file=sys.stderr,
+            )
+
+    return sent_from_file
 
 
 # --- Mode: full ---------------------------------------------------------
@@ -196,31 +350,10 @@ def full_mode(cache):
         if mtime < CUTOFF_DATE:
             continue
 
-        source_url = html_path_to_url(html_path)
-        links = extract_links_from_file(html_path)
-        for href in links:
-            if not is_external_link(href):
-                continue
-            target_url = href
-            key = cache_key(source_url, target_url)
-            if key in cache:
-                continue
-            endpoint = discover_endpoint(target_url)
-            if not endpoint:
-                continue
-            ok, msg = send_webmention(source_url, target_url, endpoint)
-            if ok:
-                sent_this_run += 1
-                cache[key] = datetime.now(timezone.utc).isoformat()
-                print(f"SENT (full): {source_url} -> {target_url} via {endpoint}")
-            else:
-                print(
-                    f"FAIL (full): {source_url} -> {target_url}: {msg}",
-                    file=sys.stderr,
-                )
+        sent_this_run += process_html_file(html_path, cache, "full", [])
+
     print(f"Full mode done, sent {sent_this_run} new webmentions.")
     return cache
-
 
 
 # --- Mode: incremental (git-based) -------------------------------------
@@ -293,31 +426,12 @@ def incremental_mode(cache):
             continue
         processed_sources.add(source_url)
 
-        links = extract_links_from_file(html_path)
-        for href in links:
-            if not is_external_link(href):
-                continue
-            target_url = href
-            key = cache_key(source_url, target_url)
-            if key in cache:
-                continue
-            endpoint = discover_endpoint(target_url)
-            if not endpoint:
-                continue
-            ok, msg = send_webmention(source_url, target_url, endpoint)
-            if ok:
-                sent_this_run += 1
-                cache[key] = datetime.now(timezone.utc).isoformat()
-                print(f"SENT (incremental): {source_url} -> {target_url} via {endpoint}")
-            else:
-                print(
-                    f"FAIL (incremental): {source_url} -> {target_url}: {msg}",
-                    file=sys.stderr,
-                )
-            if sent_this_run >= MAX_PER_RUN:
-                print(f"Reached MAX_PER_RUN={MAX_PER_RUN}, stopping for this run.")
-                save_cache(cache)
-                return cache
+        sent_this_run += process_html_file(html_path, cache, "incremental", [])
+
+        if sent_this_run >= MAX_PER_RUN:
+            print(f"Reached MAX_PER_RUN={MAX_PER_RUN}, stopping for this run.")
+            save_cache(cache)
+            return cache
 
     print(f"Incremental mode done, sent {sent_this_run} new webmentions.")
     return cache
