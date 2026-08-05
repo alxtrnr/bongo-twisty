@@ -7,7 +7,14 @@ author = "Alexander"
 images = ["cover.png"]
 +++
 
+For Blaugust2026 I have anchored to this [page](https://nerdgirlthoughts.game.blog/2026/07/23/blaugust-2026-calendar-weekly-prompts-group-projects/) published by Krikket on her blog [Nerd Girl Thoughts](https://nerdgirlthoughts.game.blog) for reminders and ideas on ways to participate. Very helpful when I am feeling inclined to dismiss every idea I have because (*insert any reason that comes to mind*).  
+
+{{< divider >}}
+
 ![](cover.png)
+
+{{< divider >}}
+
 
 The first blog I created was in 2000 and on a site called Cosgrove Capers. The name was taken from the block of flats in Hackney that we lived in at the time - Cosgrove House. 
 
