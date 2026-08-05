@@ -22,18 +22,17 @@ defaults:
   run:
     shell: bash
 
-# 1. Added global environment variable to force Node.js 24 runtime
+# [FIX] Align timezone and add SITE_URL for webmention script
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  HUGO_VERSION: 0.164.0
+  HUGO_ENVIRONMENT: production
+  TZ: Europe/London              # Changed from America/Los_Angeles
+  SITE_URL: https://bongotwisty.blog  # NEW
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    env:
-      HUGO_VERSION: 0.164.0
-      HUGO_ENVIRONMENT: production
-      TZ: America/Los_Angeles
 
     steps:
       - name: Install Hugo CLI
@@ -78,7 +77,7 @@ jobs:
           --baseURL "${{ steps.pages.outputs.base_url }}/" \
           --cacheDir "${{ runner.temp }}/hugo_cache"
 
-      - name: Index with Pagefind       
+      - name: Index with Pagefind
         run: npx -y pagefind --site public
 
       - name: Cache Save
@@ -93,9 +92,9 @@ jobs:
         if: github.event_name == 'push'
         env:
           MODE: incremental
+          SITE_URL: https://bongotwisty.blog  # NEW — explicit override
         run: python tools/send_webmentions.py
 
-      # 2. Updated to v4 for Node 24 compatibility and new artifact backend
       - name: Upload artifact
         if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v4
