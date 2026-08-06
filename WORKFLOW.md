@@ -13,13 +13,14 @@ Both machines use `~/.ssh/id_ed25519` for GitHub.
 
 ## Remotes
 
-`origin` is configured with **one fetch URL and two push URLs**:
+`origin` is configured with **one fetch URL and three push URLs**:
 
 fetch  → git@github.com:alxtrnr/bongo-twisty.git
 push   → git@github.com:alxtrnr/bongo-twisty.git
 push   → git@codeberg.org:BongoTwisty/bongo-twisty.git
+push → git@codefloe.com:BongoTwisty/bongo-twisty.git
 
-A single `git push` sends commits to **both** GitHub and Codeberg.
+A single `git push` sends commits to **all three** GitHub, Codeberg, and Codefloe.
 
 To verify on either machine:
 ```
@@ -30,6 +31,7 @@ To rebuild these remotes from scratch on a new machine:bash
 ```
 git remote set-url --add --push origin git@github.com:alxtrnr/bongo-twisty.git
 git remote set-url --add --push origin git@codeberg.org:BongoTwisty/bongo-twisty.git
+git remote set-url --add --push origin git@codefloe.com:BongoTwisty/bongo-twisty.git
 ```
 
 ## SSH config (~/.ssh/config)
@@ -41,29 +43,44 @@ HostName: codeberg.org
 User: git
 IdentityFile: ~/.ssh/woodpecker_pages
 IdentitiesOnly: yes
+
+Host: codefloe.com
+HostName: codefloe.com
+User: git
+IdentityFile: ~/.ssh/id_ed25519_codefloe
+IdentitiesOnly: yes
 ```
 
-### xps13sshconfig
+### xps13 ssh config
 ```
 Host codeberg.org
 HostName codeberg.org
 User git
 IdentityFile ~/.ssh/id_ed25519_codeberg
 IdentitiesOnly yes
+
+Host codefloe.com
+HostName: codefloe.com
+User git
+IdentityFile ~/.ssh/id_ed25519_codefloe
+IdentitiesOnly yes
 ```
 Test SSH auth at any time with:
 ```
 ssh -T git@codeberg.org
 Expected: Hi there, BongoTwisty! You've successfully authenticated
+
+ssh -T git@codefloe.com
+Expected: Hi there, BongoTwisty! You've successfully authenticated
 ```
 
-
-
-## Day-to-day workflowbash
-1. Start — always pull first to avoid diverging branches
+## Day-to-day workflow
+1. Start - always pull first to avoid diverging branches
+```
 cd ~/bongo-twisty
 git pull origin main
-2. Work — write posts, edit config, update templates, etc.
+```
+2. Work - write posts, edit config, update templates, etc.
 3. Commit and push
 ```
 git add .
@@ -71,7 +88,7 @@ git commit -m "describe your change"
 git push
 ```
 
-A single `git push` triggers **both** CI pipelines simultaneously. Pushes to GitHub and Codeberg in one command. 
+A single `git push` triggers **all three** CI pipelines simultaneously. Pushes to GitHub, Codeberg, and Codefloe in one command. 
 
 ### GitHub Actions (primary deployment)
 
@@ -88,7 +105,7 @@ The live site updates at **https://bongotwisty.blog** within a few minutes.
 
 ### Codeberg Woodpecker (mirror deployment)
 
-1. Installs Hugo v0.164.0-extended (downloaded binary), `sass`, `golang` (required for Hugo module resolution), Python 3, Node.js.
+1. Installs Hugo v0.164.0-extended (downloaded binary), sass, golang (required for Hugo module resolution), Python 3, Node.js.
 
 3. Builds site with `--gc --minify --baseURL "https://BongoTwisty.codeberg.page/"`.
 4. Runs Pagefind 1.3.0 to index search.
@@ -97,15 +114,30 @@ The live site updates at **https://bongotwisty.blog** within a few minutes.
 
 The mirror site updates at **https://BongoTwisty.codeberg.page** within a few minutes.
 
+### Codefloe Crow CI (contingency deployment)
+1. Installs Hugo v0.164.0-extended (downloaded .deb), sass, golang (required for Hugo module resolution), Python 3, Node.js, npm.
 
-## Dual deployment architecture
+3. Builds site with `--gc --minify --baseURL "https://bongo-twisty.bongotwisty.codefloe.page/"`.
+ 
+5. Runs Pagefind 1.3.0 to index search.
+ 
+4. Sends webmentions (`SITE_URL=https://bongo-twisty.bongotwisty.codefloe.page`).
+ 
+5. Pushes built public/ to the pages branch in the same repo on Codefloe.
+ 
+6. statichost.eu serves the static content from the pages branch.
+
+The contingency site updates at https://bongo-twisty.bongotwisty.codefloe.page within a few minutes.
+
+## Triple deployment architecture
 
 | Platform | Domain | Role | Custom domain |
 |---|---|---|---|
 | GitHub Pages | `bongotwisty.blog` | Primary | Yes (configured in GitHub repo settings) |
 | Codeberg Pages | `BongoTwisty.codeberg.page` | Mirror / backup | No (uses default Codeberg Pages URL) |
+| Codefloe Pages | `bongo-twisty.bongotwisty.codefloe.page` | Contingency| No (uses default Codefloe Pages URL) |
 
-Both pipelines build from the same `main` branch on push. GitHub Actions is the primary deployment serving the custom domain. Codeberg Pages serves as a mirror with the default Codeberg domain.
+All three pipelines build from the same `main` branch on push. GitHub Actions is the primary deployment serving the custom domain. Codeberg Pages serves as a mirror with the default Codeberg domain. Codefloe Pages serves as a contingency deployment on statichost.eu infrastructure.
 
 ## CI/CD pipelines
 
@@ -158,11 +190,36 @@ Triggered on: push to `main` branch on Codeberg.
 - Copies `static/.domains` to set the custom domain, or writes `BongoTwisty.codeberg.page` as fallback
 - Commits and pushes to the `pages` branch
 
----
+### Codefloe Crow CI (.crow/build.yaml)
+Triggered on: push to main branch on Codefloe (filtered via when: clause).
+
+#### build step
+* Image: `debian:bookworm-slim`
+* Installs: git, curl, ca-certificates, python3, nodejs, npm, sass, golang
+* Downloads and installs Hugo v0.164.0-extended from GitHub releases (.deb package)
+* Updates git submodules (`git submodule update --init --recursive`)
+* Builds site: `hugo --gc --minify --baseURL "${SITE_URL}/" --cacheDir "$HUGO_CACHE_DIR"`
+* Indexes search: `npx -y pagefind@1.3.0 --site public`
+* Verifies `public/index.html` exists
+* Sends webmentions: `SITE_URL=https://bongo-twisty.bongotwisty.codefloe.page MODE=incremental python3 tools/send_webmentions.py`
+
+#### publish step
+* Image: `alpine:3.20`
+* Uses the pages_deploy_key secret (set in Crow CI settings)
+* Writes the private key from the secret to `~/.ssh/id_ed25519`
+* Scans Codefloe SSH host key into `known_hosts`
+* Clones `codefloe.com:BongoTwisty/bongo-twisty.git` (branch: pages)
+* Replaces its contents with the built `public/` directory
+* Writes `statichost.yml` configuration file
+* Commits and pushes to the pages branch
+* `statichost.eu` deploys the updated content automatically
+
+**Note:** The publish step only runs when the push event is to the main branch (when: clause with evaluate).
+
 
 ## Environment variables
 
-Both pipelines set the following environment variables:
+All three pipelines set the following environment variables:
 
 | Variable | GitHub Actions | Codeberg Woodpecker | Purpose |
 |---|---|---|---|
@@ -171,7 +228,6 @@ Both pipelines set the following environment variables:
 | `SITE_URL` | `https://bongotwisty.blog` | `https://BongoTwisty.codeberg.page` | Webmention script internal link filtering |
 | `HUGO_CACHE_DIR` | `<runner_temp>/hugo_cache` | `/tmp/hugo_cache` | Hugo build cache location |
 
----
 
 ## Webmentions (`tools/send_webmentions.py`)
 
@@ -183,7 +239,7 @@ The webmention script implements the W3C Webmention protocol with two modes:
 ### Features
 
 - **`SITE_URL` env var**: Filters internal links correctly per deployment target.
-- **HTTP status checking**: Distinguishes 2xx (success), 404/410 (gone — not cached, will retry), 429 (rate limited), and other errors.
+- **HTTP status checking**: Distinguishes 2xx (success), 404/410 (gone - not cached, will retry), 429 (rate limited), and other errors.
 - **`<a rel="webmention">` support**: Discovers endpoints in both `<link>` and `<a>` tags per W3C spec.
 - **Webring denylist**: Excludes `xn--sr8hvo.ws` and `fediring.net` (site chrome, not editorial references).
 - **Cache persistence**: `webmention-sent.json` is committed to the repo so it survives between CI runs on both platforms. Prevents duplicate sends.
@@ -208,11 +264,15 @@ SITE_URL="https://bongotwisty.blog" MODE=incremental python3 tools/send_webmenti
 |---|---|---|
 | `pages_deploy_key` | Woodpecker CI → repo secrets | Private key used by the Codeberg publish step to push to the pages repo |
 | Public key for above | Codeberg → `BongoTwisty/pages` → Deploy Keys (write access) | Allows CI to push built site to the pages repo |
+| `pages_deploy_key` | Crow CI → repo secrets | Private key used by the Codefloe publish step to push to the pages repo |
+| Public key for above | Codefloe → `BongoTwisty/bongo-twisty` → Deploy Keys (write access) | Allows CI to push built site to the pages repo |
 | `~/.ssh/id_ed25519` | Both machines | SSH auth for pushing source to GitHub |
 | `~/.ssh/woodpecker_pages` | entroware-proteus | SSH auth for pushing source to Codeberg (same key pair as CI deploy key) |
 | `~/.ssh/id_ed25519_codeberg` | xps13 | SSH auth for pushing source to Codeberg |
+| `~/.ssh/id_ed25519_codefloe` | Both machines | SSH auth for pushing source to Codefloe |
+| `~/.ssh/codefloe_pages_deploy` | entroware-proteus (local only) | Private key for Crow CI publish step (stored as Crow CI secret) |
 
-GitHub Actions authenticates via its built-in `GITHUB_TOKEN` — no additional secrets needed.
+GitHub Actions authenticates via its built-in `GITHUB_TOKEN` - no additional secrets needed.
 
 ## Dependencies
 
@@ -250,24 +310,30 @@ git submodule update --init --recursive
 Hugo's own build cache (`hugo_cache` / `HUGO_CACHE_DIR`) is handled separately:
 - GitHub Actions: `actions/cache@v4` (persists between runs)
 - Codeberg Woodpecker: `/tmp/hugo_cache` (ephemeral, lost between runs)
-
+- Codefloe Crow CI:`/tmp/hugo_cache` (ephemeral, lost between runs)
 
 
 ## Watching a pipeline run
 
 ### GitHub Actions
 
-1. Go to [https://github.com/alxtrnr/bongo-twisty/actions](https://github.com/alxtrnr/bongo-twisty/actions)
+1. Go to https://github.com/alxtrnr/bongo-twisty/actions
 2. Click the latest workflow run.
 3. Jobs run in order: `build` → `deploy`.
 4. Both must be green for the site to have deployed.
 
 ### Codeberg Woodpecker
 
-1. Go to [https://ci.codeberg.org/BongoTwisty/bongo-twisty](https://ci.codeberg.org/BongoTwisty/bongo-twisty)
+1. Go to https://ci.codeberg.org/BongoTwisty/bongo-twisty
 2. Click the latest pipeline.
 3. Steps run in order: `clone` → `build` → `publish`.
 4. All three must be green for the site to have deployed.
+
+### Codefloe Crow CI
+1. Go to https://ci.crowci.dev/BongoTwisty/bongo-twisty
+2. Click the latest pipeline.
+3. Steps run in order: clone → build → publish.
+4. Both build and publish must be green for the site to have deployed.
 
 If a pipeline is stuck on "not started yet" for more than ~10 minutes, click **Restart**.
 
@@ -277,10 +343,15 @@ If a pipeline is stuck on "not started yet" for more than ~10 minutes, click **R
 - [ ] Clone repo: `git clone git@github.com:alxtrnr/bongo-twisty.git`
 - [ ] Init submodules: `git submodule update --init --recursive`
 - [ ] Add Codeberg push URL: `git remote set-url --add --push origin git@codeberg.org:BongoTwisty/bongo-twisty.git`
+- [ ] Add Codefloe push URL: `git remote set-url --add --push origin git@codefloe.com:BongoTwisty/bongo-twisty.git`
 - [ ] Generate a Codeberg SSH key: `ssh-keygen -t ed25519 -a 100 -f ~/.ssh/id_ed25519_codeberg -C "user@hostname-codeberg"`
 - [ ] Add public key to Codeberg account: Settings → SSH / GPG Keys
 - [ ] Add `~/.ssh/config` block for `codeberg.org` pointing to the new key
 - [ ] Test: `ssh -T git@codeberg.org`
-- [ ] Test dual push: `git commit --allow-empty -m "test: new machine" && git push`
-- [ ] Verify both CI pipelines ran green (GitHub Actions + Codeberg Woodpecker)
+- [ ] Generate a Codefloe SSH key: `ssh-keygen -t ed25519 -a 100 -f ~/.ssh/id_ed25519_codefloe -C "user@hostname-codefloe"`
+- [ ] Add public key to Codefloe account: Settings → SSH / GPG Keys
+- [ ] Add `~/.ssh/config` block for `codefloe.com` pointing to the new key
+- [ ] Test: `ssh -T git@codefloe.com`
+- [ ] Test triple push: `git commit --allow-empty -m "test: new machine" && git push`
+- [ ] Verify all three CI pipelines ran green (GitHub Actions + Codeberg Woodpecker + Codefloe Crow CI)
 
