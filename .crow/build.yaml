@@ -1,0 +1,44 @@
+steps:
+  - name: build
+    image: debian:bookworm-slim
+    environment:
+      HUGO_ENVIRONMENT: production
+      TZ: Europe/London
+      SITE_URL: https://bongo-twisty.bongotwisty.codefloe.page
+      HUGO_CACHE_DIR: /tmp/hugo_cache
+    commands:
+      - apt-get update && apt-get install -y git curl ca-certificates python3 nodejs npm sass golang
+      - curl -L https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.deb -o /tmp/hugo.deb
+      - dpkg -i /tmp/hugo.deb
+      - git submodule update --init --recursive
+      - hugo --gc --minify --baseURL "${SITE_URL}/" --cacheDir "$HUGO_CACHE_DIR"
+      - npx -y pagefind@1.3.0 --site public
+      - test -f public/index.html
+      - SITE_URL="${SITE_URL}" MODE=incremental python3 tools/send_webmentions.py
+
+  - name: publish
+    image: alpine:3.20
+    environment:
+      SITE_URL: https://bongo-twisty.bongotwisty.codefloe.page
+      CODEFLOE_SSH_KEY:
+        from_secret: pages_deploy_key
+    commands:
+      - apk add --no-cache git openssh
+      - mkdir -p ~/.ssh
+      - echo "$$CODEFLOE_SSH_KEY" > ~/.ssh/id_ed25519
+      - chmod 600 ~/.ssh/id_ed25519
+      - ssh-keyscan -t ed25519 codefloe.com >> ~/.ssh/known_hosts
+      - git config --global user.email "ci@codefloe.com"
+      - git config --global user.name "Crow CI"
+      - git clone --branch pages git@codefloe.com:BongoTwisty/bongo-twisty.git /tmp/pages || (git init /tmp/pages && cd /tmp/pages && git checkout -b pages)
+      - rm -rf /tmp/pages/*
+      - cp -r public/* /tmp/pages/
+      - echo "image: alpine:latest" > /tmp/pages/statichost.yml
+      - echo "command: echo No build needed" >> /tmp/pages/statichost.yml
+      - echo "public: ." >> /tmp/pages/statichost.yml
+      - cd /tmp/pages
+      - git add -A
+      - git commit -m "Deploy ${CI_COMMIT_SHA}" || echo "Nothing to commit"
+      - git push origin pages
+    when:
+      - evaluate: 'CI_PIPELINE_EVENT == "push" && CI_COMMIT_BRANCH == "main"'
