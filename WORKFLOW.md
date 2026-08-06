@@ -1,8 +1,6 @@
-# BongoTwisty — Development Workflow
+# BongoTwisty - Development Workflow
 
 A reference for day-to-day blog work across two machines.
-
----
 
 ## Machines
 
@@ -13,41 +11,53 @@ A reference for day-to-day blog work across two machines.
 
 Both machines use `~/.ssh/id_ed25519` for GitHub.
 
----
-
 ## Remotes
 
-`origin` is configured with **one fetch URL and two push URLs**:fetch  → git@github.com:alxtrnr/bongo-twisty.git
+`origin` is configured with **one fetch URL and two push URLs**:
+
+fetch  → git@github.com:alxtrnr/bongo-twisty.git
 push   → git@github.com:alxtrnr/bongo-twisty.git
 push   → git@codeberg.org:BongoTwisty/bongo-twisty.git
+
 A single `git push` sends commits to **both** GitHub and Codeberg.
 
-To verify on either machine:bash
+To verify on either machine:
+```
 git remote -v
 git config --get-all remote.origin.pushurl
+```
 To rebuild these remotes from scratch on a new machine:bash
+```
 git remote set-url --add --push origin git@github.com:alxtrnr/bongo-twisty.git
 git remote set-url --add --push origin git@codeberg.org:BongoTwisty/bongo-twisty.git
----
+```
 
 ## SSH config (~/.ssh/config)
 
-### entroware-proteussshconfig
-Host codeberg.org
-HostName codeberg.org
-User git
-IdentityFile ~/.ssh/woodpecker_pages
-IdentitiesOnly yes
+### entroware-proteus ssh config
+```
+Host: codeberg.org
+HostName: codeberg.org
+User: git
+IdentityFile: ~/.ssh/woodpecker_pages
+IdentitiesOnly: yes
+```
+
 ### xps13sshconfig
+```
 Host codeberg.org
 HostName codeberg.org
 User git
 IdentityFile ~/.ssh/id_ed25519_codeberg
 IdentitiesOnly yes
-Test SSH auth at any time with:bash
+```
+Test SSH auth at any time with:
+```
 ssh -T git@codeberg.org
-Expected: Hi there, BongoTwisty! You've successfully authenticated ...
----
+Expected: Hi there, BongoTwisty! You've successfully authenticated
+```
+
+
 
 ## Day-to-day workflowbash
 1. Start — always pull first to avoid diverging branches
@@ -55,35 +65,38 @@ cd ~/bongo-twisty
 git pull origin main
 2. Work — write posts, edit config, update templates, etc.
 3. Commit and push
+```
 git add .
 git commit -m "describe your change"
 git push
-Pushes to GitHub and Codeberg in one command
-A single `git push` triggers **both** CI pipelines simultaneously:
+```
+
+A single `git push` triggers **both** CI pipelines simultaneously. Pushes to GitHub and Codeberg in one command. 
 
 ### GitHub Actions (primary deployment)
 
 1. Installs Hugo v0.164.0-extended and Dart Sass.
 2. Restores Hugo build cache from previous runs.
-3. Builds site with `--gc --minify` using auto-detected base URL (custom domain: `https://bongotwisty.blog`).
-4. Runs Pagefind to index search.
-5. Saves Hugo build cache for next run.
-6. Sends webmentions (incremental mode, `SITE_URL=https://bongotwisty.blog`).
-7. Uploads `public/` as a GitHub Pages artifact and deploys.
+3. Builds site with `--gc --minify` using auto-detected base URL (custom domain:`https://bongotwisty.blog`).
+
+5. Runs Pagefind to index search.
+6. Saves Hugo build cache for next run.
+7. Sends webmentions (incremental mode, `SITE_URL=https://bongotwisty.blog`).
+8. Uploads `public/` as a GitHub Pages artifact and deploys.
 
 The live site updates at **https://bongotwisty.blog** within a few minutes.
 
 ### Codeberg Woodpecker (mirror deployment)
 
 1. Installs Hugo v0.164.0-extended (downloaded binary), `sass`, `golang` (required for Hugo module resolution), Python 3, Node.js.
-2. Builds site with `--gc --minify --baseURL "https://BongoTwisty.codeberg.page/"`.
-3. Runs Pagefind 1.3.0 to index search.
-4. Sends webmentions (`SITE_URL=https://BongoTwisty.codeberg.page`).
-5. Publishes the built `public/` to `codeberg.org:BongoTwisty/pages.git` on the `pages` branch.
+
+3. Builds site with `--gc --minify --baseURL "https://BongoTwisty.codeberg.page/"`.
+4. Runs Pagefind 1.3.0 to index search.
+5. Sends webmentions (`SITE_URL=https://BongoTwisty.codeberg.page`).
+6. Publishes the built `public/` to `codeberg.org:BongoTwisty/pages.git` on the `pages` branch.
 
 The mirror site updates at **https://BongoTwisty.codeberg.page** within a few minutes.
 
----
 
 ## Dual deployment architecture
 
@@ -93,8 +106,6 @@ The mirror site updates at **https://BongoTwisty.codeberg.page** within a few mi
 | Codeberg Pages | `BongoTwisty.codeberg.page` | Mirror / backup | No (uses default Codeberg Pages URL) |
 
 Both pipelines build from the same `main` branch on push. GitHub Actions is the primary deployment serving the custom domain. Codeberg Pages serves as a mirror with the default Codeberg domain.
-
----
 
 ## CI/CD pipelines
 
@@ -177,14 +188,19 @@ The webmention script implements the W3C Webmention protocol with two modes:
 - **Webring denylist**: Excludes `xn--sr8hvo.ws` and `fediring.net` (site chrome, not editorial references).
 - **Cache persistence**: `webmention-sent.json` is committed to the repo so it survives between CI runs on both platforms. Prevents duplicate sends.
 
-### Running locallybash
+### Running locally
 Build first
+```
 hugo --gc --minify --baseURL "https://bongotwisty.blog/"
+```
 Full scan (first run or debugging)
+```
 SITE_URL="https://bongotwisty.blog" MODE=full python3 tools/send_webmentions.py
+```
 Incremental (checks last 10 commits)
+```
 SITE_URL="https://bongotwisty.blog" MODE=incremental python3 tools/send_webmentions.py
----
+```
 
 ## Secrets and keys
 
@@ -197,8 +213,6 @@ SITE_URL="https://bongotwisty.blog" MODE=incremental python3 tools/send_webmenti
 | `~/.ssh/id_ed25519_codeberg` | xps13 | SSH auth for pushing source to Codeberg |
 
 GitHub Actions authenticates via its built-in `GITHUB_TOKEN` — no additional secrets needed.
-
----
 
 ## Dependencies
 
@@ -222,9 +236,10 @@ GitHub Actions authenticates via its built-in `GITHUB_TOKEN` — no additional s
 
 ### Theme
 
-Theme is a Git submodule at `themes/hugo-simple`. Always initialise it after cloning:bash
+Theme is a Git submodule at `themes/hugo-simple`. Always initialise it after cloning:
+```
 git submodule update --init --recursive
----
+```
 
 ## Cache files
 
@@ -236,7 +251,7 @@ Hugo's own build cache (`hugo_cache` / `HUGO_CACHE_DIR`) is handled separately:
 - GitHub Actions: `actions/cache@v4` (persists between runs)
 - Codeberg Woodpecker: `/tmp/hugo_cache` (ephemeral, lost between runs)
 
----
+
 
 ## Watching a pipeline run
 
@@ -256,7 +271,6 @@ Hugo's own build cache (`hugo_cache` / `HUGO_CACHE_DIR`) is handled separately:
 
 If a pipeline is stuck on "not started yet" for more than ~10 minutes, click **Restart**.
 
----
 
 ## New machine setup checklist
 
@@ -270,6 +284,3 @@ If a pipeline is stuck on "not started yet" for more than ~10 minutes, click **R
 - [ ] Test dual push: `git commit --allow-empty -m "test: new machine" && git push`
 - [ ] Verify both CI pipelines ran green (GitHub Actions + Codeberg Woodpecker)
 
-**What Changed in This Update**
-
-SectionChangeDay-to-day workflowNow describes both pipelines triggering on push, not just CodebergDual deployment architectureNew section explaining the GitHub primary / Codeberg mirror splitCI/CD pipelinesRewritten to cover both GitHub Actions and Woodpecker in full detailEnvironment variablesNew table documenting SITE_URL, TZ, HUGO_CACHE_DIR across both platformsWebmentionsNew section documenting the script's features, modes, and local testing commandsSecrets and keysClarified GitHub uses GITHUB_TOKEN (no manual secrets needed)DependenciesNew comprehensive table showing what each platform installs and whyCache filesNew section distinguishing webmention-sent.json (Git-tracked) from Hugo cache (ephemeral on Codeberg)Hugo versionUpdated from v0.160.1 to v0.164.0 throughoutWatching a pipeline runNow covers both platforms with separate steps
