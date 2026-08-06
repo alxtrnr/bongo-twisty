@@ -1,6 +1,6 @@
 # Bongo Twisty
 
-A personal Hugo blog deployed via **dual CI/CD** to both GitHub Pages and Codeberg Pages.
+A personal Hugo blog deployed via triple CI/CD to GitHub Pages, Codeberg Pages, and Codefloe Pages.
 
 ## Quick Start
 
@@ -34,11 +34,11 @@ hugo --gc --minify
 **Dual deployment:** Both platforms build from the same main branch on push.
 
 
-
 | Platform | Domain | Role |
 | -------- | -------- | -------- |
 | GitHub     | https://bongotwisty.blog/     | Primary (custom domain)     |
 | Codeberg Pages     | https://bongotwisty.codeberg.page/     | Mirror / backup    |
+| Codefloe Pages	| https://bongo-twisty.bongotwisty.codefloe.page/	| Contingency
 
 ## What Happens on Push
 A single git push triggers both CI pipelines simultaneously:
@@ -57,11 +57,20 @@ A single git push triggers both CI pipelines simultaneously:
 3. Sends webmentions (incremental mode)
 4. Publishes to pages branch (default Codeberg domain)
 
+**Codefloe Crow CI**
+
+1. Builds Hugo site with --gc --minify
+2. Runs Pagefind 1.3.0 for search indexing
+3. Sends webmentions (incremental mode)
+4. Pushes to pages branch in the same repo (statichost.eu serves content)
+
+
 ## Project Structure
 ```
 bongo-twisty/
 ├── .github/workflows/     # GitHub Actions pipeline
 ├── .woodpecker.yml        # Codeberg Woodpecker CI
+├── .crow/build.yaml       # Codefloe Crow CI
 ├── archetypes/            # Content templates
 ├── assets/                # Source assets (CSS/JS)
 ├── content/               # Blog posts and pages
@@ -93,6 +102,17 @@ bongo-twisty/
 - Installs sass and golang for Hugo module resolution
 - Uses /tmp/hugo_cache for Hugo build cache (ephemeral)
 - Requires pages_deploy_key secret for publishing
+
+### Codefloe Crow CI (.crow/build.yaml)
+**Trigger:**
+Push to main on Codefloe (filtered via when: clause)
+
+**Features:**
+
+* Installs sass and golang for Hugo module resolution
+* Uses /tmp/hugo_cache for Hugo build cache (ephemeral)
+* Requires pages_deploy_key secret for publishing to the pages branch
+* statichost.eu provides the hosting infrastructure
 
 ## Webmentions
 This blog sends W3C Webmentions for external content references using tools/send_webmentions.py.
@@ -402,8 +422,6 @@ Respects hugo.toml privacy settings (privacyYouTube). Uses ```youtube-nocookie.c
 | pages/list.html      | Static pages section 
 | posts/list.html       | Blog posts section with archive grouping
 | robots.txt     | Dynamic robots.txt template  
-           
-          
                  
 
 ## Theme Management
@@ -431,8 +449,7 @@ git submodule update --init --recursive
 ```
 
 ## Environment Variables
-Both CI pipelines set these during build:
-
+All three CI pipelines set these during build:
 
 
 | Variable | GitHub | Codeberg |
@@ -447,13 +464,14 @@ Both CI pipelines set these during build:
 | -------- | --------
 | GitHub Actions     | [Actions](https://github.com/alxtrnr/bongo-twisty/actions) 
 | Codeberg WoodpeckerCI | [CI](https://ci.codeberg.org/BongoTwisty/bongo-twisty)
+| Codefloe Crow CI	| [CI](https://ci.crowci.dev/BongoTwisty/bongo-twisty)
 
 
 ## Contributing / Forking
 If you fork this blog:
 
 1. Update the baseURL in hugo.toml
-2. Reconfigure SITE_URL in both CI pipelines
+2. Reconfigure SITE_URL all three CI pipelines
 3. Set up your own webmentions cache or disable webmentions
 4. Clear the webmention-sent.json cache
 
