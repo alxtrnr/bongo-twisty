@@ -26,7 +26,7 @@ The Karoo is perfect for me. Maps and navigation are excellent. More display fie
 * Libre Office
 * Hugo Blog
 
-The first three I have been using for years. Hugo for the last year. I'm happy with them all. Good enough as they are. Extensible and configurable if needed according to need.  
+The first three I have been using for years. Hugo for the last year. I'm happy with them all. Good enough as they are. Extendable/configurable according to need.  
 
 ### Digital Background Services
 
