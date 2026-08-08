@@ -22,13 +22,16 @@
 <meta
   name="keywords"
   content="{{ if .IsPage -}}
-    {{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}
+    {{- with .Params.tags -}}{{ delimit . ", " }}{{- end -}}
   {{- else -}}
-    {{ range $plural, $terms := .Site.Taxonomies -}}
-      {{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}
-    {{- end }}
-  {{- end -}}
-  "
+    {{- $terms := slice -}}
+    {{- range $plural, $termMap := .Site.Taxonomies -}}
+      {{- range $term, $val := $termMap -}}
+        {{- $terms = $terms | append $term -}}
+      {{- end -}}
+    {{- end -}}
+    {{- delimit $terms ", " -}}
+  {{- end -}}"
 />
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}" />

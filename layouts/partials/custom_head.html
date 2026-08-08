@@ -18,9 +18,6 @@
 {{ $custom := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}">
 
-<!-- GLightbox CSS (static) -->
-<link rel="stylesheet" href="/css/glightbox.min.css">
-
 <!-- Author Meta -->
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}">

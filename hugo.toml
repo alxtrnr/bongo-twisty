@@ -11,7 +11,6 @@ theme = "hugo-simple"
 defaultContentLanguage = "en"
 locale = "en-gb"
 title = "Bongo Twisty"
-copyright = "© 2025 A J Turner"
 mainSections = ["posts"]
 
 # Prevent original images from being published - only processed versions
@@ -86,7 +85,6 @@ style = "catppuccin-mocha"
 # SITE PARAMETERS
 # ==============================================================================
 [params]
-title = "Bongo Twisty"
 description = "A Personal Blog"
 favicon = "images/favicon.png?v=2"
 dateFormat = "02 Jan 2006"
