@@ -1,7 +1,7 @@
 +++
 title = "What Photography is For"
 description = ""
-date = 2026-08-08
+date = 2026-08-09
 draft = false
 author = "Alexander"
 images = []
