@@ -7,13 +7,13 @@ author = "Alexander"
 images = []
 +++
 
-[NomadWarMachine](https://nomadwarmachine.co.uk/) is taking part in [Blaugust20026](https://nerdgirlthoughts.game.blog/2026/07/23/blaugust-2026-calendar-weekly-prompts-group-projects/). Today they published [Mandala Madness](https://nomadwarmachine.co.uk/2026/08/14/mandala-madness/) and extended the invitation to create and share a manadala. 
+Sarah Honeychurch at [NomadWarMachine](https://nomadwarmachine.co.uk/) is taking part in [Blaugust20026](https://nerdgirlthoughts.game.blog/2026/07/23/blaugust-2026-calendar-weekly-prompts-group-projects/). Today Sarah published [Mandala Madness](https://nomadwarmachine.co.uk/2026/08/14/mandala-madness/) and extended the invitation to create and share a manadala. 
 
 >A lovely TDC today:
 >
 >Mandala designs — a sort of mirrored gathering of lines in circular patterns — are interesting and rather relaxing to create and to view. Use the Mandala Maker (or some other site or draw one on paper) and share out your artwork.
 
-This led me to [The DS106 Daily Create](https://daily.ds106.us/) and the  [Mastodon account](https://daily.ds106.us). I'm very happy it did. I can see myself taking on a few more TDC's in the future. 
+This led me to [The DS106 Daily Create](https://daily.ds106.us/). I'm very happy it did. I can see myself taking on a few more TDC's in the future. 
 
 I enjoyed spending a bit of time today creating a few mandalas at [mandalamaker.online](https://mandalamaker.online/)
 
@@ -24,4 +24,4 @@ I enjoyed spending a bit of time today creating a few mandalas at [mandalamaker.
 </div>
 	
 
-Thanks [NomadWarMachine](https://nomadwarmachine.co.uk/). It was fun.
+Thanks Sarah. It was fun.
