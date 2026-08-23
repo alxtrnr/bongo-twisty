@@ -8,7 +8,7 @@ tags = ["cycling"]
 
 ![](cover.jpg)
 
-I rode a few more miles over the last three months than I normally over do the same time span. 2400k in ten days during May. A 1000k ride over three days in July. Still getting in the regular rides and a couple of 200s each month on top of those. 
+I rode a few more miles over the last three months than I would normally over the same time span. 2400k in ten days during May. A 1000k ride over three days in July. Still getting in the regular rides and a couple of 200s each month on top of those. 
 
 The last two to three weeks I've not been feeling my usual self. No get up and go. No enthusiasm for being out on the bike. Most rides I've done have turned out to be a bit of a slog. Riding anywhere has been with way more effort and little enjoyment. The hot weather has not helped. I've not been sleeping well either and have been feeling fed up in general. More aches and pains than usual. The skin around my torso has been sore and sensitive. Very little motivation for getting things done at work. Appetite for food has been on and off. 
 
@@ -20,5 +20,5 @@ We're off to the Lake District next week. I'm bringing my light bike with me and
 
 ![](FWC.jpg)
 
-I know it would be sensible to give it a miss but I really do not want to miss the opportunity. Last time I rode it was in [November 2014](https://ridewithgps.com/trips/21153568). I'll see how I feel towards the end of the week. 
+I know it would be sensible to give it a miss but I really do not want to forgo the opportunity. Last time I rode it was in [November 2014](https://ridewithgps.com/trips/21153568). I'll see how I feel towards the end of the week. 
 
