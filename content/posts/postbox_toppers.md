@@ -294,7 +294,7 @@ alt = "Crocheted seaside scene on red postbox featuring striped lighthouse, blue
 >}}
 
 {{< glightbox-figure-global
-src = "20260825_flowerpot men_settle.jpg"
+src = "20260825_flowerpot_men_settle.jpg"
 title = "Flowerpot Men, Settle."
 alt = "A red pillar postbox in Settle decorated with yarn bombing. On top sits a white crocheted flowerpot containing knitted figures of Bill and Ben the Flowerpot Men alongside Little Weed, the smiling weed character from the classic BBC children's programme. The postbox lid is covered by a grey crochet doily with white and yellow daisies and green foliage. Around the rim hangs a garland of multicoloured crocheted hearts, each embroidered with a letter spelling out FLOWERPOT MEN."
 >}}
