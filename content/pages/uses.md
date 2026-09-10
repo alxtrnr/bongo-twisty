@@ -17,10 +17,10 @@ The Surly is a reliable, heavy workhorse. Comfortable but slow. The Pinnacle is 
 The Karoo is perfect for me. Maps and navigation are excellent. More display field options than I shall ever need. Superb battery life. Highly recommended.
 
 ### Writing and blogging
-* Sublime Text
-* Standard Notes
-* LibreOffice
-* Hugo
+* [Sublime Text](https://www.sublimetext.com/)
+* [Standard Notes](https://standardnotes.com/)
+* [LibreOffice](https://www.libreoffice.org/)
+* [Hugo](https://gohugo.io/)
 
 The first three I have been using for years. Good enough as they are, extendable and configurable according to need. Hugo for the last year and happy with it.
 
@@ -28,21 +28,22 @@ The first three I have been using for years. Good enough as they are, extendable
 * JBL 305P MkII studio monitors
 * JBL LSR310S studio subwoofer
 * Focusrite Scarlett Solo 4th Gen audio interface
-* Strawberry music player
-* Navidrome
-* Listenbrainz
-* MusicBrainz Picard
-* Beets
-* LastFM
+* [Bandcamp](https://bandcamp.com/alxtrnr)
+* [Strawberry music player](https://www.strawberrymusicplayer.org/)
+* [Navidrome](https://www.navidrome.org/)
+* [Listenbrainz](https://listenbrainz.org/user/alxtrnr/)
+* [MusicBrainz Picard](https://picard.musicbrainz.org/)
+* [Beets](https://beets.readthedocs.io/en/stable/index.html)
+* [LastFM](https://www.last.fm/user/alxtrnr)
 * MAJORITY MP3 player (16GB)
 * Cheap wired headphones from TK Maxx
 * Edifier W820NB active noise cancelling Bluetooth headphones
 
-The monitors and subwoofers have been worth every penny. I think I'll be correctly tagging and organising my music files forever.  
+The monitors and subwoofer have been worth every penny. I'll be correctly tagging and organising my music files forever.  
 
 ### Reading
 * Xteink X4 pocket eReader
-* Calibre
+* [Calibre](https://calibre-ebook.com/)
 
 Both of these are great.
 
@@ -50,8 +51,8 @@ Both of these are great.
 * Fujifilm X-T4
 * Fujifilm Fujinon XF 16-80mm f4 R OIS WR
 * Fujifilm Fujinon XF 35mm f1.4
-* digiKam
-* GIMP
+* [digiKam](https://www.digikam.org/)
+* [GIMP](https://www.gimp.org/)
 
 It will be some time before my abilities get anywhere near to the capabilities of the kit and software.
 
@@ -72,7 +73,7 @@ I feel a bit more comfortable with LibreWolf in terms of transparency. Vivaldi h
 
 ### Communication and socials
 * Signal
-* Mastodon
+* [Mastodon](https://social.vivaldi.net/@BongoTwisty)
 * Samsung Galaxy S23
 
 Signal as a messaging app because all the others harvest personal data, are terrible companies, or so niche no one I know will use them. Samsung because I have not got a Linux phone yet.
@@ -82,5 +83,6 @@ Signal as a messaging app because all the others harvest personal data, are terr
 * GitHub
 * Codeberg
 * Codefloe
+* [statichost.eu](https://www.statichost.eu/)
 
-I've been all in with Proton for a good while now. Not entirely happy with all my eggs in one basket but so far so good. GitHub because I did not know any better at the time. Lining up Codeberg and Codefloe as replacement candidates but in the meantime am using all three.
+I've been all in with Proton for a good while now. Not entirely happy with all my eggs in one basket but so far so good. GitHub because I did not know any better at the time. Lining up and testing out Codeberg and Codefloe as replacement candidates alongside statichost.eu but in the meantime I'm using all these services.
