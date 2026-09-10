@@ -51,7 +51,8 @@ Signal as a messaging app because all the others are either thieving personal da
 I feel a bit more comfortable with Libre Wolf in terms of of transparency. Vivaldi has all the bells and whistles but I can't get over some of the code being technically closed source. I understand their reasoning but still. 
 
 ### Music
-* JBL 305P MkII
+* JBL 305P MkII Studio Monitors
+* JBL 308P MkII LSR310S Studio Subwoofer
 * Focusrite Scarlett Solo 4th Gen Audio Interface
 * Strawberry Music Player
 * Navidrome
