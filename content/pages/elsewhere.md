@@ -12,3 +12,4 @@ url = "/elsewhere/"
 - [ListenBrainz](https://listenbrainz.org/user/alxtrnr/)
 - [Bandcamp](https://bandcamp.com/alxtrnr)
 - [Pixel Area · [X:52 Y:44]](https://pxlarea.com/x52y44)
+- [Map Tap](https://maptap.gg/u/BongoTwisty)
