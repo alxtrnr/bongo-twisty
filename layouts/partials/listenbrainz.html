@@ -18,8 +18,14 @@ var initNowPlaying = function (wrapper) {
       );
       var href = 'https://musicbrainz.org/search?query=' + query +
                  '&type=recording&limit=5&method=advanced';
-      placeholder.innerHTML = '<a href="' + href + '" target="_blank">' +
-        meta.artist_name + ' &ndash; ' + meta.track_name + '</a>';
+      
+      // Build display string with graceful handling for missing album
+      var label = meta.artist_name + ' &ndash; ';
+      if (meta.release_name) {
+        label += meta.release_name + ' &ndash; ';
+      }
+      label += meta.track_name;
+      placeholder.innerHTML = '<a href="' + href + '" target="_blank">' + label + '</a>';
     } else {
       placeholder.innerHTML = 'Nothing playing right now.';
     }
@@ -55,4 +61,3 @@ var initNowPlaying = function (wrapper) {
 
 initNowPlaying(document.getElementById('listenbrainz-widget'));
 </script>
-
