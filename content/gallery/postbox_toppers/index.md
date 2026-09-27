@@ -215,6 +215,14 @@ alt = "Crocheted seaside scene on red postbox featuring striped lighthouse, blue
 src = "20260825_flowerpot_men_settle.jpg"
 title = "Flowerpot Men, Settle."
 alt = "A red pillar postbox in Settle decorated with yarn bombing. On top sits a white crocheted flowerpot containing knitted figures of Bill and Ben the Flowerpot Men alongside Little Weed, the smiling weed character from the classic BBC children's programme. The postbox lid is covered by a grey crochet doily with white and yellow daisies and green foliage. Around the rim hangs a garland of multicoloured crocheted hearts, each embroidered with a letter spelling out FLOWERPOT MEN."
+[[resources]]
+src = "20260927_walderslade_front.jpg"
+title = "Scarecrows, Walderslade Village"
+alt = "Knitted topper scarecrow sits in his green hat and blue jacket, with toy pumpkins and a mushroom beside him, edged with scalloped lace trim."
+[[resources]]
+src = "20260927_walderslade_back.jpg"
+title = "Scarecrows, Walderslade Village"
+alt = "Knitted scarecrow doll in a pompom hat and rainbow skirt, surrounded by knitted corn, apples and pumpkins on a cream crochet base."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.

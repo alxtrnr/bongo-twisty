@@ -24,7 +24,8 @@
 {{- end -}}
 
 {{- if $image -}}
-  {{- $thumb := $image.Fill "400x300 Smart" }}
+  {{- $resize := .Get "resize" | default "400x300 Smart" -}}
+  {{- $thumb := $image.Fill $resize -}}
   {{- $displayCaption := or $caption $image.Title -}}
   {{- $altText := or $alt $image.Params.alt $displayCaption -}}
   <figure>
