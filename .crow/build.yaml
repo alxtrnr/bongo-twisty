@@ -4,7 +4,7 @@ steps:
     environment:
       HUGO_ENVIRONMENT: production
       TZ: Europe/London
-      SITE_URL: https://bongo-twisty.bongotwisty.codefloe.page
+      SITE_URL: https://bongotwisty.uk
       HUGO_CACHE_DIR: /tmp/hugo_cache
     commands:
       - apt-get update && apt-get install -y git curl ca-certificates python3 nodejs npm sass golang
@@ -19,7 +19,7 @@ steps:
   - name: publish
     image: alpine:3.20
     environment:
-      SITE_URL: https://bongo-twisty.bongotwisty.codefloe.page
+      SITE_URL: https://bongotwisty.uk
       CODEFLOE_SSH_KEY:
         from_secret: pages_deploy_key
     commands:
