@@ -11,10 +11,10 @@ Had a rare one this weekend. Bit of a breeze behind me on the way out and then a
 
 It was a great ride. I really enjoyed it. Best route I know from Chatham to Dover. Hilly country lanes through the Kent Downs all the way to Capel-le-Fern. Along the top of Abbots Cliffe then down to Dover. Bit of a climb up past the castle, through Deal, a quick stop at my sisters for tea and chat then onto the [Viking Coastal Trail](https://www.visitthanet.co.uk/attractions/viking-coastal-trail-2823/) from Sandwich to Reculver. 
 
-Almost 100% traffic free along cycle paths and promenades along that stretch. As close as you'll get to the sea in this part of the world without getting wet. Cycling is prohibited along a good part of the way from 1 May to 30 September inclusive between the hours of 10am and 6pm. A week earlier and I'd have been ~~walking~~ attracting disapproving looks for a good few miles.
+Almost 100% traffic free cycle paths and promenades along that stretch. As close as you'll get to the sea in this part of the world without getting wet. Cycling is prohibited along a good part of the way from 1 May to 30 September inclusive between the hours of 10am and 6pm. A week earlier and I'd have been ~~walking~~ attracting disapproving looks for a good few miles.
 
 I enjoy riding through Whitstable and Faversham. Interesting towns to visit but also where I spent a few pre adolescent years and have more family I can drop in on for a catch up over a hot drink and quick bite to eat. 
 
-The bit around Sittingbourne was a bit ugly and the last few miles through Medway made no sense. There are much better ways to go. I didn't bother to check where RWGPS had sent me when I created the route. A few tweaks is all it will take to sort that mess out then all will be good. 
+The bit around Sittingbourne was ugly and the last few miles through Medway made no sense. There are much better ways to go. I didn't bother to check where RWGPS had sent me when I created the route. A few tweaks is all it will take to sort that mess out then all will be good. 
 
 If you fancy having a go at the [ride](https://ridewithgps.com/routes/57409746), starting and ending near a train station in Chatham, Dover, Margate, Whitstable or Faversham is perfectly doable. I happily recommend it for a 200 DiY. Either way round. As long as it's not too windy and at the right time of year.
