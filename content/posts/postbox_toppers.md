@@ -311,4 +311,10 @@ title = "Scarecrows, Walderslade Village"
 alt = "Knitted scarecrow doll in a pompom hat and rainbow skirt, surrounded by knitted corn, apples and pumpkins on a cream crochet base."
 >}}
 
+{{< glightbox-figure-global
+src = "20261105_Higham_remembrance.jpg"
+title = "Remembrance Day, Higham"
+alt = "Postbox topper with hand-knitted Remembrance poppies draped around a red Royal Mail postbox. Grey knitted band covered in red, purple, white, black and orange crochet poppies, topped with three knitted King's Guard soldiers in red tunics and black bearskins and a small knitted cottage with flowers."
+>}}
+
 </div>

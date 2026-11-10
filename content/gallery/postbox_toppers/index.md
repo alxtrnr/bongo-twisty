@@ -223,6 +223,10 @@ alt = "Knitted topper scarecrow sits in his green hat and blue jacket, with toy 
 src = "20260927_walderslade_back.jpg"
 title = "Scarecrows, Walderslade Village"
 alt = "Knitted scarecrow doll in a pompom hat and rainbow skirt, surrounded by knitted corn, apples and pumpkins on a cream crochet base."
+[[resources]]
+src = "20261105_Higham_remembrance.jpg"
+title = "Remembrance Day, Higham"
+alt = "Postbox topper with hand-knitted Remembrance poppies draped around a red Royal Mail postbox. Grey knitted band covered in red, purple, white, black and orange crochet poppies, topped with three knitted King's Guard soldiers in red tunics and black bearskins and a small knitted cottage with flowers."
 +++
 
 Postbox Toppers seen when out and about on my bike. First sighting by the post office was in 2012. Many more appeared during Covid. Not unusual to see these days. A distinctly British tradition. I think they're great and imagine a lot of laughs go into their creation.
