@@ -59,3 +59,4 @@ content/blog/.obsidian/core-plugins.json
 # Other Obsidian cache files
 .trash/
 .DS_Store
+__pycache__/

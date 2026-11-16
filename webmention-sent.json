@@ -1,10 +1,2303 @@
 {
-  "https://bongotwisty.blog/ai_blog_question_challenge/ https://blog.rishabhps.com/posts/2026-05-28-ai-blog-question-challenge/": "2026-08-05T12:57:53.551679+00:00",
-  "https://bongotwisty.blog/blaugust-week3/ https://amerpie.lol": "2026-08-05T12:49:19.477315+00:00",
-  "https://bongotwisty.blog/blaugust/ https://peopleandblogs.com/?ref=weekly-thing": "2026-08-05T12:59:43.758239+00:00",
-  "https://bongotwisty.blog/landsat/ https://vhbelvadi.com/your-name-in-landsat": "2026-08-05T12:55:42.759132+00:00",
-  "https://bongotwisty.blog/postroll/ https://www.meditationsinanemergency.com/when-love-thy-neighbor-is-a-cry-of-resistance/": "2026-08-05T12:50:52.066338+00:00",
-  "https://bongotwisty.blog/webmentions/ https://indieweb.org/Webmention": "2026-08-05T13:05:36.152886+00:00",
-  "https://bongotwisty.blog/webmentions/ https://webmention.io": "2026-08-05T13:05:38.682856+00:00",
-  "https://bongotwisty.blog/week312025/ https://peopleandblogs.com/?ref=weekly-thing": "2026-08-05T12:47:02.476262+00:00"
+  "sources": {
+    "https://bongotwisty.blog/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/08_25_rwgps/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/1000_yards/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20140401_mooching_about/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20140615l2b/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/2024-and-10000-miles-done/": {
+      "hash": "4dcbc2041f544b6ece7ded861cf1bfbda5beb7c80ac9eaf99a3bfe002a648a9f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20250810_week_note_32/": {
+      "hash": "c087b87ff92f669a441fad17146db2e3137d91c9cb2a252c361d8f262c84fcb0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20250921_week_note_37/": {
+      "hash": "089a635bdf25ce8d30e7c9fc2bc2bc364f7536a921162ef54315d7bebff12ecd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20250929_week_note_39/": {
+      "hash": "1e331242ad240a7ebae1ab1ae1232167f794b775f5b5dd83fb530e02e13aa4d7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/20251006_week_note_40/": {
+      "hash": "c81765726ac8ce211e87998071c36e02c6f15b4e3fdfab955a475616cb9e602f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/2025_wrapped/": {
+      "hash": "277796dc654cfcd2e483c45114aa199618cf3e4b301d7b8eaa15332d5801d128",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/30-interesting-pictures-in-flickrs-explore/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/365-days-of-cycling/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/40-big-ones/": {
+      "hash": "36bb0c2d06cb315994c7f59bf779551c7629b6487aa796e9996a0ca50d4286f7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-bad-experience-in-hospital/": {
+      "hash": "79dfbf52518db198f501ab6ede4155ac66c1c0c18f4906921b87c92eda7a9903",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-beach-holiday/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-kodak-moment/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-letter-to-myself-from-ten-years-ahead/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-lot-of-hot-air/": {
+      "hash": "e574f0186539ceb014122b217c8f1045b853f9f4bff7c0edca2ee4086bda7f76",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-new-chapter-begins/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-question-for-you/": {
+      "hash": "4dd5ef76243e55fd5e8861451ad004fbbbc02b7e8c579c121950e9b7d883a047",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-shameful-legacy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-timeline-like-home/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a-work-in-progress/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/a_better_medway/": {
+      "hash": "f9f1fff329a413dddeb8370ecbd6521b3d455cfa2f2524f8490f70e33354c8ae",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/abcess-makes-the-farts-go-phoondar/": {
+      "hash": "d9cbb4bbf915bbdb78a18917d2566b10d115dd15c30b89ab12bf780d76dfcf77",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/about/": {
+      "hash": "b685ad62d70d8cceb323533557fd7928b3616b8446278148a5390e30e87931ac",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/accountability-friends/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/acme-grand/": {
+      "hash": "d4235fd0482211917199ae540c7fc19c1fde189d84051ad63279db77c785b02e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/affordable-housing/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ai_blog_question_challenge/": {
+      "hash": "2fcc8a8c580a1b61b10f9c46ffa4bb02180dce2100e4ec07f6f55c504017b330",
+      "targets": {
+        "https://blog.rishabhps.com/posts/2026-05-28-ai-blog-question-challenge/": {
+          "event": "created",
+          "ts": "2026-08-05T12:57:53.551679+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/all_home_counties/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/alpine-chatham/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-adventure-with-graphics-drivers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-aside/": {
+      "hash": "184f34ea498ba71cd8234796b263ccfbefc10788fe0362ea9149fec057a73f46",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-honest-meditation/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-honest-playlist/": {
+      "hash": "24a014465580a6df3034dafad5feda3607e875946eaa46c4dce75a2fd5d8fc92",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-inch-of-snow-and-the-kids-schools-are-closed/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/an-unexpected-family-emergency/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/another_question/": {
+      "hash": "022818065bf413b40f24d2bb3824785563c8c7c30833bffafe53215585639fed",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/armistice/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/armistice_lower_higham/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/artesian_well/": {
+      "hash": "9d276eae0a4576a8b7c6254c63104c5c1bca49bfba4d62de0ecab93ac316f3b8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/as_time_goes_by/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/atlas-apollo/": {
+      "hash": "d822515b261e34989559e6272374ab14fc4289b0ceb447e922764e68b682d4ed",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/attitude_problem/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-asparagus-and-strawberries-400k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-fairies-crown-and-anchor-200k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-fairies-flattest-possible-300k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-fynyddoedd-ac-anialwch-niwlog-over-the-mountains-and-misty-wildernesses-400k/": {
+      "hash": "8c1bd0b80ffcfc311d40530d4cc6cde0d0392d21601f65c28fa88352cd963c16",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-green-and-yellow-fields-300km/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-hartlepool-200km-diy-dnf/": {
+      "hash": "6d9fd075852880ec57f1c01c632f3bbb06333929435a16edc07e190441766397",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-hills-and-mills-100k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-kingdom-of-the-east-saxons-400km/": {
+      "hash": "a5359f3e7e89e7cbfd94cfa295adf895b8ba77d5a9428cd8dfcdf6a72ba815e7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-kings-castles-priests-and-churches-200k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-london-edinburgh-london-1400k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-london-orbit-all-the-home-counties-300k-diy/": {
+      "hash": "0ec8284cc7d0b501ff94d37d1eb083ee4efc8d70afae0e3c61e9c2f775cc5f2b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-man-of-kent-200k-2014/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-man-of-kent-200k-2017/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-moonrakers-and-sunseekers-300k-through-the-night/": {
+      "hash": "b143a26d9abba095773b39f270ce8e77d1163278fb9d00b76b469955c8bba6f0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-oasts-and-coasts-300k/": {
+      "hash": "863b5e30908a2f5c3abf76b82c29c6152839286020865c5dca8d0f74e672b4e7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-paris-brest-paris-1200k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-paris-brest-paris-2019-lets-go/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-willesdens-last-gasp-600k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/audax-wye-wednesday-200k/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/avast-me-hearties/": {
+      "hash": "3852c79ae4b55bcaaf9796dd4e0608ae646ccba138fcb8f993949a43cd35ff7b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/avast_me_hearties/": {
+      "hash": "68ed0b71ec6f8c152064ff109e4e09d6c1492adb28d2b677b09aaad699564357",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/away-we-go/": {
+      "hash": "8557bb8b40b20bee792f68592c94c1ebe631ff0e9356208996bc7327972be44f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/back-out-on-it/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/back_on_task/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/back_up/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/balancing-act/": {
+      "hash": "c79e1bbe7d97e4f5717dccb9c87e381a7016d40c201da66e99d8d910bfcde809",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/balancing_the_odds/": {
+      "hash": "98b01252bfbc8ff84b90526895296058fc1c575ee270c818f063c1107ba0877c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bandcamp_friday_20260807/": {
+      "hash": "9b5efba90d3baca34309486fe5adc4d2a38c85151e450de7c7ab9e6638362534",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/baobab/": {
+      "hash": "f236259e644ba92ac38c435550af521abd3f9dfa1d79b0bb116af353a962a28f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bc_friday/": {
+      "hash": "f01ca95235bf7d8004f1558ab6c6a3b527b55305773b236e01a3690146304e45",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bdb/": {
+      "hash": "277d034b6aedda827f4e0dd8c10f16f4a320fd6f5291b571509f3e6f24144c6f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/be-yourself-the-tragedy-of-conformity/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/beach_front_in_babylon/": {
+      "hash": "2d1231bd67dd65b0756bdf4bd9ed215aaf4e035bdb41b7e1c26cd79f3e4330aa",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/because-deep-down-there-is-a-little-geek-in-me-that-needs-some-air/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ben_jones/": {
+      "hash": "7f4d473c79272f57dec2de48957cc52b3e9b1577b76e8425e7d8ae315c89546b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bicycles-designs-from-1818-to-2018/": {
+      "hash": "6f56565d68fbe35f258dac54291509e158bdee4d64466e363c2594b55295f3e0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/biggest_critic/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bike-miles-in-2016/": {
+      "hash": "aaad495def50f581b695c5f9891fbf1fa71350b844cfccbb9c2897b16e0e647c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bike-tyres-feel-the-bounce/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bike_ride/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/biofuels/": {
+      "hash": "cb1c58ea63bcdb10cc5370cb9ca517bacad3a373153fe89995dcc2226cba9fed",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blaugust-week3/": {
+      "hash": "ee65db1256763fad74456665f783f81742b29f194f881b897d29e8fb1afa91f3",
+      "targets": {
+        "https://amerpie.lol": {
+          "event": "created",
+          "ts": "2026-08-05T12:49:19.477315+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/blaugust/": {
+      "hash": "99196b390db4940b14c1909531aae930f7dfa9ea1f460a815ec9474c8c81eef0",
+      "targets": {
+        "https://peopleandblogs.com/?ref=weekly-thing": {
+          "event": "created",
+          "ts": "2026-08-05T12:59:43.758239+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/blaugust2026/": {
+      "hash": "982fe767ff567e4cd1414d53ff6d1ab64fb54df7d79ce759edd0967d8c7ad1a4",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blaugust_2026_group_project_week_1/": {
+      "hash": "27b1cff3d2f0894876b4c10fef7902c3eff961acc0c8e7e7abbc937a14921401",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blaugustw2/": {
+      "hash": "6759dc57cb9a39a5740b0c5acebbefc3ffc1dbf2e45cadb13e241fb1c3fa8ca4",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blogging/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blogosphere-to-indieweb/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blogs-cameras-and-bluebells/": {
+      "hash": "ac57dfb8c2688104fbd398afa1eeee0a072a6573014bc16db6cda40301b8a05e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bloody-cyclists/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/blue-monday-the-most-depressing-day-of-the-year/": {
+      "hash": "dba9dbeeded1ff66cfc83eb1c0b63fa83a561991472b95e3899b62164160847b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/boost-investment-in-cycling/": {
+      "hash": "467bfbef765f1ed362c5e27fba0bfe9ead1736697c2f124856d5af7e64774fb9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/born-free-taxed-to-death/": {
+      "hash": "b8b8973ef1813c3237f231056a9999ae5c38a5e92e82efadd431dabce7c2fcae",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/borstal/": {
+      "hash": "c100455a972fdb34ec623d32426c48e622aa6f1271f450f89bff3ef8c75dec3b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bread/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/broken-down-boiler/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/brothers_spills_uni_bills/": {
+      "hash": "0cad5886c6d7361b9176f905a5f4ef75d4de064314cb8f98a04acca906259c95",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bwians-krave-mix-part-1-1994-5-jungle-producer-for-the-present-by-brian-badonde/": {
+      "hash": "bed42646eaec2ffe41b490bf32daea38b9ba83ba11630b8593053d2dfeeb567c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/by_elections/": {
+      "hash": "34f6754778c001a5b39234e9505c9a87df9f86a3450f94a42c63d5377ee49d31",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/bzzagent/": {
+      "hash": "b21b76a97b6453f690369ca03e58427e9768a1c4dcf05dfbf976fc69b2a3f566",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cannabis-and-messy-legislation/": {
+      "hash": "d95d26dfe0c8dcc121fa4b012a640d09b966c04665e178797e6bdfe195f9d575",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cape_wrath/": {
+      "hash": "520670e9a679582950f7352efb5fd4b012b60f368a88cc842574888e95c9cb1c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/captain-poopy-pants-and-the-evil-toilet-by-elijah/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/carbon/": {
+      "hash": "4651ddb4eabaf6f85b353951ff80be378685c1ed59ef46e19c1b86171fa0ec43",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/carlisle_settle/": {
+      "hash": "b7a542efde9da71317c11f8f570b9116bc46088650b0b983375672ccc7ea8cde",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/catbell/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/caution_roadworks/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/change_of_direction/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/change_work/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/changing-gears/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/chathams-traffic-sir-john-hawkins-environmental-lip-service-and-the-local-elections/": {
+      "hash": "4d1c89151b49d8750aa1007ffa8962cd5cb500637cfd36f3b982517de6ca1c2c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/checking-in/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/christmas-trees/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/christmas_topper_lower_higham/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/christmas_topper_shorne/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/christmas_topper_upper_higham/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/chunky-ties-and-climate-change/": {
+      "hash": "c6ffcd1d08c1d6d9c51b69c807c18a239796c8c6ac798ebede4b05386aa2d403",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/circus_has_come_to_town/": {
+      "hash": "9341fc429bfed6f0f17c3ba914ac2a23f758bfbac77a6f99ecc8a9a28c950196",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/city_status/": {
+      "hash": "6dc4a74930e615c1341ae352f95f7704443ba6f9d0239dac9f43d8d7ec9083cd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/clocking-up-the-miles/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/close_contact/": {
+      "hash": "a2fe1a26d678661584cc8fffa04cad9a8d6a5124764538e60f9bcba5e6de00e7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cloudy-statistics/": {
+      "hash": "19695ba1fbae1e6e0e7bf1b028d9f70adecf0725b45e98fb175cc94d22b758d7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/coastal_200/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/colander_ray/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/concorde2/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/congos/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/consistency_and_commitment/": {
+      "hash": "2e6ee2400baeef72b71ef418c64b0cf58780e2ea0889c1787725fd8598b055c0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/contact/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/coping_skills/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cot/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/covid_positive/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cqc/": {
+      "hash": "379a0b96bcf3ed9fcf1a56c169cbe223e59d1978568a3958e84c0c5e2427d868",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cracked_screen/": {
+      "hash": "533ad7db6e9c920084642ff66a48e3722fe02b141e37cf04e6a300abe008eeb6",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cris_moos_list/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/crunching-through-snow-and-ice/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cyanide_happiness/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycle-touring-the-fifteen-signature-discovery-points-of-the-wild-atlantic-way/": {
+      "hash": "7da9bf84fa961d97da43faaa0fe15dedf06055b0e80d3a4ee00dc15353ec073d",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling-about-in-january/": {
+      "hash": "3659cd99dda355425ca967a2c5c75c3dea6cc4f2f8bdae6c7624985fd43a9fcb",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling-goals-for-2016-with-added-veloviewer-explorer-tiles/": {
+      "hash": "aef24b3ba5a5ea9978c0b795fca01693772ebb63eee89d268daa7b3017c1a0d7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling-goals-to-fit-with-the-day-to-day/": {
+      "hash": "f1a6d83c5b34971524e3b89bc6f338741e9edd2570da21a14abbc7fe4236eb7b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling-research-high-intensity-interval-training/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling-the-north-yorkshire-moors-on-a-rainy-day-in-january/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling_2015_and_2025/": {
+      "hash": "4f7fcbe4ef56a6e3886fa94b089e425ba4e136253a1b62356101aa37d187c5a8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/cycling_goals_2026/": {
+      "hash": "cc14431cebf70bd564f61de55e45cc8dd3722d846ae88abdd06b319dba80fd0b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/daily_commute/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dancing_circles/": {
+      "hash": "b2833e7d62c7bbdd3ee371a5d7cdfa3412d4277dcfad5140030c92cc208ae0e9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dark-wet-windy/": {
+      "hash": "b9eca88320f894a070d678bd73e780c38724cbd0b3eacf4ceebc71fdcc87d6be",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/decaying-orbits-of-london-600km-bike-ride/": {
+      "hash": "fda4aa7f5a70e5763c9cba9e75f21cbc856b1d2e786421af853f5a4b7912a00f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/destinations/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/diamond/": {
+      "hash": "c41c48aa75d7965afce9dad8b970ef1c6606c8256d12965836419bfe425646c3",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/digital-anachronisms/": {
+      "hash": "31ecbb23276248ed3c5f1cd0e3f563d3398ead32d225f861f0d5f021e1824b75",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dipping-into-the-blogosphere/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/discord-whats-in-a-name/": {
+      "hash": "0a7effd14f3a981ca22efdd43d2944cceec6e8a9bf7dd7e30fbf121c828609ba",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/distraction/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/diy-do-it-yourself-randonneur-around-the-year-rrty/": {
+      "hash": "8cf79134170a606ff5324e07d55ebd63135685f0d0e3877d728e08e57ce3eb11",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dj-krave-radio-sunlight/": {
+      "hash": "55cad4d2f405a13e557f032d2173fb1ce830559ead054f1f957d0ab180f1a273",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/do-or-do-not/": {
+      "hash": "e31be5c7e434c6a70ac9e19ad3074475d5dec42f56c535d2364aba84808685aa",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dogshit/": {
+      "hash": "3a9fb7fb8481fb91005a8c13eeafbc0be94c9fba6f60f4fbbe95ce1c7a70870c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dont-go-jumping-red-lights/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dover_and_coast/": {
+      "hash": "a87d16796a218941ea2ab3b53503b5753a7a0d131ee18bd3726def5d11ea2cb1",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/down-the-hatch/": {
+      "hash": "c14dbef0c4df0890320218c61932231dcb9fc80a51bfe39e8b3c08792306be29",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dragon_training/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/driven-to-distraction-aiw-9800se-lost-and-found/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/drone-to-make-a-dull-continued-low-monotonous-sound/": {
+      "hash": "8ebe71b01060fa970a807fd1678b760cd1fb6728075e85ae232afdd434627461",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/drop_one/": {
+      "hash": "f2354f0aeb204ed18122d752ec0faea40ea2ad1e513fc696237fa4b17d46f5d9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dugnad/": {
+      "hash": "da6d8fe91fbc1196fdfee920f40b697820cc6664299d9d9f7fee6820eb3e2d73",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/dunkirk_brandenburg_gate_dusseldorf_loop/": {
+      "hash": "8db6634371f64c6d2975cba51d3ecedf5b0d91ea836d467c146ffe8dcf7b6109",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/early-morning-in-bristol-by-the-canal/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/eddington-number-a-cycling-statistics-app./": {
+      "hash": "579a9d6b1366ebf625ecf42693c144642146112096fecdae4804fb14bb258722",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/elsewhere/": {
+      "hash": "a603e7bea4e9e182eefb17dc09da4ac2f5855878a60bcad64ee8782f7e3c8d3b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/empathy-for-the-mundane/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/endearing-_qualities/": {
+      "hash": "4dd5ef76243e55fd5e8861451ad004fbbbc02b7e8c579c121950e9b7d883a047",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/enjoy-your-daily-cup-of-cns-stimulant/": {
+      "hash": "b30ab19a4fb5e38e46532ae80d0e0a9897dee619270058c862d2df8d091ccd7a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/enjoying-big-miles/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/eshus-1000-paper-cranes/": {
+      "hash": "156ee470aa113fc723e313606d7cf62004856fe2403753866cbb1469d31952f5",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/essay-notes-the-global-food-system/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/even-when-you-see-it-coming___/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/evernote-cloudhq-and-google-drive/": {
+      "hash": "6851cfa7761ccc65e7d1ccbf49830da37b1bc6e6f3f29ea192d882f2f2e3fbad",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/explorer-tiles-and-march-miles/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/fasting_and_endurance/": {
+      "hash": "c97adf31221a2233429fc94170ad7656b81b00d9c9c89d54df74aad3e49a69a9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/final-submission/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/five-preoccupations/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/flamingo/": {
+      "hash": "9b5bc9433942b03a6478b9450497c3b2a40ee9fcf9ae0fda0f8a7c366144cab9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/flipping-the-stem-and-ear-muffs/": {
+      "hash": "a74c631e1886b9696de6aa170d245067a442e93bdf7ab33ace3dcaafe7086fa7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/flower/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/flowerpot-festival_settle/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/flowerpot_men/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/folkstone_200_v3/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/footage-showed-police-push-mr-tomlinson/": {
+      "hash": "cfe37b45c9b95a6d892191829f26162171e0c31c744e0eaca3e8eb8389b5abe6",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/for-meaning-making-machines/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/for-the-record/": {
+      "hash": "ea303ec2e45fe7fed605ea21579a0fe97aa7721f803f7d1bea1d8e0ed624dfcf",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/fourteen_days_post_seeding/": {
+      "hash": "e16b74e64dfe976cd73946a1727e07a7431fa834114db05191a9c2b07f6dd757",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/fp03zjv/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/fred-whitton-challenge/": {
+      "hash": "69e53e2df2bebd86f7079586fc743e70bf33a7f8898d7d32875de4d8748d75dd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/from-zero-to-deployment/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/futureself/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/g4s-israel-palestine-medway-secure-training-centre-and-my-local-mp-kelly-tolhurst/": {
+      "hash": "f8acbcc4cb87cb6932aa72de54cd4a8c6f7648918a7aa444d035266f47eb9d79",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/ireland/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2012/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2013/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2014/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2015/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2016/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2017/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2018/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2019/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2020/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2021/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2022/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2023/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2024/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2025/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/rwgps_recap/2026/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/cycling/strava/": {
+      "hash": "9b54d35167004f9e39237248774ee4df55dae993451d55fa78466ea20bf35efd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/houses/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gallery/postbox_toppers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/geocache-log-earls-seat/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/get-a-life/": {
+      "hash": "66f5545da1da5c6c45da4aa3e9e426f773b21b604302162bc6078125499f33e7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gimme_a_hug/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/git-hugo-blog-workflow-aide-m\u00e9moire/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/give-em-all-an-untaxed-car/": {
+      "hash": "e60dba107539a9ee3e04bd401ff5c601fbb6db3ad54209ba445c3b6e225b871f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/goal/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/good_progress/": {
+      "hash": "d97f1caa7ffcf44e675f30bda40a71e4830ba4a1d777869fbdeeef4b2b04a278",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/gooners/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/great_dunn/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/growing_grass/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hackneyed_words_-phrases_-and_ideas/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/halloween/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/handlebars-for-long-distance-rides/": {
+      "hash": "4aafff62ef6396ce233c260f827c7d3c4541c97464c067e77f2b8ec5a0bc4764",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/harbour_arm/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hard_ride/": {
+      "hash": "d33560b33e0e0d58a3af72350fe6cee93981fdb855980b25c8643ca4395af6f2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/have-you-had-your-early-day-motion/": {
+      "hash": "125de671b5881a2c1dada8deb6196ce54f274461fca5ac7228053d230e8083d8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/heading-in-the-right-direction/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hedgerows-hills/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/helping-john-reed/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/helping-out-with-the-fireworks/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/heritage_sold/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hidden_beach/": {
+      "hash": "20a24e13ea29c7f439894608c76eb06586af5aacda3e649b3a5307bf2bc2b720",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/higher-education-bureaucracy-and-expenses/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/highways_say_yes/": {
+      "hash": "c24680b4e75d051222b2af32b80595e4fd8db05018fd731d4d35eac1434df84b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hills_and_valleys/": {
+      "hash": "5a1b16be04019d50f6aefc23190b7f5e64031490f8f42638de0b0be4cf04aea0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/home-and-garden/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/home_grown/": {
+      "hash": "bf50f3f6494a036049c423a092e1807b76078524127417da127d3d38608b9ed1",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hopping_down_in_kent/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/house-building-in-medway-medway-magna-why-dont-you-take-a-hike/": {
+      "hash": "500fbed24c1c1d14813c6d0c5363b1b497fa8f5d21cb8d6d3107d4a376f108fd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/how-do-you-know-if-someone-hates-ai/": {
+      "hash": "943dd88cba59e4ddb950c13fa8eaa8df80f044b86d015847a57b54d345cb763a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/how_to_fall/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/hugo_version_upgrade_guide/": {
+      "hash": "e9774231b38cd9e38807a4361c0a2ba054d1deefb2349c8425a55304e6d4f4f0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/i-luve-you/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/idyl-jack-of-all-trades/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/im-not-convinced/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/inadequate-cold-weather-contingency-plans-and-school-closures/": {
+      "hash": "1f6a64af6e7cc8ac0bac6e1098bdea1973d9a07fa6898409f686e2ff40043731",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/indiweb-carnival_august_2026/": {
+      "hash": "d6f1d27f106346dc930f14aee1e97cd8451cf98fcbb79c9ea02e61188f900847",
+      "targets": {
+        "https://indieweb.org/IndieWeb_Carnival": {
+          "event": "created",
+          "ts": "2026-11-16T17:40:21.644062+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/intrinsic_values/": {
+      "hash": "4751f96be406cd9c57ad6fdf69c3011991ca5f1ad0a39fa3d7d64c2fc304293b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/is-there-a-long-and-hilly-way-round/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/its-been-windy-out/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/its-good-to-journal/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/its-more-than-my-jobs-worth/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/its_all_about_me/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/jpg-from-lr2-to-cs4-gives-my-neighbour-a-bad-case-of-the-shingles/": {
+      "hash": "8da01f23e6f5b40d3aef91b8f9ef16fb42ff230b8bf99dbc2963557c171024da",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/junkyard_dog/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/karoo2/": {
+      "hash": "cb9cfc1ecd9a7dbe89c2960c7092f4f4d03167febd9c639b061eed9f3ab38b0f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/karoo2_final_ride/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kelly-tolhurst-failed-to-speak-out-about-the-tax-credit-cuts-in-the-opposition-day-debate/": {
+      "hash": "5a02194c7a30e667593f84f2851c27569000bb0c0636acb35eb788bf9cfd4485",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ken_sec_44/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kent_200/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kent_200_postbox_topper_editon/": {
+      "hash": "d3162d73b443a859f74fc3d22129341add687430beae536526e2ca161df54b5d",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kill_the_dog/": {
+      "hash": "435399b9c08715f322fccc4458991fc96a24b7e84a9b3ebb98eb163db8a575c2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kingsnorth-from-horrid-hill-in-january/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kingsnorth-power-station/": {
+      "hash": "deaddc57610fa7af3c0d2b4c8eefb2b7ab1935409726fc9802fa538c34136bc5",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/knocked-off-my-bike-by-a-too-close-pass/": {
+      "hash": "ead2974eb30a30274ba078463084ffbf58cc65862fb9ae2eb2fa53892be138b7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/kurt-wenner/": {
+      "hash": "ca2fe560fd70d818dd70b3f141ad5597a8dcf8c200cb4df8778f285e8918bd18",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ladders/": {
+      "hash": "462b5e64aa3e4799ea2f7582a9cc05b3559542240d43f6e9ea4856eab706da5f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/landsat/": {
+      "hash": "f4f93b0b2c3e4975e6e832e9fd30f9b15b70dad6e8eefdcd88aaace89ad115f7",
+      "targets": {
+        "https://vhbelvadi.com/your-name-in-landsat": {
+          "event": "created",
+          "ts": "2026-08-05T12:55:42.759132+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/learning-to-code/": {
+      "hash": "86c35b59c6e434b61446e1685dcb785ee02f0995cac4493639aa3c8c7d91e9fd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/learning-to-sync/": {
+      "hash": "15926a44f727a8ed0e4856c85e595ba80833788a188fcb50e50f379a4611f8a1",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/lel-in-a-few-days___/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/let_go_emotions/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/like-the-butterfly-that-caused-a-hurricane/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/lisbon_calais/": {
+      "hash": "4cb58b21a9e5481aa64a9f60f6f29592e3a60ca28f2c69828e0b43234b2a89c0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/little_piggy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/long_pause/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/looking-at-checking-in/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/lunar-eclipse/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/lupen_elijah/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/machine_gun/": {
+      "hash": "0c730db3bcc4d48f03e02b891fd3d80d3746716885be0bf7b1041765bd3d905e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mandala/": {
+      "hash": "0c749b95093a927312291c93a4f4e621de46bd0c4c5623741265b8c1de05ed3a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/march_rrty/": {
+      "hash": "a08c9e47218bcf359deb317d96ad3dce06b0c71d85a200d9ff7f0f1abef29566",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mark-beaumont-cycles-round-the-world-in-78-days-18000-miles-in-78-days/": {
+      "hash": "d2236e17dff238165d6e91d54a533d8b9277bf036ecd76e971d090830deafa24",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/may_rrty/": {
+      "hash": "a311c62b871136c31634caaf70bd44fbbeea1061b2bc4d214967f60fbcfea341",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/me2/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/meaning-into-miles/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/medway_photographers/": {
+      "hash": "583d4816bde6c09b71ee1310a677e54e41adf8c9e77437bdcb20aa977e80bf04",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/meglme/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/memoriacide/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mental-health-awareness-week/": {
+      "hash": "be7f0400613b412f4c56bb4527712a66f836cece87da4b7ce08525b37c9d78e6",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/middle_path/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mishaps_in_december/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mister-post/": {
+      "hash": "ee64e09a454dfd03a2b0f8b69223625d348787ef1dbcd17c5fff297402ecbc8f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/misty_in_roots/": {
+      "hash": "1e420ea335f5a3553bb312adf1a71114f86f4ddcc63936cee457ed868515a022",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/monascow/": {
+      "hash": "1e1be152c00bb3fda62220127085da07089cc89900f2b6d679c570fa72abc7b9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/monday/": {
+      "hash": "616f2258882d9ee537d9ce8b1c79dd1cd597644f2ce1163b1cf6d7abf161ad28",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/month_crux/": {
+      "hash": "a3439ed1222fd80ff7b89b782b3cee7fffdf0e6d20daafb2693aa2b83166bbe6",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/more_roadworks/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/morphine-on-monday/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/moving-house/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/moving-slowly/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/mummy-and-daddy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/my-political-compass/": {
+      "hash": "351d5534bf387a3369ec90f08c95745eb93aaa08ff346ed0003ff09c0ad1f72a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/my-sick-book/": {
+      "hash": "6629a1ddc7b9c07c7f3b82648347f0b16f0139f82d9167c9e60b1a79085278df",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/n-1-plus-bike/": {
+      "hash": "08048091f9d4ba415a282a6e1d914a26d24719feaaba61fdb02d38595b07fe1f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nan_weekend/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nannys_tv/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/national-cycling-memorial-meriden-remembering-fallen-cyclists/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/needs_relationships/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/neglected-but-not-forgotten/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/neighbourhood_200/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/neils_hat/": {
+      "hash": "fca33ac76d701cd2de5ed69d2c6eae20094c5fa6eb4e0c36f9eb8956167b2810",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nerve-damage-cyclists-palsy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/new-beginnings/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/new-shoes-and-panties/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nextcloudpi-bringing-the-cloud-indoors/": {
+      "hash": "4c37917e6ad3bc764628c7e45b2cacb109b990029fe5ac9da4d5c25256e350e5",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/no_knead/": {
+      "hash": "26ae31bdc41ec9e1376dfb3e44111787149f056d5528fd75b245f4ec422feff2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nonewcoal/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/not-everyone-cares-though/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/nscr-dundee-to-aberdeen/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/oasts_and_coasts_2026/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/objectives-goals-and-outcomes/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/oddfellow/": {
+      "hash": "450a515a3da5ab858f718fa0d198f59675f1947697cdf93e1b9d765c84e4233c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ofili/": {
+      "hash": "7ac5674abefba3aab34e55b2c73cf809dedac25e63c51da3de0a2d14272e1950",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ofsted_gets_hammered/": {
+      "hash": "880d8606c5b7451a36bcc98db3171666c7ac65f818a32c64c1ded07c3652db9e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/on-the-crest-of-a-wave/": {
+      "hash": "cf5fe805c80bb4e0146602f77930ac88e894e87331468d826ef204193dccd9f3",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/on-the-edge-10-second-photograph/": {
+      "hash": "7e066606a626c6860bfdf5cbd62d3a29748f095f64926cdfd100b9e48ca55d34",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/on-the-way-to-pbp/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/origins/": {
+      "hash": "cde49d513379129a10f70fcf9f4fe4fe2ca1514b775cd4689a7c6f29f9218695",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/os_migration/": {
+      "hash": "2495be49d168d312791d5c5fdf024bd4f5a49e311b12f49d2c86c4f741d6c4eb",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/oscars-first-year/": {
+      "hash": "832e3aff3895e9cb691beb71bf398a41712cf3c3a757e4d8d21fb36c010b092f",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/outsourcing/": {
+      "hash": "8c6d08ee3261956dd5529995ac0e2fedccf857a6962e86dbd98c97191e603144",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/packing-up-and-moving-on/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/pages/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/painted-ice-and-snow/": {
+      "hash": "95400e39d120014936816e7c9c32538d23a298e430326c4e3a202047717caf25",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/pear_pies/": {
+      "hash": "85dc757fff02f90fb8efb7255ae0b3ad6e1181e2734d34dbe091c58054475faf",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/people-i-like-people-i-dont-like/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/person-of-the-week-youngstar/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/personal_music_server/": {
+      "hash": "3b3e488cac51f708e7e319e4cf019e77078701553b72167209fb64cf50cd8462",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/perspective-matters/": {
+      "hash": "b3d448e8a8b6d685e5f089b6efda2a5b55f8b67050e1c201a92623d53640df38",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/photo_law/": {
+      "hash": "a150e01bb0f2de6ccbd7d77270405de221a112a9368602133095a48f10075bf8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/piece-of-shit/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/platform-switch-decision-formulas/": {
+      "hash": "0e3e95581ab74fe12b70c8b0e95669c45a8aff3e50d96b9ca0133d8463e5746a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/playing-on-the-edge-of-understanding/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/podcasts-i-enjoy-and-benefit-from-listening-to/": {
+      "hash": "2cd6465373063db07aab73ebc1eef9a60ff78854e17d16aaae5d083cb4eb86b0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/positive-money-central-bank-digital-currency-cbdc/": {
+      "hash": "9a8d3c9ef922a5046ac4d86b4c1722828a332abe962d87884fa35ddfb52bcb49",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/post_box_topper_colney_heath/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/postbox-toppers-of-the-future/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/postbox_of_the_future/": {
+      "hash": "73d0a3062dcaa75c288d7175821ab1b43a126457ebdd0058bf05055aaef21ca7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/postbox_toppers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/postroll/": {
+      "hash": "426c190fc6fc8832bc2f3347d63e093befa13d10005d2ee37a1a012f92b9f93b",
+      "targets": {
+        "https://www.meditationsinanemergency.com/when-love-thy-neighbor-is-a-cry-of-resistance/": {
+          "event": "created",
+          "ts": "2026-08-05T12:50:52.066338+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/posts/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/audax/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/audax/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/cycling/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/cycling/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/cycling/page/2/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/cycling/page/3/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/cycling/page/4/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/family/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/family/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/garden/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/garden/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/hugo/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/hugo/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/music/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/music/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/post-box-topper/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/post-box-topper/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/post-box-toppers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/post-box-toppers/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/postbox-toppers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/postbox-toppers/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/section-44/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/section-44/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/tdc/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/tdc/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/work/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/posts/work/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/practice_campers/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/principles_and_pragmatism/": {
+      "hash": "5c87ae97bf4e40c7100a826dae09108fc0c3616eff77489c7832edddbfcefcd7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/promotional_material/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/puskopditben/": {
+      "hash": "a151b54f1fa9dc824cf7b502978d94569c581156e2aa3bf480b2b1e9f4631606",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/put-up-or-shut-up/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/quintessential-self-regulatory-failure/": {
+      "hash": "791233054b2eea15557a8c1f0d23ac21067bcef3f50738a39a65d58ab915cbf0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rabbit_stockwell/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rainbows_end/": {
+      "hash": "16207edf8edb48dd2f110f94d1474252a95f009c79d4e46cf7e2e6dcc97211cc",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/random-jottings-not-so-serious-notes-from-a-not-so-old-wrinkly-old-git/": {
+      "hash": "7dd6d7f0d9813e3ca499c327f6dd40acd7cbc05b6e264038847759cbc28a3dbe",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/random_facts/": {
+      "hash": "ffc3ca4820c0e1713aa8af273282021a1b2f7a1c2844f870ad22b9898b62b85a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reading-out-loud/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rear-mech-hanger/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reckless_drunk/": {
+      "hash": "a38445c7c80cc615e98c409450e794438c6cba7387e735cb0d5ab1e7d121cb67",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/recovery/": {
+      "hash": "cc8f39bcacf01e5de816d6866b9180a5fbe6920200dd276983ce99461a964f28",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reflecting-on-my-photography/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/remembrance_day/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/replaced_by_clawd/": {
+      "hash": "2ef81b30a5b2ed97ff3e262d3c080e1dfd49bfe380b5fe04c52c69e2cbe76e3b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reports/cqc_comprehensive_report_20251003_1541.html": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reports/cqc_kent_focused_report_20251003_1547.html": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reports/cqc_league_tables.html": {
+      "hash": "dd41d229f53bb8d66a7337f15b6d0f2e8a0033e4b8638ee2758361d08109d048",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/resist_persist/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/reverse-remix/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ride-with-gps-february-2025-recap/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ride-with-gps-january-2025-recap/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rnf/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rrty/": {
+      "hash": "49673f84fc23fb4d4003b34d78e7d9f4c7f1fd62060a763aee8496516b753f11",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/running-on-empty/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/rwgps_recap_cards/": {
+      "hash": "144717e36aa023564ed48aa8895574e95f5ef36bcf5a4582ad6cdfad35a0dc6b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/santa-got-stuck-up-the-chimney/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/saracen-rc-200km-no-2-permanent-audax/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/save-our-sites-write-to-your-mp/": {
+      "hash": "962bec690be1db96b22a22947669c95cf9f63138c8bf8e8f82e554d55d6ace82",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/save_a_little/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/scarecrows/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/score_hole/": {
+      "hash": "854fd227f4c5e8b136ec13896401f5c7d0bd6170c753f706061d9b57a3cc3a0b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/sea_creatures_higham/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/sea_snail/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/search/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-chatham-high-street/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-i-am-not-a-terrorist/": {
+      "hash": "eaeca80b4ef44fd4ef383016b8ad127e5f7f5a86dbbab91c5e9ff8149d9df84c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-i-fought-the-law-and___-i-won/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-medway-eyes-keep-em-peeled/": {
+      "hash": "58ce53f3a133bd2b8b44a1777e859955beb3e82155dc46446965249aa6c0f9de",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-outcome-letter/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-the-chief-superintendents-perspective/": {
+      "hash": "cb4605236f7b4f3c695e768069544d226739e40e7065ab765346166a753df1a3",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/section-44-arrest-the-latest/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/seek-and-you-shall-find-or-something/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/self-balancing-act/": {
+      "hash": "2be2c6e24f15b065735c3dd8e6f9e9ef4b79d611da1da314dd3cf9c3008da4cc",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/self-regulatory-failure/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/set_the_music_free/": {
+      "hash": "997ae903cdb3504aad12f6ed2114fe11f6e211c3b7b751ea1fa1daedb6b73808",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/seven_days_post_seeding/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/shilbottle-warkworth-twatt/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/shimano-st-rs505-hydraulic-disc-brake-review/": {
+      "hash": "949e5db5186742bcfd7238ba14455e1113e2c5143e0b9558215343b9b1f02a3e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/sinister/": {
+      "hash": "8125649f13626d7107a8ab2b68ae52828d68ac08c03a3cf968b3b5cd414c8b2b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/six_camping/": {
+      "hash": "c2bd6e28ae0ce9fe9dad7e50ccd9ce4f09195724237673482c45eb7ecb9f259e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/smashing-windows/": {
+      "hash": "6d410b3570ee0e6aad80b61f3baca3c1e2843b2eec13ececc5e969c5d078fc0c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/smoking_elijah/": {
+      "hash": "c503102c7a09c1dddbb2e5d69d80cbe3b86bb2c0f706fba4867523da4fa773ca",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/social-media-addiction/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/some-parents-ehh-how-do-the-kids-manage/": {
+      "hash": "3467d1aef830eef3270cbac45e5239981c34a422a7068efdd8ab7696dfdeadde",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/something_spooky/": {
+      "hash": "8125649f13626d7107a8ab2b68ae52828d68ac08c03a3cf968b3b5cd414c8b2b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/sorry_note/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/space_for_cycling/": {
+      "hash": "da79ba5460093cd9d9618d69981eb7688e81f9c4c5060f36003a2b4219231a8e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/squadrats/": {
+      "hash": "7e5628cd0710e4b0e806d58462674747fdac6f9b7176a766cdd232a6d6e1f9f2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/stage-one-with-distinction/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/stages_photographer/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/standard-notes-making-the-switch-from-evernote/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/start-again-and-stick-with-it/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/start-the-day/": {
+      "hash": "2408bfc2a487314670aca61e97278a68ecc8534f606e1a7197aeff4f2a17d594",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/stats_cli/": {
+      "hash": "3810990cd739915c80030875d51d7b741828f645b4b5fe16f73390f497884e43",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/status-update/": {
+      "hash": "852eb3a531fba33aef64f05934c40f680afe4092d84070f5043680e627a5b632",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/staying_motivated/": {
+      "hash": "f1805dc307325edb32cdcbe10e77cade45b14bf1d911b8f7d9d11ed554fb2690",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/stop-go/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/stretch-a-nightmare-with-graphics-cards/": {
+      "hash": "e6bad1f84fcbdb79dbe3449b570f4d6f8479af7b0c3ce0c7b087e7cbd594d73c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/summer-holidays/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/summer-time/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/super_power/": {
+      "hash": "3a454e59e890a9093502c63f262cb2422ab86b55ba0e44a24d954fd53e45d580",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/swings-roundabouts/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tags/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tags/page/1/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/talking_loudly/": {
+      "hash": "022818065bf413b40f24d2bb3824785563c8c7c30833bffafe53215585639fed",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tannus_armour_tyre_inserts/": {
+      "hash": "4e8e66d51abb7901a0c71c6c584c9603dbfa6854811e6fe442554c3db0c58c51",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tea_and_cake/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/teaching-primary-kids-bigotry/": {
+      "hash": "aa752e48405c77d239fb520f566dc74994873482dd9e10fc86a58706a219490a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/team-meetings/": {
+      "hash": "bd50230e7425437ae175021ac0ed1ecd75b211e773d3eae4902e0b6679837a1c",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ten-things-no-1/": {
+      "hash": "f5eae75915e4bc6b3c3a0dd820e0c4d1cd2c9cae47a30daf7290b81869fc6e56",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ten-things-no-2/": {
+      "hash": "f5eae75915e4bc6b3c3a0dd820e0c4d1cd2c9cae47a30daf7290b81869fc6e56",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/ten-things-no-3/": {
+      "hash": "4cc200353b0e1e3dcbb10639eedba628ba4bf4791a53aa7c2fa9d9550786ed9b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tendonitus/": {
+      "hash": "76ec951dfc039df13264c9ec6abcd56e0f436449a4a9fd0c4e98ae7d0e486b35",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tesco-brushed-off-our-complaint-and-denied-responsibility-for-damage-caused/": {
+      "hash": "9849a1b3d8b7b45efeec1d10cd144ed7f65720101efeeeef9b64580b66a59151",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-1957-seeboard-tragedy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-380kv-thames-crossing/": {
+      "hash": "9faed94a9b95c030f6184faf94f467d92c3befb8411d92b6568d828fa3f13407",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-beat-skanking/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-childrens-tooth-fairy-shillings-under-the-pillow-regulations-2009/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-defensible-default/": {
+      "hash": "8462955bbfa5be2b35cc88514c7ee1d252428efc7fc8877e355654d552f8f4d1",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-dunwich-dynamo/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-friday-before-christmas/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-giant-circle/": {
+      "hash": "424e9e06313568ceb072f8838fa56a552813ced3ae1bb6bf63cbf32e2b238ce8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-good-host/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-houses-of-parliament/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-london-borough-spiral-ride/": {
+      "hash": "769ff9de4adebff0e6d9d7e2eefa3490f187531f7b1860d29bb05f13bb00eb62",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-mosquito-alarm-is-repellent/": {
+      "hash": "b022e9393fcf6520c1d043dc4a0ea778839b279fe9914f2f5da6c7ec3e701b04",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-north-yorkshire-moors-on-a-bike-at-night/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-switch-from-windows-to-ubuntu-18-months-on___/": {
+      "hash": "010b7d43db3e86d6b55be7e35e0c0be4747ed0aeeaa290a01d3186b5a6f0b4b9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-ten-commandments-remixed/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-things-they-say-no-2/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-things-they-say/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-value-of-managerial-supervision-aka-a-lesson-in-how-to-communicate-without-creating-enemies/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the-value-of-procrastination/": {
+      "hash": "791233054b2eea15557a8c1f0d23ac21067bcef3f50738a39a65d58ab915cbf0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/the_iron_is_hot/": {
+      "hash": "9e1bd6d7b85a6ad788025164520c6e83d346d7af31ce5bcdfb4fe162532a41e8",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/theres-a-formula-for-the-beer-goggles-effect/": {
+      "hash": "9d43ff4a2628736c678fa6089066c268eb04a32745f94de004d35267afb3c73d",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/things_i_use/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/thinking-about-now/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/three-rs/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tight-fisted-oil-barons/": {
+      "hash": "297bbbc0aad80df9b28808f218decda62d642da2364c7818bd9615e7ac84f49d",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/time/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tipping_point/": {
+      "hash": "6d7e6b7aaa4e1dbdafe199470a9a944a3f94c1af54d460d719a59f2925e07e5e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/to-ungoogle-verb/": {
+      "hash": "af0be4ba1bdf345eb32e9e77e318c56698f8b1a7c9854cb0994b8a05c7e2d25b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/topper_tankerton/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tour-de-france-2007-medway/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/tow-paths-glastonbury-and-fms/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/townsquare/": {
+      "hash": "24b06dffa2891c21a1a56160caabc439761d6f7da9bffc5602f5681bdab5db9b",
+      "targets": {
+        "https://cauenapier.com": {
+          "event": "created",
+          "ts": "2026-11-16T17:43:21.211494+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/tree_house/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/turn-off-the-lights/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/unfortunate-names/": {
+      "hash": "5aed52f23f86924b9131bea9419c97f55ebc2215bce3220631934739798fb06b",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/use-of-the-police-emergency-and-non-emergency-line-over-the-festive-period/": {
+      "hash": "b8d9089c8e180e893fbf7eac3be92a6c579b8663be55b99abfd15d20f89265e9",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/uses/": {
+      "hash": "5bd82fa5c169b5fdd8f40f52f6bd5edff1370aa0852ffc671e4cc1d5cbb3cbe0",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/using-up-the-internet/": {
+      "hash": "a99714e869a97fb261f1cbb07479c84f7e6d18ce35b24478c3710e18f90571bd",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/victorian-wall-boxes/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/vulnerable_angry_children/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/w-e-sunday-13-04-25-scrobbles-from-my-mobile/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/wallpaper/": {
+      "hash": "3e70e96e2a8ea91141e88d77ae5a90b48ce84754af07b4188d58e2917ee5b62a",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/washing_line/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/way_back_machine/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/we-moved-houses/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/webmentions/": {
+      "hash": "aa3d8078d12cf012bdcd0f5d98ce97b5a79ede8598442228d77d0ca3e12db6ba",
+      "targets": {
+        "https://indieweb.org/Webmention": {
+          "event": "created",
+          "ts": "2026-08-05T13:05:36.152886+00:00"
+        },
+        "https://webmention.io": {
+          "event": "created",
+          "ts": "2026-08-05T13:05:38.682856+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/week-notes-332025/": {
+      "hash": "0aef13bcc48b9b7ea6e4cbe3c7156915ff0b40a30f77770a89d7a8aae5fd5d45",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/week302025/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/week312025/": {
+      "hash": "41c44239d2697c14cb82b129eb52479af2e0f0eb2ca69a0852d29e8067e3f2fa",
+      "targets": {
+        "https://peopleandblogs.com/?ref=weekly-thing": {
+          "event": "created",
+          "ts": "2026-08-05T12:47:02.476262+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/week362025/": {
+      "hash": "70f5516d51cef4f036f90ff40df0294106b46d91a5f0c3f6f90d4d6162a178ef",
+      "targets": {
+        "https://kedara.eu": {
+          "event": "created",
+          "ts": "2026-11-16T17:39:03.956593+00:00"
+        },
+        "https://kedara.eu/organising-feeds-permaculture": {
+          "event": "created",
+          "ts": "2026-11-16T17:38:49.383534+00:00"
+        }
+      }
+    },
+    "https://bongotwisty.blog/week_notes_34_2025/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/week_notes_35_2025/": {
+      "hash": "393c8f600c217387ab4686d158babfc597fc0e5bd1a2ff78483076dfa1fac9ab",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/week_notes_take_a_break/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/weeknotes_37/": {
+      "hash": "31bc743ecfef181bead3eacb12150203a6fbdb8c28d9e83a8f041b17888641a7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/well-he-was-asking-for-it-wasnt-he/": {
+      "hash": "d5da56d90683f15c879737960cc4a4f75f31e77ef1eac7e5dfe4a9d5afde6af6",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/well_done/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/went_well/": {
+      "hash": "a44a765586a2727f3f3dc4193e7c1bc2c3c2803f25f3a3267a3ccb5950b8418d",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/west_east_downs/": {
+      "hash": "765414f98a8ff250f7d2aa352957a2575556d9a0875f1cd37c91b6ae0f66e372",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/wet-windy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/what-are-you-optimistic-about/": {
+      "hash": "988766c8f891d2d64ad998809772c115af1b9553756b9ac2e1e40d8c3c402e8e",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/what-happens-now-trump-is-president-elect/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/what-is-something-you-used-to-really-love-to-do-as-a-child-that-you-dont-do-anymore-but-maybe-should/": {
+      "hash": "5ce90c099cee41f608560ece9158c13e170d75f2cb681aaade2f047628e53114",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/what_really_matters/": {
+      "hash": "5df9281f5bd5ed93554c0740cecc4a1531b28e15c0e5e0f20f9c11e53fd22787",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/when-was-the-last-time-you-ate-dinner-in-the-toilet/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/where-are-you-and-what-does-it-feel-like-being-there/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/whitstable_sunset_tdc/": {
+      "hash": "1f1b9f6c1ba24fffee07e4ae75588e9d4b320e56efdcf9039015db371cf01cf2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/why-do-you-cycle/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/why-dont-you-turn-of-the-computer-and-go-and-do-something-less-boring-instead/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/wildfire-as-catalyst/": {
+      "hash": "f3f10abb0488a540f554ef156e55d464d8f452104dac87e40120cba7d3fd7af7",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/wishy_washy/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/work_life/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/working-from-home/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/working-long-hours-photographing-road-works-and-getting-a-reply-from-the-highways-agency-any-ideas/": {
+      "hash": "02e9c04ff75f260a7c909c8e33d7a08b17564ed6f7c90e305bcfc37161bc8676",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/working_nights/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/working_through_the_list/": {
+      "hash": "ca16f077288e4358c6040565d80cd6911b881d0920638f7d44ed2172ad4a5b83",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/would_you_rather/": {
+      "hash": "58ce939b9aba62652b1f79527b76ade5f396de16d5330387cf2f9ca1ac157ea2",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/writings_on_the_wall/": {
+      "hash": "f365a793dda6567d44a9176dc8fe0e57fa14f41175ad6d2e23cd16710cb29722",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/xteink-x4/": {
+      "hash": "b0f7f4e342d8f26f233a5eda72aca4edec48c31e7b7520950012193ad1bbb8db",
+      "targets": {}
+    },
+    "https://bongotwisty.blog/yesterdays-balancing-act-pales-into-insignificance/": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "targets": {}
+    }
+  },
+  "version": 2
 }
