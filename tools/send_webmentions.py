@@ -58,7 +58,7 @@ from datetime import datetime, timezone, date
 
 # --- Config -------------------------------------------------------------
 
-SITE_URL = os.environ.get("SITE_URL", "https://bongotwisty.blog").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://bongotwisty.uk").rstrip("/")
 PUBLIC_DIR = Path("public")
 CACHE_PATH = Path("webmention-sent.json")
 MAX_PER_RUN = 20  # cap for incremental mode
@@ -79,12 +79,17 @@ EXCLUDE_DOMAINS = frozenset({
     "fediring.net",         # Fediring — same issue
     "creativecommons.org",  # licence badge in footer chrome
     "listenbrainz.org",     # ListenBrainz widget/profile link
+    "social.vivaldi.net",  # fediverse reaction pages (Bridgy-fed backlinks in display)
+    "mastodon.online",     # ditto
 })
 
 # Internal-link detection by hostname rather than string prefix, so
 # www.-prefixed internal links are correctly treated as internal.
 SITE_HOST = urlparse(SITE_URL).netloc.lower().split(":")[0].removeprefix("www.")
-INTERNAL_HOSTS = {SITE_HOST, "www." + SITE_HOST}
+INTERNAL_HOSTS = {
+    SITE_HOST, "www." + SITE_HOST,
+    "bongotwisty.blog", "www.bongotwisty.blog",  # legacy domain, during migration
+}
 
 
 # --- Small helpers -------------------------------------------------------
