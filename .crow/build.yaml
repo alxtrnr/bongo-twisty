@@ -6,7 +6,7 @@ steps:
       TZ: Europe/London
       SITE_URL: https://bongotwisty.uk
       HUGO_CACHE_DIR: /tmp/hugo_cache
-      WM_DOMAIN: www.bongotwisty.uk
+      WM_DOMAIN: bongotwisty.uk
       WM_TOKEN:
         from_secret: wm_token
 
