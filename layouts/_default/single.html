@@ -31,13 +31,17 @@
     {{/* Pagefind indexes only what's inside data-pagefind-body */}}
     <div data-pagefind-body>
       {{ .Content }}
+      
     </div>
 
     {{ if eq .Section "posts" }}
+      {{ partial "around-the-web.html" . }}
       {{ partial "email-comment.html" . }}
-    
+      
     {{ end }}
   </content>
+
+
 
   {{ if eq .Type $mainSection }}
     {{ $tags := .GetTerms "tags" }}
