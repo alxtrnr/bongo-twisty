@@ -7,6 +7,25 @@ domains and writes a Hugo data file (data/webmentions.json) keyed by
 site path, so the site can display minimal, link-only "Around the
 web" backlinks.
 
+THREE DATA SOURCES, MERGED IN ORDER (earlier sources win):
+
+1. Archive (ground truth for history): webmention.io's JF2 feed and
+   exports have been observed to serve an incomplete projection of
+   the account's stored mentions (dashboard count vs feed count
+   disagree; records consolidate on re-verification; exports inherit
+   the feed's gaps). data/webmentions-archive.jf2.json - a full export
+   captured 2026-11-17 - is parsed first so history cannot shrink.
+
+2. Supplement (hand-restored mentions): 19 mentions that the hosted
+   service lost after an account merge, restored from the dashboard's
+   HTML view on 2026-11-17. Held in data/webmentions-supplement.json
+   in the display format (path-keyed, url/author/host/type/ts),
+   merged after the archive.
+
+3. Live feed: future mentions (which target bongotwisty.uk and file
+   cleanly on the current account) flow in via the webmention.io API
+   and can only ADD entries.
+
 Display philosophy (following V.H. Belvadi's pattern): link back to
 the source with credit, embed nothing. No reply text, no avatars, no
 content from the sender's page is ever copied or displayed.
@@ -27,8 +46,10 @@ fetcher pages until it receives no children (with a hard page cap).
 Run from the repository root, BEFORE the hugo build:
   WM_TOKEN=xxx python3 tools/fetch_webmentions.py && hugo
 
-Do NOT commit data/webmentions.json to the repo: it is regenerated on
-every build, and incoming mentions change without the repo changing.
+Commit data/webmentions-archive.jf2.json and
+data/webmentions-supplement.json to the repo (they are the historical
+record). Do NOT commit data/webmentions.json: it is regenerated on
+every build.
 """
 
 import json
@@ -48,6 +69,8 @@ WM_TOKEN = os.environ.get("WM_TOKEN", "")
 DEBUG = os.environ.get("DEBUG", "0") in ("1", "true", "yes")
 
 DATA_PATH = Path("data/webmentions.json")
+ARCHIVE_PATH = Path("data/webmentions-archive.jf2.json")
+SUPPLEMENT_PATH = Path("data/webmentions-supplement.json")
 
 # The API clamps per_page to 20 whatever we ask for; the value here
 # only shapes the request. Termination is by empty page, not length.
@@ -158,7 +181,96 @@ def host_of(url: str):
         return None
 
 
-# --- Fetch ---------------------------------------------------------------
+def load_jf2_children(data):
+    """
+    Accept a JF2 document in either shape: a feed wrapper
+    {"type": "feed", "children": [...]} or a bare list of entries.
+    """
+    if isinstance(data, dict):
+        return data.get("children", [])
+    if isinstance(data, list):
+        return data
+    return []
+
+
+# --- Source 1: archive (ground truth for history) -----------------------
+
+
+def load_archive():
+    """
+    Parse the committed JF2 export into (by_path, seen) using exactly
+    the same rules as the live feed. Returns empty structures if the
+    archive file is absent, so the fetcher still works without it.
+    """
+    by_path = {}
+    seen = set()
+    if not ARCHIVE_PATH.exists():
+        print(f"No archive at {ARCHIVE_PATH}; history relies on the live feed.")
+        return by_path, seen
+
+    try:
+        with ARCHIVE_PATH.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"WARN: could not parse archive file: {e}", file=sys.stderr)
+        return by_path, seen
+
+    children = load_jf2_children(data)
+    used = 0
+    for item in children:
+        parsed = parse_item(item)
+        if parsed is None:
+            continue
+        path_key, display = parsed
+        dedupe_key = (display["url"], path_key, display["type"])
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+        by_path.setdefault(path_key, []).append(display)
+        used += 1
+
+    print(f"Archive: loaded {used} mentions across {len(by_path)} pages.")
+    return by_path, seen
+
+
+# --- Source 2: supplement (hand-restored mentions) ---------------------
+
+
+def load_supplement(by_path, seen):
+    """
+    Merge the committed supplement file (display format: path-keyed
+    display dicts) into the accumulated results. Only adds entries
+    the archive does not already hold.
+    """
+    if not SUPPLEMENT_PATH.exists():
+        return 0
+    try:
+        with SUPPLEMENT_PATH.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"WARN: could not parse supplement file: {e}", file=sys.stderr)
+        return 0
+    if not isinstance(data, dict):
+        return 0
+
+    added = 0
+    for path_key, entries in data.items():
+        if not isinstance(entries, list):
+            continue
+        for display in entries:
+            if not isinstance(display, dict) or "url" not in display:
+                continue
+            dedupe_key = (display.get("url"), path_key, display.get("type"))
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+            by_path.setdefault(path_key, []).append(display)
+            added += 1
+    print(f"Supplement: merged {added} restored mentions.")
+    return added
+
+
+# --- Source 3: live feed -------------------------------------------------
 
 
 def api_url(domain: str, page: int):
@@ -192,10 +304,6 @@ def fetch_all_mentions(domain: str):
     so page length tells us nothing about completeness. The only
     reliable end signal is an empty page, so we keep paging until
     one comes back with no children (or the safety cap is hit).
-
-    Note: if the mention total is an exact multiple of the page size,
-    the final request returns an empty page and costs one extra call.
-    That is acceptable.
     """
     all_children = []
     for page in range(1, MAX_PAGES + 1):
@@ -293,9 +401,18 @@ def main():
         )
         sys.exit(1)
 
-    by_path = {}
-    seen = set()
+    # History first: the archive is ground truth and cannot be
+    # altered by whatever the live feed later reports.
+    by_path, seen = load_archive()
+    archive_pages = len(by_path)
+
+    # Restored mentions second: hand-recovered from the dashboard
+    # after the hosted service lost them.
+    load_supplement(by_path, seen)
+
+    # Live feed last: can only add.
     total_received = 0
+    added_from_feed = 0
 
     for domain in WM_DOMAINS:
         children = fetch_all_mentions(domain)
@@ -312,6 +429,7 @@ def main():
                 continue
             seen.add(dedupe_key)
             by_path.setdefault(path_key, []).append(display)
+            added_from_feed += 1
 
     # Stable ordering: oldest first within each page
     for path_key in by_path:
@@ -326,9 +444,10 @@ def main():
     pages = len(by_path)
     mentions = sum(len(v) for v in by_path.values())
     print(
-        f"Fetched {total_received} mentions across {len(WM_DOMAINS)} domains; "
-        f"wrote {mentions} displayable mentions across {pages} pages "
-        f"to {DATA_PATH}."
+        f"Feed: fetched {total_received} mentions, {added_from_feed} new "
+        f"beyond archive+supplement. "
+        f"Wrote {mentions} displayable mentions across {pages} pages "
+        f"({archive_pages} from archive) to {DATA_PATH}."
     )
 
 
