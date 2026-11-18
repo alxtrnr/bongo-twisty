@@ -6,7 +6,7 @@
 # Enhanced with: GLightbox Image Render Hook with three-step resource lookup
 
 # Basic site configuration
-baseURL = "https://bongotwisty.blog/"
+baseURL = "https://bongotwisty.uk/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
 locale = "en-gb"
@@ -99,7 +99,7 @@ hcard_locality   = "Medway"
 hcard_region     = "Kent"
 hcard_country    = "England"
 hcard_mastodon   = "https://social.vivaldi.net/@BongoTwisty"
-hcard_url        = "https://www.bongotwisty.blog"
+hcard_url        = "https://bongotwisty.uk"
 
 
 # IMPORTANT: Keep this as 'images' (not social_images) for theme compatibility
