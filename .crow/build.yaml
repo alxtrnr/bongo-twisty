@@ -6,7 +6,6 @@ steps:
       TZ: Europe/London
       SITE_URL: https://bongotwisty.uk
       HUGO_CACHE_DIR: /tmp/hugo_cache
-      WM_DOMAIN: bongotwisty.uk
       WM_TOKEN:
         from_secret: wm_token
 
@@ -15,7 +14,13 @@ steps:
       - curl -L https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.deb -o /tmp/hugo.deb
       - dpkg -i /tmp/hugo.deb
       - git submodule update --init --recursive
-      - WM_TOKEN="$${WM_TOKEN}" WM_DOMAIN="$${WM_DOMAIN}" python3 tools/fetch_webmentions.py
+      # First build: produces public/sitemap.xml for the fetcher.
+      # No --gc/--minify needed; output is overwritten below.
+      - hugo --baseURL "${SITE_URL}/" --cacheDir "$HUGO_CACHE_DIR"
+      # Fetch mentions per sitemap target (legacy webmention.io API,
+      # needs no token); writes data/webmentions.json.
+      - WM_TOKEN="$${WM_TOKEN}" python3 tools/fetch_webmentions.py
+      # Second build: renders pages with the fresh mention data.
       - hugo --gc --minify --baseURL "${SITE_URL}/" --cacheDir "$HUGO_CACHE_DIR"
       - npx -y pagefind@1.3.0 --site public
       - test -f public/index.html
