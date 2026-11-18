@@ -22,7 +22,7 @@ S2 and S3 are both now involved in the alpha/beta testing phase of the music app
 
 **Work**:\
 Got a few things done. Few boxes ticked. Poked and prodded a bottleneck to help move things along a bit. That may have backfired. What was endorsed in August may no longer be in favour. Time to step back and pause.\
-On Friday I spent a bit of time developing a tool to scrape the CQC website of data relating to the outcome of local authority assessments. See this [post](https://www.bongotwisty.blog/cqc/) if that's of any interest to you.
+On Friday I spent a bit of time developing a tool to scrape the CQC website of data relating to the outcome of local authority assessments. See this [post](https://bongotwisty.uk/cqc/) if that's of any interest to you.
 
  
 **Cycling**:\

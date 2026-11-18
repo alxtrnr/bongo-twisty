@@ -7,7 +7,7 @@ images = []
 tags = ["cycling"]
 +++
 
-For the last couple of years I've spent the last two weeks of May cycle touring. South Foreland Lighthouse near Dover to [Cape Wrath](https://www.bongotwisty.blog/cape_wrath/) Lighthouse, NW Scotland (plus a bit more) in 2024. The [West of Ireland](https://www.bongotwisty.blog/gallery/cycling/ireland/) and [signature discovery points](https://www.thewildatlanticway.com/discovery-points/) of the Wild Atlantic Way in 2025. 
+For the last couple of years I've spent the last two weeks of May cycle touring. South Foreland Lighthouse near Dover to [Cape Wrath](https://bongotwisty.uk/cape_wrath/) Lighthouse, NW Scotland (plus a bit more) in 2024. The [West of Ireland](https://bongotwisty.uk/gallery/cycling/ireland/) and [signature discovery points](https://www.thewildatlanticway.com/discovery-points/) of the Wild Atlantic Way in 2025. 
 
 Chatting with an old friend yesterday about possibilities for 2026. Back in 2012 we set out to ride the North Sea Cycle Route (NSCR) in stages as and when time allowed. We made a good start. In England we followed the route the from Dover to Newcastle. In Europe we covered from Dunkirk through Belgium, the Netherlands and Germany up to near the Danish boarder. There were a few gaps along the way but it was mostly done. Good times that I look back on with happy memories. 
 

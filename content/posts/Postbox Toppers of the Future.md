@@ -14,4 +14,4 @@ Delighted to see that the yarnbomber who regularly adorned this postbox before i
 
 ![A solar‑topped red postbox wearing a grey yarn topper dotted with brightly coloured knitted rockets and stars.](20260529_space_highham_03.jpg '{"title": "Space: Higham", "gallery": "/gallery/postbox_toppers"}')
 
-If you like these check out this [gallery](https://www.bongotwisty.blog/gallery/postbox_toppers/) for a load more.
+If you like these check out this [gallery](https://bongotwisty.uk/gallery/postbox_toppers/) for a load more.

@@ -29,7 +29,7 @@ So my blog is now hosted and published on three platforms.
 
 | Platform | Domain | Role | Custom domain |
 |---|---|---|---|
-| Git Hub Pages | [bongotwisty.blog](https://www.bongotwisty.blog) | Primary | Yes (configured in GitHub repo settings) |
+| Git Hub Pages | [bongotwisty.blog](https://bongotwisty.uk) (since migrated) | Primary | Yes (configured in GitHub repo settings) |
 | Codeberg Pages | [bongotwisty.codeberg.page](https://bongotwisty.codeberg.page) | Mirror / backup | No (uses default Codeberg Pages URL) |
 | Codefloe Pages | [bongo-twisty.bongotwisty.codefloe.page](https://bongo-twisty.bongotwisty.codefloe.page) | Contingency | No (uses default Codefloe Pages URL) |
 

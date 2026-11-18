@@ -7,7 +7,7 @@ images = ["20250920_halloween_higham.jpg"]
 tags = []
 +++
 
-A couple more for the [collection](https://www.bongotwisty.blog/gallery/postbox_toppers/). Seasonal additions in October for the run up to Halloween. These two post boxes are at either end of Highham, a small village in Medway. The toppers are changed every now and then and sometimes swapped between the post boxes at one end with the other. I think the same person does them both. Whoever it is they're doing a great job. Skilled, community minded, with a great sense of humour and playfullness.  
+A couple more for the [collection](https://bongotwisty.uk/gallery/postbox_toppers/). Seasonal additions in October for the run up to Halloween. These two post boxes are at either end of Highham, a small village in Medway. The toppers are changed every now and then and sometimes swapped between the post boxes at one end with the other. I think the same person does them both. Whoever it is they're doing a great job. Skilled, community minded, with a great sense of humour and playfullness.  
 
 ![A colorful knitted Halloween display featuring various crocheted pumpkins in orange, red, and pink arranged on a turquoise knitted tablecloth. The display includes a black cat figure wearing a witch's hat, autumn leaves in red and orange, and small decorative elements scattered around. The tablecloth has a scalloped edge and the scene is photographed outdoors against a stone wall background.](20250920_halloween_higham.jpg '{"title": "Halloween, Lower Higham", "gallery": "/gallery/postbox_toppers"}')
 

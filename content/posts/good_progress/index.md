@@ -7,7 +7,7 @@ tags = ["cycling"]
 
 Happy to be ending this month on a good note.  
 
-Sent the [damaged Karoo 3](https://www.bongotwisty.blog/cracked_screen/) back on Tuesday. A brand new boxed unit with all accessories included arrived on Saturday. Hammerhead gave me 50% off the RRP. The additional bracket, 1/4 turn mount, charging cable and lanyard were all a welcome bonus. They're worth £52.00 when bought separately. Free P&P for the return and replacement. Pretty good service in my books. 
+Sent the [damaged Karoo 3](https://bongotwisty.uk/cracked_screen/) back on Tuesday. A brand new boxed unit with all accessories included arrived on Saturday. Hammerhead gave me 50% off the RRP. The additional bracket, 1/4 turn mount, charging cable and lanyard were all a welcome bonus. They're worth £52.00 when bought separately. Free P&P for the return and replacement. Pretty good service in my books. 
 
 I bought a gel bumper case to help protect it and had this ready and waiting when it arrived. Screen protectors are in transit. All I need to be now is a bit more careful.
 
@@ -37,7 +37,7 @@ Yesterdays ride made my yearly Eddington number (km) a personal best since the y
 2012: 28
 ```
 
-I've achieved this on the way to beating my overall distance total for 2015. I made passing mention of setting that goal [here](https://www.bongotwisty.blog/2024-and-10000-miles-done/), in my first post for 2025. That goal seems within reach barring any mishaps in December. This is how things stand as of today... 
+I've achieved this on the way to beating my overall distance total for 2015. I made passing mention of setting that goal [here](https://bongotwisty.uk/2024-and-10000-miles-done/), in my first post for 2025. That goal seems within reach barring any mishaps in December. This is how things stand as of today... 
 
 
 ```bash
@@ -59,4 +59,4 @@ To reach your goal, you need:
 
 If you happen to be on RWGPS add me as a [friend](https://ridewithgps.com/users/151788/) - I'll add you back. Happy to connect and see what you are up to. 
 
-For a smaller niche interest group (you're on RWGPS, interested in the stats above, and okay about using Python scripts and CLI apps) I wrote about how they're generated in this [post](https://www.bongotwisty.blog/stats_cli/). The code for the [Cycling Stats CLI](https://github.com/alxtrnr/cycling-stats-cli) is on GitHub. 
+For a smaller niche interest group (you're on RWGPS, interested in the stats above, and okay about using Python scripts and CLI apps) I wrote about how they're generated in this [post](https://bongotwisty.uk/stats_cli/). The code for the [Cycling Stats CLI](https://github.com/alxtrnr/cycling-stats-cli) is on GitHub. 

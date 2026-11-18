@@ -5,7 +5,7 @@ date = 2014-05-21
 tags = ["Cycling"]
 +++
 
-An update to my post, '[A Space for Cycling in Medway](https://www.bongotwisty.blog/space_for_cycling/)'. I received a further reply via my ward councillor yesterday...
+An update to my post, '[A Space for Cycling in Medway](https://bongotwisty.uk/space_for_cycling/)'. I received a further reply via my ward councillor yesterday...
 
 > Dear [Councillor Turpin](http://democracy.medway.gov.uk/mgUserInfo.aspx?UID=678 "Rupert Turpin")
 > 

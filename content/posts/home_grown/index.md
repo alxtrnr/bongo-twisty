@@ -6,7 +6,7 @@ date = 2007-10-21
 
 Home grown in Medway. Our lawn and two local artists. Our lawn first.
 
-It's now 21 days since the seed went down. Growth has slowed a bit from the amazing pace seen between being [seeded]( https://www.bongotwisty.blog/growing_grass/), to [seven days](https://www.bongotwisty.blog/seven_days_post_seeding/), then [fourteen](https://www.bongotwisty.blog/fourteen_days_post_seeding/).
+It's now 21 days since the seed went down. Growth has slowed a bit from the amazing pace seen between being [seeded]( https://bongotwisty.uk/growing_grass/), to [seven days](https://bongotwisty.uk/seven_days_post_seeding/), then [fourteen](https://bongotwisty.uk/fourteen_days_post_seeding/).
 
 The bald patches are slowly getting covered and the rest is generally getting a bit thicker. I wish my hair would grow like that!
 

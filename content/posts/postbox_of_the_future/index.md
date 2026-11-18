@@ -7,7 +7,7 @@ draft = false
 tags = ["Post Box Topper"]
 +++
 
-I love a [postbox topper](https://www.bongotwisty.blog/gallery/postbox_toppers/). A post box I pass by on a regular basis nearly always has one on top. This may be the last of it's kind on this one - 
+I love a [postbox topper](https://bongotwisty.uk/gallery/postbox_toppers/). A post box I pass by on a regular basis nearly always has one on top. This may be the last of it's kind on this one - 
 
 ![Knitted ocean‑themed post box topper in Higham featuring a large grey whale surrounded by colourful woollen fish, seaweed, and small sea creatures on a crocheted beige cover.](20260226_whale_higham.jpg '{"title": "Sea Creatures, Higham", "gallery": "/gallery/postbox_toppers"}')
 

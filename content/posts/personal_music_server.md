@@ -5,7 +5,7 @@ date = 2026-02-13
 tags = []
 +++
 
-A few months ago I [set my music free](https://www.bongotwisty.blog/set_the_music_free/) with an instance of the Navidrome Music Streaming Server on [Pikapod](https://www.pikapods.com). It was very easy. I was up and running in no time. 
+A few months ago I [set my music free](https://bongotwisty.uk/set_the_music_free/) with an instance of the Navidrome Music Streaming Server on [Pikapod](https://www.pikapods.com). It was very easy. I was up and running in no time. 
 
 There was an old laptop that I could have used as a server but was put off by the thought of wrangling network settings. I had my fill of that with a Nextcloud instance on a Raspberry Pie some years ago.
 

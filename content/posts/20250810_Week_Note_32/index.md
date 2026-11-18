@@ -24,7 +24,7 @@ Just a couple of days without a ride. Tuesday and Thursday. Decent overall stats
 I started the week knowing there was a lot to get done by Friday. Monday went well. I submitted two completed assignments I'd been working on for a little while. They'd been reviewed and just needed some final tweaks to past muster.\
 Attended a remote meeting in the afternoon that set the direction for the rest of the week. The meeting was cancelled by higher ups just as it started. A few of us had logged in already. We had things to discuss so went ahead anyway. It was a very productive conversation.\
 Had useful conversations with a couple of colleagues. The first was to apologise about what I thought had been a defensive response from me to feedback, which I'd asked for and been given. My colleague was very gracious in saying they did not find my response defensive at all. That created space to go over the subject matter and pull out learning points for both of us.\
-Had an in person team meeting on [Wednesday](https://www.bongotwisty.blog/hopping_down_in_kent/).\
+Had an in person team meeting on [Wednesday](https://bongotwisty.uk/hopping_down_in_kent/).\
 The other helpful conversation was on Thursday. I'd spent most of the week creating supplementary practice guidance the need for which was established in the Monday meeting. We reviewed it together. Their input was invaluable. Really worthwhile couple of hours.\
 Rounded up on Friday so that things are where they need to be for Monday and to present on Wednesday. 
 
@@ -51,7 +51,7 @@ The boys seem happy enough. No.3 is on the front-line. Sports Direct in Chatham 
 Sunday afternoon football taxi service and sideline duties have recommenced.  
 
 **Computer & Internet**\
-Blaugust. A month long festival of blogging. Posted about it [here](https://www.bongotwisty.blog/blaugust/). As with lots of things, I have approached the first week in a way that seems unsustainable. I shall not curb my enthusiasm. That will wane all on it's own. For now Blaugust is serving as a vehicle to help learn more about Hugo, to encourage me to write more, add to my digital scrap book, and to be inspired from the sites I visit and posts I read.\
+Blaugust. A month long festival of blogging. Posted about it [here](https://bongotwisty.uk/blaugust/). As with lots of things, I have approached the first week in a way that seems unsustainable. I shall not curb my enthusiasm. That will wane all on it's own. For now Blaugust is serving as a vehicle to help learn more about Hugo, to encourage me to write more, add to my digital scrap book, and to be inspired from the sites I visit and posts I read.\
 Top of my list this week has been Jedda's [site](https://notes.jeddacp.com). I love the way Jedda organises content. Also, the different approach to the traditional blog roll with a [postroll](https://notes.jeddacp.com/postroll/) instead. Great idea. I may get round to creating something like it.\
 I changed my mind about not using the term Week Notes for posts like this. I shall appropriate the term and make it meaningful to me.  
 

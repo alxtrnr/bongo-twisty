@@ -12,7 +12,7 @@ This site supports [Webmentions](https://indieweb.org/Webmention). If your site 
 
 I use [webmention.io](https://webmention.io) as an inbox for this space:
 
-- Endpoint: `https://webmention.io/bongotwisty.blog/webmention`
+- Endpoint: `https://webmention.io/bongotwisty.uk/webmention`
 - The endpoint is advertised via a `<link rel="webmention">` tag in the HTML `<head>` of each page.
 
 I’m not currently rendering Webmentions publicly on posts. I check them via the webmention.io dashboard and may follow links or respond, but they’re not shown as a visible comments thread.

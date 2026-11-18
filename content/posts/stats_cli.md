@@ -9,7 +9,7 @@ images = []
 
 News years day 2015.  Full of hopes and good intentions. I joined a Ride Every Day Challenge.
 
-Only one way to go about that sort of thing. One day at a time. There was plenty of times when I just rode round the block. Some rides were less than a km. I made it to the end though [without missing a day](https://www.bongotwisty.blog/gallery/cycling/rwgps_recap/2015/).
+Only one way to go about that sort of thing. One day at a time. There was plenty of times when I just rode round the block. Some rides were less than a km. I made it to the end though [without missing a day](https://bongotwisty.uk/gallery/cycling/rwgps_recap/2015/).
 
 {{< rwgpsimg year="2015" name="y_2015_RWGPS.webp" alt="2015 recap" class="float-right" >}}
 
@@ -19,10 +19,10 @@ This was and remains the most distance I've ridden in one year. Nearly matched i
 
 That got me thinking it might be possible to best 2015's total. What with me being ten years older, if none the wiser, it seemed like a good thing to aim for in 2025. 
 
-It's not been a year of riding every day. Had a feeling I was on track though. Writing [week notes](https://www.bongotwisty.blog/week362025/) this Monday prompted me to check on progress.\
+It's not been a year of riding every day. Had a feeling I was on track though. Writing [week notes](https://bongotwisty.uk/week362025/) this Monday prompted me to check on progress.\
 At just under 69% through the year, 69% of the distance required had been completed. No idea progress and time was so closely aligned. Very encouraging. 
 
-Thinking more about this during my morning ride today. Had an idea to build on, "[Eddington Number. A Cycling Statistics App](https://www.bongotwisty.blog/eddington-number-a-cycling-statistics-app./)", I created during February of this year. Wondered how I could add to the code and have it track an annual goal and display the distance I needed to do on a daily, weekly or monthly basis to reach it. The distance would be updated whenever I synced the app with new ride data added to my account on RWGPS. 
+Thinking more about this during my morning ride today. Had an idea to build on, "[Eddington Number. A Cycling Statistics App](https://bongotwisty.uk/eddington-number-a-cycling-statistics-app./)", I created during February of this year. Wondered how I could add to the code and have it track an annual goal and display the distance I needed to do on a daily, weekly or monthly basis to reach it. The distance would be updated whenever I synced the app with new ride data added to my account on RWGPS. 
 
 Spent a bit of time on it today. Managed to come up with something that does what I was thinking of and a bit more.
 

@@ -28,6 +28,6 @@ Perhaps justified by a misplaced logic that to change course indicates a lack of
 
 Sometimes it may be more consistent and committed to change approach. When I learn something new, have some insight, become aware of what is being counter to what I thought was. To recognise psychological discomfort as an indicator I may be selling out, abandoning my principles.
 
-Adapting to change and evolving over time does not necessarily equate to being disloyal. Exploring my [core principles](https://www.bongotwisty.blog/intrinsic_values/) working through those which are inherited, outdated, or misguided, and adopting effective strategies to hold true to those which remain is time well spent.
+Adapting to change and evolving over time does not necessarily equate to being disloyal. Exploring my [core principles](https://bongotwisty.uk/intrinsic_values/) working through those which are inherited, outdated, or misguided, and adopting effective strategies to hold true to those which remain is time well spent.
 
 Consistency is anchored to principles. Commitment with outcomes. Loyalty with relationships. These three attributes may become blurred. The same behaviour may serve all of at once. The same language can be used to justify each. A split happens when they point to different actions. Noticing which one has set the heading, pausing when necessary to make sure principles are in the driving seat and outcomes and relationships are in the back, safely restrained by the ethical harness of core values, this seems like the way to go.

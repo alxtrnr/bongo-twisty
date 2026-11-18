@@ -6,7 +6,7 @@ draft = false
 tags = ["cycling"]
 +++
 
-The 21st [Paris-Brest-Paris Randonneur](https://www.paris-brest-paris.org/en/) is taking place in 2027. When I completed [the 2019 event](https://www.bongotwisty.blog/audax-paris-brest-paris-1200k/), the support, encouragement and general goodwill of spectators along the route was what stuck with me the most. The challenge of riding the distance (1200km) in under 90hrs and all the rolling hills along the way became little more than a fading memory.
+The 21st [Paris-Brest-Paris Randonneur](https://www.paris-brest-paris.org/en/) is taking place in 2027. When I completed [the 2019 event](https://bongotwisty.uk/audax-paris-brest-paris-1200k/), the support, encouragement and general goodwill of spectators along the route was what stuck with me the most. The challenge of riding the distance (1200km) in under 90hrs and all the rolling hills along the way became little more than a fading memory.
 
 I quite fancy having another go at it next year. There's 8000 places but I'm pretty sure it will be oversubscribed. The earliest pre-registration opens on January 16th 2027 for those that have completed a 1000+km BRM ([Brevet des Randonneurs Mondiaux](https://www.audax.uk/about-audax/classifications/)) in 2026.
 

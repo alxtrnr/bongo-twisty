@@ -10,7 +10,7 @@ Before setting off again I went to get the Karoo from my jersey pocket. I'd take
 
 I must have missed the jersey pocket and instead put it between the jersey and the hi-vis reflective gilet I was wearing. As I went to retrieve it, fumbling about with my gloves on created a gap between the two tops and the Karoo fell to the floor. 
 
-Less than a month old and I've cracked the screen. Gutted. It's literally just a month since I [cracked the screen on the old one](https://www.bongotwisty.blog/karoo2/).  
+Less than a month old and I've cracked the screen. Gutted. It's literally just a month since I [cracked the screen on the old one](https://bongotwisty.uk/karoo2/).  
 
 ![](01_cracked_karoo.jpeg)
 

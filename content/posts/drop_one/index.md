@@ -25,4 +25,4 @@ Update on the Highways front. I have a date. I shall be out taking pictures of t
 
 Back to the post of the 17th. In it I wrote about doing things differently. This little planned excursion is some proof to me of the benefit of that intention. The only thing I did different was to express an intention and put some action into making it happen. Nothing like a success to encourage repetition. With that in mind I'm starting to think of other stuff I'd like to do and never got round to, and set myself another objective.
 
-If you read this far thanks. Here's the [link](https://www.bongotwisty.blog/its_all_about_me/) back to the post of the 17th if you missed it and want to have a look. Like the advert says "...because you deserve it" ;0)
+If you read this far thanks. Here's the [link](https://bongotwisty.uk/its_all_about_me/) back to the post of the 17th if you missed it and want to have a look. Like the advert says "...because you deserve it" ;0)

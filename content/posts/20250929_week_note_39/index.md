@@ -19,7 +19,7 @@ No dramas. Oh other than the Corporate Director bidding his farewells on Thursda
 Just two rides. Both on the same day. One in the morning and one at night. My hands were freezing on the morning ride. Clear skies at night. The night time ride was okay. Cloud cover during the day kept the temperature up.  117km total. I have often not managed the transition from warm to cold weather very well. When it's one thing or another I can dress for that. It's automatic. Warm one minute and cold the next takes a bit more thinking. I've ordered some new cold weather riding clothes. 
 
 **Photography**:\
-Took a few snaps while down in [Folkestone at the weekend](https://www.bongotwisty.blog/harbour_arm/). Another of a friend sat next to the artesian well at Harty Ferry. I should remember to ask about sharing. Without permission it does not feel right to do so. 
+Took a few snaps while down in [Folkestone at the weekend](https://bongotwisty.uk/harbour_arm/). Another of a friend sat next to the artesian well at Harty Ferry. I should remember to ask about sharing. Without permission it does not feel right to do so. 
  
 **Listening**:
 

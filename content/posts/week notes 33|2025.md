@@ -19,7 +19,7 @@ Nothing special this week. Aural wallpaper. No live events. No purchases. No rip
 Worked in a visit to my younger sister and her husband during Sundays ride. Spouse has been away for the weekend to see her mum in the west country. Boy's are doing okay. Football training on Saturday. The youngest gets his GCSE results next week. It's not really a big deal in our family. They are what they are. Life goes on whatever the outcome. Doors open and close all the time. There is opportunity in both states. 
 
 **Photography**\
-Spent some time processing pictures from a bike tour I completed last year to [Cape Wrath](https://www.bongotwisty.blog/cape_wrath/). Taken a few shots. Nothing that stands out. It's all good practice. 
+Spent some time processing pictures from a bike tour I completed last year to [Cape Wrath](https://bongotwisty.uk/cape_wrath/). Taken a few shots. Nothing that stands out. It's all good practice. 
 
 **Computer & Internet**\
 I've been reading people's blogs. Mostly those of people taking part in [Blaugust](https://nerdgirlthoughts.game.blog/2025/08/03/blaugust2025-meet-the-mentors-blogroll/). A good few posts have chimed for me.

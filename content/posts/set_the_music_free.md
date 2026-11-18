@@ -7,7 +7,7 @@ tags = ["music"]
 
 In the last few days I have learned how to very easily access all my digital music files remotely. My personal music streaming service. It's great. I am very happy. 
 
-It's not the first time I've tinkered about with something like this. A few years ago I ran a [NextcloudPi](https://www.bongotwisty.blog/nextcloudpi-bringing-the-cloud-indoors/) instance with a couple of HDDs connected to it. There was a lot of faffing about to set it up. When it worked it worked. Problem was from time to time it would stop working and need more time faffing about to get it running again. I stuck with it for 6 -12 months before getting fed up with trouble shooting failures and giving up on it. It was most likely down to my own ineptitude.
+It's not the first time I've tinkered about with something like this. A few years ago I ran a [NextcloudPi](https://bongotwisty.uk/nextcloudpi-bringing-the-cloud-indoors/) instance with a couple of HDDs connected to it. There was a lot of faffing about to set it up. When it worked it worked. Problem was from time to time it would stop working and need more time faffing about to get it running again. I stuck with it for 6 -12 months before getting fed up with trouble shooting failures and giving up on it. It was most likely down to my own ineptitude.
 
 Fast forward to now and things have been much much easier. A [Navidrome](https://www.navidrome.org) instance hosted on [PikaPod](https://www.pikapods.com). All my music files easily synced using [rclone](https://rclone.org).  500GB storage, 1 CPU and 2GB ram is coming in at about £7.00 a month. 
 

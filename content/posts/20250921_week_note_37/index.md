@@ -17,7 +17,7 @@ Opportunity knocks for s2. A good friend of mine is planning to launch a music &
 **Work**:\
 Very productive on Monday. Made a great start on reviewing practice guidance on DNACPR (‘Do not attempt cardiopulmonary resuscitation (CPR)).\
 Tuesday was all about speaker notes for training I'm preparing on positive risk taking and risk enablement.\
-Wednesday was an in person team meeting. My monthly office visit and face to face with colleagues. Good to spend time with them. We went for lunch. That got a bit [odd](https://www.bongotwisty.blog/oddfellow/).\
+Wednesday was an in person team meeting. My monthly office visit and face to face with colleagues. Good to spend time with them. We went for lunch. That got a bit [odd](https://bongotwisty.uk/oddfellow/).\
 Busy on Thursday dealing with practitioner queries. Always interesting. Always something to learn from these.\
 Friday revisited the DNACPR and actioned a few comments. Couple of hours in the afternoon tracking down a bug in a PowerAutomate flow. Pretty new to that. A less than or equal to should have been an equal to. Very pleased I managed to fix it. Helped out business support colleagues.  Another string to my bow. 
 
@@ -52,7 +52,7 @@ To reach your goal, you need:
 ```
 
 **Photography**:\
-A few snaps. A couple of [Postbox Toppers](https://www.bongotwisty.blog/gallery/postbox_toppers/) I saw in Folkstone and the pictures included in this post.  
+A few snaps. A couple of [Postbox Toppers](https://bongotwisty.uk/gallery/postbox_toppers/) I saw in Folkstone and the pictures included in this post.  
 
 **Listening**:
 Went down a rabbit hole of LastFM stats displays. Played around with a few. Thinking I shall try a different one each week for a while. I created the table below with data [bijou.fm](https://www.bijou.fm) processed. FWIW not all the tunes I've listened to have been scrobbled but the list gives a good idea of the soundtrack to my week. King Tubby for the win.  

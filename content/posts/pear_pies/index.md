@@ -50,4 +50,4 @@ I enjoyed the ride. First one all week. I'd been feeling a bit run down and unde
 The year so far has not been great in terms of getting regular rides in. I got a bit distracted by following a training "plan". That broke my routine and was in turn impacted by giving blood, which I would normally do and then just carry on riding regardless. What gains I've got from HR zone training have I think been diminished by a combination of these factors. Thinking to go back to what was my regular pattern of riding and maybe use a couple of those rides a week to get in a spot of HR zone training on the way round. We shall see.  
 
 
-[^1]: See the foot notes in [this post](https://www.bongotwisty.blog/neighbourhood_200/) if you're interested in what RRtY means.  
+[^1]: See the foot notes in [this post](https://bongotwisty.uk/neighbourhood_200/) if you're interested in what RRtY means.  

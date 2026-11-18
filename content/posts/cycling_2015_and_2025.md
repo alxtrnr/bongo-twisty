@@ -26,7 +26,7 @@ Everything went up except the number of activities, which dropped by nearly half
 
 ### Tracking Progress
 
-During 2025 I built an [app](https://www.bongotwisty.blog/stats_cli/) to track my cycling stats and check progress against goals every now and then. The app pulls data from [RWGPS](https://ridewithgps.com/users/151788/) and let me see how I'm doing against annual targets, track my Eddington number and a few other metrics for good measure.  Having this helped maintain the pace and avoid a mad scramble towards the end of the year to catch up. 
+During 2025 I built an [app](https://bongotwisty.uk/stats_cli/) to track my cycling stats and check progress against goals every now and then. The app pulls data from [RWGPS](https://ridewithgps.com/users/151788/) and let me see how I'm doing against annual targets, track my Eddington number and a few other metrics for good measure.  Having this helped maintain the pace and avoid a mad scramble towards the end of the year to catch up. 
 
 My Eddington number (in km) for 2025 ended at 63. In 2015 it was 58. The Eddington number is the largest number where you've ridden at least that distance on at least that many occasions. My overall Eddington sits at 141 and just one ride short of 142. My long term aim is 200. 
 
@@ -47,7 +47,7 @@ In 2025 I averaged 0.70 activities per day, so roughly every other day, but each
 
 ### The Giant Circle 1000k
 
-The longest ride in 2025 was the [Giant Circle 1000k](https://www.bongotwisty.blog/the-giant-circle/) DIY in June. This was far beyond anything I completed in 2015.
+The longest ride in 2025 was the [Giant Circle 1000k](https://bongotwisty.uk/the-giant-circle/) DIY in June. This was far beyond anything I completed in 2015.
 
 
 | Ride | Distance | Climb | Moving time | Avg speed |
@@ -60,7 +60,7 @@ Starting and finishing in Chatham, the route followed a clockwise circle across 
 
 ### The West Coast of Ireland
 
-In May and early June I spent two weeks riding the [west coast of Ireland](https://www.bongotwisty.blog/gallery/cycling/ireland/) from Cork to Malin Head, visiting the 15 Signature Discovery Points of the Wild Atlantic Way.  Over 13 days I covered 1,853 km with 20,336 m of climbing. Turns out that was nearly 9% of my year's total distance and climbing.  May 2025 ended up as my highest-mileage month at 2,731.6 km. 
+In May and early June I spent two weeks riding the [west coast of Ireland](https://bongotwisty.uk/gallery/cycling/ireland/) from Cork to Malin Head, visiting the 15 Signature Discovery Points of the Wild Atlantic Way.  Over 13 days I covered 1,853 km with 20,336 m of climbing. Turns out that was nearly 9% of my year's total distance and climbing.  May 2025 ended up as my highest-mileage month at 2,731.6 km. 
 
 
 | Day | Route | Distance | Climb |

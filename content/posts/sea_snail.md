@@ -13,4 +13,4 @@ tags = ["Post Box Topper"]
 I had a feeling I'd find a fresh one at this spot in St Margaret's at Cliffe. The last time I passed by it was during Easter ![Red village postbox decorated with crocheted Easter designs beside a roadside.](20260405_easter_st_margarets_at_cliffe.jpg '{"title": "Easter, St Margarets at Cliffe", "gallery": "/gallery/postbox_toppers"}')
 
 
-Loads more in the [collection](https://www.bongotwisty.blog/gallery/postbox_toppers/).
+Loads more in the [collection](https://bongotwisty.uk/gallery/postbox_toppers/).

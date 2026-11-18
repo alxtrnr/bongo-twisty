@@ -7,7 +7,7 @@ images = []
 tags = []
 +++
 
-Back in July 2010 I made a passing mention in [this post](https://www.bongotwisty.blog/dancing_circles/) that one of my favourite Medway bands [The Singing Loins](https://thesingingloins1.bandcamp.com/music) had asked to use a photo I took of them playing at the local RAFA club for the inside of their next album/CD Stuff. 
+Back in July 2010 I made a passing mention in [this post](https://bongotwisty.uk/dancing_circles/) that one of my favourite Medway bands [The Singing Loins](https://thesingingloins1.bandcamp.com/music) had asked to use a photo I took of them playing at the local RAFA club for the inside of their next album/CD Stuff. 
 
 {{< glightbox-figure 
    src="loins.webp" 

@@ -6,7 +6,7 @@ draft = false
 tags = []
 +++
 
-On the 27th December 2015 I ditched Windows for Linux - Ubuntu 14.04 LTS ("Trusty Tahr"). I acted on impulse.  I wrote a short post at the time to mark the occasion - [Smashing Windows](https://www.bongotwisty.blog/smashing-windows/).
+On the 27th December 2015 I ditched Windows for Linux - Ubuntu 14.04 LTS ("Trusty Tahr"). I acted on impulse.  I wrote a short post at the time to mark the occasion - [Smashing Windows](https://bongotwisty.uk/smashing-windows/).
 
 The release of each new LTS is a natural opportunity to take stock and consider whether Ubuntu is still for me. It's been a great introduction to Linux. I have learned a lot. Certainly not an expert, but my knowledge and understanding has grown over time. 
 

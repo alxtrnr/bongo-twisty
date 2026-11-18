@@ -34,6 +34,6 @@ The flowerpot 'tog on the platform at Horton in Ribbleside turned out to be a pi
   {{< glightbox-figure src="settle_flowerpot_festival7.jpg" title="Emmeline Pankhurst - British suffragist" alt="" >}}
 </div>
 
-And in the market place was this postbox topper to add to the [collection](https://www.bongotwisty.blog/gallery/postbox_toppers/) 
+And in the market place was this postbox topper to add to the [collection](https://bongotwisty.uk/gallery/postbox_toppers/) 
 
 ![A red pillar postbox in Settle decorated with yarn bombing. On top sits a white crocheted flowerpot containing knitted figures of Bill and Ben the Flowerpot Men alongside Little Weed, the smiling weed character from the classic BBC children's programme. The postbox lid is covered by a grey crochet doily with white and yellow daisies and green foliage. Around the rim hangs a garland of multicoloured crocheted hearts, each embroidered with a letter spelling out FLOWERPOT MEN.](20260825_flowerpot_men_settle.jpg '{"title": "Flowerpot men - Settle.", "gallery": "/gallery/postbox_toppers"}')

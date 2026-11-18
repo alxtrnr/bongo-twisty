@@ -15,8 +15,8 @@ A few things come to mind that have helped.
 - Regularly getting out on my bike at 5.00 am for a 50km ride. Having a goto route when doing so. 
 - Living in Kent with easy access to country lanes and rural landscapes. 
 - Having a few side goals along the way. 
-- [Tracking](https://www.bongotwisty.blog/stats_cli/) my progress. 
-- Getting in a two week [bike tour](https://www.bongotwisty.blog/cycle-touring-the-fifteen-signature-discovery-points-of-the-wild-atlantic-way/) in May and a [few](https://ridewithgps.com/trips/347998210) [other](https://www.bongotwisty.blog/meglme/) [long](https://www.bongotwisty.blog/the-giant-circle/) rides during the year. 
+- [Tracking](https://bongotwisty.uk/stats_cli/) my progress. 
+- Getting in a two week [bike tour](https://bongotwisty.uk/cycle-touring-the-fifteen-signature-discovery-points-of-the-wild-atlantic-way/) in May and a [few](https://ridewithgps.com/trips/347998210) [other](https://bongotwisty.uk/meglme/) [long](https://bongotwisty.uk/the-giant-circle/) rides during the year. 
 - Riding in the dark with dynamo hub powered lights. 
 - Dressing for the weather. 
 - Living close to a fella who mends my bike when it breaks and not charging the earth to do so. 

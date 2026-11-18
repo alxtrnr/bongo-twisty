@@ -35,7 +35,7 @@ Spouse's medical test results all came back okay. Nothing serious to deal with. 
 Cancelled meetings. Modified time lines. What was urgent no longer seems so urgent. No updates provided as to reasons and future plans. I don't care. So long as I get paid for my time they can use it as they wish. Questioning logic and rational is fruitless.  Helps in some ways to keep things in perspective. Nothing matters that much for long. 
 
 **Cycling**:\
-409k done. A [200k](https://www.bongotwisty.blog/ladders/) on Sunday. Second consecutive [RRtY](https://www.audax.uk/awards-pages/randonneur-round-the-year/) completed. I'm on track for 18,000km by the end of the year. Extended the [Eddington Number](https://www.bongotwisty.blog/eddington-number-a-cycling-statistics-app./) app I created in February with [multi goal functionality](https://github.com/alxtrnr/cycling-stats-cli) to keep on top of progress. Pretty pleased with how that came out. Vibe coding. AI-assisted engineering. AI slop. Call it what you like. It never took long and does exactly what I had in mind... 
+409k done. A [200k](https://bongotwisty.uk/ladders/) on Sunday. Second consecutive [RRtY](https://www.audax.uk/awards-pages/randonneur-round-the-year/) completed. I'm on track for 18,000km by the end of the year. Extended the [Eddington Number](https://bongotwisty.uk/eddington-number-a-cycling-statistics-app./) app I created in February with [multi goal functionality](https://github.com/alxtrnr/cycling-stats-cli) to keep on top of progress. Pretty pleased with how that came out. Vibe coding. AI-assisted engineering. AI slop. Call it what you like. It never took long and does exactly what I had in mind... 
 
 ```bash
 Goal: Annual Distance Goal (20ef1aac-bd8a-49af-b09f-26e59ac1a682)
@@ -55,7 +55,7 @@ To reach your goal, you need:
 ```
 
 **Photography**:\
-Not a lot really. A few pics on Sunday. A couple more [Postbox Toppers](https://www.bongotwisty.blog/gallery/postbox_toppers/) added to the collection. A quick snap of a cycling buddy. I forgot to change the drive mode from single to multi shot. No worries. It'll come in time.\
+Not a lot really. A few pics on Sunday. A couple more [Postbox Toppers](https://bongotwisty.uk/gallery/postbox_toppers/) added to the collection. A quick snap of a cycling buddy. I forgot to change the drive mode from single to multi shot. No worries. It'll come in time.\
 Spent a lot more time with creating short codes and html files to optimise images posted to this site. That's gone okay. I am getting a little bit muddled with the changes I have made and to what. A change log would have been a good idea. It would also be laborious. I shall manage without. 
 
 **Listening**:\

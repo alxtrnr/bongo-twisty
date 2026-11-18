@@ -13,7 +13,7 @@ The 2nd week of Blaugust ends tomorrow. Introduce yourself is the [optional prom
 **Tell us ten random facts about the human behind the blog.**
 1. I landed on earth 179 days before the first man set foot on the moon.
 2. Four times around the equator is about the same distance as I have cycled since 2012
-3. In 2008 I was unlawfully [arrested](https://www.bongotwisty.blog/blog/section-44/) under section 44 of the Terrorism Act 2000
+3. In 2008 I was unlawfully [arrested](https://bongotwisty.uk/blog/section-44/) under section 44 of the Terrorism Act 2000
 4. A registered mental health nurse since 1992
 5. Very little interest in food other than a means to not to feel hungry. Also vegetarian. 
 6. Parallel parking is a super power. 
